@@ -9,17 +9,18 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
           integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/index.css" type="text/css">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
     <title>BSW IIT Delhi</title>
   </head>
+  
   <body>
-  <div class="roboto-font">
+
     <nav id="myNav" class="navbar nav-transparent navbar-expand-lg mr-auto fixed-top">
 
         <a class="navbar-brand " href="#">
-            <img src="images/bsw_logo.png" width="150" height="40" alt="">
+            <img src="images/logo.svg" width="150" height="40" alt="">
         </a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -79,9 +80,8 @@
                 </ul>
         </div>
     </nav>
-</div>
 
-<section id="carousel-section">
+  <section id="carousel-section">
 
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="4000">
         <ol class="carousel-indicators">
@@ -136,9 +136,9 @@
         </div>
 
         <div class="main-text text-center">
-            <div class="col-md-12 text-center " style="padding-top: 100px;">
+            <div class="col-md-12 text-center " >
                 <h1 class="intro-text">Board for Student Welfare</h1>
-                <h3 class="text-shado">BSW-IIT Delhi Welcomes You</h3>
+                <h3 class="intro-text-subtitle">BSW-IIT Delhi Welcomes You</h3>
                 
             </div>
         </div>
@@ -146,24 +146,33 @@
 
 </section>
 
-<div id="about-us">
-  <br>
+<section id="about-us">
+  <br />
+
     <div class="container">
-      <div id="wrapper">
-        <div id="left">
-          <h1 style="font-size:70px; opacity: 0.6; text-indent: 50px;">About Us</h1>
+
+      <div class="row justify-content-center">
+
+        <div class="col-12 col-lg-4 justify-content-center">
+          <h1 class="about-us-title">About Us</h1>
         </div>
-        <div id="right">
-          <p class="  text-muted">BSW “Board for Student Welfare” consists of student
+
+        <div class="col-12 col-lg-8">
+          <p class=" text-muted">BSW “Board for Student Welfare” consists of student
             representatives from each hostel and a few faculty members. This
             board has been constituted to help the students in the hour of need.
             BSW gives financial help, informative sessions, counselling and looks after other modes of
             student welfare.
           </p>
         </div>
+
       </div>
+
     </div>
-</div>
+
+    <hr />
+
+</section>
 
 
 
