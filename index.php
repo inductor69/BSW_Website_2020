@@ -13,14 +13,15 @@
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
     <title>BSW IIT Delhi</title>
+
   </head>
   
-  <body>
+  <body >
 
     <nav id="myNav" class="navbar nav-transparent navbar-expand-lg mr-auto fixed-top">
 
         <a class="navbar-brand " href="#">
-            <img src="images/logo.svg" width="150" height="40" alt="">
+            <img src="images/logo.svg" width="120" height="30" alt="">
         </a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -158,7 +159,7 @@
         </div>
 
         <div class="col-12 col-lg-8">
-          <p class=" text-muted">BSW “Board for Student Welfare” consists of student
+          <p class="about-us-text">BSW “Board for Student Welfare” consists of student
             representatives from each hostel and a few faculty members. This
             board has been constituted to help the students in the hour of need.
             BSW gives financial help, informative sessions, counselling and looks after other modes of
@@ -170,9 +171,9 @@
 
     </div>
 
-    <hr />
-
 </section>
+
+<hr class="line-break">
 
 
 
@@ -213,9 +214,6 @@
         }
   });
 
-  // $( window ).on( "load", function() {
-  //       console.log( "window loaded" );
-  //   });
     </script>
   </body>
 </html>
