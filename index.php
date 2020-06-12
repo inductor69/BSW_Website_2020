@@ -171,8 +171,11 @@
     
     <!-- Ayush here -->
     <script>
+
     var myNav = document.getElementById('myNav');
+
     window.onscroll = function () { 
+      if ($(window).width() > 992) {
       "use strict";
       if (document.body.scrollTop >= 100 || document.documentElement.scrollTop >= 100 ) {
           myNav.classList.add("nav-colored");
@@ -184,7 +187,22 @@
           myNav.classList.remove("nav-colored");
           console.log("done2")
       }
+    }
     };
+
+
+  $(document).ready(function() {
+    if ($(window).width() <= 992) {
+      "use strict";
+          myNav.classList.add("nav-colored");
+          myNav.classList.remove("nav-transparent");
+          console.log("done3")
+        }
+  });
+
+  // $( window ).on( "load", function() {
+  //       console.log( "window loaded" );
+  //   });
     </script>
   </body>
 </html>
