@@ -88,29 +88,33 @@
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
         </ol>
         <div class="carousel-inner">
+            
             <div class="carousel-item active">
                 <img class="d-block w-100 imagic" src="images/iitpyramid4.jpg" alt="First slide" style="object-fit: cover;">
-                <div class="carousel-caption " style="padding-bottom: 40px">
-                  
-                      
-                   
-             <a href="#about-us"> <button class="btn btn-primary text-uppercase btn-lg">start exploring</button></a>
+                <div class="carousel-caption " style="padding-bottom: 40px">   
+                  <a href="#about-us"> <button class="btn btn-primary text-uppercase btn-lg">start exploring</button></a>
+                </div>
             </div>
-                
-            </div>
+
             <div class="carousel-item">
                 <img class="d-block w-100 imagic" src="images/iitpyramid2.jpg" alt="Second slide" style="object-fit: cover;">
                 <div class="carousel-caption " style="padding-bottom: 40px">
-    
-     
-               <a href="#about-us"> <button class="btn btn-primary text-uppercase btn-lg">start exploring</button></a>
-            </div>
-               
-            </div>
+                  <a href="#about-us"> <button class="btn btn-primary text-uppercase btn-lg">start exploring</button></a>
+                </div>
+           </div>
+
             <div class="carousel-item">
                 <img class="d-block w-100 imagic" src="images/team_pic.jpg" alt="Second slide" style="object-fit: cover;">
+                <div class="carousel-caption " style="padding-bottom: 40px">
+                  <a href="#about-us"> <button class="btn btn-primary text-uppercase btn-lg">start exploring</button></a>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img class="d-block w-100 imagic" src="images/carousel-svg.svg" alt="Second slide" style="object-fit: cover;">
              
                 <div class="carousel-caption " style="padding-bottom: 40px">
                    
