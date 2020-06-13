@@ -9,11 +9,12 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
           integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/index.css" type="text/css">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    
 
     <title>BSW IIT Delhi</title>
 
+    <link rel="stylesheet" href="css/index.css" type="text/css">
   </head>
   
   <body >
@@ -30,39 +31,47 @@
 
         <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
                 <ul class="navbar-nav">
+
                   <li class="nav-item active">
                     <a class="nav-link" href="#">Freshers'20<span class="sr-only">(current)</span></a>
                   </li>
+
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       Who We Are
                     </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                      <a class="dropdown-item" href="#">Action</a>
-                      <a class="dropdown-item" href="#">Another action</a>
-                      <a class="dropdown-item" href="#">Something else here</a>
+                    <div id="dropdown-menu-1" class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="background: rgba(20, 20, 20, 0.6); padding: 0; border: none; border-radius:10px; font-weight: medium !important; font-size:10px !important;">
+                      <a class="dropdown-item" href="#">About Us</a>
+                      <a class="dropdown-item" href="#">Diary & Newsletter</a>
+                      <a class="dropdown-item" href="#">BSW Structure</a>
                     </div>
                   </li>
+
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       What We Do
                     </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                      <a class="dropdown-item" href="#">Action</a>
-                      <a class="dropdown-item" href="#">Another action</a>
-                      <a class="dropdown-item" href="#">Something else here</a>
+                    <div id="dropdown-menu-2" class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="background: rgba(20, 20, 20, 0.6); padding: 0; border: none; border-radius:10px; font-weight: medium !important; font-size:10px !important;">
+                      <a class="dropdown-item" href="#">Mentorship</a>
+                      <a class="dropdown-item" href="#">Operations</a>
                     </div>
                   </li>
+                  
+
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       Resources
                     </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                      <a class="dropdown-item" href="#">Action</a>
-                      <a class="dropdown-item" href="#">Another action</a>
-                      <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
+                    <div id="dropdown-menu-3" class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="background: rgba(20, 20, 20, 0.6); padding: 0; border: none; border-radius:10px; font-weight: medium !important; font-size:10px !important;">
+                      <a class="dropdown-item" href="#">Academics</a>
+                      <a class="dropdown-item" href="#">Softwares</a>
+                      <a class="dropdown-item" href="#">Medical Facilities</a>
+                      <a class="dropdown-item" href="#">Quick Links</a>
+                      <a class="dropdown-item" href="#">Forms</a>
+                      <a class="dropdown-item" href="#">Internet & Email Setup</a>
+</div>
                   </li>
+
                   <li class="nav-item mr-4">
                     <a class="nav-link" href="#">FAQs</a>
                   </li>
@@ -187,6 +196,9 @@
     <script>
 
     var myNav = document.getElementById('myNav');
+    var dropDownMenu1 = document.getElementById("dropdown-menu-1");
+    var dropDownMenu2 = document.getElementById("dropdown-menu-2");
+    var dropDownMenu3 = document.getElementById("dropdown-menu-3");
 
     window.onscroll = function () { 
       if ($(window).width() > 992) {
@@ -194,12 +206,12 @@
       if (document.body.scrollTop >= 100 || document.documentElement.scrollTop >= 100 ) {
           myNav.classList.add("nav-colored");
           myNav.classList.remove("nav-transparent");
-          console.log("done1")
+          console.log("Nav is now transparent")
       } 
       else {
           myNav.classList.add("nav-transparent");
           myNav.classList.remove("nav-colored");
-          console.log("done2")
+          console.log("Nav coloured on scroll")
       }
     }
     };
@@ -210,9 +222,23 @@
       "use strict";
           myNav.classList.add("nav-colored");
           myNav.classList.remove("nav-transparent");
-          console.log("done3")
+          console.log("Navbar for mobile now coloured");
+          dropDownMenu1.classList.add("show");
+          dropDownMenu2.classList.add("show");
+          dropDownMenu3.classList.add("show");
+          console.log("Navbar for mobile now has open dropdowns");
         }
   });
+
+  if ($(window).width() > 992) {
+      "use strict";
+  $('.dropdown').hover(function(){ 
+  $('.dropdown-toggle', this).trigger('click'); 
+    });
+  }
+  
+
+
 
     </script>
   </body>
