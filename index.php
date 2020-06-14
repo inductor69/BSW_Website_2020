@@ -62,6 +62,10 @@ $(document).ready(function() {
 
 <style type="text/css">
 
+body{
+    background-color: #a4e7f055;
+}
+
 	.navbar-nav a{
 		color:#fff;
         text-decoration: none;
@@ -143,6 +147,138 @@ $(document).ready(function() {
 		line-height:12px !important;
 	}
 
+	.home-quick-links{
+		border-radius: 10px;
+		padding:10px;
+		margin:18px;
+		font-family: sans-serif !important;
+		font-size: 30px;
+		color: rgba(0,0,0,0.46);
+		letter-spacing: 0;
+		text-align:center;
+		font-weight: bold;
+		line-height:60px !important;
+		cursor:pointer;
+	}
+	.home-quick-links:hover{
+		scale:1.2;
+		transition:0.15s ease-out;
+		cursor:pointer;
+	}
+	#yourDost{
+		background: #FFE487;
+		border-radius: 10px;
+	}
+	#almaConnect{
+		background: #9FE5E3;
+		border-radius: 10px;
+	}
+	#bswLoans{
+		background: #7CAAE4;
+		border-radius: 10px;
+	}
+	#careerCounselling{
+		background: #EF949A;
+		border-radius: 10px;
+		font-family: AirbnbCerealApp-ExtraBold;
+		font-size: 24px;
+		color: rgba(0,0,0,0.46);
+		letter-spacing: 0;
+		text-align: center;
+	}
+	#qPapers{
+		background: #FFE487;
+		border-radius: 10px;
+		font-family: AirbnbCerealApp-ExtraBold;
+		font-size: 24px;
+		color: rgba(0,0,0,0.46);
+		letter-spacing: 0;
+		text-align: center;
+	}
+
+	
+				.notice-h2,.notice-p{
+				font-size:100%;
+				font-weight:normal;
+				}
+				.notice-ul,.notice-li{
+				list-style:none;
+				}
+				.notice-ul{
+				overflow:hidden;
+				padding:3em;
+				}
+				.notice-ul .notice-li .notice-a{
+				text-decoration:none;
+				color:#000;
+				background:#ffc;
+				display:block;
+				height:11em;
+				width:11em;
+				-moz-box-shadow:5px 5px 7px rgba(33,33,33,1);
+				-webkit-box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+				box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+				-moz-transition:-moz-transform .15s linear;
+				-o-transition:-o-transform .15s linear;
+				-webkit-transition:-webkit-transform .15s linear;
+				}
+				.notice-ul .notice-li{
+				margin:1em;
+				float:left;
+				}
+				.notice-ul .notice-li .notice-h2{
+				font-size:140%;
+				font-weight:bold;
+				padding-bottom:10px;
+				}
+				.notice-ul .notice-li .notice-p{
+				font-family:"Reenie Beanie",arial,sans-serif;
+				font-size:180%;
+				}
+				.notice-ul .notice-li .notice-a{
+				-webkit-transform: rotate(-6deg);
+				-o-transform: rotate(-6deg);
+				-moz-transform:rotate(-6deg);
+				}
+				.notice-ul .notice-li:nth-child(even) .notice-a{
+				-o-transform:rotate(4deg);
+				-webkit-transform:rotate(4deg);
+				-moz-transform:rotate(4deg);
+				position:relative;
+				top:5px;
+				background:#cfc;
+				}
+				.notice-ul .notice-li:nth-child(3n) .notice-a{
+				-o-transform:rotate(-3deg);
+				-webkit-transform:rotate(-3deg);
+				-moz-transform:rotate(-3deg);
+				position:relative;
+				top:-5px;
+				background:#ccf;
+				}
+				.notice-ul .notice-li:nth-child(5n) .notice-a{
+				-o-transform:rotate(5deg);
+				-webkit-transform:rotate(5deg);
+				-moz-transform:rotate(5deg);
+				position:relative;
+				top:-10px;
+				}
+				.notice-ul .notice-li .notice-a:hover,.notice-ul .notice-li .notice-a:focus{
+				box-shadow:10px 10px 7px rgba(0,0,0,.7);
+				-moz-box-shadow:10px 10px 7px rgba(0,0,0,.7);
+				-webkit-box-shadow: 10px 10px 7px rgba(0,0,0,.7);
+				-webkit-transform: scale(1.2);
+				-moz-transform: scale(1.2);
+				-o-transform: scale(1.2);
+				position:relative;
+				z-index:5;
+				}
+				.notice-ol{text-align:center;}
+				.notice-ol .notice-li{display:inline;padding-right:1em;}
+				.notice-ol .notice-li .notice-a{color:#fff;}
+
+
+
 	@media (max-width: 992px){
 		.dropdown-menu{
 			background: transparent !important;
@@ -154,6 +290,12 @@ $(document).ready(function() {
 			border: none !important;
 			color: #FFFFFF !important;
 		}
+
+		.home-quick-links:hover{
+		scale:1.1;
+		transition:0.15s ease-out;
+		cursor:pointer;
+	}
 	}
 	@media (min-width: 992px){
 		
@@ -189,13 +331,15 @@ $(document).ready(function() {
 		.dropdown-menu > li:hover > .submenu{
 			display: block;
 		}
+
+	
 	}
 </style>
 
 </head>
 
 
-<body class="bg-dark">
+<body >
 		<div class="container">
 
 		<nav class="navbar navbar-expand-lg mr-auto fixed-top nav-colored">
@@ -407,6 +551,73 @@ $(document).ready(function() {
 
     </div>
 
+</div>
+
+<div id="home-quick-links-notices">
+	<div class="container">
+
+		<div class="row">
+			<div class="col-12 col-lg-4">
+			<div id="yourDost" class="home-quick-links">
+			<img src="images/yourDost.svg" width="60" height="60" alt="">
+			Counselling
+			</div>
+			<div id="almaConnect" class="home-quick-links">
+			<img src="images/almaConnect.svg" width="60" height="60" alt="">
+			AlmaConnect
+			</div>
+			<div id="bswLoans" class="home-quick-links">
+			<img src="images/bswLoans.svg" width="60" height="60" alt="">
+			BSW Loans
+			</div>
+			<div  id="careerCounselling" class="home-quick-links">
+			<img src="images/careerCounselling.svg" width="60" height="60" alt="">
+			Career Counselling
+			</div>
+			<div  id="qPapers" class="home-quick-links">
+			<img src="images/qPapers.svg" width="60" height="60" alt="">
+			Question Papers
+			</div>
+			</div>
+
+			<div class="col-12 col-lg-8">
+					<ul class="notice-ul">
+						<li class="notice-li">
+						<a class="notice-a" href="#">
+							<h2 class="notice-h2">Title #1</h2>
+							<p class="notice-p">Text Content #1</p>
+						</a>
+						</li>
+						<li class="notice-li">
+						<a class="notice-a" href="#">
+							<h2 class="notice-h2">Title #2</h2>
+							<p class="notice-p">Text Content #2</p>
+						</a>
+						</li>
+						<li class="notice-li">
+						<a class="notice-a" href="#">
+							<h2 class="notice-h2">Title #2</h2>
+							<p class="notice-p">Text Content #2</p>
+						</a>
+						</li>
+						<li class="notice-li">
+						<a class="notice-a" href="#">
+							<h2 class="notice-h2">Title #2</h2>
+							<p class="notice-p">Text Content #2</p>
+						</a>
+						</li>
+						<li class="notice-li">
+						<a class="notice-a" href="#">
+							<h2 class="notice-h2">Title #2</h2>
+							<p class="notice-p">Text Content #2</p>
+						</a>
+						</li>
+					</ul>
+			</div>
+
+		</div>
+
+	</div>
 </div>
 
 
