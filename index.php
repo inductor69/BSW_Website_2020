@@ -528,7 +528,7 @@ body{
         <div class="main-text text-center">
             <div class="col-md-12 text-center " >
                 <h1 class="intro-text">Board for Student Welfare</h1>
-                <h3 class="intro-text-subtitle">BSW-IIT Delhi Welcomes You</h3>
+                <!-- <h3 class="intro-text-subtitle">BSW-IIT Delhi Welcomes You</h3> --> 
                 
             </div>
         </div>
