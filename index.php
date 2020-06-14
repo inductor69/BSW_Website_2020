@@ -609,20 +609,26 @@ body{
 						</li>
 						<li class="notice-li">
 						<a class="notice-a" href="#">
-							<h2 class="notice-h2">Title #2</h2>
-							<p class="notice-p">Text Content #2</p>
+							<h2 class="notice-h2">Title #3</h2>
+							<p class="notice-p">Text Content #3</p>
 						</a>
 						</li>
 						<li class="notice-li">
 						<a class="notice-a" href="#">
-							<h2 class="notice-h2">Title #2</h2>
-							<p class="notice-p">Text Content #2</p>
+							<h2 class="notice-h2">Title #4</h2>
+							<p class="notice-p">Text Content #4</p>
 						</a>
 						</li>
 						<li class="notice-li">
 						<a class="notice-a" href="#">
-							<h2 class="notice-h2">Title #2</h2>
-							<p class="notice-p">Text Content #2</p>
+							<h2 class="notice-h2">Title #5</h2>
+							<p class="notice-p">Text Content #5</p>
+						</a>
+						</li>
+						<li class="notice-li">
+						<a class="notice-a" href="#">
+							<h2 class="notice-h2">Title #6</h2>
+							<p class="notice-p">Text Content #6</p>
 						</a>
 						</li>
 					</ul>
