@@ -196,6 +196,15 @@ body{
 		text-align: center;
 	}
 
+	.notices{
+		background-color: #00000023;
+		border-radius: 10px;
+		padding: 10px;
+		margin-top:20px;
+		margin-bottom: 20px;
+
+	}
+
 	
 				.notice-h2,.notice-p{
 				font-size:100%;
@@ -578,9 +587,13 @@ body{
 			<img src="images/qPapers.svg" width="60" height="60" alt="">
 			Question Papers
 			</div>
+			<div  id="qPapers" class="home-quick-links">
+			<img src="images/qPapers.svg" width="60" height="60" alt="">
+			Filler Link
+			</div>
 			</div>
 
-			<div class="col-12 col-lg-8">
+			<div class="col-12 col-lg-8 notices">
 					<ul class="notice-ul">
 						<li class="notice-li">
 						<a class="notice-a" href="#">
