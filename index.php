@@ -1,97 +1,324 @@
-<!doctype html>
+<!DOCTYPE HTML>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="keywords" content="htmlcss bootstrap menu, navbar, mega menu examples" />
+<meta name="description" content="Navigation  menu with submenu examples for any type of project, Bootstrap 4" />  
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
-          integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<title>BSW  Home</title>
+
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+crossorigin="anonymous"></script>
+
+<!-- Bootstrap files (jQuery first, then Popper.js, then Bootstrap JS) -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js" type="text/javascript"></script>
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+
+<script type="text/javascript">
+$(document).ready(function() {
+	// jQuery code
+
+	//Prevent closing from click inside dropdown
+    $(document).on('click', '.dropdown-menu', function (e) {
+      e.stopPropagation();
+	});
+	
+	$('#navbar-toggler').click(function(){
+		if ($('#navbar-toggler').children('span').hasClass('fa-bars'))
+		{
+                $('#navbar-toggler').children('span').removeClass('fa-bars');
+                $('#navbar-toggler').children('span').addClass('fa-times');
+			}else if ($('#navbar-toggler').children('span').hasClass('fa-times'))
+			{
+                $('#navbar-toggler').children('span').removeClass('fa-times');
+                $('#navbar-toggler').children('span').addClass('fa-bars');
+            }
     
+	});
+	console.log("icon changed");
 
-    <title>BSW IIT Delhi</title>
+    // make it as accordion for smaller screens
+    if ($(window).width() < 992) {
+	  	$('.dropdown-menu a').click(function(e){
+	  		e.preventDefault();
+	        if($(this).next('.submenu').length){
+	        	$(this).next('.submenu').toggle();
+	        }
+	        $('.dropdown').on('hide.bs.dropdown', function () {
+			   $(this).find('.submenu').hide();
+			})
+		});
 
-    <link rel="stylesheet" href="css/index.css" type="text/css">
-  </head>
-  
-  <body >
+		
+	
+	}
+	
+}); // jquery end
+</script>
 
-    <nav id="myNav" class="navbar nav-transparent navbar-expand-lg mr-auto fixed-top">
+<style type="text/css">
 
-        <a class="navbar-brand " href="#">
-            <img src="images/logo.svg" width="120" height="30" alt="">
-        </a>
+	.navbar-nav a{
+		color:#fff;
+        text-decoration: none;
+        background-color: transparent;
+        -webkit-text-decoration-skip: objects;
+        font-weight: 700;
+        font-size: 1.2rem;
+        text-shadow: 0.5px 0.5px 0.5px #2222226b;
+	}
+	.navbar-toggler{
+    color: #fff;
+	}
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="fa fa-bars fa-lg"></span>
-        </button>
+	.nav-colored { 
+    background-image: linear-gradient(90deg, #67B26F 0%, rgba(76,162,205,0.61) 100%);
+    border: none;
+    margin-top: -1px;
+	}
 
-        <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
-                <ul class="navbar-nav">
+	.nav-transparent { 
+    background-color:transparent;
+    transition: linear;
+	}
 
-                  <li class="nav-item active">
-                    <a class="nav-link" href="#">Freshers'20<span class="sr-only">(current)</span></a>
-                  </li>
+	#carouselExampleIndicators img {
+		height: 600px;
+	}
 
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Who We Are
-                    </a>
-                    <div id="dropdown-menu-1" class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="background: rgba(20, 20, 20, 0.6); padding: 0; border: none; border-radius:10px; font-weight: medium !important; font-size:10px !important;">
-                      <a class="dropdown-item" href="#">About Us</a>
-                      <a class="dropdown-item" href="#">Diary & Newsletter</a>
-                      <a class="dropdown-item" href="#">BSW Structure</a>
-                    </div>
-                  </li>
+	.main-text {
+		position: absolute;
+		top: 50px;
+		width: 100%;
+		color: #FFF;
 
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      What We Do
-                    </a>
-                    <div id="dropdown-menu-2" class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="background: rgba(20, 20, 20, 0.6); padding: 0; border: none; border-radius:10px; font-weight: medium !important; font-size:10px !important;">
-                      <a class="dropdown-item" href="#">Mentorship</a>
-                      <a class="dropdown-item" href="#">Operations</a>
-                    </div>
-                  </li>
-                  
+	}
+	.intro-text {
+		padding-top: 60px;
+		font-weight: 700;
+		font-size: 6vw;
+		text-shadow: 2px 2px 2px #000000;
+	}
+	.intro-text-subtitle {
+		font-weight: 400;
+		font-size: 4vw;
+		text-shadow: 2px 2px 2px #000000;
+	}
 
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Resources
-                    </a>
-                    <div id="dropdown-menu-3" class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="background: rgba(20, 20, 20, 0.6); padding: 0; border: none; border-radius:10px; font-weight: medium !important; font-size:10px !important;">
-                      <a class="dropdown-item" href="#">Academics</a>
-                      <a class="dropdown-item" href="#">Softwares</a>
-                      <a class="dropdown-item" href="#">Medical Facilities</a>
-                      <a class="dropdown-item" href="#">Quick Links</a>
-                      <a class="dropdown-item" href="#">Forms</a>
-                      <a class="dropdown-item" href="#">Internet & Email Setup</a>
-</div>
-                  </li>
+	.btn-lg {
+		background-color: #00695c;
+		border-color: #00695c;
+	}
 
-                  <li class="nav-item mr-4">
-                    <a class="nav-link" href="#">FAQs</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#"><span class="fa fa-facebook-square fa-lg"></span></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#"><span class="fa fa-paper-plane fa-lg"></span></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#"><span class="fa fa-whatsapp fa-lg"></span></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#"><span class="fa fa-instagram fa-lg"></span></a>
-                  </li>
-                </ul>
-        </div>
-    </nav>
+	.btn-primary{
+		border-radius: 100px;
+	}
 
-  <section id="carousel-section">
+	.about-us-title{
+		font-size: 4rem;
+		opacity: 0.6;
+	}
+	.about-us-text{
+		color: #fff;
+		font-weight: medium;
+		font-size:1rem;
+		margin-bottom: 20px;
+	}
+	.line-break{
+		width:80%;
+		border: 0;
+		height: 10px;
+		background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+	}
+	#about-us{
+		background-image: linear-gradient(90deg, #67B26F 0%, rgba(76,162,205,0.61) 100%);
+	}
+
+	#right-drop-arrow{
+		font-size:10px !important;
+		line-height:12px !important;
+	}
+
+	@media (max-width: 992px){
+		.dropdown-menu{
+			background: transparent !important;
+			border: none !important;
+		}
+		.dropdown-item:active, .dropdown-item:hover, .dropdown-item:focus{
+			background-color: #00000023 !important;
+			border-radius: 10px !important;
+			border: none !important;
+			color: #FFFFFF !important;
+		}
+	}
+	@media (min-width: 992px){
+		
+		.dropdown-menu .dropdown-toggle:after{
+			font-size: 12px !important;
+			font-weight:medium !important;
+			background: #00000023 !important;
+			border-top: .3em solid transparent;
+		    border-right: 0;
+		    border-bottom: .3em solid transparent;
+		    border-left: .3em solid;
+		}
+
+		.dropdown-menu {
+			margin-left:0; margin-right: 0;
+			background: #00000088 !important;
+			border:none !important;
+		}
+
+		.dropdown-menu li{
+			position: relative;
+		}
+		.nav-item .submenu{ 
+			display: none;
+			position: absolute;
+			left:100%; top:-7px;
+		}
+		.nav-item .submenu-left{ 
+			right:100%; left:auto;
+		}
+
+		.dropdown-menu > li:hover{ background-color: #f1f1f1 }
+		.dropdown-menu > li:hover > .submenu{
+			display: block;
+		}
+	}
+</style>
+
+</head>
+
+
+<body class="bg-dark">
+		<div class="container">
+
+		<nav class="navbar navbar-expand-lg mr-auto fixed-top nav-colored">
+
+		<a class="navbar-brand" href="#">
+			<img src="images/logo.svg" width="120" height="30" alt="">
+		</a>
+		<button id="navbar-toggler" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav">
+			<span class="fa fa-bars fa-lg"></span>
+		</button>
+		
+		<div class="collapse navbar-collapse justify-content-center" id="main_nav">
+
+			<ul class="navbar-nav nav justify-content-center">
+
+				<li class="nav-item active"> 
+					<a class="nav-link" href="#">Freshers'20</a>
+				</li>
+				
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown"> 
+						Who We Are
+					</a>
+					<ul class="dropdown-menu">
+					<li><a class="dropdown-item" href="#"> About Us </a></li>
+					<li><a class="dropdown-item" href="#"> Diary &amp; Newsletter </a></li>
+					<li><a class="dropdown-item" href="#"> BSW Structure </a></li>
+					</ul>
+				</li>
+
+
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
+						What We Do
+					</a>
+					<ul class="dropdown-menu">
+					<li><a class="dropdown-item" href="#">Mentorship <span id="right-drop-arrow">&#9658;</span></a>
+						<ul class="submenu dropdown-menu">
+							<li><a class="dropdown-item" href="">Academic Mentorship</a></li>
+							<li><a class="dropdown-item" href="">Alumni Mentorship</a></li>
+							<li><a class="dropdown-item" href="">Language Mentorship </a></li>
+							<li><a class="dropdown-item" href="">Mental Health Mentorship &amp; Counselling</a></li>
+						</ul>
+					</li>
+					<li><a class="dropdown-item" href="#">Operations <span id="right-drop-arrow">&#9658;</span></a>
+						<ul class="submenu dropdown-menu">
+							<li><a class="dropdown-item" href="">Female JEE Counselling</a></li>
+							<li><a class="dropdown-item" href="">Orientation</a></li>
+							<li><a class="dropdown-item" href="">Delhi Darshan</a></li>
+							<li><a class="dropdown-item" href="">STIC Dinner</a></li>
+							<li><a class="dropdown-item" href="">Convergenz</a></li>
+							<li><a class="dropdown-item" href="">Informative Sessions</a></li>
+							<li><a class="dropdown-item" href="">BSW Loans</a></li>
+							<li><a class="dropdown-item" href="">SCOOPS</a></li>
+							<li><a class="dropdown-item" href="">Workshops</a></li>
+						</ul>
+					</li>
+					</ul>
+				</li>
+				
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
+						Resources
+					</a>
+					<ul class="dropdown-menu">
+					<li><a class="dropdown-item" href="#">Academics <span id="right-drop-arrow">&#9658;</span></a>
+						<ul class="submenu dropdown-menu">
+							<li><a class="dropdown-item" href="">Question Papers</a></li>
+							<li><a class="dropdown-item" href="">Booklets</a></li>
+							<li><a class="dropdown-item" href="">Equivalent Courses</a></li>
+							<li><a class="dropdown-item" href="">Interns &amp; NGOs</a></li>
+						</ul>
+					</li>
+					<li><a class="dropdown-item" href="#">Medical Facilities <span id="right-drop-arrow">&#9658;</span></a>
+						<ul class="submenu dropdown-menu">
+							<li><a class="dropdown-item" href="">Hospital Insurance Form</a></li>
+							<li><a class="dropdown-item" href="">Wheelchair Form</a></li>
+						</ul>
+					</li>
+					<li><a class="dropdown-item" href="#">Internet &amp; Email <span id="right-drop-arrow">&#9658;</span></a>
+						<ul class="submenu dropdown-menu">
+							<li><a class="dropdown-item" href="">Email Configuration</a></li>
+							<li><a class="dropdown-item" href="">Internet Setup</a></li>
+						</ul>
+					</li>
+					<li><a class="dropdown-item" href="#">Softwares</a></li>
+					<li><a class="dropdown-item" href="#">Quick Links</a></li>
+					<li><a class="dropdown-item" href="#">Forms</a></li>
+					<li><a class="dropdown-item" href="#">Emergency Contacts</a></li>
+					</ul>
+				</li>
+
+				<li class="nav-item mr-4">
+					<a class="nav-link" href="#">FAQs</a>
+				</li>
+
+				<li class="nav-item">
+					<a class="nav-link" href="#"><span class="fa fa-facebook-square fa-lg"></span></a>
+				</li>
+
+				<li class="nav-item">
+					<a class="nav-link" href="#"><span class="fa fa-paper-plane fa-lg"></span></a>
+				</li>
+				
+				<li class="nav-item">
+					<a class="nav-link" href="#"><span class="fa fa-whatsapp fa-lg"></span></a>
+				</li>
+				
+				<li class="nav-item">
+					<a class="nav-link" href="#"><span class="fa fa-instagram fa-lg"></span></a>
+				</li>
+
+			</ul>
+
+
+		</div>
+
+		</nav>
+
+
+		</div>
+
+		<div id="carousel-section">
 
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="4000">
         <ol class="carousel-indicators">
@@ -154,9 +381,9 @@
         </div>
     </div>
 
-</section>
+</div>
 
-<section id="about-us">
+<div id="about-us">
   <br />
 
     <div class="container">
@@ -180,66 +407,8 @@
 
     </div>
 
-</section>
-
-<hr class="line-break">
+</div>
 
 
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    
-    <!-- Ayush here -->
-    <script>
-
-    var myNav = document.getElementById('myNav');
-    var dropDownMenu1 = document.getElementById("dropdown-menu-1");
-    var dropDownMenu2 = document.getElementById("dropdown-menu-2");
-    var dropDownMenu3 = document.getElementById("dropdown-menu-3");
-
-    window.onscroll = function () { 
-      if ($(window).width() > 992) {
-      "use strict";
-      if (document.body.scrollTop >= 100 || document.documentElement.scrollTop >= 100 ) {
-          myNav.classList.add("nav-colored");
-          myNav.classList.remove("nav-transparent");
-          console.log("Nav is now transparent")
-      } 
-      else {
-          myNav.classList.add("nav-transparent");
-          myNav.classList.remove("nav-colored");
-          console.log("Nav coloured on scroll")
-      }
-    }
-    };
-
-
-  $(document).ready(function() {
-    if ($(window).width() <= 992) {
-      "use strict";
-          myNav.classList.add("nav-colored");
-          myNav.classList.remove("nav-transparent");
-          console.log("Navbar for mobile now coloured");
-          dropDownMenu1.classList.add("show");
-          dropDownMenu2.classList.add("show");
-          dropDownMenu3.classList.add("show");
-          console.log("Navbar for mobile now has open dropdowns");
-        }
-  });
-
-  if ($(window).width() > 992) {
-      "use strict";
-  $('.dropdown').hover(function(){ 
-  $('.dropdown-toggle', this).trigger('click'); 
-    });
-  }
-  
-
-
-
-    </script>
-  </body>
+</body>
 </html>
