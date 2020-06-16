@@ -122,7 +122,7 @@ $(document).ready(function() {
 
 		<nav class="navbar navbar-expand-lg mr-auto fixed-top nav-colored">
 
-		<a class="navbar-brand" href="#">
+		<a class="navbar-brand" href="index.php">
 			<img src="images/logo.svg" width="120" height="30" alt="">
 		</a>
 		<button id="navbar-toggler" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav">
@@ -193,19 +193,19 @@ $(document).ready(function() {
 					</li>
 					<li><a class="dropdown-item" href="#">Medical Facilities <span id="right-drop-arrow">&#9658;</span></a>
 						<ul class="submenu dropdown-menu">
-							<li><a class="dropdown-item" href="">Hospital Insurance Form</a></li>
-							<li><a class="dropdown-item" href="">Wheelchair Form</a></li>
+							<li><a class="dropdown-item" href="health_insurance.php">Health Insurance</a></li>
+							<li><a class="dropdown-item" target="_blank" href="forms/wheelchair.pdf">Wheelchair Form</a></li>
 						</ul>
 					</li>
 					<li><a class="dropdown-item" href="#">Internet &amp; Email <span id="right-drop-arrow">&#9658;</span></a>
 						<ul class="submenu dropdown-menu">
-							<li><a class="dropdown-item" href="wifi_config.php">Email Configuration</a></li>
-							<li><a class="dropdown-item" href="">Internet Setup</a></li>
+							<li><a class="dropdown-item" href="email_config.php">Email Configuration</a></li>
+							<li><a class="dropdown-item" href="wifi_config.php">Internet Setup</a></li>
 						</ul>
 					</li>
 					<li><a class="dropdown-item" href="softwares.php">Softwares</a></li>
-					<li><a class="dropdown-item" href="#">Quick Links</a></li>
-					<li><a class="dropdown-item" href="#">Forms</a></li>
+					<li><a class="dropdown-item" href="links.php">Quick Links</a></li>
+					<li><a class="dropdown-item" href="forms.php">Forms</a></li>
 					<li><a class="dropdown-item" href="#">Emergency Contacts</a></li>
 					</ul>
 				</li>

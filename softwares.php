@@ -6,7 +6,7 @@
 <meta name="keywords" content="htmlcss bootstrap menu, navbar, mega menu examples" />
 <meta name="description" content="Navigation  menu with submenu examples for any type of project, Bootstrap 4" />  
 
-<title>BSW  Home</title>
+<title>Softwares | BSW</title>
 
 
 <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
@@ -105,7 +105,7 @@
       <ul class="list-unstyled ml-4">
         <li class="list-unstyled ml-4"><a href="http://repo.iitd.ernet.in/matlab/">Download & Documentation </a></li>
         <li class="list-unstyled ml-4"><a href="http://www.cc.iitd.ernet.in/CSC/index.php?option=com_content&view=article&id=68&Itemid=112">CSC Link : MATLAB DIstribution</a></li>
-        <ul>
+        </ul>
     </div>
   </li>
 
@@ -132,6 +132,7 @@
 <li>Within the next 30 minutes activate (or reactivate) your Windows OS by using the command slmgr /ato.</li>
 <li>You can check the activation expiry date using the command slmgr /xpr.</li>
 <li>Logout of your browser window. </li>
+</ol>
 </div>
   </li>
 
@@ -177,7 +178,7 @@
         <li class="list-unstyled ml-4"><a href="https://internal.iitd.ernet.in/downloads/vs2012pro.exe">Visual Studio 2012 Professional
         <li class="list-unstyled ml-4"><a href="https://internal.iitd.ernet.in/downloads/epson.exe">Epson EMP SlideMaker2</a></li>
         <li class="list-unstyled ml-4"><a href="https://internal.iitd.ernet.in/downloads/acobat8.exe">Adobe Acrobat Professional 8.1.2</a></li>
-        <ul>
+        </ul>
     </div>
   </li>
 
