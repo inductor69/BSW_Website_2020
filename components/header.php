@@ -1,42 +1,10 @@
 
 <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js" type="text/javascript"></script>
 <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
-<script type="text/javascript">
-$(document).ready(function() {
-    $(document).on('click', '.dropdown-menu', function (e) {
-      e.stopPropagation();
-	});
-	
-	$('#navbar-toggler').click(function(){
-		if ($('#navbar-toggler').children('span').hasClass('fa-bars'))
-		{
-                $('#navbar-toggler').children('span').removeClass('fa-bars');
-                $('#navbar-toggler').children('span').addClass('fa-times');
-			}else if ($('#navbar-toggler').children('span').hasClass('fa-times'))
-			{
-                $('#navbar-toggler').children('span').removeClass('fa-times');
-                $('#navbar-toggler').children('span').addClass('fa-bars');
-            }
-    
-	});
-	console.log("icon changed");
 
-    // make it as accordion for smaller screens
-    if ($(window).width() < 992) {
-	  	$('.dropdown-menu a').click(function(e){
-	  		e.preventDefault();
-	        if($(this).next('.submenu').length){
-	        	$(this).next('.submenu').toggle();
-	        }
-	        $('.dropdown').on('hide.bs.dropdown', function () {
-			   $(this).find('.submenu').hide();
-			})
-		});
-	}
-}); 
-</script>
 
 <style type="text/css">
 
@@ -120,7 +88,7 @@ $(document).ready(function() {
 
 		<div class="container">
 
-		<nav class="navbar navbar-expand-lg mr-auto fixed-top nav-colored">
+		<nav class="navbar navbar-expand-lg mr-auto fixed-top nav-transparent " id="myNav">
 
 		<a class="navbar-brand" href="index.php">
 			<img src="images/logo.svg" width="120" height="30" alt="">
@@ -219,16 +187,14 @@ $(document).ready(function() {
 				</li>
 
 				<li class="nav-item">
+					<a class="nav-link" href="https://www.instagram.com/bsw_iitd/"><span class="fa fa-instagram fa-lg"></span></a>
+				</li>
+
+				<li class="nav-item">
 					<a class="nav-link" href="mailto:info.bsw.iitdelhi@gmail.com"><span class="fa fa-paper-plane fa-lg"></span></a>
 				</li>
 				
-				<li class="nav-item">
-					<a class="nav-link" href="#"><span class="fa fa-whatsapp fa-lg"></span></a>
-				</li>
 				
-				<li class="nav-item">
-					<a class="nav-link" href="https://www.instagram.com/bsw_iitd/"><span class="fa fa-instagram fa-lg"></span></a>
-				</li>
 
 			</ul>
 
@@ -240,13 +206,81 @@ $(document).ready(function() {
 
 		</div>
 
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+
+	<script type="text/javascript">
+
+	var myNav = document.getElementById('myNav');
+
+    window.onscroll = function () { 
+      if ($(window).width() > 992) {
+      "use strict";
+      if (document.body.scrollTop >= 100 || document.documentElement.scrollTop >= 100 ) {
+          myNav.classList.add("nav-colored");
+          myNav.classList.remove("nav-transparent");
+          console.log("Nav is now colored on scroll")
+      } 
+      else {
+          myNav.classList.add("nav-transparent");
+          myNav.classList.remove("nav-colored");
+          console.log("Nav transparent initally")
+      }
+    }
+	};
+
+	$(function()
+	{	
+		if($(window).width() < 992){
+		myNav.classList.add("nav-colored");
+        myNav.classList.remove("nav-transparent");
+		console.log("Nav is colored")
+		}
+	});
+
+$(document).ready(function() {
+    $(document).on('click', '.dropdown-menu', function (e) {
+      e.stopPropagation();
+	});
+	
+	$('#navbar-toggler').click(function(){
+		if ($('#navbar-toggler').children('span').hasClass('fa-bars'))
+		{
+                $('#navbar-toggler').children('span').removeClass('fa-bars');
+                $('#navbar-toggler').children('span').addClass('fa-times');
+			}else if ($('#navbar-toggler').children('span').hasClass('fa-times'))
+			{
+                $('#navbar-toggler').children('span').removeClass('fa-times');
+                $('#navbar-toggler').children('span').addClass('fa-bars');
+            }
+    
+	});
+	console.log("icon changed");
+
+    // make it as accordion for smaller screens
+    if ($(window).width() < 992) {
+		  
+		$('.dropdown-menu a').click(function(e){
+	  		e.preventDefault();
+	        if($(this).next('.submenu').length){
+	        	$(this).next('.submenu').toggle();
+	        }
+	        $('.dropdown').on('hide.bs.dropdown', function () {
+			   $(this).find('.submenu').hide();
+			})
+		});
+	}
+
+
+}); 
+</script>
+
 </body>
 </html>
 
 		
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 
 
 
