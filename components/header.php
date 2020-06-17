@@ -151,30 +151,49 @@
 						Resources
 					</a>
 					<ul class="dropdown-menu">
-					<li><a class="dropdown-item" href="#">Academics <span id="right-drop-arrow">&#9658;</span></a>
-						<ul class="submenu dropdown-menu">
-							<li><a class="dropdown-item" href="">Question Papers</a></li>
-							<li><a class="dropdown-item" href="booklets.php">Booklets</a></li>
-							<li><a class="dropdown-item" href="">Equivalent Courses</a></li>
-							<li><a class="dropdown-item" href="">Interns &amp; NGOs</a></li>
-						</ul>
-					</li>
-					<li><a class="dropdown-item" href="#">Medical Facilities <span id="right-drop-arrow">&#9658;</span></a>
-						<ul class="submenu dropdown-menu">
-							<li><a class="dropdown-item" href="health_insurance.php">Health Insurance</a></li>
-							<li><a class="dropdown-item" target="_blank" href="forms/wheelchair.pdf">Wheelchair Form</a></li>
-						</ul>
-					</li>
-					<li><a class="dropdown-item" href="#">Internet &amp; Email <span id="right-drop-arrow">&#9658;</span></a>
-						<ul class="submenu dropdown-menu">
-							<li><a class="dropdown-item" href="email_config.php">Email Configuration</a></li>
-							<li><a class="dropdown-item" href="wifi_config.php">Internet Setup</a></li>
-						</ul>
-					</li>
-					<li><a class="dropdown-item" href="softwares.php">Softwares</a></li>
-					<li><a class="dropdown-item" href="links.php">Quick Links</a></li>
-					<li><a class="dropdown-item" href="forms.php">Forms</a></li>
-					<li><a class="dropdown-item" href="emergency_contacts.php">Emergency Contacts</a></li>
+
+						<li>
+							<a class="dropdown-item" href="#">Academics <span id="right-drop-arrow">&#9658;</span></a>
+							<ul class="submenu dropdown-menu">
+								<li><a class="dropdown-item" href="">Question Papers</a></li>
+								<li><a class="dropdown-item" href="booklets.php">Booklets</a></li>
+								<li><a class="dropdown-item" href="">Equivalent Courses</a></li>
+								<li><a class="dropdown-item" href="">Interns &amp; NGOs</a></li>
+							</ul>
+						</li>
+
+						<li>
+							<a class="dropdown-item" href="#">Medical Facilities <span id="right-drop-arrow">&#9658;</span></a>
+							<ul class="submenu dropdown-menu">
+								<li><a class="dropdown-item" href="health_insurance.php">Health Insurance</a></li>
+								<li><a class="dropdown-item" target="_blank" href="forms/wheelchair.pdf">Wheelchair Form</a></li>
+							</ul>
+						</li>
+
+						<li>
+							<a class="dropdown-item" href="#">Internet &amp; Email <span id="right-drop-arrow">&#9658;</span></a>
+							<ul class="submenu dropdown-menu">
+								<li><a class="dropdown-item" href="email_config.php">Email Configuration</a></li>
+								<li><a class="dropdown-item" href="wifi_config.php">Internet Setup</a></li>
+							</ul>
+						</li>
+
+						<li>
+							<a class="dropdown-item" href="softwares.php">Softwares</a>
+						</li>
+
+						<li>
+							<a class="dropdown-item" href="links.php">Quick Links</a>
+						</li>
+
+						<li>
+							<a class="dropdown-item" href="forms.php">Forms</a>
+						</li>
+
+						<li>
+							<a class="dropdown-item" href="emergency_contacts.php">Emergency Contacts</a>
+						</li>
+
 					</ul>
 				</li>
 
@@ -210,7 +229,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 
 
-	<script type="text/javascript">
+<script type="text/javascript">
 
 	var myNav = document.getElementById('myNav');
 
@@ -230,20 +249,19 @@
     }
 	};
 
-	$(function()
-	{	
-		if($(window).width() < 992){
+
+	$(document).on('click', '.dropdown-menu', function (e) {
+      e.stopPropagation();
+	});
+	
+	if($(window).width() < 992){
 		myNav.classList.add("nav-colored");
         myNav.classList.remove("nav-transparent");
 		console.log("Nav is colored")
 		}
-	});
 
 $(document).ready(function() {
-    $(document).on('click', '.dropdown-menu', function (e) {
-      e.stopPropagation();
-	});
-	
+
 	$('#navbar-toggler').click(function(){
 		if ($('#navbar-toggler').children('span').hasClass('fa-bars'))
 		{
@@ -258,10 +276,8 @@ $(document).ready(function() {
 	});
 	console.log("icon changed");
 
-    // make it as accordion for smaller screens
-    if ($(window).width() < 992) {
-		  
-		$('.dropdown-menu a').click(function(e){
+	if ($(window).width() < 992) {
+	  	$('.dropdown-menu a').click(function(e){
 	  		e.preventDefault();
 	        if($(this).next('.submenu').length){
 	        	$(this).next('.submenu').toggle();
@@ -269,11 +285,12 @@ $(document).ready(function() {
 	        $('.dropdown').on('hide.bs.dropdown', function () {
 			   $(this).find('.submenu').hide();
 			})
-		});
+	  	});
 	}
 
-
 }); 
+
+
 </script>
 
 </body>
