@@ -62,6 +62,7 @@
         <div class="col-12 col-md-6 col-lg-4  center-block">
             <h3>Useful Links</h3>
             <ul>
+                <li><a href="emergency_contacts.php">Emergency Contacts</a></li>
                 <li><a href="https://internal.iitd.ernet.in/">Internal Notices</a></li>
                 <li><a href="https://webmail.iitd.ernet.in/roundcube/">Webmail</a></li>
                 <li><a href="https://moodle.iitd.ac.in/login/index.php">Moodle</a></li>

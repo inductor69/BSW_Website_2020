@@ -157,7 +157,7 @@ $(document).ready(function() {
 					<li><a class="dropdown-item" href="#">Mentorship <span id="right-drop-arrow">&#9658;</span></a>
 						<ul class="submenu dropdown-menu">
 							<li><a class="dropdown-item" href="">Academic Mentorship</a></li>
-							<li><a class="dropdown-item" href="">Alumni Mentorship</a></li>
+							<li><a class="dropdown-item" href="https://iitd.almaconnect.com/">Alumni Mentorship</a></li>
 							<li><a class="dropdown-item" href="">Language Mentorship </a></li>
 							<li><a class="dropdown-item" href="">Mental Health Mentorship &amp; Counselling</a></li>
 						</ul>
@@ -186,7 +186,7 @@ $(document).ready(function() {
 					<li><a class="dropdown-item" href="#">Academics <span id="right-drop-arrow">&#9658;</span></a>
 						<ul class="submenu dropdown-menu">
 							<li><a class="dropdown-item" href="">Question Papers</a></li>
-							<li><a class="dropdown-item" href="">Booklets</a></li>
+							<li><a class="dropdown-item" href="booklets.php">Booklets</a></li>
 							<li><a class="dropdown-item" href="">Equivalent Courses</a></li>
 							<li><a class="dropdown-item" href="">Interns &amp; NGOs</a></li>
 						</ul>
@@ -206,20 +206,20 @@ $(document).ready(function() {
 					<li><a class="dropdown-item" href="softwares.php">Softwares</a></li>
 					<li><a class="dropdown-item" href="links.php">Quick Links</a></li>
 					<li><a class="dropdown-item" href="forms.php">Forms</a></li>
-					<li><a class="dropdown-item" href="#">Emergency Contacts</a></li>
+					<li><a class="dropdown-item" href="emergency_contacts.php">Emergency Contacts</a></li>
 					</ul>
 				</li>
 
 				<li class="nav-item mr-4">
-					<a class="nav-link" href="#">FAQs</a>
+					<a class="nav-link" href="faq.php">FAQs</a>
 				</li>
 
 				<li class="nav-item">
-					<a class="nav-link" href="#"><span class="fa fa-facebook-square fa-lg"></span></a>
+					<a class="nav-link" href="https://www.facebook.com/boardforstudentwelfare"><span class="fa fa-facebook-square fa-lg"></span></a>
 				</li>
 
 				<li class="nav-item">
-					<a class="nav-link" href="#"><span class="fa fa-paper-plane fa-lg"></span></a>
+					<a class="nav-link" href="mailto:info.bsw.iitdelhi@gmail.com"><span class="fa fa-paper-plane fa-lg"></span></a>
 				</li>
 				
 				<li class="nav-item">
@@ -227,7 +227,7 @@ $(document).ready(function() {
 				</li>
 				
 				<li class="nav-item">
-					<a class="nav-link" href="#"><span class="fa fa-instagram fa-lg"></span></a>
+					<a class="nav-link" href="https://www.instagram.com/bsw_iitd/"><span class="fa fa-instagram fa-lg"></span></a>
 				</li>
 
 			</ul>
