@@ -4,4 +4,4 @@ The Website for the Board of Student Welfare - Indian Institute Of Technology, D
 
 ## Live preview
 
-[www.bsw2020.herokuapp.com]<http://bsw2020.herokuapp.com>
+<http://bsw2020.herokuapp.com>
