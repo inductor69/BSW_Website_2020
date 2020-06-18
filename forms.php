@@ -51,9 +51,7 @@
 	<body>
 
 		<!-- Header -->
-		<?php 
-				include 'components/header.php';
-			 ?>
+		<?php include 'components/header.php'; ?>
              <div id="about-us">
     
     <br />
@@ -140,9 +138,7 @@
 
 
             <div class="kc_fab_wrapper" ></div>
-			 <?php
-				include 'components/footer.php';
-			?>
+			 <?php include 'components/footer.php'; ?>
     <script src="me1170565/js/jquery-3.3.1.min.js"></script>
 <script src="me1170565/js/jquery-3.3.1.slim.min.js"></script>
 <script src="me1170565/js/popper.min.js"></script>
