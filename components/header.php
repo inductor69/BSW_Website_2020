@@ -111,7 +111,7 @@
 					</a>
 					<ul class="dropdown-menu">
 					<li><a class="dropdown-item" href="#"> About Us </a></li>
-					<li><a class="dropdown-item" href="#"> Diary &amp; Newsletter </a></li>
+					<li><a class="dropdown-item" href="diary_newsletter.php">Diary &amp; Newsletter </a></li>
 					<li><a class="dropdown-item" href="#"> BSW Structure </a></li>
 					</ul>
 				</li>
