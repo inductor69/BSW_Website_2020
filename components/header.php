@@ -88,7 +88,7 @@
 
 		<div class="container">
 
-		<nav class="navbar navbar-expand-lg mr-auto fixed-top nav-transparent " id="myNav">
+		<nav class="navbar navbar-expand-lg mr-auto fixed-top nav-colored " id="myNav">
 
 		<a class="navbar-brand" href="index.php">
 			<img src="images/logo.svg" width="120" height="30" alt="">
@@ -138,7 +138,7 @@
 							<li><a class="dropdown-item" href="">STIC Dinner</a></li>
 							<li><a class="dropdown-item" href="">Convergenz</a></li>
 							<li><a class="dropdown-item" href="">Informative Sessions</a></li>
-							<li><a class="dropdown-item" href="">BSW Loans</a></li>
+							<li><a class="dropdown-item" href="bsw_loans.php">BSW Loans</a></li>
 							<li><a class="dropdown-item" href="">SCOOPS</a></li>
 							<li><a class="dropdown-item" href="">Workshops</a></li>
 						</ul>
@@ -158,7 +158,7 @@
 								<li><a class="dropdown-item" href="">Question Papers</a></li>
 								<li><a class="dropdown-item" href="booklets.php">Booklets</a></li>
 								<li><a class="dropdown-item" href="">Equivalent Courses</a></li>
-								<li><a class="dropdown-item" href="">Interns &amp; NGOs</a></li>
+								<li><a class="dropdown-item" href="intern.php">Interns &amp; NGOs</a></li>
 							</ul>
 						</li>
 
@@ -231,34 +231,12 @@
 
 <script type="text/javascript">
 
-	var myNav = document.getElementById('myNav');
-
-    window.onscroll = function () { 
-      if ($(window).width() > 992) {
-      "use strict";
-      if (document.body.scrollTop >= 100 || document.documentElement.scrollTop >= 100 ) {
-          myNav.classList.add("nav-colored");
-          myNav.classList.remove("nav-transparent");
-          console.log("Nav is now colored on scroll")
-      } 
-      else {
-          myNav.classList.add("nav-transparent");
-          myNav.classList.remove("nav-colored");
-          console.log("Nav transparent initally")
-      }
-    }
-	};
-
 
 	$(document).on('click', '.dropdown-menu', function (e) {
       e.stopPropagation();
 	});
 	
-	if($(window).width() < 992){
-		myNav.classList.add("nav-colored");
-        myNav.classList.remove("nav-transparent");
-		console.log("Nav is colored")
-		}
+	
 
 $(document).ready(function() {
 

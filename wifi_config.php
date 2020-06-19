@@ -7,6 +7,7 @@
 <meta name="description" content="Navigation  menu with submenu examples for any type of project, Bootstrap 4" />  
 
 <title>Wifi | BSW</title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
 
 <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>

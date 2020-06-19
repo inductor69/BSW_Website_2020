@@ -16,6 +16,7 @@
     
 <link rel="stylesheet" type="text/css" href="kc.fab.css">
 <title>Forms&Checklists | BSW</title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 		  
 
 

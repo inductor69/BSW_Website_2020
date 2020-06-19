@@ -7,7 +7,7 @@
 <meta name="description" content="Navigation  menu with submenu examples for any type of project, Bootstrap 4" />  
 
 <title>Home | BSW</title>
-
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
 <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js" type="text/javascript"></script>
@@ -411,6 +411,54 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 
 
+<script type="text/javascript">
 
+	var myNav = document.getElementById('myNav');
+
+	$(function (){
+		if ($(window).width() > 992) {
+      "use strict";
+      if (document.body.scrollTop >= 100 || document.documentElement.scrollTop >= 100 ) {
+          myNav.classList.add("nav-colored");
+          myNav.classList.remove("nav-transparent");
+          console.log("Nav is now colored on scroll")
+      } 
+      else {
+          myNav.classList.add("nav-transparent");
+          myNav.classList.remove("nav-colored");
+          console.log("Nav transparent initally")
+      }
+    }
+	})
+	
+    window.onscroll = function () { 
+      if ($(window).width() > 992) {
+      "use strict";
+      if (document.body.scrollTop >= 100 || document.documentElement.scrollTop >= 100 ) {
+          myNav.classList.add("nav-colored");
+          myNav.classList.remove("nav-transparent");
+          console.log("Nav is now colored on scroll")
+      } 
+      else {
+          myNav.classList.add("nav-transparent");
+          myNav.classList.remove("nav-colored");
+          console.log("Nav transparent initally")
+      }
+    }
+	};
+
+
+	
+	
+	if($(window).width() < 992){
+		myNav.classList.add("nav-colored");
+        myNav.classList.remove("nav-transparent");
+		console.log("Nav is colored")
+		}
+
+ 
+
+
+</script>
 </body>
 </html>
