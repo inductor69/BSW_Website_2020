@@ -8,5 +8,6 @@
             "email": "singhjapneetssa@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "license": "MIT"
 }
