@@ -136,7 +136,7 @@
 							<li><a class="dropdown-item" href="">Orientation</a></li>
 							<li><a class="dropdown-item" href="">Delhi Darshan</a></li>
 							<li><a class="dropdown-item" href="">STIC Dinner</a></li>
-							<li><a class="dropdown-item" href="">Convergenz</a></li>
+							<li><a class="dropdown-item" href="convergenz.php">Convergenz</a></li>
 							<li><a class="dropdown-item" href="">Informative Sessions</a></li>
 							<li><a class="dropdown-item" href="bsw_loans.php">BSW Loans</a></li>
 							<li><a class="dropdown-item" href="">SCOOPS</a></li>
