@@ -1,0 +1,12 @@
+{
+    "name": "japneet/bsw_website_2020",
+    "description": "BSW IIT Delhi Official Website",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Japneet Singh",
+            "email": "singhjapneetssa@gmail.com"
+        }
+    ],
+    "require": {}
+}
