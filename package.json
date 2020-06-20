@@ -10,7 +10,8 @@
     },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "prettier": "npx prettier@2.0.5 . --write"
+        "prettier": "prettier",
+        "prettier-fix": "prettier -- */**.php *.php --write"
     },
     "repository": {
         "type": "git",

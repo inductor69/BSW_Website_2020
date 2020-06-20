@@ -76,6 +76,20 @@
 
         </div>
 
+        <div class="row justify-content-center ">
+
+            <div class="col-12 about-us-text">
+            <p>Convergenz is the annual youth fest organized by the BSW. It involves
+various competitions and events where the student community of IIT Delhi
+participates and get to explore the recreational aspect of the college.
+Various events which are generally popular among the youth were
+organized for the students to enjoy and have fun by getting along with each other. This is also the first exposure to any big event inside the college for
+the freshers and several fresher-oriented games and competitions are also organized.
+</p>
+            </div>
+
+        </div>
+
     </div>
 
 </div>
@@ -85,7 +99,6 @@
     <div class="row justify-content-center align-middle" id="bandnight">
             <div class="col-12 my-4">
                 <h2>Inauguration</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
             <div class="col-6  align-middle">
                 <img src="images/inauguration2.jpg" class="convergenz-event">
@@ -99,7 +112,9 @@
     <div class="row justify-content-center align-middle" id="bandnight">
         <div class="col-12 my-4">
             <h2>Band Night</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Zikrr which means ‘to mention’, promises to stir up emotions hidden deep within, turning them into a beautiful memory.They live songs and not merely play them, focusing on every note as every word has story to tell. On the first of three pro nights of the fest  we had Zikrr, the sufi rock band that came to IIT Delhi and showed all  the time of their lives.
+We all  grooved and danced and had an evening that we will never forget.
+</p>
         </div>
         <div class="col-4  align-middle">
             <img src="images/bandnight_poster.jpg" class="convergenz-event">
@@ -113,7 +128,7 @@
     <div class="row justify-content-center align-middle" id="comedynight">
         <div class="col-12 my-4">
             <h2>Comedy Night</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>It Just takes a few drops of humor to add life in a bland and tiresome day.Thus for the second pro night of the fest ,we had one of the best stand up comedians in Country - Nishant Tanwar! The Dogra hall was packed and had a memorable witty evening.</p>
         </div>
         <div class="col-6  align-middle">
             <img src="images/comedynight_poster.jpg" class="convergenz-event">
@@ -127,7 +142,8 @@
     <div class="row justify-content-center align-middle" id="comedynight">
         <div class="col-12 my-4">
             <h2>Jeopardy</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>The one of its kind, Jeopardy is the IITD version of Student of the Year. It involves challenging and gruelling tasks to determine the best of bests!
+</p>
         </div>
         <div class="col-4  align-middle">
             <img src="images/jeopardy_poster.jpg" class="convergenz-event">
@@ -141,7 +157,9 @@
     <div class="row justify-content-center align-middle" id="comedynight">
         <div class="col-12 my-4">
             <h2>Guftagoo</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>As the word means , guftagoo is an informal talk session with alumni of all sectors, who share their experiences and wisdom  to inspire and guide the future aspirants. It is  an informal
+session where students asked various questions related to their preparations and future prospects.
+</p>
         </div>
         <div class="col-6  align-middle">
             <img src="images/guftagoo.jpg" class="convergenz-event">
@@ -155,7 +173,15 @@
     <div class="row justify-content-center align-middle" id="comedynight">
         <div class="col-12 my-4">
             <h2>IPL Auction</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>It is a simulation of the much-hyped IPL auction. Where teams experienced the
+thrill of owning and managing their own team. The event included two
+rounds first round was a preliminary online quiz about cricket top 10 teams
+that were selected from around 40 teams. The second round was the real IPL.
+auction simulation, which was managed digitally. The auction was hosted
+by one of our representatives. The event was conducted smoothly and
+digitally. Participants were extremely enthusiastic and some of them even came in an
+Indian cricket team jersey.
+</p>
         </div>
         <div class="col-6  align-middle">
             <img src="images/iplauction.jpg" class="convergenz-event">
@@ -169,7 +195,8 @@
     <div class="row justify-content-center align-middle" id="comedynight">
         <div class="col-12 my-4">
             <h2>Enigma - The Magic Show</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>The art of a magician is to create wonder. If we live with a sense of wonder, our lives become filled with joy. Thus to memorize IITD with his magic ,we had acclaimed magician and illusionist Divyansh Apurva. As expected, everyone was enthralled by his illusions and some of his brilliant tricks.
+</p>
         </div>
         <div class="col-4  align-middle">
             <img src="images/enigma_poster.jpg" class="convergenz-event">
@@ -183,13 +210,13 @@
     <div class="row justify-content-center align-middle" id="comedynight">
         <div class="col-12 my-4">
             <h2>Prom Night</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>This evening was dedicated to young couples who wanted to know each other better and spend some quality time together. Romantic Music as well as some short, quirky games ensured the crowd was always involved. The event was  followed by some rocking music wherein everyone- Stags as well as couples- were invited. This marked the end of a very successful Convergence-2019.</p>
         </div>
         <div class="col-6  align-middle">
-            <img src="images/promnight.jpg" class="convergenz-event">
+            <img src="images/promnight.JPG" class="convergenz-event">
         </div>
         <div class="col-6 align-middle">
-            <img src="images/comedynight.JPG" class="convergenz-event">
+            <img src="images/promnight_poster.jpg" class="convergenz-event">
         </div>
 
     </div>

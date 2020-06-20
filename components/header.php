@@ -155,7 +155,7 @@
 						<li>
 							<a class="dropdown-item" href="#">Academics <span id="right-drop-arrow">&#9658;</span></a>
 							<ul class="submenu dropdown-menu">
-								<li><a class="dropdown-item" href="">Question Papers</a></li>
+								<li><a class="dropdown-item" href="question_papers.php">Question Papers</a></li>
 								<li><a class="dropdown-item" href="booklets.php">Booklets</a></li>
 								<li><a class="dropdown-item" href="">Equivalent Courses</a></li>
 								<li><a class="dropdown-item" href="intern.php">Interns &amp; NGOs</a></li>
