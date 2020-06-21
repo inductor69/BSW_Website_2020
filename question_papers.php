@@ -157,7 +157,8 @@
             and study material to the BSW Representatives, or you can directly upload
             question papers by clicking on Upload.           
             <br>
-              <button class="btn btn-primary upbut mt-2 col-12 col-lg-7" data-toggle="collapse" data-target="#uploadwala"> Upload</button>
+              <button class="btn btn-primary upbut mt-2 col-6 col-lg-4 " data-toggle="collapse" data-target="#uploadwala"> <span class="fa fa-upload"></span> Upload</button>
+              <button class="btn btn-secondary upbut mt-2 col-6 col-lg-4 ml-2" data-toggle="collapse" data-target="#uploadwala"> <span class="fa fa-cog"></span> Admin</button>
             </p>
             </div>
 
