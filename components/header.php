@@ -132,15 +132,15 @@
 					</li>
 					<li><a class="dropdown-item" href="#">Operations <span id="right-drop-arrow">&#9658;</span></a>
 						<ul class="submenu dropdown-menu">
-							<li><a class="dropdown-item" href="">Female JEE Counselling</a></li>
-							<li><a class="dropdown-item" href="">Orientation</a></li>
-							<li><a class="dropdown-item" href="">Delhi Darshan</a></li>
-							<li><a class="dropdown-item" href="">STIC Dinner</a></li>
+							<li><a class="dropdown-item" href="female_jee_counselling.php">Female JEE Counselling</a></li>
+							<li><a class="dropdown-item" href="orientation.php">Orientation</a></li>
+							<li><a class="dropdown-item" href="delhidarshan.php">Delhi Darshan</a></li>
+							<li><a class="dropdown-item" href="sticdinner.php">STIC Dinner</a></li>
 							<li><a class="dropdown-item" href="convergenz.php">Convergenz</a></li>
-							<li><a class="dropdown-item" href="">Informative Sessions</a></li>
+							<li><a class="dropdown-item" href="informative_sessions.php">Informative Sessions</a></li>
 							<li><a class="dropdown-item" href="bsw_loans.php">BSW Loans</a></li>
-							<li><a class="dropdown-item" href="">SCOOPS</a></li>
-							<li><a class="dropdown-item" href="">Workshops</a></li>
+							<li><a class="dropdown-item" href="scoops.php">SCOOPS</a></li>
+							<li><a class="dropdown-item" href="workshops.php">Workshops</a></li>
 						</ul>
 					</li>
 					</ul>
