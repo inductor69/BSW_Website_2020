@@ -372,7 +372,7 @@
         <div class="row justify-content-center">
 
             <div class="col-12 justify-content-center my-4">
-            <h1 class="about-us-title">Hostel Representatives</h1>
+            <h3 class="about-us-title" style="font-size:50px;">Hostel Representatives</h3>
             </div>
 
         </div>
