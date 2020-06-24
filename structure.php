@@ -367,7 +367,7 @@
     
     <br />
 
-    <div class="container">
+    <div class="container" id="hostel_reps">
 
         <div class="row justify-content-center">
 
@@ -382,7 +382,7 @@
 </div>
 
 
-<div class="container-fluid justify-content-center mx-auto" id="hostel_reps">
+<div class="container-fluid justify-content-center mx-auto" >
 
 
 <div class="row justify-content-center my-4">
