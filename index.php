@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="keywords" content="htmlcss bootstrap menu, navbar, mega menu examples" />
+<meta name="keywords" content="htmlcss bootstrap menu, navbar,0dega menu examples" />
 <meta name="description" content="Navigation  menu with submenu examples for any type of project, Bootstrap 4" />  
 
 <title>Home | BSW</title>
@@ -11,7 +11,7 @@
 
 <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js" type="text/javascript"></script>
-<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" i0degrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
 
 <style type="text/css">
@@ -128,13 +128,10 @@
 		text-align: center;
 	}
 
-	.notices{
-		background-color: #00000023;
+	.notice-inner{
+		background:#ffc;
 		border-radius: 10px;
 		padding: 10px;
-		margin-top:20px;
-		margin-bottom: 20px;
-
 	}
 
 	
@@ -147,60 +144,45 @@
 	}
 	.notice-ul{
 	overflow:hidden;
-	padding:3em;
 	}
 	.notice-ul .notice-li .notice-a{
 	text-decoration:none;
 	color:#000;
 	background:#ffc;
 	display:block;
-	height:11em;
-	width:11em;
-	-moz-box-shadow:5px 5px 7px rgba(33,33,33,1);
+	height:15em;
+	width:;
+	/* -moz-box-shadow:5px 5px 7px rgba(33,33,33,1);
 	-webkit-box-shadow: 5px 5px 7px rgba(33,33,33,.7);
-	box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+	box-shadow: 5px 5px 7px rgba(33,33,33,.7); */
 	-moz-transition:-moz-transform .15s linear;
 	-o-transition:-o-transform .15s linear;
 	-webkit-transition:-webkit-transform .15s linear;
 	}
 	.notice-ul .notice-li{
-	margin:1em;
+	padding:10px;
 	float:left;
 	}
 	.notice-ul .notice-li .notice-h2{
-	font-size:140%;
 	font-weight:bold;
-	padding-bottom:10px;
 	}
 	.notice-ul .notice-li .notice-p{
-	font-family:"Reenie Beanie",arial,sans-serif;
 	font-size:180%;
 	}
 	.notice-ul .notice-li .notice-a{
-	-webkit-transform: rotate(-6deg);
-	-o-transform: rotate(-6deg);
-	-moz-transform:rotate(-6deg);
+
 	}
 	.notice-ul .notice-li:nth-child(even) .notice-a{
-	-o-transform:rotate(4deg);
-	-webkit-transform:rotate(4deg);
-	-moz-transform:rotate(4deg);
 	position:relative;
-	top:5px;
 	background:#cfc;
 	}
 	.notice-ul .notice-li:nth-child(3n) .notice-a{
-	-o-transform:rotate(-3deg);
-	-webkit-transform:rotate(-3deg);
-	-moz-transform:rotate(-3deg);
 	position:relative;
 	top:-5px;
 	background:#ccf;
 	}
 	.notice-ul .notice-li:nth-child(5n) .notice-a{
-	-o-transform:rotate(5deg);
-	-webkit-transform:rotate(5deg);
-	-moz-transform:rotate(5deg);
+
 	position:relative;
 	top:-10px;
 	}
@@ -294,7 +276,6 @@
         <div class="main-text text-center">
             <div class="col-md-12 text-center " >
                 <h1 class="intro-text">Board for Student Welfare</h1>
-                <!-- <h3 class="intro-text-subtitle">BSW-IIT Delhi Welcomes You</h3> --> 
                 
             </div>
         </div>
@@ -359,45 +340,66 @@
 			</div>
 			</div>
 
-			<div class="col-12 col-lg-8 notices">
-					<ul class="notice-ul">
-						<li class="notice-li">
-						<a class="notice-a" href="#">
-							<h2 class="notice-h2">Title #1</h2>
-							<p class="notice-p">Text Content #1</p>
-						</a>
-						</li>
-						<li class="notice-li">
-						<a class="notice-a" href="#">
-							<h2 class="notice-h2">Title #2</h2>
-							<p class="notice-p">Text Content #2</p>
-						</a>
-						</li>
-						<li class="notice-li">
-						<a class="notice-a" href="#">
-							<h2 class="notice-h2">Title #3</h2>
-							<p class="notice-p">Text Content #3</p>
-						</a>
-						</li>
-						<li class="notice-li">
-						<a class="notice-a" href="#">
-							<h2 class="notice-h2">Title #4</h2>
-							<p class="notice-p">Text Content #4</p>
-						</a>
-						</li>
-						<li class="notice-li">
-						<a class="notice-a" href="#">
-							<h2 class="notice-h2">Title #5</h2>
-							<p class="notice-p">Text Content #5</p>
-						</a>
-						</li>
-						<li class="notice-li">
-						<a class="notice-a" href="#">
-							<h2 class="notice-h2">Title #6</h2>
-							<p class="notice-p">Text Content #6</p>
-						</a>
-						</li>
-					</ul>
+			<div class="col-12 col-lg-8 notices  my-auto">
+					<div class="row justify-content-center">
+					<div class="notice   col-5 col-md-3 col-lg-3 my-2">
+						<div class="notice-inner">
+						<h3>Blanket Camp</h3>
+						<h5>31 Oct 2019</h5>
+						<p>Sample text sample sample sample sample sample sample</p>
+						</div>
+					</div>
+					<div class="notice   col-5 col-md-3 col-lg-3 my-2">
+					<div class="notice-inner">
+						<h3>Blanket Camp</h3>
+						<h5>31 Oct 2019</h5>
+						<p>Sample text sample sample sample sample sample sample</p>
+						</div>
+					</div>
+					<div class="notice    col-5 col-md-3 col-lg-3 my-2">
+					<div class="notice-inner">
+						<h3>Blanket Camp</h3>
+						<h5>31 Oct 2019</h5>
+						<p>Sample text sample sample sample sample sample sample</p>
+						</div>
+					</div>
+					<div class="notice   col-5 col-md-3 col-lg-3 my-2">
+					<div class="notice-inner">
+						<h3>Blanket Camp</h3>
+						<h5>31 Oct 2019</h5>
+						<p>Sample text sample sample sample sample sample sample</p>
+						</div>
+					</div>
+					<div class="notice   col-5 col-md-3 col-lg-3 my-2">
+						<div class="notice-inner">
+						<h3>Blanket Camp</h3>
+						<h5>31 Oct 2019</h5>
+						<p>Sample text sample sample sample sample sample sample</p>
+						</div>
+					</div>
+					<div class="notice   col-5 col-md-3 col-lg-3 my-2">
+					<div class="notice-inner">
+						<h3>Blanket Camp</h3>
+						<h5>31 Oct 2019</h5>
+						<p>Sample text sample sample sample sample sample sample</p>
+						</div>
+					</div>
+					<div class="notice    col-5 col-md-3 col-lg-3 my-2">
+					<div class="notice-inner">
+						<h3>Blanket Camp</h3>
+						<h5>31 Oct 2019</h5>
+						<p>Sample text sample sample sample sample sample sample</p>
+						</div>
+					</div>
+					<div class="notice   col-5 col-md-3 col-lg-3 my-2">
+					<div class="notice-inner">
+						<h3>Blanket Camp</h3>
+						<h5>31 Oct 2019</h5>
+						<p>Sample text sample sample sample sample sample sample</p>
+						</div>
+					</div>
+					</div>
+					
 			</div>
 
 		</div>
@@ -407,8 +409,8 @@
 
 <?php require 'components/footer.php'; ?>
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" i0degrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" i0degrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 
 
 <script type="text/javascript">
