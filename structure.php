@@ -60,7 +60,7 @@
         display: block !important;
         margin-left: auto !important;
         margin-right: auto !important;
-        margin-top:10px !important;
+        margin-top:20px !important;
     }
     .card{
         border-radius: 20px !important;
@@ -93,6 +93,7 @@
 
             <div class="col-12 justify-content-center">
             <h1 class="about-us-title">BSW Structure</h1>
+            <p> To go directly to Hostel Representatives, <a href="#hostel_reps">Click Here</a></p>
             </div>
 
         </div>
@@ -347,7 +348,7 @@
         <em>Coordinator</em>
         </div>
         <div class="card-body">
-                                <button class="btn btn-primary"><span class="fa fa-envelope"></span> harshitkhanna1010@gmail.com</button><br>
+                    <button class="btn btn-primary"><span class="fa fa-envelope"></span> harshitkhanna1010@gmail.com</button><br>
                     <button class="btn btn-success my-1"><span class="fa fa-phone"></span> +91 9406559834  </button><br>
                     <button class="btn btn-info"><span class="fa fa-home"></span> Kailash</button>
 
@@ -360,10 +361,410 @@
 </div>
 
     
+</div>
+
+<div id="about-us">
+    
+    <br />
+
+    <div class="container">
+
+        <div class="row justify-content-center">
+
+            <div class="col-12 justify-content-center my-4">
+            <h1 class="about-us-title">Hostel Representatives</h1>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<div class="container-fluid justify-content-center mx-auto" id="hostel_reps">
+
+
+<div class="row justify-content-center my-4">
+
+    <div class="col-12 col-md-6  justify-content-center">
+
+    <div class="card bg-dark my-2 text-white mx-auto">
+        <div class="card-header"><h3>Aravali</h3></div>
+        <div class="card-body">
+            <ul class="list-unstyled">
+            <li class="media">
+                <img class="mr-3" src="team2019/members/3.jpg" alt="Generic placeholder image" style="border-radius:10px;">
+                <div class="media-body">
+                <h5 class="mt-0 mb-1">Dipanshu Patidar</h5>
+                <button class="btn btn-primary" style="max-width:90%;"><span class="fa fa-envelope"></span> harshitkhanna1010@gmail.com</button><br>
+                <button class="btn btn-success my-1" style="max-width:90%;"><span class="fa fa-phone"></span> +91 9406559834  </button><br>            </div>
+            </li>
+            <li class="media my-4">
+            <img class="mr-3" src="team2019/members/3.jpg" alt="Generic placeholder image" style="border-radius:10px;">
+                <div class="media-body">
+                <h5 class="mt-0 mb-1">Prakhar Sharma</h5>
+                <button class="btn btn-primary" style="max-width:90%;"><span class="fa fa-envelope"></span> harshitkhanna1010@gmail.com</button><br>
+                <button class="btn btn-success my-1" style="max-width:90%;"><span class="fa fa-phone"></span> +91 9406559834  </button><br>            </div>
+            </li>
+            </ul>
+        </div>
+    </div>
+
+    </div>
+
+    <div class="col-12 col-md-6  justify-content-center">
+
+    <div class="card bg-dark my-2 text-white mx-auto">
+        <div class="card-header"><h3>Girnar</h3></div>
+        <div class="card-body">
+            <ul class="list-unstyled">
+            <li class="media">
+                <img class="mr-3" src="team2019/members/3.jpg" alt="Generic placeholder image" style="border-radius:10px;">
+                <div class="media-body">
+                <h5 class="mt-0 mb-1">Dipanshu Patidar</h5>
+                <button class="btn btn-primary" style="max-width:90%;"><span class="fa fa-envelope"></span> harshitkhanna1010@gmail.com</button><br>
+                <button class="btn btn-success my-1" style="max-width:90%;"><span class="fa fa-phone"></span> +91 9406559834  </button><br>            </div>
+            </li>
+            <li class="media my-4">
+            <img class="mr-3" src="team2019/members/3.jpg" alt="Generic placeholder image" style="border-radius:10px;">
+                <div class="media-body">
+                <h5 class="mt-0 mb-1">Prakhar Sharma</h5>
+                <button class="btn btn-primary" style="max-width:90%;"><span class="fa fa-envelope"></span> harshitkhanna1010@gmail.com</button><br>
+                <button class="btn btn-success my-1" style="max-width:90%;"><span class="fa fa-phone"></span> +91 9406559834  </button><br>            </div>
+            </li>
+            </ul>
+        </div>
+    </div>
+
+    </div>
+
+</div>
+
+
+<div class="row justify-content-center my-4">
+
+    <div class="col-12 col-md-6  justify-content-center">
+
+    <div class="card bg-dark my-2 text-white mx-auto">
+        <div class="card-header"><h3>Himadri</h3></div>
+        <div class="card-body">
+            <ul class="list-unstyled">
+            <li class="media">
+                <img class="mr-3" src="team2019/members/3.jpg" alt="Generic placeholder image" style="border-radius:10px;">
+                <div class="media-body">
+                <h5 class="mt-0 mb-1">Dipanshu Patidar</h5>
+                <button class="btn btn-primary" style="max-width:90%;"><span class="fa fa-envelope"></span> harshitkhanna1010@gmail.com</button><br>
+                <button class="btn btn-success my-1" style="max-width:90%;"><span class="fa fa-phone"></span> +91 9406559834  </button><br>            </div>
+            </li>
+            <li class="media my-4">
+            <img class="mr-3" src="team2019/members/3.jpg" alt="Generic placeholder image" style="border-radius:10px;">
+                <div class="media-body">
+                <h5 class="mt-0 mb-1">Prakhar Sharma</h5>
+                <button class="btn btn-primary" style="max-width:90%;"><span class="fa fa-envelope"></span> harshitkhanna1010@gmail.com</button><br>
+                <button class="btn btn-success my-1" style="max-width:90%;"><span class="fa fa-phone"></span> +91 9406559834  </button><br>            </div>
+            </li>
+            </ul>
+        </div>
+    </div>
+
+    </div>
+
+    <div class="col-12 col-md-6  justify-content-center">
+
+    <div class="card bg-dark my-2 text-white mx-auto">
+        <div class="card-header"><h3>Jwalamukhi</h3></div>
+        <div class="card-body">
+            <ul class="list-unstyled">
+            <li class="media">
+                <img class="mr-3" src="team2019/members/3.jpg" alt="Generic placeholder image" style="border-radius:10px;">
+                <div class="media-body">
+                <h5 class="mt-0 mb-1">Dipanshu Patidar</h5>
+                <button class="btn btn-primary" style="max-width:90%;"><span class="fa fa-envelope"></span> harshitkhanna1010@gmail.com</button><br>
+                <button class="btn btn-success my-1" style="max-width:90%;"><span class="fa fa-phone"></span> +91 9406559834  </button><br>            </div>
+            </li>
+            <li class="media my-4">
+            <img class="mr-3" src="team2019/members/3.jpg" alt="Generic placeholder image" style="border-radius:10px;">
+                <div class="media-body">
+                <h5 class="mt-0 mb-1">Prakhar Sharma</h5>
+                <button class="btn btn-primary" style="max-width:90%;"><span class="fa fa-envelope"></span> harshitkhanna1010@gmail.com</button><br>
+                <button class="btn btn-success my-1" style="max-width:90%;"><span class="fa fa-phone"></span> +91 9406559834  </button><br>            </div>
+            </li>
+            </ul>
+        </div>
+    </div>
+
+    </div>
+
+</div>
+
+
+<div class="row justify-content-center my-4">
+
+    <div class="col-12 col-md-6  justify-content-center">
+
+    <div class="card bg-dark my-2 text-white mx-auto">
+        <div class="card-header"><h3>Kailash</h3></div>
+        <div class="card-body">
+            <ul class="list-unstyled">
+            <li class="media">
+                <img class="mr-3" src="team2019/members/3.jpg" alt="Generic placeholder image" style="border-radius:10px;">
+                <div class="media-body">
+                <h5 class="mt-0 mb-1">Dipanshu Patidar</h5>
+                <button class="btn btn-primary" style="max-width:90%;"><span class="fa fa-envelope"></span> harshitkhanna1010@gmail.com</button><br>
+                <button class="btn btn-success my-1" style="max-width:90%;"><span class="fa fa-phone"></span> +91 9406559834  </button><br>            </div>
+            </li>
+            <li class="media my-4">
+            <img class="mr-3" src="team2019/members/3.jpg" alt="Generic placeholder image" style="border-radius:10px;">
+                <div class="media-body">
+                <h5 class="mt-0 mb-1">Prakhar Sharma</h5>
+                <button class="btn btn-primary" style="max-width:90%;"><span class="fa fa-envelope"></span> harshitkhanna1010@gmail.com</button><br>
+                <button class="btn btn-success my-1" style="max-width:90%;"><span class="fa fa-phone"></span> +91 9406559834  </button><br>            </div>
+            </li>
+            </ul>
+        </div>
+    </div>
+
+    </div>
+
+    <div class="col-12 col-md-6  justify-content-center">
+
+    <div class="card bg-dark my-2 text-white mx-auto">
+        <div class="card-header"><h3>Karakoram</h3></div>
+        <div class="card-body">
+            <ul class="list-unstyled">
+            <li class="media">
+                <img class="mr-3" src="team2019/members/3.jpg" alt="Generic placeholder image" style="border-radius:10px;">
+                <div class="media-body">
+                <h5 class="mt-0 mb-1">Dipanshu Patidar</h5>
+                <button class="btn btn-primary" style="max-width:90%;"><span class="fa fa-envelope"></span> harshitkhanna1010@gmail.com</button><br>
+                <button class="btn btn-success my-1" style="max-width:90%;"><span class="fa fa-phone"></span> +91 9406559834  </button><br>            </div>
+            </li>
+            <li class="media my-4">
+            <img class="mr-3" src="team2019/members/3.jpg" alt="Generic placeholder image" style="border-radius:10px;">
+                <div class="media-body">
+                <h5 class="mt-0 mb-1">Prakhar Sharma</h5>
+                <button class="btn btn-primary" style="max-width:90%;"><span class="fa fa-envelope"></span> harshitkhanna1010@gmail.com</button><br>
+                <button class="btn btn-success my-1" style="max-width:90%;"><span class="fa fa-phone"></span> +91 9406559834  </button><br>            </div>
+            </li>
+            </ul>
+        </div>
+    </div>
+
+    </div>
+
+</div>
+
+
+<div class="row justify-content-center my-4">
+
+    <div class="col-12 col-md-6  justify-content-center">
+
+    <div class="card bg-dark my-2 text-white mx-auto">
+        <div class="card-header"><h3>Kumaon</h3></div>
+        <div class="card-body">
+            <ul class="list-unstyled">
+            <li class="media">
+                <img class="mr-3" src="team2019/members/3.jpg" alt="Generic placeholder image" style="border-radius:10px;">
+                <div class="media-body">
+                <h5 class="mt-0 mb-1">Dipanshu Patidar</h5>
+                <button class="btn btn-primary" style="max-width:90%;"><span class="fa fa-envelope"></span> harshitkhanna1010@gmail.com</button><br>
+                <button class="btn btn-success my-1" style="max-width:90%;"><span class="fa fa-phone"></span> +91 9406559834  </button><br>            </div>
+            </li>
+            <li class="media my-4">
+            <img class="mr-3" src="team2019/members/3.jpg" alt="Generic placeholder image" style="border-radius:10px;">
+                <div class="media-body">
+                <h5 class="mt-0 mb-1">Prakhar Sharma</h5>
+                <button class="btn btn-primary" style="max-width:90%;"><span class="fa fa-envelope"></span> harshitkhanna1010@gmail.com</button><br>
+                <button class="btn btn-success my-1" style="max-width:90%;"><span class="fa fa-phone"></span> +91 9406559834  </button><br>            </div>
+            </li>
+            </ul>
+        </div>
+    </div>
+
+    </div>
+
+    <div class="col-12 col-md-6  justify-content-center">
+
+    <div class="card bg-dark my-2 text-white mx-auto">
+        <div class="card-header"><h3>Nilgiri</h3></div>
+        <div class="card-body">
+            <ul class="list-unstyled">
+            <li class="media">
+                <img class="mr-3" src="team2019/members/3.jpg" alt="Generic placeholder image" style="border-radius:10px;">
+                <div class="media-body">
+                <h5 class="mt-0 mb-1">Dipanshu Patidar</h5>
+                <button class="btn btn-primary" style="max-width:90%;"><span class="fa fa-envelope"></span> harshitkhanna1010@gmail.com</button><br>
+                <button class="btn btn-success my-1" style="max-width:90%;"><span class="fa fa-phone"></span> +91 9406559834  </button><br>            </div>
+            </li>
+            <li class="media my-4">
+            <img class="mr-3" src="team2019/members/3.jpg" alt="Generic placeholder image" style="border-radius:10px;">
+                <div class="media-body">
+                <h5 class="mt-0 mb-1">Prakhar Sharma</h5>
+                <button class="btn btn-primary" style="max-width:90%;"><span class="fa fa-envelope"></span> harshitkhanna1010@gmail.com</button><br>
+                <button class="btn btn-success my-1" style="max-width:90%;"><span class="fa fa-phone"></span> +91 9406559834  </button><br>            </div>
+            </li>
+            </ul>
+        </div>
+    </div>
+
+    </div>
+
+</div>
+
+
+<div class="row justify-content-center my-4">
+
+    <div class="col-12 col-md-6  justify-content-center">
+
+    <div class="card bg-dark my-2 text-white mx-auto">
+        <div class="card-header"><h3>Satpura</h3></div>
+        <div class="card-body">
+            <ul class="list-unstyled">
+            <li class="media">
+                <img class="mr-3" src="team2019/members/3.jpg" alt="Generic placeholder image" style="border-radius:10px;">
+                <div class="media-body">
+                <h5 class="mt-0 mb-1">Dipanshu Patidar</h5>
+                <button class="btn btn-primary" style="max-width:90%;"><span class="fa fa-envelope"></span> harshitkhanna1010@gmail.com</button><br>
+                <button class="btn btn-success my-1" style="max-width:90%;"><span class="fa fa-phone"></span> +91 9406559834  </button><br>            </div>
+            </li>
+            <li class="media my-4">
+            <img class="mr-3" src="team2019/members/3.jpg" alt="Generic placeholder image" style="border-radius:10px;">
+                <div class="media-body">
+                <h5 class="mt-0 mb-1">Prakhar Sharma</h5>
+                <button class="btn btn-primary" style="max-width:90%;"><span class="fa fa-envelope"></span> harshitkhanna1010@gmail.com</button><br>
+                <button class="btn btn-success my-1" style="max-width:90%;"><span class="fa fa-phone"></span> +91 9406559834  </button><br>            </div>
+            </li>
+            </ul>
+        </div>
+    </div>
+
+    </div>
+
+    <div class="col-12 col-md-6  justify-content-center">
+
+    <div class="card bg-dark my-2 text-white mx-auto">
+        <div class="card-header"><h3>Shivalik</h3></div>
+        <div class="card-body">
+            <ul class="list-unstyled">
+            <li class="media">
+                <img class="mr-3" src="team2019/members/3.jpg" alt="Generic placeholder image" style="border-radius:10px;">
+                <div class="media-body">
+                <h5 class="mt-0 mb-1">Dipanshu Patidar</h5>
+                <button class="btn btn-primary" style="max-width:90%;"><span class="fa fa-envelope"></span> harshitkhanna1010@gmail.com</button><br>
+                <button class="btn btn-success my-1" style="max-width:90%;"><span class="fa fa-phone"></span> +91 9406559834  </button><br>            </div>
+            </li>
+            <li class="media my-4">
+            <img class="mr-3" src="team2019/members/3.jpg" alt="Generic placeholder image" style="border-radius:10px;">
+                <div class="media-body">
+                <h5 class="mt-0 mb-1">Jwalamukhi</h5>
+                <button class="btn btn-primary" style="max-width:90%;"><span class="fa fa-envelope"></span> harshitkhanna1010@gmail.com</button><br>
+                <button class="btn btn-success my-1" style="max-width:90%;"><span class="fa fa-phone"></span> +91 9406559834  </button><br>            </div>
+            </li>
+            </ul>
+        </div>
+    </div>
+
+    </div>
+
+</div>
+
+
+<div class="row justify-content-center my-4">
+
+    <div class="col-12 col-md-6  justify-content-center">
+
+    <div class="card bg-dark my-2 text-white mx-auto">
+        <div class="card-header"><h3>Udaigiri</h3></div>
+        <div class="card-body">
+            <ul class="list-unstyled">
+            <li class="media">
+                <img class="mr-3" src="team2019/members/3.jpg" alt="Generic placeholder image" style="border-radius:10px;">
+                <div class="media-body">
+                <h5 class="mt-0 mb-1">Dipanshu Patidar</h5>
+                <button class="btn btn-primary" style="max-width:90%;"><span class="fa fa-envelope"></span> harshitkhanna1010@gmail.com</button><br>
+                <button class="btn btn-success my-1" style="max-width:90%;"><span class="fa fa-phone"></span> +91 9406559834  </button><br>            </div>
+            </li>
+            <li class="media my-4">
+            <img class="mr-3" src="team2019/members/3.jpg" alt="Generic placeholder image" style="border-radius:10px;">
+                <div class="media-body">
+                <h5 class="mt-0 mb-1">Prakhar Sharma</h5>
+                <button class="btn btn-primary" style="max-width:90%;"><span class="fa fa-envelope"></span> harshitkhanna1010@gmail.com</button><br>
+                <button class="btn btn-success my-1" style="max-width:90%;"><span class="fa fa-phone"></span> +91 9406559834  </button><br>            </div>
+            </li>
+            </ul>
+        </div>
+    </div>
+
+    </div>
+
+    <div class="col-12 col-md-6  justify-content-center">
+
+    <div class="card bg-dark my-2 text-white mx-auto">
+        <div class="card-header"><h3>Vindhyachal</h3></div>
+        <div class="card-body">
+            <ul class="list-unstyled">
+            <li class="media">
+                <img class="mr-3" src="team2019/members/3.jpg" alt="Generic placeholder image" style="border-radius:10px;">
+                <div class="media-body">
+                <h5 class="mt-0 mb-1">Dipanshu Patidar</h5>
+                <button class="btn btn-primary" style="max-width:90%;"><span class="fa fa-envelope"></span> harshitkhanna1010@gmail.com</button><br>
+                <button class="btn btn-success my-1" style="max-width:90%;"><span class="fa fa-phone"></span> +91 9406559834  </button><br>            </div>
+            </li>
+            <li class="media my-4">
+            <img class="mr-3" src="team2019/members/3.jpg" alt="Generic placeholder image" style="border-radius:10px;">
+                <div class="media-body">
+                <h5 class="mt-0 mb-1">Prakhar Sharma</h5>
+                <button class="btn btn-primary" style="max-width:90%;"><span class="fa fa-envelope"></span> harshitkhanna1010@gmail.com</button><br>
+                <button class="btn btn-success my-1" style="max-width:90%;"><span class="fa fa-phone"></span> +91 9406559834  </button><br>            </div>
+            </li>
+            </ul>
+        </div>
+    </div>
+
+    </div>
+
+</div>
+
+<div class="row justify-content-center my-4">
+
+    <div class="col-12 col-md-6  justify-content-center">
+
+    <div class="card bg-dark my-2 text-white mx-auto">
+        <div class="card-header"><h3>Zanskar</h3></div>
+        <div class="card-body">
+            <ul class="list-unstyled">
+            <li class="media">
+                <img class="mr-3" src="team2019/members/3.jpg" alt="Generic placeholder image" style="border-radius:10px;">
+                <div class="media-body">
+                <h5 class="mt-0 mb-1">Dipanshu Patidar</h5>
+                <button class="btn btn-primary" style="max-width:90%;"><span class="fa fa-envelope"></span> harshitkhanna1010@gmail.com</button><br>
+                <button class="btn btn-success my-1" style="max-width:90%;"><span class="fa fa-phone"></span> +91 9406559834  </button><br>            </div>
+            </li>
+            <li class="media my-4">
+            <img class="mr-3" src="team2019/members/3.jpg" alt="Generic placeholder image" style="border-radius:10px;">
+                <div class="media-body">
+                <h5 class="mt-0 mb-1">Prakhar Sharma</h5>
+                <button class="btn btn-primary" style="max-width:90%;"><span class="fa fa-envelope"></span> harshitkhanna1010@gmail.com</button><br>
+                <button class="btn btn-success my-1" style="max-width:90%;"><span class="fa fa-phone"></span> +91 9406559834  </button><br>            </div>
+            </li>
+            </ul>
+        </div>
+    </div>
+
+    </div>
 
 
 
 </div>
+
+</div>
+</div>
+
+
+        
+
+        
 <?php require 'components/footer.php'; ?>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
