@@ -12,7 +12,10 @@
 <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js" type="text/javascript"></script>
 <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" i0degrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-
+<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+<link rel="stylesheet" type="text/css" href="css/demo.css" />
+<link rel="stylesheet" type="text/css" href="css/component.css" />
+<script src="js/modernizr.min.js"></script>
 
 <style type="text/css">
 
@@ -91,11 +94,13 @@
 		font-weight: bold;
 		line-height:60px !important;
 		cursor:pointer;
+		box-shadow: 0 10px 10px 2px rgba(0,0,0,0.1);
 	}
 	.home-quick-links:hover{
 		scale:1.2;
-		transition:0.15s ease-out;
+		transition: 0.15s ease-out;
 		cursor:pointer;
+		box-shadow: 0 10px 10px 2px rgba(0,0,0,0.3);
 	}
 	#yourDost{
 		background: #FFE487;
@@ -128,79 +133,31 @@
 		text-align: center;
 	}
 
-	.notice-inner{
+	.notice-inner:nth-child(even){
 		background:#ffc;
 		border-radius: 10px;
 		padding: 10px;
+		box-shadow: 0 10px 10px 2px rgba(0,0,0,0.1);
 	}
 
-	
-	.notice-h2,.notice-p{
-	font-size:100%;
-	font-weight:normal;
+	.notice-inner:nth-child(odd){
+		background:#ffc;
+		border-radius: 10px;
+		padding: 10px;
+		box-shadow: 0 10px 10px 2px rgba(0,0,0,0.1);
 	}
-	.notice-ul,.notice-li{
-	list-style:none;
-	}
-	.notice-ul{
-	overflow:hidden;
-	}
-	.notice-ul .notice-li .notice-a{
-	text-decoration:none;
-	color:#000;
-	background:#ffc;
-	display:block;
-	height:15em;
-	width:;
-	/* -moz-box-shadow:5px 5px 7px rgba(33,33,33,1);
-	-webkit-box-shadow: 5px 5px 7px rgba(33,33,33,.7);
-	box-shadow: 5px 5px 7px rgba(33,33,33,.7); */
-	-moz-transition:-moz-transform .15s linear;
-	-o-transition:-o-transform .15s linear;
-	-webkit-transition:-webkit-transform .15s linear;
-	}
-	.notice-ul .notice-li{
-	padding:10px;
-	float:left;
-	}
-	.notice-ul .notice-li .notice-h2{
-	font-weight:bold;
-	}
-	.notice-ul .notice-li .notice-p{
-	font-size:180%;
-	}
-	.notice-ul .notice-li .notice-a{
 
+	.notice-inner:hover{
+		box-shadow: 0 10px 10px 2px rgba(0,0,0,0.3);
+		transition:0.15s ease-out;
 	}
-	.notice-ul .notice-li:nth-child(even) .notice-a{
-	position:relative;
-	background:#cfc;
-	}
-	.notice-ul .notice-li:nth-child(3n) .notice-a{
-	position:relative;
-	top:-5px;
-	background:#ccf;
-	}
-	.notice-ul .notice-li:nth-child(5n) .notice-a{
 
-	position:relative;
-	top:-10px;
-	}
-	.notice-ul .notice-li .notice-a:hover,.notice-ul .notice-li .notice-a:focus{
-	box-shadow:10px 10px 7px rgba(0,0,0,.7);
-	-moz-box-shadow:10px 10px 7px rgba(0,0,0,.7);
-	-webkit-box-shadow: 10px 10px 7px rgba(0,0,0,.7);
-	-webkit-transform: scale(1.2);
-	-moz-transform: scale(1.2);
-	-o-transform: scale(1.2);
-	position:relative;
-	z-index:5;
-	}
+
 	.notice-ol{text-align:center;}
 	.notice-ol .notice-li{display:inline;padding-right:1em;}
 	.notice-ol .notice-li .notice-a{color:#fff;}
 	.quote-container {
-  margin-top: 50px;
+  margin-top: 30px;
   position: relative;
 }
 
@@ -214,13 +171,23 @@
   border-radius:10px;
 }
 
+.note:hover{
+		box-shadow: 0 10px 10px 2px rgba(0,0,0,0.3);
+		transition:0.2s ease-out;
+		-webkit-transform: rotate(0deg);
+		-moz-transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+		-ms-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+
 .note .author {
   display: block;
   margin: 40px 0 0 0;
   text-align: right;
 }
 
-.yellow {
+.pinned-note2 {
   background: #ffc;
   -webkit-transform: rotate(2deg);
   -moz-transform: rotate(2deg);
@@ -228,6 +195,16 @@
   -ms-transform: rotate(2deg);
   transform: rotate(2deg);
 }
+
+.pinned-note1 {
+  background: #d0fed0a6;
+  -webkit-transform: rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+}
+
 .pin {
   background-color: #aaa;
   display: block;
@@ -387,51 +364,36 @@
 </div>
 
 <div id="home-quick-links-notices">
-	<div class="container">
+	<div class="container my-4">
 
-		<div class="row">
-			<div class="col-12 col-lg-4">
-			<div id="yourDost" class="home-quick-links">
-			<img src="images/yourDost.svg" width="60" height="60" alt="">
-			Counselling
-			</div>
-			<div id="almaConnect" class="home-quick-links">
-			<img src="images/almaConnect.svg" width="60" height="60" alt="">
-			AlmaConnect
-			</div>
-			<div id="bswLoans" class="home-quick-links">
-			<img src="images/bswLoans.svg" width="60" height="60" alt="">
-			BSW Loans
-			</div>
-			<div  id="careerCounselling" class="home-quick-links">
-			<img src="images/careerCounselling.svg" width="60" height="60" alt="">
-			Career Counselling
-			</div>
-			<div  id="qPapers" class="home-quick-links">
-			<img src="images/qPapers.svg" width="60" height="60" alt="">
-			Question Papers
-			</div>
-			<div  id="qPapers" class="home-quick-links">
-			<img src="images/qPapers.svg" width="60" height="60" alt="">
-			Filler Link
-			</div>
-			</div>
+		<div class="row flex-lg-row-reverse">
 
 			<div class="col-12 col-lg-8 notices  my-auto">
 					<div class="row justify-content-center">
 					
-					<div class="notice col-5 col-md-3 col-lg-3 my-2">
+					<div class="notice col-6 my-2">
 						<div class="quote-container">
 						<i class="pin"></i>
-						<blockquote class="note yellow">
+						<blockquote class="note pinned-note1">
 						<h3>Blanket Camp</h3>
 						<h5>31 Oct 2019</h5>
-						<p>Sample text sample sample sample sample sample sample</p>
+						<p>BSW is organising a blanket camp, for notice regarding quotations and other information, <a href="http://bsw.iitd.ac.in/notices/camp-converted.pdf" target="_blank">click here</a></p>
 						</blockquote>
 						</div>
 					</div>
 
-					<div class="notice   col-5 col-md-3 col-lg-3 my-2">
+					<div class="notice   col-6">
+						<div class="quote-container">
+						<i class="pin"></i>
+						<blockquote class="note pinned-note2">
+						<h3>Cycle Camp</h3>
+						<h5>18 - 21 July 2019</h5>
+						<p>BSW is organising a cycle camp, for notice regarding quotations and other information, <a href="http://bsw.iitd.ac.in/notices/camp-converted.pdf" target="_blank">click here</a></p>
+						</blockquote>
+						</div>
+					</div>
+
+					<!-- <div class="notice    col-5 col-md-3 col-lg-3 my-2">
 						<div class="quote-container">
 						<i class="pin"></i>
 						<blockquote class="note yellow">
@@ -441,16 +403,6 @@
 						</blockquote>
 						</div>
 					</div>
-					<div class="notice    col-5 col-md-3 col-lg-3 my-2">
-						<div class="quote-container">
-						<i class="pin"></i>
-						<blockquote class="note yellow">
-						<h3>Blanket Camp</h3>
-						<h5>31 Oct 2019</h5>
-						<p>Sample text sample sample sample sample sample sample</p>
-						</blockquote>
-						</div>
-					</div>
 					<div class="notice   col-5 col-md-3 col-lg-3 my-2">
 						<div class="quote-container">
 						<i class="pin"></i>
@@ -460,50 +412,179 @@
 						<p>Sample text sample sample sample sample sample sample</p>
 						</blockquote>
 						</div>
-					</div>
-					<div class="notice   col-5 col-md-3 col-lg-3 my-2">
+					</div> -->
+
+					<div class="notice   col-5 col-md-3 col-lg-3 my-4">
 						<div class="notice-inner">
-						<h3>Blanket Camp</h3>
+						<h3>Sample Notice</h3>
 						<h5>31 Oct 2019</h5>
 						<p>Sample text sample sample sample sample sample sample</p>
 						</div>
 					</div>
-					<div class="notice   col-5 col-md-3 col-lg-3 my-2">
+					<div class="notice   col-5 col-md-3 col-lg-3 my-4">
 					<div class="notice-inner">
-						<h3>Blanket Camp</h3>
+						<h3>Sample Notice</h3>
 						<h5>31 Oct 2019</h5>
 						<p>Sample text sample sample sample sample sample sample</p>
 						</div>
 					</div>
-					<div class="notice    col-5 col-md-3 col-lg-3 my-2">
+					<div class="notice col-5 col-md-3 col-lg-3 my-4">
 					<div class="notice-inner">
-						<h3>Blanket Camp</h3>
+						<h3>Sample Notice</h3>
 						<h5>31 Oct 2019</h5>
 						<p>Sample text sample sample sample sample sample sample</p>
 						</div>
 					</div>
-					<div class="notice   col-5 col-md-3 col-lg-3 my-2">
+					<div class="notice   col-5 col-md-3 col-lg-3 my-4">
 					<div class="notice-inner">
-						<h3>Blanket Camp</h3>
+						<h3>Sample Notice</h3>
 						<h5>31 Oct 2019</h5>
 						<p>Sample text sample sample sample sample sample sample</p>
 						</div>
 					</div>
 
-					<div class="quote-container" style="width: 80%;">
-					<i class="pin"></i>
-					<blockquote class="note yellow">
-						We can't solve problems by using the same kind of thinking we used when we created them.
-						<cite class="author">Albert Einstein</cite>
-					</blockquote>
+
 					</div>
-					</div>
-					
+	
 			</div>
+
+				<div class="col-12 col-lg-4">
+				<div id="yourDost" class="home-quick-links">
+				<img src="images/yourDost.svg" width="60" height="60" alt="">
+				Counselling
+				</div>
+				<div id="almaConnect" class="home-quick-links">
+				<img src="images/almaConnect.svg" width="60" height="60" alt="">
+				AlmaConnect
+				</div>
+				<div id="bswLoans" class="home-quick-links">
+				<img src="images/bswLoans.svg" width="60" height="60" alt="">
+				BSW Loans
+				</div>
+				<div  id="careerCounselling" class="home-quick-links">
+				<img src="images/careerCounselling.svg" width="60" height="60" alt="">
+				Career Counselling
+				</div>
+				<div  id="qPapers" class="home-quick-links">
+				<img src="images/qPapers.svg" width="60" height="60" alt="">
+				Question Papers
+				</div>
+				</div>
 
 		</div>
 
 	</div>
+</div>
+
+<div id="events-gallery">
+<div class="container-fluid my-4" style="padding-right: 0px;padding-left: 0px;">
+
+
+			<div id="photostack-1" class="photostack col-12">
+				<div>
+					<figure>
+						<a href="http://goo.gl/Qw3ND4" class="photostack-img"><img src="images/comedynight.jpg" alt="Comedy Night ft. Nishant Tanwar" style="height:240px; width:240px; object-fit:cover;"/></a>
+						<figcaption>
+							<h2 class="photostack-title">Comedy Night ft. Nishant Tanwar</h2>
+						</figcaption>
+					</figure>
+					<figure>
+						<a href="http://goo.gl/Qw3ND4" class="photostack-img"><img src="images/bandnight.jpg" alt="Comedy Night ft. Nishant Tanwar" style="height:240px; width:240px; object-fit:cover;"/></a>
+						<figcaption>
+							<h2 class="photostack-title">Band Night ft. Zikrr</h2>
+						</figcaption>
+					</figure>
+					<figure>
+						<a href="http://goo.gl/Qw3ND4" class="photostack-img"><img src="images/op_delhidarshan/16.jpg" alt="Comedy Night ft. Nishant Tanwar" style="height:240px; width:240px; object-fit:cover;"/></a>
+						<figcaption>
+							<h2 class="photostack-title">Delhi Darshan</h2>
+						</figcaption>
+					</figure>
+					<figure>
+						<a href="http://goo.gl/Qw3ND4" class="photostack-img"><img src="images/promnight.jpg" alt="Prom Night" style="height:240px; width:240px; object-fit:cover;"/></a>
+						<figcaption>
+							<h2 class="photostack-title">Prom Night</h2>
+						</figcaption>
+					</figure>
+					<figure data-dummy>
+						<a href="http://goo.gl/Qw3ND4" class="photostack-img"><img src="images/op_sticd/20.jpg" alt="Comedy Night ft. Nishant Tanwar" style="height:240px; width:240px; object-fit:cover;"/></a>
+						<figcaption>
+							<h2 class="photostack-title">STIC Dinner</h2>
+						</figcaption>
+					</figure>
+					<figure>
+						<a href="http://goo.gl/Qw3ND4" class="photostack-img"><img src="images/jeopardy.jpg" alt="Comedy Night ft. Nishant Tanwar" style="height:240px; width:240px; object-fit:cover;"/></a>
+						<figcaption>
+							<h2 class="photostack-title">Jeopardy</h2>
+						</figcaption>
+					</figure>
+					<figure data-dummy>
+						<a href="http://goo.gl/Qw3ND4" class="photostack-img"><img src="images/op_delhidarshan/2.jpg" alt="Comedy Night ft. Nishant Tanwar" style="height:240px; width:240px; object-fit:cover;"/></a>
+						<figcaption>
+							<h2 class="photostack-title">Delhi Darshan</h2>
+						</figcaption>
+					</figure>
+					<figure data-dummy>
+						<a href="http://goo.gl/Qw3ND4" class="photostack-img"><img src="images/op_delhidarshan/7.jpg" alt="Comedy Night ft. Nishant Tanwar" style="height:240px; width:240px; object-fit:cover;"/></a>
+						<figcaption>
+							<h2 class="photostack-title">Delhi Darshan</h2>
+						</figcaption>
+					</figure>
+					<figure data-dummy>
+						<a href="http://goo.gl/Qw3ND4" class="photostack-img"><img src="images/op_delhidarshan/14.jpg" alt="Comedy Night ft. Nishant Tanwar" style="height:240px; width:240px; object-fit:cover;"/></a>
+						<figcaption>
+							<h2 class="photostack-title">Delhi Darshan</h2>
+						</figcaption>
+					</figure>
+					<figure >
+						<a href="http://goo.gl/Qw3ND4" class="photostack-img"><img src="images/op_orientation/1.jpg" alt="Comedy Night ft. Nishant Tanwar" style="height:240px; width:240px; object-fit:cover;"/></a>
+						<figcaption>
+							<h2 class="photostack-title">Orientation</h2>
+						</figcaption>
+					</figure>
+					<figure >
+						<a href="http://goo.gl/Qw3ND4" class="photostack-img"><img src="images/enigma_poster.jpg" alt="Comedy Night ft. Nishant Tanwar" style="height:240px; width:240px; object-fit:cover;"/></a>
+						<figcaption>
+							<h2 class="photostack-title">Enigma: The Magic Show</h2>
+						</figcaption>
+					</figure>
+					<figure >
+						<a href="http://goo.gl/Qw3ND4" class="photostack-img"><img src="images/freshersmrmrs.jpg" alt="Comedy Night ft. Nishant Tanwar" style="height:240px; width:240px; object-fit:cover;"/></a>
+						<figcaption>
+							<h2 class="photostack-title">Mr & Ms Freshers</h2>
+						</figcaption>
+					</figure>
+					<figure data-dummy>
+						<a href="http://goo.gl/Qw3ND4" class="photostack-img"><img src="images/bandnight_poster.JPG" alt="Comedy Night ft. Nishant Tanwar" style="height:240px; width:240px; object-fit:cover;"/></a>
+						<figcaption>
+							<h2 class="photostack-title">Band Night ft. Zikrr</h2>
+						</figcaption>
+					</figure>
+					<figure data-dummy>
+						<a href="http://goo.gl/Qw3ND4" class="photostack-img"><img src="images/comedynight_poster.JPG" alt="Comedy Night ft. Nishant Tanwar" style="height:240px; width:240px; object-fit:cover;"/></a>
+						<figcaption>
+							<h2 class="photostack-title">Comedy Night ft. nishant Tanwar</h2>
+						</figcaption>
+					</figure>
+					
+					
+				</div>
+			</div>
+			
+</div>
+
+
+		<script src="js/classie.js"></script>
+		<script src="js/photostack.js"></script>
+		<script>
+			// [].slice.call( document.querySelectorAll( '.photostack' ) ).forEach( function( el ) { new Photostack( el ); } );
+			
+			new Photostack( document.getElementById( 'photostack-1' ), {
+				callback : function( item ) {
+					//console.log(item)
+				}
+			} );
+		</script>
 </div>
 
 <?php require 'components/footer.php'; ?>
