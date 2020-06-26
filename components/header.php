@@ -8,21 +8,25 @@
 
 <style type="text/css">
 
+
+
+
 	.navbar-nav a{
 		color:#fff;
         text-decoration: none;
         background-color: transparent;
         -webkit-text-decoration-skip: objects;
-        font-weight: 700;
+        font-weight: 600;
         font-size: 1.2rem;
-        text-shadow: 0.5px 0.5px 0.5px #2222226b;
+		text-shadow: 0.5px 0.5px 0.5px #2222226b;
 	}
+
 	.navbar-toggler{
     color: #fff;
 	}
 
-	.nav-colored { 
-    background-image: linear-gradient(90deg, #67B26F 0%, rgba(76,162,205,0.61) 100%);
+	.nav-colored{ 
+    background-image: url(AppBar.png);
     border: none;
 	margin-top:0;
 	}
@@ -48,7 +52,7 @@
 		
 		.dropdown-menu .dropdown-toggle:after{
 			font-size: 12px !important;
-			font-weight:medium !important;
+			font-weight:normal !important;
 			background: #00000023 !important;
 			border-top: .3em solid transparent;
 		    border-right: 0;
@@ -57,7 +61,8 @@
 		}
 
 		.dropdown-menu {
-			margin-left:0; margin-right: 0;
+			border-radius:10px !important;
+			margin-left:0px; margin-right: 0px;
 			background: #00000088 !important;
 			border:none !important;
 		}
@@ -74,10 +79,11 @@
 			right:100%; left:auto;
 		}
 
-		.dropdown-menu > li:hover{ background-color: #f1f1f1 }
+		.dropdown-menu > li:hover{ background-color: #000000; border-radius: 10px;  }
 		.dropdown-menu > li:hover > .submenu{
 			display: block;
 		}
+		
 
 	
 	}
@@ -197,21 +203,14 @@
 					</ul>
 				</li>
 
-				<li class="nav-item mr-4">
+				<li class="nav-item ">
 					<a class="nav-link" href="faq.php">FAQs</a>
 				</li>
 
-				<li class="nav-item">
-					<a class="nav-link" href="https://www.facebook.com/boardforstudentwelfare"><span class="fa fa-facebook-square fa-lg"></span></a>
+				<li class="nav-item ">
+					<a class="nav-link" href="structure.php">Contact Us</a>
 				</li>
 
-				<li class="nav-item">
-					<a class="nav-link" href="https://www.instagram.com/bsw_iitd/"><span class="fa fa-instagram fa-lg"></span></a>
-				</li>
-
-				<li class="nav-item">
-					<a class="nav-link" href="mailto:info.bsw.iitdelhi@gmail.com"><span class="fa fa-paper-plane fa-lg"></span></a>
-				</li>
 				
 				
 

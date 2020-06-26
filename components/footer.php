@@ -79,7 +79,17 @@
             <h3>Feedback</h3>
                 <p>We learn from you. Please give us your suggestions and feedback.<br /> Constructive criticism is well appreciated.<br /> <a href="http://bsw.iitd.ac.in/stuff/Constitution.pdf">Click here</a> for the feedback form.</p>
         </div>
+
         <div class="col-12 col-md-12 col-lg-4 center-block">
+                    <p>
+					<a href="https://www.facebook.com/boardforstudentwelfare"><span class="fa fa-facebook-square fa-lg"></span></a>
+
+					<a href="https://www.instagram.com/bsw_iitd/"><span class="fa fa-instagram fa-lg mx-2">  </span></a>
+
+					<a  href="mailto:info.bsw.iitdelhi@gmail.com"><span class="fa fa-paper-plane fa-lg">  </span></a>
+
+                    </p>
+    
             <h3>&copy; BSW 2020</h3>
                 <p>All rights reserved.</p>
                 <p>Website Created and Maintained by:<br />

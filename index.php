@@ -95,10 +95,11 @@
 		line-height:60px !important;
 		cursor:pointer;
 		box-shadow: 0 10px 10px 2px rgba(0,0,0,0.1);
+		transition: all 0.4s ease-out;
 	}
 	.home-quick-links:hover{
-		scale:1.2;
-		transition: 0.15s ease-out;
+		scale:1.1;
+		transition: all 0.4s ease-out;
 		cursor:pointer;
 		box-shadow: 0 10px 10px 2px rgba(0,0,0,0.3);
 	}
@@ -138,6 +139,7 @@
 		border-radius: 10px;
 		padding: 10px;
 		box-shadow: 0 10px 10px 2px rgba(0,0,0,0.1);
+		transition: all 0.15s ease-out;
 	}
 
 	.notice-inner:nth-child(odd){
@@ -145,11 +147,12 @@
 		border-radius: 10px;
 		padding: 10px;
 		box-shadow: 0 10px 10px 2px rgba(0,0,0,0.1);
+		transition: all 0.15s ease-out;
 	}
 
 	.notice-inner:hover{
 		box-shadow: 0 10px 10px 2px rgba(0,0,0,0.3);
-		transition:0.15s ease-out;
+		transition:all 0.15s ease-out;
 	}
 
 
@@ -169,6 +172,7 @@
   padding: 10px;
   box-shadow: 0 10px 10px 2px rgba(0,0,0,0.1);
   border-radius:10px;
+  transition: all 0.15s ease-out;
 }
 
 .note:hover{
@@ -179,6 +183,7 @@
 		-o-transform: rotate(0deg);
 		-ms-transform: rotate(0deg);
 		transform: rotate(0deg);
+		transition: all 0.15s ease-out;
 	}
 
 .note .author {
@@ -287,21 +292,21 @@
             <div class="carousel-item active">
                 <img class="d-block w-100 imagic" src="images/iitpyramid4.jpg" alt="First slide" style="object-fit: cover;">
                 <div class="carousel-caption " style="padding-bottom: 40px">   
-                  <a href="#about-us"> <button class="btn btn-primary text-uppercase btn-lg">start exploring</button></a>
+                  <!-- <a href="#about-us"> <button class="btn btn-primary text-uppercase btn-lg">start exploring</button></a> -->
                 </div>
             </div>
 
-            <div class="carousel-item">
+            <div class="carousel-item ">
                 <img class="d-block w-100 imagic" src="images/iitpyramid2.jpg" alt="Second slide" style="object-fit: cover;">
                 <div class="carousel-caption " style="padding-bottom: 40px">
-                  <a href="#about-us"> <button class="btn btn-primary text-uppercase btn-lg">start exploring</button></a>
+                  <!-- <a href="#about-us"> <button class="btn btn-primary text-uppercase btn-lg">start exploring</button></a> -->
                 </div>
            </div>
 
             <div class="carousel-item">
                 <img class="d-block w-100 imagic" src="images/team_pic.jpg" alt="Second slide" style="object-fit: cover;">
                 <div class="carousel-caption " style="padding-bottom: 40px">
-                  <a href="#about-us"> <button class="btn btn-primary text-uppercase btn-lg">start exploring</button></a>
+                  <!-- <a href="#about-us"> <button class="btn btn-primary text-uppercase btn-lg">start exploring</button></a> -->
                 </div>
             </div>
 
@@ -311,7 +316,7 @@
                 <div class="carousel-caption " style="padding-bottom: 40px">
                    
     
-             <a href="#about-us"> <button class="btn btn-primary text-uppercase btn-lg">start exploring</button></a>
+             <!-- <a href="#about-us"> <button class="btn btn-primary text-uppercase btn-lg">start exploring</button></a> -->
             </div>
             </div>
 
@@ -327,12 +332,12 @@
             </a>
         </div>
 
-        <div class="main-text text-center">
+        <!-- <div class="main-text text-center">
             <div class="col-md-12 text-center " >
                 <h1 class="intro-text">Board for Student Welfare</h1>
                 
             </div>
-        </div>
+        </div> -->
     </div>
 
 </div>
