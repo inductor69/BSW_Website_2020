@@ -543,50 +543,6 @@ $(document).ready(function(){
 //     $(".w3-card-4 button").text("All courses above");
 //     });
 
-<?php 
-
-for ($k = 2; $k < $numdept; $k++) {
-
-echo('
-
-    <script>
-
-    $(".w3-card-4 button '.$listnetdept[$k].'").click(function(){
-            if($(this).text() == "Click to hide"  )
-            {
-                $(".clickable").height("250px");
-                $(this).text("Click to show");
-            }
-            else{
-                $(".clickable").height("auto");
-                $(this).text("Click to hide"); 
-            }
-         
-        });
-
-        </script>
-');
-
-// echo('
-
-//     <script>
-
-//     $(".w3-card-4 button").click(function(){
-//             if($(this).text() == "Click to hide"  )
-//             {
-//                 $(".clickable").height("200px");
-//                 $(this).text("Click to show");
-//             }
-//             else{
-//                 $(".clickable").height("auto");
-//                 $(this).text("Click to hide"); 
-//             }
-         
-//         });
-
-//         </script>
-// ');
-
 
   
 //   $(".w3-card-4 button").click(function(){
@@ -605,9 +561,7 @@ echo('
     
 //   });
   
-    
-}
-?>
+
 
 <script>
 
