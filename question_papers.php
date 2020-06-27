@@ -6,7 +6,7 @@
 <meta name="keywords" content="htmlcss bootstrap menu, navbar, mega menu examples" />
 <meta name="description" content="Navigation  menu with submenu examples for any type of project, Bootstrap 4" />  
 
-<title>Question Papers | BSW</title>
+
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
 
@@ -136,6 +136,7 @@
 		
 <?php require 'components/header.php'; ?>
 
+<title>Question Papers | BSW</title>
 
 <div id="about-us">
     
@@ -480,13 +481,18 @@
 
         </div>
 </div>
+<div class="col-12 col-md-9 offset-md-3" >
 
+<?php require 'components/footer.php'; ?>
+
+</div>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 
 
 
 <script>
+
 $(document).ready(function(){
   
   
@@ -502,44 +508,7 @@ $(document).ready(function(){
     });
   });
 
-
-
-//   $(".wonna").click(function(){
-//       var nopes =  $(this).text().toLowerCase().substr(0,4);
-
-//       $("#cardsid .col-sm-4").filter(function() {
-//       $(this).toggle($(this).text().toLowerCase().indexOf(nopes) > -1);
-//     });
-
-    
-//     $(".clickable").height("auto");
-    
-//     $(".w3-card-4 button").text("All courses above");
-//     });
-
-
-  
-//   $(".w3-card-4 button").click(function(){
-
-//     var tex =  $(this).prev().prev().text().trim();
-
-//     var tex1 = tex.toLowerCase().substring(0,4);
-
-//    $("#cardsid .col-sm-4").filter(function() {
-//       $(this).toggle($(this).text().toLowerCase().indexOf(tex1) > -1);
-//     });
-
-//     $(".clickable").height("auto");
-
-//     $(".w3-card-4 button").text("All courses above");
-    
-//   });
-  
-
-
-<script>
-
-    $(".w3-card-4 button ").click(function(){
+  $(".w3-card-4 button ").click(function(){
             if($(this).text() == "Click to hide"  )
             {
                 $(this).parent().children(".clickable").height("250px");
@@ -552,11 +521,14 @@ $(document).ready(function(){
          
         });
 
-        </script>
+});
 
+
+    
+
+</script>
 
 <script>
-
 $(document).ready(function(){
   
   $("#merainput").on("keyup", function() {
@@ -567,11 +539,19 @@ $(document).ready(function(){
       $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1);  
     });
 
-    $(".sidebar #sideli").filter(function() {
+    $(".sidenav #sideli").filter(function() {
       $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1); 
     });
 
-  });
+    
+
+});
+</script>
+
+
+<script>
+
+$(document).ready(function(){
 
   $('#upload-menu-toggle').click(function(){
       $('#uploadwala').show();
@@ -585,6 +565,19 @@ $(document).ready(function(){
   })
 
 });
+
+$(".wonna").click(function(){
+      var nopes =  $(this).text().toLowerCase().substr(0,4);
+
+      $("#cardsid .col-sm-4").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(nopes) > -1);
+    });
+
+    
+    $(".clickable").height("auto");
+    
+    $(".w3-card-4 button").text("All courses above");
+    });
 </script>
 
 </body>
