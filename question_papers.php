@@ -609,6 +609,23 @@ echo('
 }
 ?>
 
+<script>
+
+    $(".w3-card-4 button ").click(function(){
+            if($(this).text() == "Click to hide"  )
+            {
+                $(this).parent().children(".clickable").height("250px");
+                $(this).text("Click to show");
+            }
+            else{
+                $(this).parent().children(".clickable").height("auto").css('min-height', '250px');
+                $(this).text("Click to hide"); 
+            }
+         
+        });
+
+        </script>
+
 
 <script>
 $(document).ready(function(){
