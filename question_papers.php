@@ -157,9 +157,135 @@
             and study material to the BSW Representatives, or you can directly upload
             question papers by clicking on Upload.           
             <br>
-              <button class="btn btn-primary upbut mt-2 col-6 col-lg-4 " data-toggle="collapse" data-target="#uploadwala"> <span class="fa fa-upload"></span> Upload</button>
-              <button class="btn btn-secondary upbut mt-2 col-6 col-lg-4 ml-2" data-toggle="collapse" data-target="#uploadwala"> <span class="fa fa-cog"></span> Admin</button>
+              <button class="btn btn-primary upbut mt-2 col-6 col-lg-4 " id="upload-menu-toggle"> <span class="fa fa-upload"></span> Upload</button>
+              <button class="btn btn-secondary upbut mt-2 col-6 col-lg-4 ml-2"> <span class="fa fa-cog"></span> Admin</button>
             </p>
+
+            </div>
+
+
+
+            <div class="row offset-md-1" id="uploadwala" style="display: none">
+
+              <h4 class="col-12">Upload Question Paper or Study Material</h4>
+              <p>You can select multiple files. Only pdf, jpg, jpeg and png files are allowed. Maximum allowed file size is 5 MB.</p>
+
+              <form method="POST" action="" enctype="multipart/form-data" class="form-horizontal col-12">
+
+              <div class="col-12">
+                <input type="text" name="course" placeholder="Course name in (e.g. APL100)" required class="mx-1">
+            </div>
+
+                <select name="semester" placeholder="Semester" required class="mx-1">
+                    <option value="Sem1">Sem1(July-Nov)</option>
+                    <option value="Sem2">Sem2(Jan-May)</option>
+                </select>
+		  
+                <select name="acad_year" placeholder="Academic Year (2020-21)  " required class="mx-1">
+                    <option value="2017-18">2017-18</option>
+                    <option value="2018-19">2018-19</option>
+                    <option value="2018-19">2019-20</option>
+                    <option value="2016-17">2020-21</option>
+                </select>
+		          
+                <select name="exam" placeholder="Exam" required class="mx-1">
+                    <option value="Minor1">Minor1</option>
+                    <option value="Minor2">Minor2</option>
+                    <option value="Major">Major</option>
+                </select> 
+
+
+
+            <input class="btn btn-secondary" type="file" title="Select papers to upload" name="papers[]" multiple = 'yes' required  accept=".pdf,.jpg,.jpeg,.png">
+            <br>
+            <input class="btn btn-primary uploadbut" type="submit" value="Confirm Upload">
+            <input class="btn btn-outline btn-danger uploadbut" value="Cancel Upload" id="cancel-upload">
+            <br>
+            <br>
+            
+            </form>
+
+          <?php
+          
+          if ($_SERVER["REQUEST_METHOD"] == "POST")
+          {
+            echo "<h4>Status</h4>";
+            $allowed_types = array("pdf", "jpg", "jpeg", "png");
+            $coursem = $_POST["course"];
+            $semester = $_POST["semester"];
+            $acad_year = $_POST["acad_year"];
+            $exam=$_POST["exam"];
+            for ($i=0; $i<count($_FILES["papers"]["name"]); $i++){
+              echo "<strong>".$_FILES["papers"]["name"][$i]."</strong>: ";
+              $FileType = strtolower(pathinfo($_FILES["papers"]["name"][$i],PATHINFO_EXTENSION));
+              if ($_FILES["papers"]["size"][$i] > 5242880) {
+                echo "Maximum allowed file size is 5 MB<br>";
+              }
+              else if(!in_array($FileType,$allowed_types)) {
+                echo "Only PDF, JPG, JPEG, PNG files are allowed.<br>";
+              }
+              else{
+                $j=1;
+                $file = str_replace(".".$FileType,"",$_FILES["papers"]["name"][$i]);
+                $file = str_replace(strtoupper(".".$FileType),"",$file);
+                $file1 = "";
+                $course=strtoupper($coursem);
+                if ($course != "")
+                  $file1 .= str_replace(" ","_",$coursem)."_";
+                if ($exam != "")
+                  $file1 .= str_replace(" ","",$exam)."_";
+                if ($acad_year != "")
+                  $file1 .= str_replace(" ","_",$acad_year)."_";
+                if ($semester != "")
+                  $file1 .= str_replace(" ","",$semester);
+                
+                $file = $file1;
+                $target_file = $file . ".".$FileType;
+                $target_dir = "New_QP_Uploads/";
+                while (file_exists($target_dir.$target_file)){
+                  $target_file = $file . "-".$j.".".$FileType;
+                  $j++;
+                }
+                if (move_uploaded_file($_FILES["papers"]["tmp_name"][$i],$target_dir.$target_file)){
+                  chmod ($target_dir.$target_file,0660);
+                  echo "Uploaded","<br>";
+                  echo "
+                    <script>
+                        //alert(\"File uploaded, Press OK\");
+                        $(\".uploadblock\").removeClass(\"collapse\");
+                    </script>
+                    
+                  ";
+                  echo "Thanks for helping us!";
+
+                }
+                else
+                  echo "Error in uploading file";
+              }
+              echo "<br>";
+            }
+            if (empty($_POST["course"])) {
+            $courseErr = "Course Name is required";
+              } else {
+            //$coursem = test_input($_POST["course"]);
+              }
+            if (empty($_POST["acad_year"])) {
+            $acad_yearErr = "Academic Year is required";
+              } else {
+            //$acad_year = test_input($_POST["acad_year"]);
+              }
+          }
+          function generateRandomString($length) {
+            $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+            $randomString = '';
+            for ($i = 0; $i < $length; $i++) {
+              $randomString .= $characters[rand(0, 9)];
+            }
+            return $randomString;
+          }
+
+          ?>
+            </div>
             </div>
 
         </div>
@@ -252,158 +378,7 @@
                 </form> 
             </ul>
 
-          <div class="row upwala">
 
-            <div class="col-xs-12 collapse uploadblock" id="uploadwala">
-
-              <blockquote>
-
-                    <h2 class="page-header">
-                        Upload Question Paper or Study Material
-                    </h2>
-                    You can select multiple files. Only pdf, jpg, jpeg and png files are allowed. Maximum allowed file size is 5 MB.<br><br>
-                    
-                    <form method="POST" action="" enctype="multipart/form-data" class="form-horizontal">
-
-                            <input type="text" name="course" placeholder="Course name(e.g. APL100)" required>
-                
-                            <select name="semester" placeholder="Semester" required>
-                                <option value="Sem1">Sem1(July-Nov)</option>
-                                <option value="Sem2">Sem2(Jan-May)</option>
-                            </select>
-                
-                            <select name="acad_year" placeholder="Academic Year (2016-17)  " required>
-                                <option value="2016-17">2016-17</option>
-                                <option value="2017-18">2017-18</option>
-                                <option value="2018-19">2018-19</option>
-                                <option value="2018-19">2019-20</option>
-                            </select>
-                        
-                            <select name="exam" placeholder="Exam" required>
-                                <option value="Minor1">Minor1</option>
-                                <option value="Minor2">Minor2</option>
-                                <option value="Major">Major</option>
-                            </select> 
-                            <br>
-                            <br>
-                            <input class="btn btn-info" type="file" title="Select papers to upload" name="papers[]" multiple = 'yes' required  accept=".pdf,.jpg,.jpeg,.png">
-                            <br>
-                            <input class="btn btn-primary uploadbut" type="submit" value="Click Me to Upload">
-                            <br>
-                            <br>
-        
-                    </form>
-
-                <?php
-                if ($_SERVER["REQUEST_METHOD"] == "POST") {
-                    echo "<h4>Status</h4>";
-
-                    $allowed_types = ["pdf", "jpg", "jpeg", "png"];
-                    $coursem = $_POST["course"];
-                    $semester = $_POST["semester"];
-                    $acad_year = $_POST["acad_year"];
-                    $exam = $_POST["exam"];
-
-                    for ($i = 0; $i < count($_FILES["papers"]["name"]); $i++) {
-                        echo "<strong>" .
-                            $_FILES["papers"]["name"][$i] .
-                            "</strong>: ";
-                        $FileType = strtolower(
-                            pathinfo(
-                                $_FILES["papers"]["name"][$i],
-                                PATHINFO_EXTENSION
-                            )
-                        );
-                        if ($_FILES["papers"]["size"][$i] > 5242880) {
-                            echo "Maximum allowed file size is 5 MB<br>";
-                        } elseif (!in_array($FileType, $allowed_types)) {
-                            echo "Only PDF, JPG, JPEG, PNG files are allowed.<br>";
-                        } else {
-                            $j = 1;
-                            $file = str_replace(
-                                "." . $FileType,
-                                "",
-                                $_FILES["papers"]["name"][$i]
-                            );
-                            $file = str_replace(
-                                strtoupper("." . $FileType),
-                                "",
-                                $file
-                            );
-                            $file1 = "";
-                            $course = strtoupper($coursem);
-                            if ($course != "") {
-                                $file1 .= str_replace(" ", "_", $coursem) . "_";
-                            }
-                            if ($exam != "") {
-                                $file1 .= str_replace(" ", "", $exam) . "_";
-                            }
-                            if ($acad_year != "") {
-                                $file1 .=
-                                    str_replace(" ", "_", $acad_year) . "_";
-                            }
-                            if ($semester != "") {
-                                $file1 .= str_replace(" ", "", $semester);
-                            }
-
-                            $file = $file1;
-                            $target_file = $file . "." . $FileType;
-                            $target_dir = "newupload/";
-                            while (file_exists($target_dir . $target_file)) {
-                                $target_file =
-                                    $file . "-" . $j . "." . $FileType;
-                                $j++;
-                            }
-                            if (
-                                move_uploaded_file(
-                                    $_FILES["papers"]["tmp_name"][$i],
-                                    $target_dir . $target_file
-                                )
-                            ) {
-                                chmod($target_dir . $target_file, 0660);
-                                echo "Uploaded", "<br>";
-                                echo "
-                            <script>
-                                //alert(\"File uploaded, Press OK\");
-                                $(\".uploadblock\").removeClass(\"collapse\");
-                            </script>
-                            
-                        ";
-                                echo "Thanks for helping us!";
-                            } else {
-                                echo "Error in uploading file";
-                            }
-                        }
-                        echo "<br>";
-                    }
-
-                    if (empty($_POST["course"])) {
-                        $courseErr = "Course Name is required";
-                    } else {
-                        //$acad_year = test_input($_POST["acad_year"]);
-                    }
-                    if (empty($_POST["acad_year"])) {
-                        $acad_yearErr = "Academic Year is required";
-                    } else {
-                        //$acad_year = test_input($_POST["acad_year"]);
-                    }
-                }
-
-                function generateRandomString($length)
-                {
-                    $characters =
-                        '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
-                    $randomString = '';
-                    for ($i = 0; $i < $length; $i++) {
-                        $randomString .= $characters[rand(0, 9)];
-                    }
-                    return $randomString;
-                }
-                ?>
-                </blockquote>
-
-            </div>
-        </div>
           
           <div class="row cardshaimere"  id="cardsid" >
 
@@ -527,7 +502,6 @@ $(document).ready(function(){
     });
   });
 
-</script>
 
 
 //   $(".wonna").click(function(){
@@ -582,6 +556,7 @@ $(document).ready(function(){
 
 
 <script>
+
 $(document).ready(function(){
   
   $("#merainput").on("keyup", function() {
@@ -597,6 +572,17 @@ $(document).ready(function(){
     });
 
   });
+
+  $('#upload-menu-toggle').click(function(){
+      $('#uploadwala').show();
+      $('#upload-menu-toggle').prop('disabled', true);
+
+  })
+
+  $('#cancel-upload').click(function(){
+      $('#uploadwala').hide();
+      $('#upload-menu-toggle').prop('disabled', false);
+  })
 
 });
 </script>
