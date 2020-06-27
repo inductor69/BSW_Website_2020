@@ -26,7 +26,7 @@
 	}
 
 	.nav-colored{ 
-    background-image: url(AppBar.png);
+	background-image: linear-gradient(90deg, #67B26F 0%, rgba(76,162,205,0.61) 100%);
     border: none;
 	margin-top:0;
 	}

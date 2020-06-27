@@ -491,7 +491,7 @@
                         </div>
                 
                         </div>
-                        <button class=\"w3-button w3-block w3-dark-grey viewallbutton" .
+                        <button class=\"w3-button ".$listnetdept[$k]." w3-block w3-dark-grey viewallbutton" .
                   $k .
                   "\" href=\"#\">+ View all courses</button>
                       </div>
@@ -527,39 +527,89 @@ $(document).ready(function(){
     });
   });
 
-
-  $(".wonna").click(function(){
-      var nopes =  $(this).text().toLowerCase().substr(0,4);
-
-      $("#cardsid .col-sm-4").filter(function() {
-      $(this).toggle($(this).text().toLowerCase().indexOf(nopes) > -1);
-    });
-
-    
-    $(".clickable").height("auto");
-    
-    $(".w3-card-4 button").text("All courses above");
-    });
-  
-  $(".w3-card-4 button").click(function(){
-
-    var tex =  $(this).prev().prev().text().trim();
-
-    var tex1 = tex.toLowerCase().substring(0,4);
-
-   $("#cardsid .col-sm-4").filter(function() {
-      $(this).toggle($(this).text().toLowerCase().indexOf(tex1) > -1);
-    });
-
-    $(".clickable").height("auto");
-
-    $(".w3-card-4 button").text("All courses above");
-    
-  });
-  
-    
-});
 </script>
+
+
+//   $(".wonna").click(function(){
+//       var nopes =  $(this).text().toLowerCase().substr(0,4);
+
+//       $("#cardsid .col-sm-4").filter(function() {
+//       $(this).toggle($(this).text().toLowerCase().indexOf(nopes) > -1);
+//     });
+
+    
+//     $(".clickable").height("auto");
+    
+//     $(".w3-card-4 button").text("All courses above");
+//     });
+
+<?php 
+
+for ($k = 2; $k < $numdept; $k++) {
+
+echo('
+
+    <script>
+
+    $(".w3-card-4 button '.$listnetdept[$k].'").click(function(){
+            if($(this).text() == "Click to hide"  )
+            {
+                $(".clickable").height("250px");
+                $(this).text("Click to show");
+            }
+            else{
+                $(".clickable").height("auto");
+                $(this).text("Click to hide"); 
+            }
+         
+        });
+
+        </script>
+');
+
+// echo('
+
+//     <script>
+
+//     $(".w3-card-4 button").click(function(){
+//             if($(this).text() == "Click to hide"  )
+//             {
+//                 $(".clickable").height("200px");
+//                 $(this).text("Click to show");
+//             }
+//             else{
+//                 $(".clickable").height("auto");
+//                 $(this).text("Click to hide"); 
+//             }
+         
+//         });
+
+//         </script>
+// ');
+
+
+  
+//   $(".w3-card-4 button").click(function(){
+
+//     var tex =  $(this).prev().prev().text().trim();
+
+//     var tex1 = tex.toLowerCase().substring(0,4);
+
+//    $("#cardsid .col-sm-4").filter(function() {
+//       $(this).toggle($(this).text().toLowerCase().indexOf(tex1) > -1);
+//     });
+
+//     $(".clickable").height("auto");
+
+//     $(".w3-card-4 button").text("All courses above");
+    
+//   });
+  
+    
+}
+?>
+
+
 <script>
 $(document).ready(function(){
   
