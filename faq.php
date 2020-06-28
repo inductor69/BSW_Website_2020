@@ -42,6 +42,15 @@
 		background-image: linear-gradient(90deg, #67B26F 0%, rgba(76,162,205,0.61) 100%);
 	}
 
+    .faq-option{
+        background-color:purple;
+        color:#fff;
+        border-radius:10px;
+        width:90%;
+        height: 200px;
+        padding:10px;
+    }
+
 	
 </style>
 
@@ -79,42 +88,49 @@
 </div>
 
 
-<div>
+<div class="container-fluid">
+<ul class="nav nav-pills my-4" id="pills-tab" role="tablist">
+  <li class="nav-item">
+    <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-general" role="tab" aria-controls="pills-home" aria-selected="true">General</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="pills-overview-tab" data-toggle="pill" href="#pills-overview" role="tab" aria-controls="pills-overview" aria-selected="false">Overview</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="pills-cad-tab" data-toggle="pill" href="#pills-cad" role="tab" aria-controls="pills-cad" aria-selected="false">Course Add & Drop</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="pills-cwa-tab" data-toggle="pill" href="#pills-cwa" role="tab" aria-controls="pills-cwa" aria-selected="false">Course Withdraw & Audit</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="pills-dr-tab" data-toggle="pill" href="#pills-dr" role="tab" aria-controls="pills-dr" aria-selected="false">Degree Requirements</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="pills-hu-tab" data-toggle="pill" href="#pills-hu" role="tab" aria-controls="pills-hu" aria-selected="false">HU Category</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="pills-ma-tab" data-toggle="pill" href="#pills-ma" role="tab" aria-controls="pills-ma" aria-selected="false">Minor Area</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="pills-grade-tab" data-toggle="pill" href="#pills-grade" role="tab" aria-controls="pills-grade" aria-selected="false">Grades</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="pills-ast-tab" data-toggle="pill" href="#pills-ast" role="tab" aria-controls="pills-ast" aria-selected="false">Assistantship</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="pills-ngu-tab" data-toggle="pill" href="#pills-ngu" role="tab" aria-controls="pills-ngu" aria-selected="false">Non Graded Units</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="pills-intern-tab" data-toggle="pill" href="#pills-intern" role="tab" aria-controls="pills-intern" aria-selected="false">Internships</a>
+  </li>
+</ul>
+<div class="tab-content" id="pills-tabContent">
 
-</div>
-<section class="my-2">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 col-sm-12 col-xs-12">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="panel-group" id="accordion">
+  <div class="tab-pane fade show active" id="pills-general" role="tabpanel" aria-labelledby="pills-general-tab">
 
-                                </br>
+                                    <div class="panel panel-default" style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; margin-bottom: 10px;">
 
-
-                                <div class="accordion" id="accordionExample">
-
-
-                                    <div class="panel panel-default"
-                                         style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse-0">
-                                            <div class="panel-heading"
-                                                 style=" font-size: 10px; padding: 6px; "
-                                                 onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                 onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
-                                                <h4 class="panel-title">
-                                                    General
-                                                </h4>
-                                            </div>
-                                        </a>
-                                        <div id="collapse-0" class="panel-collapse collapse">
-                                            <div class="panel-body">
-                                                <div class="panel panel-default "
-                                                     style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; margin-bottom: 10px;">
-
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+                                                    <a data-toggle="collapse" href="#collapse1">
                                                         <div class="panel-heading"
                                                              style="background:#eee;  padding: 6px; background:#eee;  padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -131,9 +147,10 @@
                                                         </div>
                                                     </div>
                                                 </div>
+
                                                 <div class="panel panel-default"
                                                      style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+                                                    <a data-toggle="collapse" href="#collapse2">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -150,9 +167,10 @@
                                                         </div>
                                                     </div>
                                                 </div>
+
                                                 <div class="panel panel-default"
                                                      style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+                                                    <a data-toggle="collapse" href="#collapse3">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -170,9 +188,10 @@
                                                         </div>
                                                     </div>
                                                 </div>
+
                                                 <div class="panel panel-default"
                                                      style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">
+                                                    <a data-toggle="collapse" href="#collapse4">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -191,9 +210,10 @@
                                                         </div>
                                                     </div>
                                                 </div>
+
                                                 <div class="panel panel-default"
                                                      style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">
+                                                    <a data-toggle="collapse" href="#collapse5">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -209,9 +229,10 @@
                                                         </div>
                                                     </div>
                                                 </div>
+
                                                 <div class="panel panel-default"
                                                      style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse6">
+                                                    <a data-toggle="collapse" href="#collapse6">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -228,9 +249,10 @@
                                                         </div>
                                                     </div>
                                                 </div>
+
                                                 <div class="panel panel-default"
                                                      style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse7">
+                                                    <a data-toggle="collapse" href="#collapse7">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -247,9 +269,10 @@
                                                         </div>
                                                     </div>
                                                 </div>
+
                                                 <div class="panel panel-default"
                                                      style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse8">
+                                                    <a data-toggle="collapse" href="#collapse8">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -265,9 +288,10 @@
                                                         </div>
                                                     </div>
                                                 </div>
+
                                                 <div class="panel panel-default"
                                                      style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse9">
+                                                    <a data-toggle="collapse" href="#collapse9">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -284,9 +308,10 @@
                                                         </div>
                                                     </div>
                                                 </div>
+
                                                 <div class="panel panel-default"
                                                      style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse10">
+                                                    <a data-toggle="collapse" href="#collapse10">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -306,9 +331,10 @@
                                                         </div>
                                                     </div>
                                                 </div>
+
                                                 <div class="panel panel-default"
                                                      style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse11">
+                                                    <a data-toggle="collapse" href="#collapse11">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -326,9 +352,10 @@
                                                         </div>
                                                     </div>
                                                 </div>
+
                                                 <div class="panel panel-default"
                                                      style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse12">
+                                                    <a data-toggle="collapse" href="#collapse12">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -359,9 +386,10 @@
                                                         </div>
                                                     </div>
                                                 </div>
+
                                                 <div class="panel panel-default"
                                                      style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse13">
+                                                    <a data-toggle="collapse" href="#collapse13">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -380,9 +408,10 @@
                                                         </div>
                                                     </div>
                                                 </div>
+
                                                 <div class="panel panel-default"
                                                      style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse14">
+                                                    <a data-toggle="collapse" href="#collapse14">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -399,9 +428,10 @@
                                                         </div>
                                                     </div>
                                                 </div>
+
                                                 <div class="panel panel-default"
                                                      style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse15">
+                                                    <a data-toggle="collapse" href="#collapse15">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -418,9 +448,10 @@
                                                         </div>
                                                     </div>
                                                 </div>
+
                                                 <div class="panel panel-default"
                                                      style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse16">
+                                                    <a data-toggle="collapse" href="#collapse16">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -438,9 +469,10 @@
                                                         </div>
                                                     </div>
                                                 </div>
+
                                                 <div class="panel panel-default"
                                                      style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse17">
+                                                    <a data-toggle="collapse" href="#collapse17">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -458,9 +490,10 @@
                                                         </div>
                                                     </div>
                                                 </div>
+
                                                 <div class="panel panel-default"
                                                      style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse18">
+                                                    <a data-toggle="collapse" href="#collapse18">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -479,9 +512,10 @@
                                                         </div>
                                                     </div>
                                                 </div>
+
                                                 <div class="panel panel-default"
                                                      style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse19">
+                                                    <a data-toggle="collapse" href="#collapse19">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -503,9 +537,10 @@
                                                         </div>
                                                     </div>
                                                 </div>
+
                                                 <div class="panel panel-default"
                                                      style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse20">
+                                                    <a data-toggle="collapse" href="#collapse20">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -521,9 +556,10 @@
                                                         </div>
                                                     </div>
                                                 </div>
+
                                                 <div class="panel panel-default"
                                                      style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse21">
+                                                    <a data-toggle="collapse" href="#collapse21">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -541,9 +577,10 @@
                                                         </div>
                                                     </div>
                                                 </div>
+
                                                 <div class="panel panel-default"
                                                      style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse22">
+                                                    <a data-toggle="collapse" href="#collapse22">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -559,9 +596,10 @@
                                                         </div>
                                                     </div>
                                                 </div>
+
                                                 <div class="panel panel-default"
                                                      style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse23">
+                                                    <a data-toggle="collapse" href="#collapse23">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -576,9 +614,10 @@
                                                         <div class="panel-body">SCOOPS</div>
                                                     </div>
                                                 </div>
+
                                                 <div class="panel panel-default"
                                                      style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse24">
+                                                    <a data-toggle="collapse" href="#collapse24">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -595,9 +634,10 @@
                                                         </div>
                                                     </div>
                                                 </div>
+
                                                 <div class="panel panel-default"
                                                      style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse25">
+                                                    <a data-toggle="collapse" href="#collapse25">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -614,9 +654,10 @@
                                                         </div>
                                                     </div>
                                                 </div>
+
                                                 <div class="panel panel-default"
                                                      style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse26">
+                                                    <a data-toggle="collapse" href="#collapse26">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -632,9 +673,10 @@
                                                         </div>
                                                     </div>
                                                 </div>
+
                                                 <div class="panel panel-default"
                                                      style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse27">
+                                                    <a data-toggle="collapse" href="#collapse27">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -651,9 +693,10 @@
                                                         </div>
                                                     </div>
                                                 </div>
+
                                                 <div class="panel panel-default"
                                                      style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse28">
+                                                    <a data-toggle="collapse" href="#collapse28">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -671,9 +714,10 @@
                                                         </div>
                                                     </div>
                                                 </div>
+
                                                 <div class="panel panel-default"
                                                      style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse29">
+                                                    <a data-toggle="collapse" href="#collapse29">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -689,9 +733,10 @@
                                                         </div>
                                                     </div>
                                                 </div>
+
                                                 <div class="panel panel-default"
                                                      style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse30">
+                                                    <a data-toggle="collapse" href="#collapse30">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -708,28 +753,14 @@
                                                             Murgai. Also attend the SCS workshops to be organised for further help.
                                                         </div>
                                                     </div>
-                                                </div></div>
-                                        </div>
-                                    </div>
+                                                </div>
+  </div>
 
+  <div class="tab-pane fade" id="pills-overview" role="tabpanel" aria-labelledby="pills-profile-tab">
 
-                                    <div class="panel panel-default"
-                                                                                  style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse-0">
-                                            <div class="panel-heading"
-                                                 style=" font-size: 10px; padding: 6px; "
-                                                 onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                 onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
-                                                <h4 class="panel-title">
-                                                    Overview
-                                                </h4>
-                                            </div>
-                                        </a>
-                                        <div id="collapse-0" class="panel-collapse collapse">
-                                            <div class="panel-body">
                                                 <div class="panel panel-default"
                                                                          style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse31">
+                                                    <a data-toggle="collapse" href="#collapse31">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -748,9 +779,11 @@
 
                                                         </div>
                                                     </div>
-                                                </div><div class="panel panel-default"
+                                                </div>
+                                                
+                                                <div class="panel panel-default"
                                                            style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse32">
+                                                    <a data-toggle="collapse" href="#collapse32">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -773,9 +806,11 @@
 
                                                         </div>
                                                     </div>
-                                                </div><div class="panel panel-default"
+                                                </div>
+                                                
+                                                <div class="panel panel-default"
                                                            style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse33">
+                                                    <a data-toggle="collapse" href="#collapse33">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -799,9 +834,11 @@
                                                             </p>
                                                         </div>
                                                     </div>
-                                                </div><div class="panel panel-default"
+                                                </div>
+                                                
+                                                <div class="panel panel-default"
                                                            style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse34">
+                                                    <a data-toggle="collapse" href="#collapse34">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -826,24 +863,15 @@
 
                                                         </div>
                                                     </div>
-                                                </div></div>
-                                        </div>
-                                    </div><div class="panel panel-default"
-                                               style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse-1">
-                                            <div class="panel-heading"
-                                                 style=" font-size: 10px; padding: 6px; "
-                                                 onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                 onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
-                                                <h4 class="panel-title">
-                                                    Course Registration & Add/Drop
-                                                </h4>
-                                            </div>
-                                        </a>
-                                        <div id="collapse-1" class="panel-collapse collapse">
-                                            <div class="panel-body"><div class="panel panel-default"
+                                                </div>
+
+</div>
+  
+  
+  <div class="tab-pane fade" id="pills-cad" role="tabpanel" aria-labelledby="pills-cad-tab">
+  <div class="panel panel-default"
                                                                          style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse35">
+                                                    <a data-toggle="collapse" href="#collapse35">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -862,7 +890,7 @@
                                                     </div>
                                                 </div><div class="panel panel-default"
                                                            style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse36">
+                                                    <a data-toggle="collapse" href="#collapse36">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -881,7 +909,7 @@
                                                     </div>
                                                 </div><div class="panel panel-default"
                                                            style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse37">
+                                                    <a data-toggle="collapse" href="#collapse37">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -901,7 +929,7 @@
                                                     </div>
                                                 </div><div class="panel panel-default"
                                                            style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse38">
+                                                    <a data-toggle="collapse" href="#collapse38">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -920,7 +948,7 @@
                                                     </div>
                                                 </div><div class="panel panel-default"
                                                            style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse39">
+                                                    <a data-toggle="collapse" href="#collapse39">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -939,7 +967,7 @@
                                                     </div>
                                                 </div><div class="panel panel-default"
                                                            style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse40">
+                                                    <a data-toggle="collapse" href="#collapse40">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -958,7 +986,7 @@
                                                     </div>
                                                 </div><div class="panel panel-default"
                                                            style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse41">
+                                                    <a data-toggle="collapse" href="#collapse41">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -977,7 +1005,7 @@
                                                     </div>
                                                 </div><div class="panel panel-default"
                                                            style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse42">
+                                                    <a data-toggle="collapse" href="#collapse42">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -996,7 +1024,7 @@
                                                     </div>
                                                 </div><div class="panel panel-default"
                                                            style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse43">
+                                                    <a data-toggle="collapse" href="#collapse43">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -1015,7 +1043,7 @@
                                                     </div>
                                                 </div><div class="panel panel-default"
                                                            style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse44">
+                                                    <a data-toggle="collapse" href="#collapse44">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -1034,7 +1062,7 @@
                                                     </div>
                                                 </div><div class="panel panel-default"
                                                            style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse45">
+                                                    <a data-toggle="collapse" href="#collapse45">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -1053,7 +1081,7 @@
                                                     </div>
                                                 </div><div class="panel panel-default"
                                                            style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse46">
+                                                    <a data-toggle="collapse" href="#collapse46">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -1072,7 +1100,7 @@
                                                     </div>
                                                 </div><div class="panel panel-default"
                                                            style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse47">
+                                                    <a data-toggle="collapse" href="#collapse47">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -1097,7 +1125,7 @@
                                                     </div>
                                                 </div><div class="panel panel-default"
                                                            style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse48">
+                                                    <a data-toggle="collapse" href="#collapse48">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -1116,7 +1144,7 @@
                                                     </div>
                                                 </div><div class="panel panel-default"
                                                            style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse49">
+                                                    <a data-toggle="collapse" href="#collapse49">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -1135,7 +1163,7 @@
                                                     </div>
                                                 </div><div class="panel panel-default"
                                                            style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse50">
+                                                    <a data-toggle="collapse" href="#collapse50">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -1154,7 +1182,7 @@
                                                     </div>
                                                 </div><div class="panel panel-default"
                                                            style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse51">
+                                                    <a data-toggle="collapse" href="#collapse51">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -1173,7 +1201,7 @@
                                                     </div>
                                                 </div><div class="panel panel-default"
                                                            style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse52">
+                                                    <a data-toggle="collapse" href="#collapse52">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -1192,7 +1220,7 @@
                                                     </div>
                                                 </div><div class="panel panel-default"
                                                            style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse53">
+                                                    <a data-toggle="collapse" href="#collapse53">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -1211,7 +1239,7 @@
                                                     </div>
                                                 </div><div class="panel panel-default"
                                                            style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse54">
+                                                    <a data-toggle="collapse" href="#collapse54">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -1230,7 +1258,7 @@
                                                     </div>
                                                 </div><div class="panel panel-default"
                                                            style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse55">
+                                                    <a data-toggle="collapse" href="#collapse55">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -1249,7 +1277,7 @@
                                                     </div>
                                                 </div><div class="panel panel-default"
                                                            style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse56">
+                                                    <a data-toggle="collapse" href="#collapse56">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -1268,7 +1296,7 @@
                                                     </div>
                                                 </div><div class="panel panel-default"
                                                            style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse57">
+                                                    <a data-toggle="collapse" href="#collapse57">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -1287,7 +1315,7 @@
                                                     </div>
                                                 </div><div class="panel panel-default"
                                                            style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse58">
+                                                    <a data-toggle="collapse" href="#collapse58">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -1308,7 +1336,7 @@
 
                                                 <div class="panel panel-default"
                                                      style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse58">
+                                                    <a data-toggle="collapse" href="#collapse58">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -1325,26 +1353,14 @@
 
                                                         </div>
                                                     </div>
+  
                                                 </div>
+</div>
 
-                                            </div>
-                                        </div>
-                                    </div><div class="panel panel-default"
-                                               style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse-2">
-                                            <div class="panel-heading"
-                                                 style=" font-size: 10px; padding: 6px; "
-                                                 onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                 onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
-                                                <h4 class="panel-title">
-                                                    Course Withdraw & Audit
-                                                </h4>
-                                            </div>
-                                        </a>
-                                        <div id="collapse-2" class="panel-collapse collapse">
-                                            <div class="panel-body"><div class="panel panel-default"
+<div class="tab-pane fade" id="pills-cwa" role="tabpanel" aria-labelledby="pills-cwa-tab">
+<div class="panel panel-default"
                                                                          style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse59">
+                                                    <a data-toggle="collapse" href="#collapse59">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -1363,7 +1379,7 @@
                                                     </div>
                                                 </div><div class="panel panel-default"
                                                            style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse60">
+                                                    <a data-toggle="collapse" href="#collapse60">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -1382,7 +1398,7 @@
                                                     </div>
                                                 </div><div class="panel panel-default"
                                                            style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse61">
+                                                    <a data-toggle="collapse" href="#collapse61">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -1401,7 +1417,7 @@
                                                     </div>
                                                 </div><div class="panel panel-default"
                                                            style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse62">
+                                                    <a data-toggle="collapse" href="#collapse62">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -1420,7 +1436,7 @@
                                                     </div>
                                                 </div><div class="panel panel-default"
                                                            style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse63">
+                                                    <a data-toggle="collapse" href="#collapse63">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -1440,7 +1456,7 @@
                                                     </div>
                                                 </div><div class="panel panel-default"
                                                            style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse64">
+                                                    <a data-toggle="collapse" href="#collapse64">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -1459,7 +1475,7 @@
                                                     </div>
                                                 </div><div class="panel panel-default"
                                                            style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse65">
+                                                    <a data-toggle="collapse" href="#collapse65">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -1476,24 +1492,14 @@
 
                                                         </div>
                                                     </div>
-                                                </div></div>
-                                        </div>
-                                    </div><div class="panel panel-default"
-                                               style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse-3">
-                                            <div class="panel-heading"
-                                                 style=" font-size: 10px; padding: 6px; "
-                                                 onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                 onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
-                                                <h4 class="panel-title">
-                                                    Degree Requirements
-                                                </h4>
-                                            </div>
-                                        </a>
-                                        <div id="collapse-3" class="panel-collapse collapse">
-                                            <div class="panel-body"><div class="panel panel-default"
-                                                                         style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse66">
+                                                </div>
+                                     
+</div>
+
+<div class="tab-pane fade" id="pills-dr" role="tabpanel" aria-labelledby="pills-dr-tab">
+
+<div class="panel panel-default" style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                    <a data-toggle="collapse" href="#collapse66">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -1512,7 +1518,7 @@
                                                     </div>
                                                 </div><div class="panel panel-default"
                                                            style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse67">
+                                                    <a data-toggle="collapse" href="#collapse67">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -1531,7 +1537,7 @@
                                                     </div>
                                                 </div><div class="panel panel-default"
                                                            style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse68">
+                                                    <a data-toggle="collapse" href="#collapse68">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -1548,24 +1554,15 @@
 
                                                         </div>
                                                     </div>
-                                                </div></div>
+                                                </div>
                                         </div>
-                                    </div><div class="panel panel-default"
-                                               style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse-4">
-                                            <div class="panel-heading"
-                                                 style=" font-size: 10px; padding: 6px; "
-                                                 onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                 onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
-                                                <h4 class="panel-title">
-                                                    HU Category
-                                                </h4>
-                                            </div>
-                                        </a>
-                                        <div id="collapse-4" class="panel-collapse collapse">
-                                            <div class="panel-body"><div class="panel panel-default"
+                                    
+<div class="tab-pane fade" id="pills-hu" role="tabpanel" aria-labelledby="pills-hu-tab">           
+
+
+                                    <div class="panel panel-default"
                                                                          style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse69">
+                                                    <a data-toggle="collapse" href="#collapse69">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -1584,7 +1581,7 @@
                                                     </div>
                                                 </div><div class="panel panel-default"
                                                            style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse70">
+                                                    <a data-toggle="collapse" href="#collapse70">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -1601,9 +1598,10 @@
 
                                                         </div>
                                                     </div>
-                                                </div><div class="panel panel-default"
+                                                </div>
+                                                <div class="panel panel-default"
                                                            style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse71">
+                                                    <a data-toggle="collapse" href="#collapse71">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -1620,24 +1618,16 @@
 
                                                         </div>
                                                     </div>
-                                                </div></div>
-                                        </div>
-                                    </div><div class="panel panel-default"
-                                               style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse-5">
-                                            <div class="panel-heading"
-                                                 style=" font-size: 10px; padding: 6px; "
-                                                 onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                 onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
-                                                <h4 class="panel-title">
-                                                    Minor Area
-                                                </h4>
-                                            </div>
-                                        </a>
-                                        <div id="collapse-5" class="panel-collapse collapse">
-                                            <div class="panel-body"><div class="panel panel-default"
+                                                </div>
+
+</div>
+
+<div class="tab-pane fade " id="pills-ma" role="tabpanel" aria-labelledby="pills-ma-tab">
+
+                   
+                            <div class="panel panel-default"
                                                                          style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse72">
+                                                    <a data-toggle="collapse" href="#collapse72">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -1656,7 +1646,7 @@
                                                     </div>
                                                 </div><div class="panel panel-default"
                                                            style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse73">
+                                                    <a data-toggle="collapse" href="#collapse73">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -1675,7 +1665,7 @@
                                                     </div>
                                                 </div><div class="panel panel-default"
                                                            style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse74">
+                                                    <a data-toggle="collapse" href="#collapse74">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -1694,7 +1684,7 @@
                                                     </div>
                                                 </div><div class="panel panel-default"
                                                            style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse75">
+                                                    <a data-toggle="collapse" href="#collapse75">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -1711,24 +1701,14 @@
 
                                                         </div>
                                                     </div>
-                                                </div></div>
-                                        </div>
-                                    </div><div class="panel panel-default"
-                                               style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse-6">
-                                            <div class="panel-heading"
-                                                 style=" font-size: 10px; padding: 6px; "
-                                                 onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                 onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
-                                                <h4 class="panel-title">
-                                                    Grades
-                                                </h4>
-                                            </div>
-                                        </a>
-                                        <div id="collapse-6" class="panel-collapse collapse">
-                                            <div class="panel-body"><div class="panel panel-default"
+                                                </div>
+</div>
+
+<div class="tab-pane fade " id="pills-grade" role="tabpanel" aria-labelledby="pills-grade-tab">
+
+                                    <div class="panel panel-default"
                                                                          style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse76">
+                                                    <a data-toggle="collapse" href="#collapse76">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -1747,7 +1727,7 @@
                                                     </div>
                                                 </div><div class="panel panel-default"
                                                            style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse77">
+                                                    <a data-toggle="collapse" href="#collapse77">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -1766,7 +1746,7 @@
                                                     </div>
                                                 </div><div class="panel panel-default"
                                                            style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse78">
+                                                    <a data-toggle="collapse" href="#collapse78">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -1785,7 +1765,7 @@
                                                     </div>
                                                 </div><div class="panel panel-default"
                                                            style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse79">
+                                                    <a data-toggle="collapse" href="#collapse79">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -1804,7 +1784,7 @@
                                                     </div>
                                                 </div><div class="panel panel-default"
                                                            style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse80">
+                                                    <a data-toggle="collapse" href="#collapse80">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -1824,7 +1804,7 @@
                                                     </div>
                                                 </div><div class="panel panel-default"
                                                            style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse81">
+                                                    <a data-toggle="collapse" href="#collapse81">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -1843,7 +1823,7 @@
                                                     </div>
                                                 </div><div class="panel panel-default"
                                                            style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse82">
+                                                    <a data-toggle="collapse" href="#collapse82">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -1860,24 +1840,14 @@
 
                                                         </div>
                                                     </div>
-                                                </div></div>
-                                        </div>
-                                    </div><div class="panel panel-default"
-                                               style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse-7">
-                                            <div class="panel-heading"
-                                                 style=" font-size: 10px; padding: 6px; "
-                                                 onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                 onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
-                                                <h4 class="panel-title">
-                                                    Assistantship
-                                                </h4>
-                                            </div>
-                                        </a>
-                                        <div id="collapse-7" class="panel-collapse collapse">
-                                            <div class="panel-body"><div class="panel panel-default"
+                                                </div>
+</div>
+
+<div class="tab-pane fade " id="pills-ast" role="tabpanel" aria-labelledby="pills-ast-tab">
+
+                                    <div class="panel panel-default"
                                                                          style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse83">
+                                                    <a data-toggle="collapse" href="#collapse83">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -1896,7 +1866,7 @@
                                                     </div>
                                                 </div><div class="panel panel-default"
                                                            style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse84">
+                                                    <a data-toggle="collapse" href="#collapse84">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -1915,7 +1885,7 @@
                                                     </div>
                                                 </div><div class="panel panel-default"
                                                            style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse85">
+                                                    <a data-toggle="collapse" href="#collapse85">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -1934,7 +1904,7 @@
                                                     </div>
                                                 </div><div class="panel panel-default"
                                                            style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse86">
+                                                    <a data-toggle="collapse" href="#collapse86">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -1951,24 +1921,13 @@
 
                                                         </div>
                                                     </div>
-                                                </div></div>
-                                        </div>
-                                    </div><div class="panel panel-default"
-                                               style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse-8">
-                                            <div class="panel-heading"
-                                                 style=" font-size: 10px; padding: 6px; "
-                                                 onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                 onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
-                                                <h4 class="panel-title">
-                                                    Non Graded Units
-                                                </h4>
-                                            </div>
-                                        </a>
-                                        <div id="collapse-8" class="panel-collapse collapse">
-                                            <div class="panel-body"><div class="panel panel-default"
-                                                                         style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse87">
+                                                </div>
+</div>
+
+<div class="tab-pane fade" id="pills-ngu" role="tabpanel" aria-labelledby="pills-ngu-tab">
+
+                            <div class="panel panel-default" style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                    <a data-toggle="collapse" href="#collapse87">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -1987,7 +1946,7 @@
                                                     </div>
                                                 </div><div class="panel panel-default"
                                                            style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse88">
+                                                    <a data-toggle="collapse" href="#collapse88">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -2006,7 +1965,7 @@
                                                     </div>
                                                 </div><div class="panel panel-default"
                                                            style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse89">
+                                                    <a data-toggle="collapse" href="#collapse89">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -2025,7 +1984,7 @@
                                                     </div>
                                                 </div><div class="panel panel-default"
                                                            style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse90">
+                                                    <a data-toggle="collapse" href="#collapse90">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -2044,7 +2003,7 @@
                                                     </div>
                                                 </div><div class="panel panel-default"
                                                            style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse91">
+                                                    <a data-toggle="collapse" href="#collapse91">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -2063,7 +2022,7 @@
                                                     </div>
                                                 </div><div class="panel panel-default"
                                                            style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse92">
+                                                    <a data-toggle="collapse" href="#collapse92">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -2085,7 +2044,7 @@
                                                     </div>
                                                 </div><div class="panel panel-default"
                                                            style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse93">
+                                                    <a data-toggle="collapse" href="#collapse93">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -2108,7 +2067,7 @@
                                                     </div>
                                                 </div><div class="panel panel-default"
                                                            style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse94">
+                                                    <a data-toggle="collapse" href="#collapse94">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -2133,7 +2092,7 @@
                                                     </div>
                                                 </div><div class="panel panel-default"
                                                            style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse95">
+                                                    <a data-toggle="collapse" href="#collapse95">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -2152,7 +2111,7 @@
                                                     </div>
                                                 </div><div class="panel panel-default"
                                                            style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse96">
+                                                    <a data-toggle="collapse" href="#collapse96">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -2171,7 +2130,7 @@
                                                     </div>
                                                 </div><div class="panel panel-default"
                                                            style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse97">
+                                                    <a data-toggle="collapse" href="#collapse97">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -2190,7 +2149,7 @@
                                                     </div>
                                                 </div><div class="panel panel-default"
                                                            style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse98">
+                                                    <a data-toggle="collapse" href="#collapse98">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -2214,7 +2173,7 @@
                                                     </div>
                                                 </div><div class="panel panel-default"
                                                            style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse99">
+                                                    <a data-toggle="collapse" href="#collapse99">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -2235,7 +2194,7 @@
                                                     </div>
                                                 </div><div class="panel panel-default"
                                                            style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse100">
+                                                    <a data-toggle="collapse" href="#collapse100">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -2255,7 +2214,7 @@
                                                     </div>
                                                 </div><div class="panel panel-default"
                                                            style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse101">
+                                                    <a data-toggle="collapse" href="#collapse101">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -2274,7 +2233,7 @@
                                                     </div>
                                                 </div><div class="panel panel-default"
                                                            style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse102">
+                                                    <a data-toggle="collapse" href="#collapse102">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -2297,7 +2256,7 @@
                                                     </div>
                                                 </div><div class="panel panel-default"
                                                            style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse103">
+                                                    <a data-toggle="collapse" href="#collapse103">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -2316,7 +2275,7 @@
                                                     </div>
                                                 </div><div class="panel panel-default"
                                                            style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse104">
+                                                    <a data-toggle="collapse" href="#collapse104">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -2342,7 +2301,7 @@
                                                     </div>
                                                 </div><div class="panel panel-default"
                                                            style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse105">
+                                                    <a data-toggle="collapse" href="#collapse105">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -2361,7 +2320,7 @@
                                                     </div>
                                                 </div><div class="panel panel-default"
                                                            style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse106">
+                                                    <a data-toggle="collapse" href="#collapse106">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -2387,7 +2346,7 @@
                                                     </div>
                                                 </div><div class="panel panel-default"
                                                            style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse107">
+                                                    <a data-toggle="collapse" href="#collapse107">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -2406,7 +2365,7 @@
                                                     </div>
                                                 </div><div class="panel panel-default"
                                                            style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse108">
+                                                    <a data-toggle="collapse" href="#collapse108">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -2427,7 +2386,7 @@
                                                     </div>
                                                 </div><div class="panel panel-default"
                                                            style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse109">
+                                                    <a data-toggle="collapse" href="#collapse109">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -2446,7 +2405,7 @@
                                                     </div>
                                                 </div><div class="panel panel-default"
                                                            style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse110">
+                                                    <a data-toggle="collapse" href="#collapse110">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -2465,7 +2424,7 @@
                                                     </div>
                                                 </div><div class="panel panel-default"
                                                            style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse111">
+                                                    <a data-toggle="collapse" href="#collapse111">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -2484,7 +2443,7 @@
                                                     </div>
                                                 </div><div class="panel panel-default"
                                                            style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse112">
+                                                    <a data-toggle="collapse" href="#collapse112">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -2503,7 +2462,7 @@
                                                     </div>
                                                 </div><div class="panel panel-default"
                                                            style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse113">
+                                                    <a data-toggle="collapse" href="#collapse113">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -2522,7 +2481,7 @@
                                                     </div>
                                                 </div><div class="panel panel-default"
                                                            style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse114">
+                                                    <a data-toggle="collapse" href="#collapse114">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -2541,7 +2500,7 @@
                                                     </div>
                                                 </div><div class="panel panel-default"
                                                            style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse115">
+                                                    <a data-toggle="collapse" href="#collapse115">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -2558,24 +2517,13 @@
 
                                                         </div>
                                                     </div>
-                                                </div></div>
-                                        </div>
-                                    </div><div class="panel panel-default"
-                                               style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse-9">
-                                            <div class="panel-heading"
-                                                 style=" font-size: 10px; padding: 6px; "
-                                                 onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                 onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
-                                                <h4 class="panel-title">
-                                                    Internships
-                                                </h4>
-                                            </div>
-                                        </a>
-                                        <div id="collapse-9" class="panel-collapse collapse">
-                                            <div class="panel-body"><div class="panel panel-default"
-                                                                         style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse116">
+                                                </div>
+</div>
+
+<div class="tab-pane fade" id="pills-intern" role="tabpanel" aria-labelledby="pills-intern-tab">
+
+                                    <div class="panel panel-default" style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                    <a data-toggle="collapse" href="#collapse116">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -2594,7 +2542,7 @@
                                                     </div>
                                                 </div><div class="panel panel-default"
                                                            style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse117">
+                                                    <a data-toggle="collapse" href="#collapse117">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -2614,7 +2562,7 @@
                                                     </div>
                                                 </div><div class="panel panel-default"
                                                            style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse118">
+                                                    <a data-toggle="collapse" href="#collapse118">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -2633,7 +2581,7 @@
                                                     </div>
                                                 </div><div class="panel panel-default"
                                                            style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse119">
+                                                    <a data-toggle="collapse" href="#collapse119">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -2652,7 +2600,7 @@
                                                     </div>
                                                 </div><div class="panel panel-default"
                                                            style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse120">
+                                                    <a data-toggle="collapse" href="#collapse120">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -2671,7 +2619,7 @@
                                                     </div>
                                                 </div><div class="panel panel-default"
                                                            style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse121">
+                                                    <a data-toggle="collapse" href="#collapse121">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -2694,7 +2642,7 @@
                                                     </div>
                                                 </div><div class="panel panel-default"
                                                            style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse122">
+                                                    <a data-toggle="collapse" href="#collapse122">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -2713,7 +2661,7 @@
                                                     </div>
                                                 </div><div class="panel panel-default"
                                                            style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse123">
+                                                    <a data-toggle="collapse" href="#collapse123">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -2738,7 +2686,7 @@
                                                     </div>
                                                 </div><div class="panel panel-default"
                                                            style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse124">
+                                                    <a data-toggle="collapse" href="#collapse124">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -2758,7 +2706,7 @@
                                                     </div>
                                                 </div><div class="panel panel-default"
                                                            style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse125">
+                                                    <a data-toggle="collapse" href="#collapse125">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -2777,7 +2725,7 @@
                                                     </div>
                                                 </div><div class="panel panel-default"
                                                            style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse126">
+                                                    <a data-toggle="collapse" href="#collapse126">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -2796,7 +2744,7 @@
                                                     </div>
                                                 </div><div class="panel panel-default"
                                                            style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse127">
+                                                    <a data-toggle="collapse" href="#collapse127">
                                                         <div class="panel-heading"
                                                              style=" font-size: 10px; padding: 6px; "
                                                              onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
@@ -2813,11 +2761,10 @@
 
                                                         </div>
                                                     </div>
-                                                </div></div>
-                                        </div>
-                                    </div></div>
-
-                            </div>
+                                                </div>
+</div>
+</div>
+                          
 
 
 
