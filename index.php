@@ -330,9 +330,9 @@ background: linear-gradient(to left, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Fi
         <div class="carousel-inner">
             
             <div class="carousel-item active">
-                <img class="d-block w-100 imagic" src="images/iitpyramid4.jpg" alt="First slide" style="object-fit: cover;">
+                <img class="d-block w-100 imagic" src="images/team_pic.jpg" alt="First slide" style="object-fit: cover;">
                 <div class="carousel-caption " style="padding-bottom: 40px">   
-                  <!-- <a href="#about-us"> <button class="btn btn-primary text-uppercase btn-lg">start exploring</button></a> -->
+                  <!-- <h1 class="main-text">Board of Student Welfare</h1> -->
                 </div>
             </div>
 
@@ -344,7 +344,7 @@ background: linear-gradient(to left, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Fi
            </div>
 
             <div class="carousel-item">
-                <img class="d-block w-100 imagic" src="images/team_pic.jpg" alt="Second slide" style="object-fit: cover;">
+                <img class="d-block w-100 imagic" src="images/iitpyramid4.jpg" alt="Second slide" style="object-fit: cover;">
                 <div class="carousel-caption " style="padding-bottom: 40px">
                   <!-- <a href="#about-us"> <button class="btn btn-primary text-uppercase btn-lg">start exploring</button></a> -->
                 </div>

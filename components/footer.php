@@ -22,7 +22,7 @@
         background-color: transparent;
         -webkit-text-decoration-skip: objects;
         font-size: 1.2rem;
-        text-shadow: 0.5px 0.5px 0.5px #2222226b;
+        
 	}
     #footer a{
         font-weight:400;
@@ -31,7 +31,7 @@
         background-color: transparent;
         -webkit-text-decoration-skip: objects;
         font-size: 1.2rem;
-        text-shadow: 0.5px 0.5px 0.5px #2222226b;
+        
         background-image: linear-gradient(currentColor,white);
 		background-position: 0% 100%;
 		background-repeat: no-repeat;
@@ -49,7 +49,7 @@
         background-color: transparent;
         -webkit-text-decoration-skip: objects;
         font-size: 1.2rem;
-        text-shadow: 0.5px 0.5px 0.5px #2222226b;
+        
 	}
     #footer li{
         list-style: none;
