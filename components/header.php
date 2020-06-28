@@ -19,22 +19,53 @@
         font-weight: 600;
         font-size: 1.2rem;
 		text-shadow: 0.5px 0.5px 0.5px #2222226b;
+		background-image: linear-gradient(currentColor,white);
+		background-position: 0% 100%;
+		background-repeat: no-repeat;
+		background-size: 0% 2px;
+		transition: background-size .3s;
+	}
+	.navbar-nav a:hover{ 
+		color:#fff;
+		background-size: 100% 2px;
+	}
+
+
+.navbar .nav-link .dropdown-toggle{
+		color:#fff !important;
+        text-decoration: none;
+        background-color: transparent !important;
+        -webkit-text-decoration-skip: objects !important;
+        font-weight: 600 !important;
+        font-size: 1.2rem !important;
+		text-shadow: 0.5px 0.5px 0.5px #2222226b !important;
+		background-image: linear-gradient(currentColor,white) !important;
+		background-position: 0% 100% !important;
+		background-repeat: no-repeat !important;
+		background-size: 0% 2px !important;
+		transition: background-size .3s !important;
+	}
+	
+	.navbar .nav-link .dropdown-toggle:hover{ 
+		color:#fff !important;
+		background-size: 100% 2px !important;
 	}
 
 	.navbar-toggler{
-    color: #fff;
+    	color: #fff;
 	}
 
 	.nav-colored{ 
-	background-image: linear-gradient(90deg, #67B26F 0%, rgba(76,162,205,0.61) 100%);
-    border: none;
-	margin-top:0;
+		background-image: linear-gradient(90deg, #67B26F 0%, rgba(76,162,205,0.61) 100%);
+		border: none;
+		margin-top:0;
 	}
 
 	.nav-transparent { 
-    background-color:transparent;
-    transition: linear;
+		background-color:transparent;
+		transition: linear;
 	}
+
 
 	@media (max-width: 992px){
 		.dropdown-menu{
@@ -42,18 +73,32 @@
 			border: none !important;
 		}
 		.dropdown-item:active, .dropdown-item:hover, .dropdown-item:focus{
-			background-color: #00000023 !important;
+			background-color: #00000088 !important;
 			border-radius: 10px !important;
 			border: none !important;
 			color: #FFFFFF !important;
 		}
 	}
 	@media (min-width: 992px){
+		.dropdown-item:focus, .dropdown-item:hover {
+		color: #16181b;
+		text-decoration: none;
+	}
+
+	.dropdown-item:focus, .dropdown-item:hover {
+    background-color:transparent !important;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #16181b;
+    text-decoration: none;
+    background-color: transparent !important;
+}
 		
 		.dropdown-menu .dropdown-toggle:after{
 			font-size: 12px !important;
 			font-weight:normal !important;
-			background: #00000023 !important;
+			background: #00000088 !important;
 			border-top: .3em solid transparent;
 		    border-right: 0;
 		    border-bottom: .3em solid transparent;
@@ -65,21 +110,30 @@
 			margin-left:0px; margin-right: 0px;
 			background: #00000088 !important;
 			border:none !important;
+			font-weight: normal !important;
 		}
 
 		.dropdown-menu li{
 			position: relative;
+			font-weight: normal !important;
+		}
+		.dropdown-menu li:hover{
+			color: #000 !important;
+			position: relative;
+			font-weight: normal !important;
 		}
 		.nav-item .submenu{ 
 			display: none;
 			position: absolute;
 			left:100%; top:-7px;
+			font-weight: normal !important;
+
 		}
 		.nav-item .submenu-left{ 
 			right:100%; left:auto;
+			font-weight: normal !important;
 		}
-
-		.dropdown-menu > li:hover{ background-color: #000000; border-radius: 10px;  }
+		.dropdown-menu > li:hover{ background-color: #000000; border-radius: 10px; width: 100%;  }
 		.dropdown-menu > li:hover > .submenu{
 			display: block;
 		}
@@ -234,6 +288,35 @@
 	$(document).on('click', '.dropdown-menu', function (e) {
       e.stopPropagation();
 	});
+
+
+const $dropdown = $(".dropdown");
+const $dropdownToggle = $(".dropdown-toggle");
+const $dropdownMenu = $(".dropdown-menu");
+const $submenu = $(".dropdown-menu .submenu");
+const showClass = "show";
+ 
+$(window).on("load resize", function() {
+  if (this.matchMedia("(min-width: 768px)").matches) {
+    $dropdown.hover(
+      function() {
+        const $this = $(this);
+        $this.addClass(showClass);
+        $this.find($dropdownToggle).attr("aria-expanded", "true");
+		$this.find($dropdownMenu).addClass(showClass);
+		$this.find($submenu).removeClass(showClass);
+      },
+      function() {
+        const $this = $(this);
+        $this.removeClass(showClass);
+        $this.find($dropdownToggle).attr("aria-expanded", "false");
+        $this.find($dropdownMenu).removeClass(showClass);
+      }
+    );
+  } else {
+    $dropdown.off("mouseenter mouseleave");
+  }
+});
 	
 	
 
@@ -252,6 +335,10 @@ $(document).ready(function() {
     
 	});
 	console.log("icon changed");
+
+
+   
+	
 
 	if ($(window).width() < 992) {
 	  	$('.dropdown-menu a').click(function(e){

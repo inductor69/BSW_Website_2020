@@ -19,10 +19,6 @@
 
 <style type="text/css">
 
-	body{
-		background-color: #a4e7f055;
-	}
-
 	
 
 	#carouselExampleIndicators img {
@@ -268,6 +264,50 @@
 		cursor:pointer;
 		}
 	}
+	.photostack figcaption h2{
+		margin: -20px !important;
+		z-index: 2000 !important;
+	}
+	.photostack-img{
+		height: 300px !important;
+		width: 300px !important;
+	}
+	.gallery-img{
+		margin-bottom: -20px !important;
+		padding: 0px !important;
+		height: 300px !important;
+		width: 300px !important;
+	}
+	.photostack figure{
+		width: 360px !important;
+		height: 360px !important;
+		padding: 32px !important;
+		padding-top: 20px !important;
+		padding-bottom: 50px !important;
+		box-shadow: 0 10px 10px 2px rgba(0,0,0,0.2) !important;
+		transition: all 0.4s ease-in-out !important;
+	}
+	.photostack figure:hover{
+		box-shadow: 0 10px 10px 2px rgba(0,0,0,0.4) !important;
+		transition: all 0.4s ease-in-out !important;
+
+	}
+	.photostack figcaption h2{
+		z-index:20000 !important;
+		position: relative !important;
+		padding: 30px !important;
+	}
+
+	#photostack-1
+	{
+		background-image: #000 !important;
+	}
+	.photostack{
+		background: #ECE9E6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	}
 	
 </style>
 
@@ -488,85 +528,85 @@
 			<div id="photostack-1" class="photostack col-12">
 				<div>
 					<figure>
-						<a href="http://goo.gl/Qw3ND4" class="photostack-img"><img src="images/comedynight.jpg" alt="Comedy Night ft. Nishant Tanwar" style="height:240px; width:240px; object-fit:cover;"/></a>
+						<a href="http://goo.gl/Qw3ND4" class="photostack-img"><img class="gallery-img" src="images/comedynight.jpg" alt="Comedy Night ft. Nishant Tanwar" style="height:240px; width:240px; object-fit:cover;"/></a>
 						<figcaption>
 							<h2 class="photostack-title">Comedy Night ft. Nishant Tanwar</h2>
 						</figcaption>
 					</figure>
 					<figure>
-						<a href="http://goo.gl/Qw3ND4" class="photostack-img"><img src="images/bandnight.jpg" alt="Comedy Night ft. Nishant Tanwar" style="height:240px; width:240px; object-fit:cover;"/></a>
+						<a href="http://goo.gl/Qw3ND4" class="photostack-img"><img class="gallery-img" src="images/bandnight.jpg" alt="Comedy Night ft. Nishant Tanwar" style="height:240px; width:240px; object-fit:cover;"/></a>
 						<figcaption>
 							<h2 class="photostack-title">Band Night ft. Zikrr</h2>
 						</figcaption>
 					</figure>
 					<figure>
-						<a href="http://goo.gl/Qw3ND4" class="photostack-img"><img src="images/op_delhidarshan/16.jpg" alt="Comedy Night ft. Nishant Tanwar" style="height:240px; width:240px; object-fit:cover;"/></a>
+						<a href="http://goo.gl/Qw3ND4" class="photostack-img"><img class="gallery-img" src="images/op_delhidarshan/16.jpg" alt="Comedy Night ft. Nishant Tanwar" style="height:240px; width:240px; object-fit:cover;"/></a>
 						<figcaption>
 							<h2 class="photostack-title">Delhi Darshan</h2>
 						</figcaption>
 					</figure>
 					<figure>
-						<a href="http://goo.gl/Qw3ND4" class="photostack-img"><img src="images/promnight.jpg" alt="Prom Night" style="height:240px; width:240px; object-fit:cover;"/></a>
+						<a href="http://goo.gl/Qw3ND4" class="photostack-img"><img class="gallery-img" src="images/promnight.jpg" alt="Prom Night" style="height:240px; width:240px; object-fit:cover;"/></a>
 						<figcaption>
 							<h2 class="photostack-title">Prom Night</h2>
 						</figcaption>
 					</figure>
 					<figure data-dummy>
-						<a href="http://goo.gl/Qw3ND4" class="photostack-img"><img src="images/op_sticd/20.jpg" alt="Comedy Night ft. Nishant Tanwar" style="height:240px; width:240px; object-fit:cover;"/></a>
+						<a href="http://goo.gl/Qw3ND4" class="photostack-img"><img class="gallery-img" src="images/op_sticd/20.jpg" alt="Comedy Night ft. Nishant Tanwar" style="height:240px; width:240px; object-fit:cover;"/></a>
 						<figcaption>
 							<h2 class="photostack-title">STIC Dinner</h2>
 						</figcaption>
 					</figure>
 					<figure>
-						<a href="http://goo.gl/Qw3ND4" class="photostack-img"><img src="images/jeopardy.jpg" alt="Comedy Night ft. Nishant Tanwar" style="height:240px; width:240px; object-fit:cover;"/></a>
+						<a href="http://goo.gl/Qw3ND4" class="photostack-img"><img class="gallery-img" src="images/jeopardy.jpg" alt="Comedy Night ft. Nishant Tanwar" style="height:240px; width:240px; object-fit:cover;"/></a>
 						<figcaption>
 							<h2 class="photostack-title">Jeopardy</h2>
 						</figcaption>
 					</figure>
 					<figure data-dummy>
-						<a href="http://goo.gl/Qw3ND4" class="photostack-img"><img src="images/op_delhidarshan/2.jpg" alt="Comedy Night ft. Nishant Tanwar" style="height:240px; width:240px; object-fit:cover;"/></a>
+						<a href="http://goo.gl/Qw3ND4" class="photostack-img"><img class="gallery-img" src="images/op_delhidarshan/2.jpg" alt="Comedy Night ft. Nishant Tanwar" style="height:240px; width:240px; object-fit:cover;"/></a>
 						<figcaption>
 							<h2 class="photostack-title">Delhi Darshan</h2>
 						</figcaption>
 					</figure>
 					<figure data-dummy>
-						<a href="http://goo.gl/Qw3ND4" class="photostack-img"><img src="images/op_delhidarshan/7.jpg" alt="Comedy Night ft. Nishant Tanwar" style="height:240px; width:240px; object-fit:cover;"/></a>
+						<a href="http://goo.gl/Qw3ND4" class="photostack-img"><img class="gallery-img" src="images/op_delhidarshan/7.jpg" alt="Comedy Night ft. Nishant Tanwar" style="height:240px; width:240px; object-fit:cover;"/></a>
 						<figcaption>
 							<h2 class="photostack-title">Delhi Darshan</h2>
 						</figcaption>
 					</figure>
 					<figure data-dummy>
-						<a href="http://goo.gl/Qw3ND4" class="photostack-img"><img src="images/op_delhidarshan/14.jpg" alt="Comedy Night ft. Nishant Tanwar" style="height:240px; width:240px; object-fit:cover;"/></a>
+						<a href="http://goo.gl/Qw3ND4" class="photostack-img"><img class="gallery-img" src="images/op_delhidarshan/14.jpg" alt="Comedy Night ft. Nishant Tanwar" style="height:240px; width:240px; object-fit:cover;"/></a>
 						<figcaption>
 							<h2 class="photostack-title">Delhi Darshan</h2>
 						</figcaption>
 					</figure>
 					<figure >
-						<a href="http://goo.gl/Qw3ND4" class="photostack-img"><img src="images/op_orientation/1.jpg" alt="Comedy Night ft. Nishant Tanwar" style="height:240px; width:240px; object-fit:cover;"/></a>
+						<a href="http://goo.gl/Qw3ND4" class="photostack-img"><img class="gallery-img" src="images/op_orientation/1.jpg" alt="Comedy Night ft. Nishant Tanwar" style="height:240px; width:240px; object-fit:cover;"/></a>
 						<figcaption>
 							<h2 class="photostack-title">Orientation</h2>
 						</figcaption>
 					</figure>
 					<figure >
-						<a href="http://goo.gl/Qw3ND4" class="photostack-img"><img src="images/enigma_poster.jpg" alt="Comedy Night ft. Nishant Tanwar" style="height:240px; width:240px; object-fit:cover;"/></a>
+						<a href="http://goo.gl/Qw3ND4" class="photostack-img"><img class="gallery-img" src="images/enigma_poster.jpg" alt="Comedy Night ft. Nishant Tanwar" style="height:240px; width:240px; object-fit:cover;"/></a>
 						<figcaption>
 							<h2 class="photostack-title">Enigma: The Magic Show</h2>
 						</figcaption>
 					</figure>
 					<figure >
-						<a href="http://goo.gl/Qw3ND4" class="photostack-img"><img src="images/freshersmrmrs.jpg" alt="Comedy Night ft. Nishant Tanwar" style="height:240px; width:240px; object-fit:cover;"/></a>
+						<a href="http://goo.gl/Qw3ND4" class="photostack-img"><img class="gallery-img" src="images/freshersmrmrs.jpg" alt="Comedy Night ft. Nishant Tanwar" style="height:240px; width:240px; object-fit:cover;"/></a>
 						<figcaption>
 							<h2 class="photostack-title">Mr & Ms Freshers</h2>
 						</figcaption>
 					</figure>
 					<figure data-dummy>
-						<a href="http://goo.gl/Qw3ND4" class="photostack-img"><img src="images/bandnight_poster.JPG" alt="Comedy Night ft. Nishant Tanwar" style="height:240px; width:240px; object-fit:cover;"/></a>
+						<a href="http://goo.gl/Qw3ND4" class="photostack-img"><img class="gallery-img" src="images/bandnight_poster.JPG" alt="Comedy Night ft. Nishant Tanwar" style="height:240px; width:240px; object-fit:cover;"/></a>
 						<figcaption>
 							<h2 class="photostack-title">Band Night ft. Zikrr</h2>
 						</figcaption>
 					</figure>
 					<figure data-dummy>
-						<a href="http://goo.gl/Qw3ND4" class="photostack-img"><img src="images/comedynight_poster.JPG" alt="Comedy Night ft. Nishant Tanwar" style="height:240px; width:240px; object-fit:cover;"/></a>
+						<a href="http://goo.gl/Qw3ND4" class="photostack-img"><img class="gallery-img" src="images/comedynight_poster.JPG" alt="Comedy Night ft. Nishant Tanwar" style="height:240px; width:240px; object-fit:cover;"/></a>
 						<figcaption>
 							<h2 class="photostack-title">Comedy Night ft. nishant Tanwar</h2>
 						</figcaption>

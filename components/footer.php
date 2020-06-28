@@ -21,25 +21,33 @@
         text-decoration: none;
         background-color: transparent;
         -webkit-text-decoration-skip: objects;
-        font-weight: 700;
         font-size: 1.2rem;
         text-shadow: 0.5px 0.5px 0.5px #2222226b;
 	}
     #footer a{
+        font-weight:400;
 		color:#fff;
         text-decoration: none;
         background-color: transparent;
         -webkit-text-decoration-skip: objects;
-        font-weight: 700;
         font-size: 1.2rem;
         text-shadow: 0.5px 0.5px 0.5px #2222226b;
+        background-image: linear-gradient(currentColor,white);
+		background-position: 0% 100%;
+		background-repeat: no-repeat;
+		background-size: 0% 2px;
+		transition: background-size .3s;
+    }
+    
+    #footer a:hover{ 
+		color:#fff;
+		background-size: 100% 2px;
 	}
     #footer p{
 		color:#fff;
         text-decoration: none;
         background-color: transparent;
         -webkit-text-decoration-skip: objects;
-        font-weight: 500;
         font-size: 1.2rem;
         text-shadow: 0.5px 0.5px 0.5px #2222226b;
 	}
@@ -60,24 +68,24 @@
     <div class="row">
 
         <div class="col-12 col-md-6 col-lg-4  center-block">
-            <h3>Useful Links</h3>
+            <h3><strong>Useful Links</strong></h3>
             <ul>
-                <li><a href="emergency_contacts.php">Emergency Contacts</a></li>
-                <li><a href="https://internal.iitd.ernet.in/">Internal Notices</a></li>
-                <li><a href="https://webmail.iitd.ernet.in/roundcube/">Webmail</a></li>
-                <li><a href="https://moodle.iitd.ac.in/login/index.php">Moodle</a></li>
-                <li><a href="https://academics1.iitd.ac.in/Academics/">Academics</a></li>
-                <li><a href="https://ngu.iitd.ac.in/">NGU</a></li>
-                <li><a href="https://helpline.iitd.ac.in/">IITD Helpline</a></li>
+                <li><a href="emergency_contacts.php"><span class="fa fa-globe"></span> Emergency Contacts</a></li>
+                <li><a href="https://internal.iitd.ernet.in/"><span class="fa fa-sticky-note"></span> Internal Notices</a></li>
+                <li><a href="https://webmail.iitd.ernet.in/roundcube/"><span class="fa fa-envelope"></span> Webmail</a></li>
+                <li><a href="https://moodle.iitd.ac.in/login/index.php"><span class="fa fa-book"></span> Moodle</a></li>
+                <li><a href="https://academics1.iitd.ac.in/Academics/"><span class="fa fa-bookmark"></span> Academics</a></li>
+                <li><a href="https://ngu.iitd.ac.in/"><span class="fa fa-paperclip"></span> NGU</a></li>
+                <li><a href="https://helpline.iitd.ac.in/"><span class="fa fa-phone"></span> IITD Helpline</a></li>
             </ul>
         </div>
         <div class="col-12 col-md-6 col-lg-4 center-block">
-            <h3>BSW Constitution</h3>
+            <h3><strong>BSW Constitution</strong></h3>
 
-                <p><a href="http://bsw.iitd.ac.in/stuff/Constitution.pdf">Read </a>our constitution</p>
+                <p><span class="fa fa-external-link"></span>  <a href="http://bsw.iitd.ac.in/stuff/Constitution.pdf">Read </a>our constitution</p>
 
-            <h3>Feedback</h3>
-                <p>We learn from you. Please give us your suggestions and feedback.<br /> Constructive criticism is well appreciated.<br /> <a href="http://bsw.iitd.ac.in/stuff/Constitution.pdf">Click here</a> for the feedback form.</p>
+            <h3><strong>Feedback</strong></h3>
+                <p>We learn from you. Please give us your suggestions and feedback.<br /> Constructive criticism is well appreciated.<br /><span class="fa fa-pencil"></span>  <a href="http://bsw.iitd.ac.in/stuff/Constitution.pdf">Click here</a> for the feedback form.</p>
         </div>
 
         <div class="col-12 col-md-12 col-lg-4 center-block">
@@ -92,10 +100,10 @@
     
             <h3>&copy; BSW 2020</h3>
                 <p>All rights reserved.</p>
-                <p>Website Created and Maintained by:<br />
-                <a href="">Japneet Singh</a></br>
-                <a href="http://">Ayush Shrivastava</a></br>
-                <a href="">Vishal Singh</a></br>
+                <p><strong>Website Created and Maintained by:</strong><br />
+                <span class="fa fa-code"></span><a href="">  Japneet Singh</a></br>
+                <span class="fa fa-code"></span><a href="http://">  Ayush Shrivastava</a></br>
+                <span class="fa fa-code"></span><a href="">  Vishal Singh</a></br>
                 </p>
 
             
