@@ -10,6 +10,7 @@
 
 
 <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+<link href="css/touchTouch.css" rel="stylesheet" type="text/css"/>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js" type="text/javascript"></script>
 <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
@@ -141,11 +142,11 @@ margin-bottom: 4px
 
 </div>
 
-<div class="container">
+<div class="container" id="female-jee">
 
 	<div class="row justify-content-center">
 
-            <div class="col-12 col-md-5 justify-content-center my-2">
+            <div class="col-12 col-md-5 justify-content-center my-2 thumbs">
 			<a href="images/op_orientation/1.jpg" >
 				<img class="orientation-img col-12" src="images/op_orientation/1.jpg" alt="Director at the orientation">
 			</a>
@@ -162,9 +163,6 @@ margin-bottom: 4px
 	</div>
 
 <div class="container-fluid mt-4" id="softwares-list">
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script src="./js/jquery-tjgallery.min.js"></script>
 	<style>
 		.thumbnail{
 			object-fit: cover !important;
@@ -179,7 +177,7 @@ margin-bottom: 4px
 
 	</style>
 
-	<div class="row justify-content-center">
+	<div class="row justify-content-center thumbs">
 	<?php
 		for($i=2; $i<13; $i=$i+1){
 			echo '<a class=" img-link col-12 col-md-4 col-lg-3" href="images/op_orientation/'.$i.'.jpg" target="_blank" >';
@@ -196,11 +194,11 @@ margin-bottom: 4px
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script type="text/javascript">
-$(window).on('load', function(){
-			$('.pictures').tjGallery();
-		});
+<script src="js/touchTouch.jquery.js"></script>
+<script>
+$(document).ready(function(){
+	$('.thumbs a').touchTouch();
+	});
 </script>
-
 </body>
 </html>

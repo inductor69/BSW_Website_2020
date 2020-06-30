@@ -46,12 +46,8 @@
         height:auto;
         display: inline-block;
     }
-    /* #bandnight{
-        background-image: linear-gradient(270deg, #ED3338 0%, #4CA2CD 100%);	
-    } */
 
 
-	
 </style>
 
 </head>
