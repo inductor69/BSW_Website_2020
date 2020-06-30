@@ -33,7 +33,8 @@
 	}
 	#about-us{
         margin-top:0px;
-        background-image: linear-gradient(180deg, #C02425 0%, #F0CB35 100%);	}
+        background-image: linear-gradient(180deg, #C02425 0%, #F0CB35 100%);	
+		}
     .convergenz-logo{
         margin-top:60px;
         height:auto;

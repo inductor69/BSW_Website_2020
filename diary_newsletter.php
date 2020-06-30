@@ -38,7 +38,8 @@
 		background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 	}
 	#about-us{
-        margin-top:60px;
+    padding-top:60px;
+        margin-top:0px;
 		background-image: linear-gradient(90deg, #67B26F 0%, rgba(76,162,205,0.61) 100%);
 	}
     .form-preview{

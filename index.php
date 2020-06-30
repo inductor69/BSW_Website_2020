@@ -4,10 +4,11 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="keywords" content="htmlcss bootstrap menu, navbar,0dega menu examples" />
-<meta name="description" content="Navigation  menu with submenu examples for any type of project, Bootstrap 4" />  
+<meta name="description" content="Board of Student Welfare, IIT Delhi" />  
 
 <title>Home | BSW</title>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
 
 <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js" type="text/javascript"></script>
