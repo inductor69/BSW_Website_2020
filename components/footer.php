@@ -22,6 +22,8 @@
         background-color: transparent;
         -webkit-text-decoration-skip: objects;
         font-size: 1.2rem;
+        font-family: 'Montserrat', sans-serif ;
+        font-weight: bold; font-family: 'Montserrat', sans-serif ;
         
 	}
     #footer a{
@@ -31,7 +33,7 @@
         background-color: transparent;
         -webkit-text-decoration-skip: objects;
         font-size: 1.2rem;
-        
+        font-family: 'Montserrat', sans-serif ;
         background-image: linear-gradient(currentColor,white);
 		background-position: 0% 100%;
 		background-repeat: no-repeat;
@@ -42,6 +44,7 @@
     #footer a:hover{ 
 		color:#fff;
 		background-size: 100% 2px;
+        font-family: 'Montserrat', sans-serif ;
 	}
     #footer p{
 		color:#fff;
@@ -49,10 +52,12 @@
         background-color: transparent;
         -webkit-text-decoration-skip: objects;
         font-size: 1.2rem;
+        font-family: 'Montserrat', sans-serif ;
         
 	}
     #footer li{
         list-style: none;
+        font-family: 'Montserrat', sans-serif ;
 
     }
 
@@ -63,12 +68,12 @@
 
 		<div class="container-fluid" id="footer" style="margin-top: 0px;">
 
-        <div class="container">
+        <div class="container" style>
 
     <div class="row">
 
         <div class="col-12 col-md-6 col-lg-4  center-block">
-            <h3><strong>Useful Links</strong></h3>
+            <h3><strong style="font-weight: bold; font-family: 'Montserrat', sans-serif ;">Useful Links</strong></h3>
             <ul>
                 <li><a href="emergency_contacts.php"><span class="fa fa-globe"></span> Emergency Contacts</a></li>
                 <li><a href="https://internal.iitd.ernet.in/"><span class="fa fa-sticky-note"></span> Internal Notices</a></li>
@@ -80,11 +85,11 @@
             </ul>
         </div>
         <div class="col-12 col-md-6 col-lg-4 center-block">
-            <h3><strong>BSW Constitution</strong></h3>
+            <h3><strong style="font-weight: bold; font-family: 'Montserrat', sans-serif ;">BSW Constitution</strong></h3>
 
                 <p><span class="fa fa-external-link"></span>  <a href="http://bsw.iitd.ac.in/stuff/Constitution.pdf">Read </a>our constitution</p>
 
-            <h3><strong>Feedback</strong></h3>
+            <h3><strong style="font-weight: bold; font-family: 'Montserrat', sans-serif ;">Feedback</strong></h3>
                 <p>We learn from you. Please give us your suggestions and feedback.<br /> Constructive criticism is well appreciated.<br /><span class="fa fa-pencil"></span>  <a href="http://bsw.iitd.ac.in/stuff/Constitution.pdf">Click here</a> for the feedback form.</p>
         </div>
 
@@ -100,7 +105,7 @@
     
             <h3>&copy; BSW 2020</h3>
                 <p>All rights reserved.</p>
-                <p><strong>Website Created and Maintained by:</strong><br />
+                <p><strong style="font-weight: bold; font-family: 'Montserrat', sans-serif ;">Website Created and Maintained by:</strong><br />
                 <span class="fa fa-code"></span><a href="">  Japneet Singh</a></br>
                 <span class="fa fa-code"></span><a href="http://">  Ayush Shrivastava</a></br>
                 <span class="fa fa-code"></span><a href="">  Vishal Singh</a></br>

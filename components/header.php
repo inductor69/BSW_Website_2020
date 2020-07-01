@@ -3,7 +3,7 @@
 
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js" type="text/javascript"></script>
 <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"> 
 
 
 <style type="text/css">
@@ -36,7 +36,7 @@
 		}
 
 		body{
-			font-family: 'Montserrat', sans-serif !important;
+			font-family: 'Montserrat', sans-serif ;
 		}
 
 		h1,h2,h3,h4,h5,h6{
@@ -48,6 +48,7 @@
 
 	.navbar-nav a{
 		color:#fff;
+		font-family: 'neue_montrealmedium';
         text-decoration: none;
         background-color: transparent;
         -webkit-text-decoration-skip: objects;
@@ -104,32 +105,42 @@
 
 	@media (max-width: 992px){
 		.dropdown-menu{
+			font-family: 'neue_montrealregular' !important;
 			background: transparent !important;
 			border: none !important;
 		}
 		.dropdown-item:active, .dropdown-item:hover, .dropdown-item:focus{
+			font-family: 'neue_montrealregular' !important;
 			background-color: #00000088 !important;
 			border: none !important;
 			color: #FFFFFF !important;
+			border-radius:10px !important;
 		}
 	}
 	@media (min-width: 992px){
-		.dropdown-item:focus, .dropdown-item:hover {
+		.dropdown-item{
+			font-family: 'neue_montrealregular' !important;
+		}
+		.dropdown-item, .dropdown-item:focus, .dropdown-item:hover {
+		font-family: 'neue_montrealregular' !important;
 		color: #16181b;
 		text-decoration: none;
 	}
 
 	.dropdown-item:focus, .dropdown-item:hover {
+		font-family: 'neue_montrealregular' !important;
     background-color:transparent !important;
 }
 
 .dropdown-item:focus, .dropdown-item:hover {
+	font-family: 'neue_montrealregular' !important;
     color: #16181b;
     text-decoration: none;
     background-color: transparent !important;
 }
 		
 		.dropdown-menu .dropdown-toggle:after{
+			font-family: 'neue_montrealregular' !important;
 			font-size: 12px !important;
 			font-weight:normal !important;
 			background: #00000088 !important;
@@ -140,6 +151,7 @@
 		}
 
 		.dropdown-menu {
+			font-family: 'neue_montrealregular' !important;
 			border-radius:10px !important;
 			margin-left:0px; margin-right: 0px;
 			background: #00000088 !important;
@@ -148,15 +160,18 @@
 		}
 
 		.dropdown-menu li{
+			font-family: 'neue_montrealregular' !important;
 			position: relative;
 			font-weight: normal !important;
 		}
 		.dropdown-menu li:hover{
+			font-family: 'neue_montrealregular' !important;
 			color: #000 !important;
 			position: relative;
 			font-weight: normal !important;
 		}
 		.nav-item .submenu{ 
+			font-family: 'neue_montrealregular' !important;
 			display: none;
 			position: absolute;
 			left:100%; top:-7px;
