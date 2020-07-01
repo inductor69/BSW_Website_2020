@@ -179,11 +179,11 @@ digitally. Participants were extremely enthusiastic and some of them even came i
 Indian cricket team jersey.
 </p>
         </div>
-        <div class="col-6  align-middle">
-            <img src="images/iplauction.jpg" class="convergenz-event">
+        <div class="col-8  align-middle">
+            <img src="images/iplauction.JPG" class="convergenz-event">
         </div>
-        <div class="col-6 align-middle">
-            <img src="images/comedynight.JPG" class="convergenz-event">
+        <div class="col-4 align-middle">
+            <img src="images/iplauction_poster.jpg" class="convergenz-event">
         </div>
 
     </div>
@@ -198,7 +198,7 @@ Indian cricket team jersey.
             <img src="images/enigma_poster.jpg" class="convergenz-event">
         </div>
         <div class="col-8 align-middle">
-            <img src="images/comedynight.JPG" class="convergenz-event">
+            <img src="images/enigma.png" class="convergenz-event">
         </div>
 
     </div>

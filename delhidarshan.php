@@ -100,9 +100,9 @@
 
 	<div class="row justify-content-center">
 	<?php
-		for($i=1; $i<17; $i=$i+1){
-			echo '<a class="thumbs img-link col-12 col-md-4 col-lg-3" href="images/op_delhidarshan/'.$i.'.jpg" >';
-			echo '<img class="thumbnail" src="images/op_delhidarshan/'.$i.'.jpg" alt="BSW Delhi Darshan" />';
+		for($i=1; $i<10; $i=$i+1){
+			echo '<a class="thumbs img-link col-12 col-md-4 col-lg-3" href="images/op_delhidarshan/'.$i.'.JPG" >';
+			echo '<img class="thumbnail" src="images/op_delhidarshan/'.$i.'.JPG" alt="BSW Delhi Darshan" />';
 			echo '</a>';
 		}
 		?>

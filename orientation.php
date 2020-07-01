@@ -181,7 +181,7 @@ margin-bottom: 4px
 
 	<div class="row justify-content-center thumbs">
 	<?php
-		for($i=2; $i<13; $i=$i+1){
+		for($i=2; $i<12; $i=$i+1){
 			echo '<a class=" img-link col-12 col-md-4 col-lg-3" href="images/op_orientation/'.$i.'.jpg" target="_blank" >';
 			echo '<img class="thumbnail " src="images/op_orientation/'.$i.'.jpg" alt="BSW Orientation" />';
 			echo '</a>';

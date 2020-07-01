@@ -152,7 +152,7 @@ margin-bottom: 4px
 
 	<div class="row justify-content-center thumbs">
 	<?php
-		for($i=1; $i<34; $i=$i+1){
+		for($i=1; $i<20; $i=$i+1){
 			echo '<a class=" img-link col-12 col-md-4 col-lg-3" href="images/op_sticd/'.$i.'.jpg" target="_blank" >';
 			echo '<img class="thumbnail " src="images/op_sticd/'.$i.'.jpg" alt="STIC DINNER" />';
 			echo '</a>';
