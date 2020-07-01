@@ -61,7 +61,7 @@
 <html>
 <body>
 
-		<div class="container-fluid" id="footer">
+		<div class="container-fluid" id="footer" style="margin-top: 0px;">
 
         <div class="container">
 

@@ -3,10 +3,45 @@
 
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js" type="text/javascript"></script>
 <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap" rel="stylesheet"> 
 
 
 <style type="text/css">
+
+		@font-face {
+			font-family: 'neue_montrealitalic';
+			src: url('fonts/neuemontreal-italic-webfont.woff2') format('woff2'),
+				url('fonts/neuemontreal-italic-webfont.woff') format('woff');
+			font-weight: normal;
+			font-style: normal;
+
+		}
+
+		@font-face {
+			font-family: 'neue_montrealmedium';
+			src: url('fonts/neuemontreal-medium-webfont.woff2') format('woff2'),
+				url('fonts/neuemontreal-medium-webfont.woff') format('woff');
+			font-weight: normal;
+			font-style: normal;
+
+		}
+
+		@font-face {
+			font-family: 'neue_montrealregular';
+			src: url('fonts/neuemontreal-regular-webfont.woff2') format('woff2'),
+				url('fonts/neuemontreal-regular-webfont.woff') format('woff');
+			font-weight: normal;
+			font-style: normal;
+
+		}
+
+		body{
+			font-family: 'Montserrat', sans-serif !important;
+		}
+
+		h1,h2,h3,h4,h5,h6{
+			font-family: 'neue_montrealmedium' !important;
+		}
 
 
 
@@ -74,7 +109,6 @@
 		}
 		.dropdown-item:active, .dropdown-item:hover, .dropdown-item:focus{
 			background-color: #00000088 !important;
-			border-radius: 10px !important;
 			border: none !important;
 			color: #FFFFFF !important;
 		}
@@ -133,7 +167,7 @@
 			right:100%; left:auto;
 			font-weight: normal !important;
 		}
-		.dropdown-menu > li:hover{ background-color: #000000; border-radius: 10px; width: 100%;  }
+		.dropdown-menu > li:hover{ background-color: #000000; width: 100%;  }
 		.dropdown-menu > li:hover > .submenu{
 			display: block;
 		}
@@ -151,7 +185,7 @@
 		<nav class="navbar navbar-expand-lg mr-auto fixed-top nav-colored " id="myNav">
 
 		<a class="navbar-brand" href="index.php">
-			<img src="images/logo.svg" width="120" height="30" alt="">
+			<img src="images/bsw_logo2.svg" width="160" height="40" alt="">
 		</a>
 		<button id="navbar-toggler" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav">
 			<span class="fa fa-bars fa-lg"></span>

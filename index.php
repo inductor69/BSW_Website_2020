@@ -83,7 +83,6 @@
 		border-radius: 10px;
 		padding:10px;
 		margin:18px;
-		font-family: sans-serif !important;
 		font-size: 30px;
 		color: rgba(0,0,0,0.46);
 		letter-spacing: 0;
@@ -103,32 +102,35 @@
 	#yourDost{
 		background: #FFE487;
 		border-radius: 10px;
+		font-family: 'neue_montrealmedium' !important;
 	}
 	#almaConnect{
 		background: #9FE5E3;
 		border-radius: 10px;
+		font-family: 'neue_montrealmedium' !important;
 	}
 	#bswLoans{
 		background: #7CAAE4;
 		border-radius: 10px;
+		font-family: 'neue_montrealmedium' !important;
 	}
 	#careerCounselling{
 		background: #EF949A;
 		border-radius: 10px;
-		font-family: AirbnbCerealApp-ExtraBold;
 		font-size: 24px;
 		color: rgba(0,0,0,0.46);
 		letter-spacing: 0;
 		text-align: center;
+		font-family: 'neue_montrealmedium' !important;
 	}
 	#qPapers{
 		background: #FFE487;
 		border-radius: 10px;
-		font-family: AirbnbCerealApp-ExtraBold;
 		font-size: 24px;
 		color: rgba(0,0,0,0.46);
 		letter-spacing: 0;
 		text-align: center;
+		font-family: 'neue_montrealmedium' !important;
 	}
 
 	.notice-inner:nth-child(even){
@@ -305,8 +307,8 @@
 	}
 	.photostack{
 		background: #ECE9E6;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+		background: -webkit-linear-gradient(to bottom, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+		background: linear-gradient(to bottom, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 	}
 	
@@ -525,7 +527,7 @@ background: linear-gradient(to left, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Fi
 </div>
 
 <div id="events-gallery">
-<div class="container-fluid my-4" style="padding-right: 0px;padding-left: 0px;">
+<div class="container-fluid mt-4" style="padding-right: 0px;padding-left: 0px; margin-bottom:0px;">
 
 
 			<div id="photostack-1" class="photostack col-12">
@@ -543,7 +545,7 @@ background: linear-gradient(to left, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Fi
 						</figcaption>
 					</figure>
 					<figure>
-						<a href="http://goo.gl/Qw3ND4" class="photostack-img"><img class="gallery-img" src="images/op_delhidarshan/16.jpg" alt="Comedy Night ft. Nishant Tanwar" style="height:240px; width:240px; object-fit:cover;"/></a>
+						<a href="http://goo.gl/Qw3ND4" class="photostack-img"><img class="gallery-img" src="images/op_delhidarshan/5.JPG" alt="Comedy Night ft. Nishant Tanwar" style="height:240px; width:240px; object-fit:cover;"/></a>
 						<figcaption>
 							<h2 class="photostack-title">Delhi Darshan</h2>
 						</figcaption>
@@ -555,7 +557,7 @@ background: linear-gradient(to left, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Fi
 						</figcaption>
 					</figure>
 					<figure data-dummy>
-						<a href="http://goo.gl/Qw3ND4" class="photostack-img"><img class="gallery-img" src="images/op_sticd/20.jpg" alt="Comedy Night ft. Nishant Tanwar" style="height:240px; width:240px; object-fit:cover;"/></a>
+						<a href="http://goo.gl/Qw3ND4" class="photostack-img"><img class="gallery-img" src="images/op_sticd/5.jpg" alt="Comedy Night ft. Nishant Tanwar" style="height:240px; width:240px; object-fit:cover;"/></a>
 						<figcaption>
 							<h2 class="photostack-title">STIC Dinner</h2>
 						</figcaption>
@@ -567,19 +569,25 @@ background: linear-gradient(to left, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Fi
 						</figcaption>
 					</figure>
 					<figure data-dummy>
+						<a href="http://goo.gl/Qw3ND4" class="photostack-img"><img class="gallery-img" src="images/op_delhidarshan/1.JPG" alt="Comedy Night ft. Nishant Tanwar" style="height:240px; width:240px; object-fit:cover;"/></a>
+						<figcaption>
+							<h2 class="photostack-title">Delhi Darshan</h2>
+						</figcaption>
+					</figure>
+					<figure data-dummy>
+						<a href="http://goo.gl/Qw3ND4" class="photostack-img"><img class="gallery-img" src="images/op_delhidarshan/6.jpg" alt="Comedy Night ft. Nishant Tanwar" style="height:240px; width:240px; object-fit:cover;"/></a>
+						<figcaption>
+							<h2 class="photostack-title">Delhi Darshan</h2>
+						</figcaption>
+					</figure>
+					<figure data-dummy>
 						<a href="http://goo.gl/Qw3ND4" class="photostack-img"><img class="gallery-img" src="images/op_delhidarshan/2.jpg" alt="Comedy Night ft. Nishant Tanwar" style="height:240px; width:240px; object-fit:cover;"/></a>
 						<figcaption>
 							<h2 class="photostack-title">Delhi Darshan</h2>
 						</figcaption>
 					</figure>
 					<figure data-dummy>
-						<a href="http://goo.gl/Qw3ND4" class="photostack-img"><img class="gallery-img" src="images/op_delhidarshan/7.jpg" alt="Comedy Night ft. Nishant Tanwar" style="height:240px; width:240px; object-fit:cover;"/></a>
-						<figcaption>
-							<h2 class="photostack-title">Delhi Darshan</h2>
-						</figcaption>
-					</figure>
-					<figure data-dummy>
-						<a href="http://goo.gl/Qw3ND4" class="photostack-img"><img class="gallery-img" src="images/op_delhidarshan/14.jpg" alt="Comedy Night ft. Nishant Tanwar" style="height:240px; width:240px; object-fit:cover;"/></a>
+						<a href="http://goo.gl/Qw3ND4" class="photostack-img"><img class="gallery-img" src="images/op_delhidarshan/8.JPG" alt="Comedy Night ft. Nishant Tanwar" style="height:240px; width:240px; object-fit:cover;"/></a>
 						<figcaption>
 							<h2 class="photostack-title">Delhi Darshan</h2>
 						</figcaption>
@@ -592,6 +600,12 @@ background: linear-gradient(to left, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Fi
 					</figure>
 					<figure >
 						<a href="http://goo.gl/Qw3ND4" class="photostack-img"><img class="gallery-img" src="images/enigma_poster.jpg" alt="Comedy Night ft. Nishant Tanwar" style="height:240px; width:240px; object-fit:cover;"/></a>
+						<figcaption>
+							<h2 class="photostack-title">Enigma: The Magic Show</h2>
+						</figcaption>
+					</figure>
+					<figure data-dummy>
+						<a href="http://goo.gl/Qw3ND4" class="photostack-img"><img class="gallery-img" src="images/enigma.PNG" alt="Comedy Night ft. Nishant Tanwar" style="height:240px; width:240px; object-fit:cover;"/></a>
 						<figcaption>
 							<h2 class="photostack-title">Enigma: The Magic Show</h2>
 						</figcaption>
@@ -611,7 +625,7 @@ background: linear-gradient(to left, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Fi
 					<figure data-dummy>
 						<a href="http://goo.gl/Qw3ND4" class="photostack-img"><img class="gallery-img" src="images/comedynight_poster.JPG" alt="Comedy Night ft. Nishant Tanwar" style="height:240px; width:240px; object-fit:cover;"/></a>
 						<figcaption>
-							<h2 class="photostack-title">Comedy Night ft. nishant Tanwar</h2>
+							<h2 class="photostack-title">Comedy Night ft. Nishant Tanwar</h2>
 						</figcaption>
 					</figure>
 					
