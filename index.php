@@ -499,26 +499,36 @@
 			</div>
 
 				<div class="col-12 col-lg-4">
+				<a href="" style="text-decoration: none">
 				<div id="yourDost" class="home-quick-links">
 				<img src="images/yourDost.svg" width="60" height="60" alt="">
 				Counselling
 				</div>
+				</a>
+				<a href="https://iitd.almaconnect.com/" style="text-decoration: none" >
 				<div id="almaConnect" class="home-quick-links">
 				<img src="images/almaConnect.svg" width="60" height="60" alt="">
 				AlmaConnect
 				</div>
+				</a>
+				<a href="bsw_loans.php" style="text-decoration: none" >
 				<div id="bswLoans" class="home-quick-links">
 				<img src="images/bswLoans.svg" width="60" height="60" alt="">
 				BSW Loans
 				</div>
+				</a>
+				<a href="index.php" style="text-decoration: none" >
 				<div  id="careerCounselling" class="home-quick-links">
 				<img src="images/careerCounselling.svg" width="60" height="60" alt="">
 				Career Counselling
 				</div>
+				</a>
+				<a href="question_papers.php" style="text-decoration: none" >
 				<div  id="qPapers" class="home-quick-links">
 				<img src="images/qPapers.svg" width="60" height="60" alt="">
 				Question Papers
 				</div>
+				</a>
 				</div>
 
 		</div>

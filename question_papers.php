@@ -159,8 +159,8 @@
             and study material to the BSW Representatives, or you can directly upload
             question papers by clicking on Upload.           
             <br>
-              <button class="btn btn-primary upbut mt-2 col-6 col-lg-4 " id="upload-menu-toggle"> <span class="fa fa-upload"></span> Upload</button>
-              <button class="btn btn-secondary upbut mt-2 col-6 col-lg-4 ml-2"> <span class="fa fa-cog"></span> Admin</button>
+              <button class="btn btn-primary upbut mt-2 col-6 col-lg-4 mr-2 " id="upload-menu-toggle"> <span class="fa fa-upload"></span> Upload</button>
+              <button class="btn btn-secondary upbut mt-2 col-6 col-lg-4 "> <span class="fa fa-cog"></span> Admin</button>
             </p>
 
             </div>
@@ -169,28 +169,28 @@
 
             <div class="row offset-md-1" id="uploadwala" style="display: none">
 
-              <h4 class="col-12">Upload Question Paper or Study Material</h4>
-              <p>You can select multiple files. Only pdf, jpg, jpeg and png files are allowed. Maximum allowed file size is 5 MB.</p>
+              <h4 class="col-12 ml-2">Upload Question Paper or Study Material</h4>
+              <p class="col-12 ml-2">You can select multiple files. Only pdf, jpg, jpeg and png files are allowed. Maximum allowed file size is 5 MB.</p>
 
               <form method="POST" action="" enctype="multipart/form-data" class="form-horizontal col-12">
 
               <div class="col-12">
-                <input type="text" name="course" placeholder="Course name in (e.g. APL100)" required class="mx-1">
+                <input type="text" name="course" placeholder="Course name in (e.g. APL100)" required class="my-2 ml-2">
             </div>
 
-                <select name="semester" placeholder="Semester" required class="mx-1">
+                <select name="semester" placeholder="Semester" required class="my-2 ml-2">
                     <option value="Sem1">Sem1(July-Nov)</option>
                     <option value="Sem2">Sem2(Jan-May)</option>
                 </select>
 		  
-                <select name="acad_year" placeholder="Academic Year (2020-21)  " required class="mx-1">
+                <select name="acad_year" placeholder="Academic Year (2020-21)  " required class="my-2 ml-2">
                     <option value="2017-18">2017-18</option>
                     <option value="2018-19">2018-19</option>
                     <option value="2018-19">2019-20</option>
                     <option value="2016-17">2020-21</option>
                 </select>
 		          
-                <select name="exam" placeholder="Exam" required class="mx-1">
+                <select name="exam" placeholder="Exam" required class="my-2 ml-2">
                     <option value="Minor1">Minor1</option>
                     <option value="Minor2">Minor2</option>
                     <option value="Major">Major</option>
@@ -198,10 +198,10 @@
 
 
 
-            <input class="btn btn-secondary" type="file" title="Select papers to upload" name="papers[]" multiple = 'yes' required  accept=".pdf,.jpg,.jpeg,.png">
+            <input class="btn btn-secondary my-2 ml-2" type="file" title="Select papers to upload" name="papers[]" multiple = 'yes' required  accept=".pdf,.jpg,.jpeg,.png">
             <br>
-            <input class="btn btn-primary uploadbut" type="submit" value="Confirm Upload">
-            <input class="btn btn-outline btn-danger uploadbut" value="Cancel Upload" id="cancel-upload">
+            <input class="btn btn-primary uploadbut my-2 ml-2" type="submit" value="Confirm Upload">
+            <input class="btn btn-danger uploadbut my-2 ml-2" value="Cancel Upload" id="cancel-upload">
             <br>
             <br>
             
