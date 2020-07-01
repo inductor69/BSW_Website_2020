@@ -157,7 +157,7 @@
 	.notice-ol .notice-li{display:inline;padding-right:1em;}
 	.notice-ol .notice-li .notice-a{color:#fff;}
 	.quote-container {
-  margin-top: 30px;
+  margin-top: 20px;
   position: relative;
 }
 
@@ -410,7 +410,7 @@ background: linear-gradient(to left, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Fi
 </div>
 
 <div id="home-quick-links-notices">
-	<div class="container my-4">
+	<div class="container-fluid my-4">
 
 		<div class="row flex-lg-row-reverse">
 
@@ -424,6 +424,7 @@ background: linear-gradient(to left, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Fi
 						<h3>Blanket Camp</h3>
 						<h5>31 Oct 2019</h5>
 						<p>BSW is organising a blanket camp, for notice regarding quotations and other information, <a href="http://bsw.iitd.ac.in/notices/camp-converted.pdf" target="_blank">click here</a></p>
+						<p>BSW is organising a blanket camp, for notice regarding quotations and other information, <a href="http://bsw.iitd.ac.in/notices/camp-converted.pdf" target="_blank">click here</a></p>
 						</blockquote>
 						</div>
 					</div>
@@ -434,6 +435,7 @@ background: linear-gradient(to left, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Fi
 						<blockquote class="note pinned-note2">
 						<h3>Cycle Camp</h3>
 						<h5>18 - 21 July 2019</h5>
+						<p>BSW is organising a cycle camp, for notice regarding quotations and other information, <a href="http://bsw.iitd.ac.in/notices/camp-converted.pdf" target="_blank">click here</a></p>
 						<p>BSW is organising a cycle camp, for notice regarding quotations and other information, <a href="http://bsw.iitd.ac.in/notices/camp-converted.pdf" target="_blank">click here</a></p>
 						</blockquote>
 						</div>
