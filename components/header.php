@@ -200,7 +200,7 @@
 		<nav class="navbar navbar-expand-lg mr-auto fixed-top nav-colored " id="myNav">
 
 		<a class="navbar-brand" href="index.php">
-			<img src="images/bsw_logo2.svg" width="160" height="40" alt="">
+			<img src="images/bsw_logo2.svg" width="120" height="30" alt="">
 		</a>
 		<button id="navbar-toggler" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav">
 			<span class="fa fa-bars fa-lg"></span>
