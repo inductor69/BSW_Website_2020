@@ -248,8 +248,8 @@
 							<li><a class="dropdown-item" href="convergenz.php">Convergenz</a></li>
 							<li><a class="dropdown-item" href="informative_sessions.php">Informative Sessions</a></li>
 							<li><a class="dropdown-item" href="bsw_loans.php">BSW Loans</a></li>
-							<li><a class="dropdown-item" href="scoops.php">SCOOPS</a></li>
-							<li><a class="dropdown-item" href="workshops.php">Workshops</a></li>
+							<!-- <li><a class="dropdown-item" href="scoops.php">SCOOPS</a></li>
+							<li><a class="dropdown-item" href="workshops.php">Workshops</a></li> -->
 						</ul>
 					</li>
 					</ul>
