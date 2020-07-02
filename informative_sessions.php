@@ -119,7 +119,7 @@ margin-bottom: 4px
         <div class="row justify-content-center">
 
             <div class="col-12  justify-content-center">
-            <h1 class="about-us-title">Informative Sessions</h1>
+            <h1 class="about-us-title"><span class="fa fa-info-circle"></span> Informative Sessions</h1>
             </div>
 
             <div class="col-12  justify-content-center ml-auto">
