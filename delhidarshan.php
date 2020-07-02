@@ -71,8 +71,8 @@
 
         <div class="row justify-content-center ">
 
-            <div class="col-12 about-us-text">
-            <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.
+            <div class="col-12 about-us-text" style="text-align: center;">
+            <p>Delhi Darshan 2019 was organized on the 3rd & 4th of August. It was a tour across Delhi, relishing the beauty of the city involving indelible bus-rides, exciting ice- breakers for freshers and memories they will cherish forever. We visited the Qutub Minar, the Lotus Temple and finally spent some quality time at Lodhi Gardens. A couple of buses even visited the Gurudwara.
 
 </p>
             </div>

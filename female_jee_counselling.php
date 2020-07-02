@@ -86,16 +86,10 @@ margin-bottom: 4px
 		font-size:1rem;
 		margin-bottom: 20px;
 	}
-	.line-break{
-		width:80%;
-		border: 0;
-		height: 10px;
-		background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-	}
 	#about-us{
     padding-top:60px;
         margin-top:0px;
-		background-image: linear-gradient(90deg, #67B26F 0%, rgba(76,162,205,0.61) 100%);
+		background-image: linear-gradient(90deg, #67B26F 0%, #4CA2CD 100%);
 	}
 	.orientation-image{
 		object-fit: cover !important;
@@ -124,16 +118,13 @@ margin-bottom: 4px
 
         <div class="row justify-content-center">
 
-            <div class="col-12 col-lg-4 justify-content-center">
-            <h1 class="about-us-title">Female JEE Counselling</h1>
+            <div class="col-12 justify-content-center">
+            <h1 class="about-us-title mx-2">Female JEE Counselling</h1>
             </div>
 
-            <div class="col-12 col-lg-7 ml-auto">
-            <p class="about-us-text">
-            Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.                 
-            </p>
-            </div>
+			<p class="about-us-text">
+			A female counselling session was organised by BSW in collaboration with IGES (Initiative for Gender Equity and Sensitization) on the 23rd June 2019 to increase awareness among female IIT aspirants who had cleared JEE Advanced. 
+			This session was conducted in a view to help the female students who have cleared JEE Advanced 2019 to wisely fill their choices and solve their doubts.        </p>
 
 		</div>
 		
@@ -147,59 +138,29 @@ margin-bottom: 4px
 
 	<div class="row justify-content-center">
 
+	<div class="col-12 my-4" style="text-align : justify;">
+            <p>
+			
+			The session was conducted in two slots and a total of 170 girls registered for the counselling session and 130 of them attended the session. Many student volunteers and faculty members were present to help the girls and to give them a clear idea. <br> 
+			Counters consisting of faculty members,3rd year and 4th year students of all branches were there to provide help.
+			Professor Narayanan Kurur, Shalini Gupta, Ravinder Kaur, Sumeet Agarwal, Sangeeta Kohli among others were present to grace the occasion.            </p>
+    </div>
+
             <div class="col-12 col-md-5 justify-content-center my-2 thumbs">
 			<a href="images/op_orientation/1.jpg" >
 				<img class="orientation-img col-12" src="images/op_orientation/1.jpg" alt="Director at the orientation">
 			</a>
             </div>
 
-            <div class="col-12 col-md-7 ml-auto my-2">
-            <p class="">
-            Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.                 
-            </p>
-            </div>
-
 		</div>
 	</div>
 
-<div class="container-fluid mt-4" id="softwares-list">
-	<style>
-		.thumbnail{
-			object-fit: cover !important;
-			display: block;
-			margin-bottom:10px;
-			width:100%;
-			height:100%;
-		}
-		.img-link{
-			margin-bottom:10px;
-		}
 
-	</style>
-
-	<div class="row justify-content-center thumbs">
-	<?php
-		for($i=2; $i<13; $i=$i+1){
-			echo '<a class=" img-link col-12 col-md-4 col-lg-3" href="images/op_orientation/'.$i.'.jpg" target="_blank" >';
-			echo '<img class="thumbnail " src="images/op_orientation/'.$i.'.jpg" alt="BSW Orientation" />';
-			echo '</a>';
-		}
-		?>
-			
-	</div>
-
-</div>
 
 <?php require 'components/footer.php'; ?>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="js/touchTouch.jquery.js"></script>
-<script>
-$(document).ready(function(){
-	$('.thumbs a').touchTouch();
-	});
-</script>
+
 </body>
 </html>

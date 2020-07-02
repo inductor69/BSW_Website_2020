@@ -47,7 +47,7 @@
 	#about-us{
     padding-top:60px;
         margin-top:0px;
-		background-image: linear-gradient(90deg, #67B26F 0%, rgba(76,162,205,0.61) 100%);
+		background-image: linear-gradient(90deg, #67B26F 0%, #4CA2CD 100%);	
 	}
     .form-preview{
         height:800px;
@@ -92,7 +92,7 @@
 
 <div class="row">
     <div class="col-12 my-2">
-        <h4><a href="misc/loan_form.pdf">Click here</a> to download or save the form. </h4>
+        <a href="misc/loan_form.pdf" target="_blank" class="btn btn-primary"><span class="fa fa-download"></span> Download Form</a>
     </div>
 </div>
 

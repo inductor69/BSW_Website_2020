@@ -86,17 +86,11 @@ margin-bottom: 4px
 		font-size:1rem;
 		margin-bottom: 20px;
 	}
-	.line-break{
-		width:80%;
-		border: 0;
-		height: 10px;
-		background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-	}
+	
 	#about-us{
     padding-top:60px;
         margin-top:0px;
-		background-image: linear-gradient(90deg, #67B26F 0%, rgba(76,162,205,0.61) 100%);
-	}
+		background-image: linear-gradient(90deg, #67B26F 0%, #4CA2CD 100%);	}
 	.orientation-image{
 		object-fit: cover !important;
 		display: block;
@@ -124,15 +118,14 @@ margin-bottom: 4px
 
         <div class="row justify-content-center">
 
-            <div class="col-12 col-lg-4 justify-content-center">
+            <div class="col-12  justify-content-center">
             <h1 class="about-us-title">Informative Sessions</h1>
             </div>
 
-            <div class="col-12 col-lg-7 ml-auto">
-            <p class="about-us-text">
-            Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.                 
-            </p>
+            <div class="col-12  justify-content-center ml-auto">
+            <h2 class="about-us-title " style="font-size: 2rem; margin-bottom: 20px;">
+			on foreign exchange and internships
+            </h2>
             </div>
 
 		</div>
@@ -147,58 +140,17 @@ margin-bottom: 4px
 
 	<div class="row justify-content-center">
 
-            <div class="thumbs col-12 col-md-5 justify-content-center my-2">
-			<a href="images/op_orientation/1.jpg" >
-				<img class="orientation-img col-12" src="images/op_orientation/1.jpg" alt="Director at the orientation">
-			</a>
-            </div>
-
-            <div class="col-12 col-md-7 ml-auto my-2">
+            <div class="col-12 col-12 ml-auto my-2">
             <p class="">
-            Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.                 
-            </p>
+			Interactive sessions are organised where seniors from all the branches share their experiences as well as tips and tricks on how to bag foreign internships. They also share best practices on CV making, finding universities or programs, mailing the professors and all other formalities involved along with some additional hacks learnt from their personal experiences.            </p>
             </div>
 
 		</div>
 	</div>
 
-<div class="container-fluid mt-4" id="softwares-list">
-	<style>
-		.thumbnail{
-			object-fit: cover !important;
-			display: block;
-			margin-bottom:10px;
-			width:100%;
-			height:100%;
-		}
-		.img-link{
-			margin-bottom:10px;
-		}
-
-	</style>
-
-	<div class="row justify-content-center thumbs">
-	<?php
-		for($i=2; $i<13; $i=$i+1){
-			echo '<a class=" img-link col-12 col-md-4 col-lg-3" href="images/op_orientation/'.$i.'.jpg" target="_blank" >';
-			echo '<img class="thumbnail " src="images/op_orientation/'.$i.'.jpg" alt="BSW Orientation" />';
-			echo '</a>';
-		}
-		?>
-			
-	</div>
-
-</div>
-
 <?php require 'components/footer.php'; ?>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script>
-$(document).ready(function(){
-	$('.thumbs a').touchTouch();
-	});
-</script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 
 

@@ -96,7 +96,7 @@ margin-bottom: 4px
 	#about-us{
     padding-top:60px;
         margin-top:0px;
-		background-image: linear-gradient(90deg, #67B26F 0%, rgba(76,162,205,0.61) 100%);
+		background-image: linear-gradient(90deg, #67B26F 0%, #4CA2CD 100%);
 	}
 	.orientation-image{
 		object-fit: cover !important;
@@ -125,14 +125,13 @@ margin-bottom: 4px
 
         <div class="row justify-content-center">
 
-            <div class="col-12 col-lg-4 justify-content-center">
-            <h1 class="about-us-title">Orientation</h1>
+            <div class="col-12  justify-content-center">
+            <h1 class="about-us-title"><span class="fa fa-graduation-cap"></span> Orientation</h1>
             </div>
 
-            <div class="col-12 col-lg-7 ml-auto">
+            <div class="col-12  ml-auto">
             <p class="about-us-text">
-            Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.                 
+            The orientation for the incoming 2019 batch UG students started on the 20th of July, 2019 with the Director addressing the students and parents in the Dogra Hall. It was followed by a briefing from the Student Counsellors and the Security Head.
             </p>
             </div>
 
@@ -155,10 +154,8 @@ margin-bottom: 4px
             </div>
 
             <div class="col-12 col-md-7 ml-auto my-2">
-            <p class="">
-            Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.                 
-            </p>
+            <p style="text-align: justify;">
+			The session with the director was followed by evening games inside LHC where they played different games in various groups. <br> The second day of the orientation was lined up with 3 events. <br> Session with mentors, where the student mentors informed them about all the academic details and the rules and regulations here. <br> Department Orientation, where professors from their departments spoke about various aspects of their department. <br> Finally, the Registration, where students did all the paperwork and were finally registered as students of IIT Delhi. <br> Later in the week, Tour of Stalls was organised to give a glimpse of various clubs and boards here at IIT to the freshers. </p>
             </div>
 
 		</div>
