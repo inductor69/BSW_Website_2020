@@ -54,6 +54,7 @@
 </head>
 
 <?php require 'components/header.php'; ?>
+<?php require 'components/back_to_top.php'; ?>
 <body >
 <div id="about-us">
     

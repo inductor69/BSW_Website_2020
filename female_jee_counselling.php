@@ -108,6 +108,7 @@ margin-bottom: 4px
 <body >
 		
 <?php require 'components/header.php'; ?>
+<?php require 'components/back_to_top.php'; ?>
 
 
 <div id="about-us">
@@ -122,7 +123,7 @@ margin-bottom: 4px
             <h1 class="about-us-title mx-2">Female JEE Counselling</h1>
             </div>
 
-			<p class="about-us-text">
+			<p class="about-us-text mx-2">
 			A female counselling session was organised by BSW in collaboration with IGES (Initiative for Gender Equity and Sensitization) on the 23rd June 2019 to increase awareness among female IIT aspirants who had cleared JEE Advanced. 
 			This session was conducted in a view to help the female students who have cleared JEE Advanced 2019 to wisely fill their choices and solve their doubts.        </p>
 

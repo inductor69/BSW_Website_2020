@@ -94,6 +94,7 @@
 <body >
 		
 <?php require 'components/header.php'; ?>
+<?php require 'components/back_to_top.php'; ?>
 
 
 <div id="about-us">
