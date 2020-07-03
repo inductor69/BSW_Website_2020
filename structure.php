@@ -46,7 +46,7 @@
 	#about-us{
     padding-top:60px;
         margin-top:0px;
-		background-image: linear-gradient(90deg, #67B26F 0%, rgba(76,162,205,0.61) 100%);
+		background-image: linear-gradient(90deg, #67B26F 0%, #4CA2CD 100%);
 	}
     #softwares-list{
         margin-top:40px;
@@ -375,16 +375,16 @@
 
     
 </div>
-
+<div id="hostel_reps"></div>
 <div id="about-us">
     
     <br />
 
-    <div class="container" id="hostel_reps">
+    <div class="container" >
 
         <div class="row justify-content-center">
 
-            <div class="col-12 justify-content-center my-4">
+            <div class="col-12 justify-content-center" style="margin-bottom:40px;"">
             <h3 class="about-us-title" style="font-size:50px;">Hostel Representatives</h3>
             </div>
 

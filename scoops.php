@@ -94,7 +94,7 @@ margin-bottom: 4px
 	#about-us{
     padding-top:60px;
         margin-top:0px;
-		background-image: linear-gradient(90deg, #67B26F 0%, rgba(76,162,205,0.61) 100%);
+		background-image: linear-gradient(90deg, #67B26F 0%, #4CA2CD 100%);
 	}
 	.orientation-image{
 		object-fit: cover !important;

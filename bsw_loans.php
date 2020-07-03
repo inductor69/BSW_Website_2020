@@ -38,16 +38,10 @@
 		font-size:1rem;
 		margin-bottom: 20px;
 	}
-	.line-break{
-		width:80%;
-		border: 0;
-		height: 10px;
-		background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-	}
 	#about-us{
     padding-top:60px;
         margin-top:0px;
-		background-image: linear-gradient(90deg, #67B26F 0%, #4CA2CD 100%);	
+		background-image: linear-gradient(90deg, #67B26F 0%, #4CA2CD 100%);
 	}
     .form-preview{
         height:800px;
