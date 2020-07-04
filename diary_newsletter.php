@@ -88,10 +88,10 @@
 
 <div class="row">
     <div class="col-12 col-lg-6 my-2">
-        <h4>BSW Diary</h4><span><a href="misc/bswDiary.pdf" class="btn btn-primary " style={display:inline;}><span class="fa fa-download fa-lg"> Download Diary</span></a>
+        <h4>BSW Diary</h4><span><a href="misc/bswDiary.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-primary " style={display:inline;}><span class="fa fa-download fa-lg"></span> Download Diary</a>
     </div>
     <div class="col-12 col-lg-6 my-2">
-        <h4>BSW Newsletter</h4><span><a href="misc/bswNewsletter.pdf" class="btn btn-primary " style={display:inline;}><span class="fa fa-download fa-lg"> Download Newsletter</span></a>    </div>
+        <h4>BSW Newsletter</h4><span><a href="misc/bswNewsletter.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-primary " style={display:inline;}><span class="fa fa-download fa-lg"></span> Download Newsletter</a>    </div>
     </div>
 
 <div class="row justify-content-center">

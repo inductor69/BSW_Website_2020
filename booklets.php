@@ -91,7 +91,7 @@ before making any decision.            </p>
       <div class="card-body">
         <h4 class="card-title">BSW Finance Booklet</h4>
         <h5 class="card-text">Know the procedure on how to pass a bill for any Board of IIT Delhi. </h5>
-        <a href="booklets/f_book.pdf">
+        <a href="booklets/f_book.pdf" target="_blank" rel="noopener noreferrer">
         <p class="btn btn-primary  mt-2">Read Now</p>
         </a>
       </div>
@@ -108,7 +108,7 @@ before making any decision.            </p>
       <div class="card-body">
         <h4 class="card-title">BSW Academic Booklet</h4>
         <h5 class="card-text">A short and precise booklet for all relevant and hidden information in a much simplified language.  </h5>
-        <a href="booklets/a_bookcomp.pdf">
+        <a href="booklets/a_bookcomp.pdf" target="_blank" rel="noopener noreferrer">
         <p class="btn btn-primary mt-2">Read Now</p>
         </a>
       </div>
@@ -125,7 +125,7 @@ before making any decision.            </p>
       <div class="card-body">
         <h4 class="card-title">BSW Scholarships Booklet</h4>
         <h5 class="card-text">Get the information of all the Scholarships provided by IIT Delhi. There are a lot :P </h5>
-        <a href="booklets/s_book.pdf">
+        <a href="booklets/s_book.pdf" target="_blank" rel="noopener noreferrer">
         <p class="btn btn-primary mt-2">Read Now</p>
         </a>
       </div>

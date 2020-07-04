@@ -97,7 +97,7 @@ Given below is the detailed presentation that you should go through to get detai
 </div>
 
 <div class="container" id="softwares-list">
-
+<a href="misc/health_insurance.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-primary my-2" style={display:inline;}><span class="fa fa-download fa-lg"></span> Download Slides</a>
 <div class="row justify-content-center">
 <div class="card col-12 ">
 <embed src="misc/health_insurance.pdf" class="form-preview">

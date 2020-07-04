@@ -86,7 +86,7 @@
 
 <div class="row">
     <div class="col-12 my-2">
-        <a href="misc/loan_form.pdf" target="_blank" class="btn btn-primary"><span class="fa fa-download"></span> Download Form</a>
+        <a href="misc/loan_form.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-primary"><span class="fa fa-download"></span> Download Form</a>
     </div>
 </div>
 

@@ -82,55 +82,55 @@
 				<div class="container" >
 				
 				<p><ol class="list-group" >
-				        <!-- <li><a href="forms/grant_form.pdf" target="_blank" class="form_link"><b>BSW Grant Form</b></a></li> -->
-				       <li class="list-group-item  " style="border: 1px solid #20AA9D;"><a href="forms/loan_form.pdf" target="_blank" class="form_link"><b>BSW Loan Form</b></a></li> 
-					<li class="list-group-item " style="border: 1px solid #20AA9D;"><a href="forms/wheelchair.pdf" target="_blank" class="form_link"><b>BSW Wheelchair Form</b></a></li>
-				        <li class="list-group-item " style="border: 1px solid #20AA9D;"><a href="forms/NoDues.pdf" target="_blank" class="form_link"><b>No Dues Certificate Form</b></a> <p class="std">For BSW No Dues, please visit Mrs. Rani in Student Affairs Section.</p></li>
-						<li class="list-group-item " style="border: 1px solid #20AA9D;"><a href="forms/scholarship_form.pdf" target="_blank" class="form_link"><b>Scholarship Form</b></a></li>
+				        <!-- <li><a href="forms/grant_form.pdf" target="_blank" rel="noopener noreferrer" class="form_link"><b>BSW Grant Form</b></a></li> -->
+				       <li class="list-group-item  " style="border: 1px solid #20AA9D;"><a href="forms/loan_form.pdf" target="_blank" rel="noopener noreferrer" class="form_link"><b>BSW Loan Form</b></a></li> 
+					<li class="list-group-item " style="border: 1px solid #20AA9D;"><a href="forms/wheelchair.pdf" target="_blank" rel="noopener noreferrer" class="form_link"><b>BSW Wheelchair Form</b></a></li>
+				        <li class="list-group-item " style="border: 1px solid #20AA9D;"><a href="forms/NoDues.pdf" target="_blank" rel="noopener noreferrer" class="form_link"><b>No Dues Certificate Form</b></a> <p class="std">For BSW No Dues, please visit Mrs. Rani in Student Affairs Section.</p></li>
+						<li class="list-group-item " style="border: 1px solid #20AA9D;"><a href="forms/scholarship_form.pdf" target="_blank" rel="noopener noreferrer" class="form_link"><b>Scholarship Form</b></a></li>
 				        <li class="list-group-item " style="border: 1px solid #20AA9D;"><b>UG Forms - </b>
 				          <ul type="square" class="sub-list">
-				          <li><a href="forms/ID card form.pdf" target="_blank" class="form_link" >Application for duplicate identity card</a></li>
-				          <li><a href="forms/RailConcession.pdf" target="_blank" class="form_link"> Application for student rail concession certificate</a></li>
-				          <li><a href="forms/SemesterWithdrawal.pdf" target="_blank" class="form_link" >Application for semester withdrawl</a></li>
-				          <li><a href="forms/SelfStudyCourse.pdf" target="_blank" class="form_link" >Application for self study course</a></li>
+				          <li><a href="forms/ID card form.pdf" target="_blank" rel="noopener noreferrer" class="form_link" >Application for duplicate identity card</a></li>
+				          <li><a href="forms/RailConcession.pdf" target="_blank" rel="noopener noreferrer" class="form_link"> Application for student rail concession certificate</a></li>
+				          <li><a href="forms/SemesterWithdrawal.pdf" target="_blank" rel="noopener noreferrer" class="form_link" >Application for semester withdrawl</a></li>
+				          <li><a href="forms/SelfStudyCourse.pdf" target="_blank" rel="noopener noreferrer" class="form_link" >Application for self study course</a></li>
 				          </ul>
 				        </li>
 				       
 				        <!-- https://docs.google.com/forms/d/1T0o-vUmlPwkoZk-WcsNDDLlUQYz52iqPXLfkT88vgEI/viewform -->
-				        <li class="list-group-item " style="border: 1px solid #20AA9D;"><a href="bonafide.php" target="_blank" class="form_link"><b>Bonafide Certificate form - </b></a><p class="std">BSW now makes it easy for you to fill the bonafide form online. Just fill in all your details in this form to get your Bonafide made. The bonafide is generated/downloaded to your browser and you can get it signed anytime from the UG Section.</p></li>
+				        <li class="list-group-item " style="border: 1px solid #20AA9D;"><a href="bonafide.php" target="_blank" rel="noopener noreferrer" class="form_link"><b>Bonafide Certificate form - </b></a><p class="std">BSW now makes it easy for you to fill the bonafide form online. Just fill in all your details in this form to get your Bonafide made. The bonafide is generated/downloaded to your browser and you can get it signed anytime from the UG Section.</p></li>
 
-                         <li class="list-group-item " style="border: 1px solid #20AA9D;"><a href="taxbonafide.php" target="_blank" class="form_link"><b>Bonafide Certificate form for Fees / Tax Department - </b></a><p class="std">BSW now makes it easy for you to fill the bonafide form online. Just fill in all your details in this form to get your Bonafide made. The bonafide is generated/downloaded to your browser and you can get it signed anytime from the UG Section.</p></li>
+                         <li class="list-group-item " style="border: 1px solid #20AA9D;"><a href="taxbonafide.php" target="_blank" rel="noopener noreferrer" class="form_link"><b>Bonafide Certificate form for Fees / Tax Department - </b></a><p class="std">BSW now makes it easy for you to fill the bonafide form online. Just fill in all your details in this form to get your Bonafide made. The bonafide is generated/downloaded to your browser and you can get it signed anytime from the UG Section.</p></li>
 
-                          <li class="list-group-item " style="border: 1px solid #20AA9D;"><a href="forms/HRA FORM.pdf" target="_blank" class="form_link"><b> Form for HRA Certificate </b></a></li>
+                          <li class="list-group-item " style="border: 1px solid #20AA9D;"><a href="forms/HRA FORM.pdf" target="_blank" rel="noopener noreferrer" class="form_link"><b> Form for HRA Certificate </b></a></li>
 
-                          <li class="list-group-item " style="border: 1px solid #20AA9D;"><a href="forms/FORM FOR RELEASING BICYCLE.pdf" target="_blank" class="form_link"><b> Form for releasing Bicycle/Laptop/Mobile/Bike/Scooty/Car </b></a></li>
+                          <li class="list-group-item " style="border: 1px solid #20AA9D;"><a href="forms/FORM FOR RELEASING BICYCLE.pdf" target="_blank" rel="noopener noreferrer" class="form_link"><b> Form for releasing Bicycle/Laptop/Mobile/Bike/Scooty/Car </b></a></li>
 
 
 
 				        <li class="list-group-item " style="border: 1px solid #20AA9D;"><b>SBI Forms - </b>
 				          <ul type="square" class="sub-list">
-				          <li><a href="forms/sbi_atmpin.pdf" target="_blank" class="form_link" >Issuance of Duplicate ATM Pin</a></li>
-				          <li><a href="forms/sbi_cards&banking.pdf" target="_blank" class="form_link" >For ATM Card/ Debit Card/ i-Banking/ Tele-banking</a></li>
-				          <li><a href="forms/sbi_internetbanking.pdf" target="_blank" class="form_link">Application for Internet Banking: Transaction Rights</a></li>
-				          <li><a href="forms/sbi_profilepassword.pdf" target="_blank" class="form_link" >Registration form for Duplicate Profile Password</a></li>
-				          <li><a href="forms/sbi_replacementcard.pdf" target="_blank" class="form_link" >Issuance of Replacment Card</a></li>
+				          <li><a href="forms/sbi_atmpin.pdf" target="_blank" rel="noopener noreferrer" class="form_link" >Issuance of Duplicate ATM Pin</a></li>
+				          <li><a href="forms/sbi_cards&banking.pdf" target="_blank" rel="noopener noreferrer" class="form_link" >For ATM Card/ Debit Card/ i-Banking/ Tele-banking</a></li>
+				          <li><a href="forms/sbi_internetbanking.pdf" target="_blank" rel="noopener noreferrer" class="form_link">Application for Internet Banking: Transaction Rights</a></li>
+				          <li><a href="forms/sbi_profilepassword.pdf" target="_blank" rel="noopener noreferrer" class="form_link" >Registration form for Duplicate Profile Password</a></li>
+				          <li><a href="forms/sbi_replacementcard.pdf" target="_blank" rel="noopener noreferrer" class="form_link" >Issuance of Replacment Card</a></li>
 				          </ul>
 				        </li>
 				     
-				        <!-- <li><a href="forms/depc.pdf" target="_blank" class="form_link"><b>List of students who got a Department Change - </b></a><p class="std">This is the list issued by the UG section of the students who were allowed to change their department along with their new and old entry numbers and the codes of both the departments.</p></li>
+				        <!-- <li><a href="forms/depc.pdf" target="_blank" rel="noopener noreferrer" class="form_link"><b>List of students who got a Department Change - </b></a><p class="std">This is the list issued by the UG section of the students who were allowed to change their department along with their new and old entry numbers and the codes of both the departments.</p></li>
 				        <li><b>List of students who went abroad on Student Exchange Program - </b><p class="std">It is the list issued by the UG Section containing the names of the students nominated for the exchange program along with the institute name.</p>
 				        <ul type="square" class="sub-list">
-				          <li><a href="forms/Foreign Exchange 2012.pdf" target="_blank" class="form_link" >Foreign Exchange 2012</a></li>
-				          <li><a href="forms/Foreign Exchange 2013.pdf" target="_blank" class="form_link">Foreign Exchange 2013</a></li>
-				          <li><a href="forms/Foreign Exchange 2014.pdf" target="_blank" class="form_link" >Foreign Exchange 2014</a></li>
+				          <li><a href="forms/Foreign Exchange 2012.pdf" target="_blank" rel="noopener noreferrer" class="form_link" >Foreign Exchange 2012</a></li>
+				          <li><a href="forms/Foreign Exchange 2013.pdf" target="_blank" rel="noopener noreferrer" class="form_link">Foreign Exchange 2013</a></li>
+				          <li><a href="forms/Foreign Exchange 2014.pdf" target="_blank" rel="noopener noreferrer" class="form_link" >Foreign Exchange 2014</a></li>
 				        </ul>
 				        </li>
-				        <li><a href="forms/cabfares.pdf" target="_blank" class="form_link"><b>Cab Fares - </b></a><p class="std">This list contains contact numbers of various cab services available in Delhi along with their fares. It also gives the approximate distance of various major places in Delhi from IIT.</p></li>
+				        <li><a href="forms/cabfares.pdf" target="_blank" rel="noopener noreferrer" class="form_link"><b>Cab Fares - </b></a><p class="std">This list contains contact numbers of various cab services available in Delhi along with their fares. It also gives the approximate distance of various major places in Delhi from IIT.</p></li>
 				        
 					<li><b>Foreign Exchange forms </b>
 				        <ul type="square" class="sub-list">
-				          <li><a href="forms/forex_1.pdf" target="_blank" class="form_link" >Form 1</a></li>
-				          <li><a href="forms/forex_2.pdf" target="_blank" class="form_link">Form 2</a></li>
+				          <li><a href="forms/forex_1.pdf" target="_blank" rel="noopener noreferrer" class="form_link" >Form 1</a></li>
+				          <li><a href="forms/forex_2.pdf" target="_blank" rel="noopener noreferrer" class="form_link">Form 2</a></li>
 				        </ul>
 				        </li> -->
 				      </ol>

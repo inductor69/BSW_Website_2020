@@ -159,7 +159,7 @@
                                 $temparr2 = explode("_",$pdfname);
                                 $semdata = $temparr2[3];
                                 $yeardata = $temparr2[2];
-                                echo "<a href=\"studydatabase/".$dept."/".$namecourse."/minor1/".$pdf."\" class=\"list-group-item\"> ".$semdata." | ".$yeardata."</a>";
+                                echo "<a href=\"studydatabase/".$dept."/".$namecourse."/minor1/".$pdf."\" class=\"list-group-item\" target='_blank' rel='noopener noreferrer'> ".$semdata." | ".$yeardata."</a>";
                             }
 
                             ?>
@@ -206,7 +206,7 @@
                                 $temparr2 = explode("_",$pdfname);
                                 $semdata = $temparr2[3];
                                 $yeardata = $temparr2[2];
-                                echo "<a href=\"studydatabase/".$dept."/".$namecourse."/minor2/".$pdf."\" class=\"list-group-item\"> ".$semdata." | ".$yeardata."</a>";
+                                echo "<a href=\"studydatabase/".$dept."/".$namecourse."/minor2/".$pdf."\" class=\"list-group-item\" target='_blank' rel='noopener noreferrer'> ".$semdata." | ".$yeardata."</a>";
                             }
                             ?>
                           </div>
@@ -250,7 +250,7 @@
                                 $temparr2 = explode("_",$pdfname);
                                 $semdata = $temparr2[3];
                                 $yeardata = $temparr2[2];
-                                echo "<a href=\"studydatabase/".$dept."/".$namecourse."/major/".$pdf."\" class=\"list-group-item\"> ".$semdata." | ".$yeardata."</a>";
+                                echo "<a href=\"studydatabase/".$dept."/".$namecourse."/major/".$pdf."\" class=\"list-group-item\" target='_blank' rel='noopener noreferrer'> ".$semdata." | ".$yeardata."</a>";
                             }
                             ?>
                             </div>
