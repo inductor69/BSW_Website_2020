@@ -1,3 +1,33 @@
+<?php
+   if(isset($_FILES['image'])){
+      $errors= array();
+      $file_name = $_FILES['image']['name'];
+      $file_size =$_FILES['image']['size'];
+      $file_tmp =$_FILES['image']['tmp_name'];
+      $file_type=$_FILES['image']['type'];
+      $explode = explode('.',$file_name);
+      $file_ext=strtolower(end($explode));
+      
+      $extensions= array("jpeg","jpg","png","pdf","txt", "docx", "doc", "xls");
+      
+      if(in_array($file_ext,$extensions)=== false){
+         $errors[]="extension not allowed, please choose a PDF, DOCX, TXT, JPEG or PNG file.";
+          echo "<script>alert('Extension not allowed, please choose a PDF, DOCX, TXT, JPEG or PNG file.')</script>";
+      }
+      
+      if($file_size > 6291456 ){
+         $errors[]='File size must be less than 6 MB';
+          echo "<script>alert('File size must be less than 6 MB')</script>";
+      }
+      
+      if(empty($errors)==true){
+         move_uploaded_file($file_tmp,"New_Intern_Uploads/".$file_name);
+         echo "<script>alert('File uploaded Successfully')</script>";
+      }else{
+        echo "<script>alert('Error uploading file. Please try again. If the problems presists, contact a BSW representative.')</script>";
+      }
+   }
+?>
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
@@ -5,13 +35,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
  
 
-<title>Orientation | BSW</title>
+<title>Internships | BSW</title>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
 
 <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-<link href="css/touchTouch.css" rel="stylesheet" type="text/css"/>
-
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js" type="text/javascript"></script>
 <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
@@ -87,12 +115,6 @@ margin-bottom: 4px
 		font-size:1rem;
 		margin-bottom: 20px;
 	}
-	.line-break{
-		width:80%;
-		border: 0;
-		height: 10px;
-		background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-	}
 	#about-us{
     padding-top:60px;
         margin-top:0px;
@@ -127,13 +149,12 @@ margin-bottom: 4px
         <div class="row justify-content-center">
 
             <div class="col-12  justify-content-center">
-            <h1 class="about-us-title"><span class="fa fa-graduation-cap"></span> Orientation</h1>
+            <h1 class="about-us-title">Upload Internship</h1>
             </div>
 
             <div class="col-12  ml-auto">
-            <p class="about-us-text">
-            The orientation for the incoming 2019 batch UG students started on the 20th of July, 2019 with the Director addressing the students and parents in the Dogra Hall. It was followed by a briefing from the Student Counsellors and the Security Head.
-            </p>
+            <p class="about-us-text" style="color: #b00a0a;">
+            (*All internships will be scrutinised by the Admin)            </p>
             </div>
 
 		</div>
@@ -144,62 +165,27 @@ margin-bottom: 4px
 
 </div>
 
-<div class="container">
+<div class="container my-4">
 
-	<div class="row justify-content-center">
+Upload details about the internship using the form below.<br>
+Allowed file formats are jpeg,  jpg,  png,  pdf,  txt,  docx,  doc and xls. <br>
+Details must include Location, Stipend, Deadline to apply for the internship and whether it is full time or part time.
 
-            <div class="thumbs col-12 col-md-5 justify-content-center my-2">
-			<a href="images/op_orientation/1.jpg" >
-				<img class="orientation-img col-12" src="images/op_orientation/1.jpg" alt="Director at the orientation">
-			</a>
-            </div>
+<form class="text-center my-2" action="" method="POST" enctype="multipart/form-data">
+                    <input type="file" name="image" class="my-4" /><br>
+                    <input class="btn btn-primary btn-success" type="submit" value="Upload Internship Details" onclick="upload(event)"/>
+                    <a href="intern.php" class="btn btn-primary btn-danger">Cancel Upload</a>
+                 </form>
 
-            <div class="col-12 col-md-7 ml-auto my-2">
-            <p style="text-align: justify;">
-			The session with the director was followed by evening games inside LHC where they played different games in various groups. <br> The second day of the orientation was lined up with 3 events. <br> Session with mentors, where the student mentors informed them about all the academic details and the rules and regulations here. <br> Department Orientation, where professors from their departments spoke about various aspects of their department. <br> Finally, the Registration, where students did all the paperwork and were finally registered as students of IIT Delhi. <br> Later in the week, Tour of Stalls was organised to give a glimpse of various clubs and boards here at IIT to the freshers. </p>
-            </div>
-
-		</div>
-	</div>
-
-<div class="container-fluid mt-4" id="softwares-list">
-	<style>
-		.thumbnail{
-			object-fit: cover !important;
-			display: block;
-			margin-bottom:10px;
-			width:100%;
-			height:100%;
-		}
-		.img-link{
-			margin-bottom:10px;
-		}
-
-	</style>
-
-	<div class="row justify-content-center thumbs">
-	<?php
-		for($i=2; $i<12; $i=$i+1){
-			echo '<a class=" img-link col-12 col-md-4 col-lg-3" href="images/op_orientation/'.$i.'.jpg" target="_blank" >';
-			echo '<img class="thumbnail " src="images/op_orientation/'.$i.'.jpg" alt="BSW Orientation" />';
-			echo '</a>';
-		}
-		?>
-			
-	</div>
+	
 
 </div>
 
 <?php require 'components/footer.php'; ?>
-<?php require 'components/back_to_top.php'; ?>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="js/touchTouch.jquery.js"></script>
-<script>
-$(document).ready(function(){
-	$('.thumbs a').touchTouch();
-	});
+<script type="text/javascript">
 </script>
 
 </body>

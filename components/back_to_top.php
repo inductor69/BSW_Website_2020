@@ -4,8 +4,8 @@
     font-size: 25px;
     padding: 10px;
     position: fixed;
-    bottom: 40px;
-    right: 40px;
+    bottom: 20px;
+    right: 30px;
     z-index: 9999;
     width: 60px;
     height: 60px;

@@ -486,6 +486,7 @@
 <div class="col-12 col-md-9 offset-md-3" >
 
 <?php require 'components/footer.php'; ?>
+<?php require 'components/back_to_top.php'; ?>
 
 </div>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

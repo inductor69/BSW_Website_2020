@@ -37,27 +37,27 @@
 
     /* /////////////Check css below this, extraa */
 
-      #myBtn {
+      #upload_intern_button {
       display: none;
       position: fixed;
       bottom: 20px;
-      right: 30px;
+      left: 30px;
       z-index: 99;
       font-size: 14px;
       border: none;
       outline: none;
-      background-color: #ec407a ;
+      background-color: #d95b86d4 ;
       color: white;
       cursor: pointer;
       padding: 15px;
       border-radius: 4px;
       }
       
-      #myBtn:hover {
+      #upload_intern_button:hover {
       background-color: #555;
       } 
       @media only screen and (max-width : 320px) {
-      #myBtn{
+      #upload_intern_button{
       margin:auto;
        font-size: 70%;
       }
@@ -144,7 +144,7 @@ color: #20AA9D;
 
 <body>
 <?php include 'components/header.php'; ?>
-<a href="upload_intern.php"><button onclick="topFunction()" id="myBtn" title="Post an Internship?">Want to Post an Internship? Click here</button></a>
+<a href="upload_intern.php"><button id="upload_intern_button" title="Post an Internship?">Want to Post an Internship? Click here</button></a>
 
 
     <div id="about-us">
@@ -491,10 +491,24 @@ color: #20AA9D;
   
    
    <?php include 'components/footer.php'; ?>
+   <?php require 'components/back_to_top.php'; ?>
 
    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-   
+    <script>
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function() {scrollFunction()};
+      
+      function scrollFunction() {
+          if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 20) {
+              document.getElementById("upload_intern_button").style.display = "block";
+          } else {
+              document.getElementById("upload_intern_button").style.display = "none";
+          }
+      }
+      
+      
+   </script>
   
 </body>
 </html>
