@@ -66,7 +66,7 @@
     z-index: 1; /* Stay on top */
     top: 62px; /* Stay at the top */
     left: 5px;
-    background-color: rgb(142,142,147); /* Black */
+    background-color: #616161 !important; /* Black */
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 20px;
     }
@@ -94,7 +94,7 @@
         position: sticky;
         top:60px;
         z-index: 100;
-        background-color:rgb(142,142,147) !important;
+        background-color:#616161 !important
         border-radius:10px !important;
         opacity:0.8;
     }
