@@ -23,7 +23,6 @@
 	}
 	body{
 		background-color: #a4e7f055;
-		scroll-behavior: smooth !important;
 	}
 	
 	.about-us-title{
@@ -40,6 +39,7 @@
         margin-top:0px;
         background-image: linear-gradient(180deg, #C02425 0%, #F0CB35 100%);	
 		}
+
     .convergenz-logo{
         margin-top:60px;
         height:auto;
@@ -53,7 +53,7 @@
         display: inline-block;
     }
 	.dd-text{
-		font-size:1.1rem;
+		font-size:1.15rem;
 	}
 	.arrow-up {
 	 height: 40px;
@@ -149,6 +149,9 @@
 .arrow-box{
 	transform: rotate(180deg);
 }
+#gallery{
+	background-image: linear-gradient(0deg, #FFFFFF 0%, #F0CB35 100%);
+}
  
  
 
@@ -187,6 +190,7 @@
 			</a>
 			</div>
 
+
             </div>
 
         </div>
@@ -195,30 +199,32 @@
 
 </div>
 
-<div class="container-fluid mt-4" id="gallery">
+<div class="container-fluid" id="gallery">
 	<style>
 		.thumbnail{
-			object-fit: cover !important;
-			display: block;
-			margin-bottom:10px;
-			width:95%;
+			width:100%;
 			height:auto;
 			border-radius: 10px;
+			display: inline-block;
+		}
+		.thumb-div{
+			margin: 20px;
+			text-align: center;
 		}
 		.img-link{
 			margin-bottom:10px;
 		}
 
 	</style>
-
+<br>
 
 	<div class="row justify-content-center your-class">
 	<?php
 		for($i=1; $i<10; $i=$i+1){
-			echo '<div>';
-			echo '<a class=" img-link col-12 col-md-4 col-lg-3" href="images/op_delhidarshan/'.$i.'.JPG" >';
+			echo '<div class="thumb-div">';
+			//echo '<a class="col-12 col-md-4 col-lg-3" href="images/op_delhidarshan/'.$i.'.JPG" >';
 			echo '<img class="thumbnail" src="images/op_delhidarshan/'.$i.'.JPG" alt="BSW Delhi Darshan" />';
-			echo '</a>';
+			//echo '</a>';
 			echo '</div>';
 		}
 		?>
@@ -233,7 +239,68 @@
 			</a>
 	</div>
 
-	<div id="journey"></div>
+	<br><br><br>
+
+</div>
+
+<div class="container" id="journey">
+	
+
+
+	<div class="row">
+		<h1 class=" ml-4 my-2" style="font-size: 60px;">Journey</h1>
+	</div>
+
+	<div class="row my-4">
+		<div class="col-12 col-md-6" style="width: 98%;">
+			<img class="thumbnail" src="images/op_delhidarshan/1.JPG" alt="BSW Delhi Darshan" />
+		</div>
+		<div class="col-12 col-md-6 my-4 " style="font-size:20px;">
+		<h2>Location</h2>
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</div>
+	</div>
+
+	<div class="row my-4">
+	<div class="col-12 col-md-6 d-sm-block d-md-none" style="width: 98%;">
+			<img class="thumbnail" src="images/op_delhidarshan/2.JPG" alt="BSW Delhi Darshan" />
+		</div>
+
+		<div class="col-12 col-md-6 my-4 " style="font-size:20px;">
+		<h2>Location</h2>
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</div>
+
+		<div class="col-12 col-md-6 d-none d-md-block" style="width: 98%;">
+			<img class="thumbnail" src="images/op_delhidarshan/2.JPG" alt="BSW Delhi Darshan" />
+		</div>
+	</div>
+
+	<div class="row my-4">
+		<div class="col-12 col-md-6" style="width: 98%;">
+			<img class="thumbnail" src="images/op_delhidarshan/3.JPG" alt="BSW Delhi Darshan" />
+		</div>
+		<div class="col-12 col-md-6 my-4 " style="font-size:20px;">
+		<h2>Location</h2>
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</div>
+	</div>
+
+	<div class="row my-4">
+	<div class="col-12 col-md-6 d-sm-block d-md-none" style="width: 98%;">
+			<img class="thumbnail" src="images/op_delhidarshan/2.JPG" alt="BSW Delhi Darshan" />
+		</div>
+
+		<div class="col-12 col-md-6 my-4 " style="font-size:20px;">
+		<h2>Location</h2>
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</div>
+
+		<div class="col-12 col-md-6 d-none d-md-block" style="width: 98%;">
+			<img class="thumbnail" src="images/op_delhidarshan/2.JPG" alt="BSW Delhi Darshan" />
+		</div>
+	</div>
+	
 
 </div>
 
@@ -246,6 +313,7 @@
 <script>
 	$(document).ready(function(){
 		$('.your-class').slick({
+			arrows: true,
 			centerMode: true,
 			centerPadding: '60px',
 			slidesToShow: 3,

@@ -1,5 +1,7 @@
 <style type="text/css">
-
+html{
+  scroll-behavior: auto;
+}
 .back_to_top {
     font-size: 25px;
     padding: 10px;

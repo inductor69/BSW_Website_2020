@@ -94,7 +94,7 @@
         position: sticky;
         top:60px;
         z-index: 100;
-        background-color:#616161 !important
+        background-color: #616161 !important; /* Black */
         border-radius:10px !important;
         opacity:0.8;
     }
