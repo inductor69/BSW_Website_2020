@@ -147,10 +147,13 @@
 }
 
 .arrow-box{
+	margin-top:60px;
 	transform: rotate(180deg);
 }
 #gallery{
-	background-image: linear-gradient(0deg, #FFFFFF 0%, #F0CB35 100%);
+	background-image: linear-gradient(0deg, #eeeeee 0%, #F0CB35 100%);
+	padding-left: 20px;
+	padding-right: 20px;
 }
  
  
@@ -201,39 +204,69 @@
 
 <div class="container-fluid" id="gallery">
 	<style>
-		.thumbnail{
-			width:90%;
+		.thumbnaili{
+			object-fit: cover !important;
+			width:300px !important;
 			height:auto;
 			border-radius: 10px;
-			display: inline;
-			text-align: center !important;
-			margin: 0 auto;
+			margin:67px 10px 10px 10px !important
+		}
+		.thumbnail{
+			object-fit: cover !important;
+			width: 100%;
+			height:auto;
+			border-radius: 20px;
+		}
+		.slick-next{
+			margin-right:40px;
+			width: 80px !important;
+			height: 80px !important;
+		}
+		.slick-prev{
+			margin-left:40px !important;
+			width: 80px !important;
+			height: 80px !important;
+			z-index: 100000 !important;
+			font-size: 40px !important;
+		}
+		.slick-prev::before{
+			font-size: 40px !important;
+		}
+		.slick-next::before{
+			font-size: 40px !important;
+		}
+		.slick-dots li button::before {
+			font-size: 12px !important;
 		}
 		
-
-		.slick-active .thumbnail{
-		width:95% !important;
-		height:auto;
-		border-radius: 10px;
-		display: inline;
-		transition : all 0.5s ease-in-out;
-		margin: 0 auto;
+		.slick-dots{
+			position: relative !important;
 		}
-		.slick-current .thumbnail{
-		width:100% !important;
+		
+		.slick-current{
+		object-fit: cover !important;
+		display: block;
+		width:500px !important;
 		height:auto;
 		border-radius: 10px;
-		display: inline;
-		transition : all 0.5s ease-in-out;
-		margin: 0 auto;
+		transition: height 0.5s ease-in-out !important;
+		margin: 10px !important;
 		}
 		.t
 		.thumb-div{
-			display: inline !important;
+			display: block !important;
 			text-align: center !important;
 		}
 		.img-link{
 			margin-bottom:10px;
+		}
+
+		#loc-1{
+			background: #999;
+			padding:10px;
+			padding-top: 30px;
+			padding-bottom: 30px;
+			border-radius:40px;
 		}
 
 	</style>
@@ -242,17 +275,15 @@
 	<div class="row justify-content-center your-class align-middle">
 	<?php
 		for($i=1; $i<10; $i=$i+1){
-			echo '<div class="thumb-div align-middle">';
 			//echo '<a class="col-12 col-md-4 col-lg-3" href="images/op_delhidarshan/'.$i.'.JPG" >';
-			echo '<img class="thumbnail" src="images/op_delhidarshan/'.$i.'.JPG" alt="BSW Delhi Darshan" />';
+			echo '<img class="thumbnaili" src="images/op_delhidarshan/'.$i.'.JPG" alt="BSW Delhi Darshan" />';
 			//echo '</a>';
-			echo '</div>';
 		}
 		?>
 			
 	</div>
 
-	<div class="row arrow-box justify-content-center" style="text-align: center;">
+	<div class="row arrow-box justify-content-center" style="text-align: center; margin-top: 100px;">
 			<a class="arrow-up" href="#journey">
 				<span class="left-arm"></span>
 				<span class="right-arm"></span>
@@ -264,15 +295,15 @@
 
 </div>
 
-<div class="container" id="journey">
+<div class="container" style="padding-right: 40px; padding-left: 40px;" id="journey">
 	
 
 
 	<div class="row">
-		<h1 class=" my-2" style="font-size: 60px;">Journey</h1>
+		<h1 class="my-4" style="font-size: 60px;">Journey</h1>
 	</div>
 
-	<div class="row my-4">
+	<div class="row my-4" id="loc-1">
 		<div class="col-12 col-md-6" style="width: 98%;">
 			<img class="thumbnail" src="images/op_delhidarshan/1.JPG" alt="BSW Delhi Darshan" />
 		</div>
@@ -297,7 +328,7 @@
 		</div>
 	</div>
 
-	<div class="row my-4">
+	<div class="row my-4" id="loc-1">
 		<div class="col-12 col-md-6" style="width: 98%;">
 			<img class="thumbnail" src="images/op_delhidarshan/3.JPG" alt="BSW Delhi Darshan" />
 		</div>
@@ -320,7 +351,7 @@
 		</div>
 	</div>
 
-	<div class="row my-4">
+	<div class="row my-4" id="loc-1">
 		<div class="col-12 col-md-6" style="width: 98%;">
 			<img class="thumbnail" src="images/op_delhidarshan/3.JPG" alt="BSW Delhi Darshan" />
 		</div>
@@ -340,6 +371,8 @@
 <script>
 	$(document).ready(function(){
 		$('.your-class').slick({
+			autoplay: true,
+			variableWidth: true,
 			swipeToSlide: true,
 			centerMode:true,
 			slidesToShow: 3,
