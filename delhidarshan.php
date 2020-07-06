@@ -180,7 +180,7 @@
         <div class="row justify-content-center ">
 
             <div class="col-12 about-us-text" style="text-align: center;">
-            <p class="dd-text">Delhi Darshan 2019 was organized on the 3rd & 4th of August. It was a tour across Delhi, relishing the beauty of the city involving indelible bus-rides, exciting ice- breakers for freshers and memories they will cherish forever. We visited the Qutub Minar, the Lotus Temple and finally spent some quality time at Lodhi Gardens. A couple of buses even visited the Gurudwara.</p>
+            <p class="dd-text">Delhi Darshan 2019 was organized on the 3rd & 4th of August. It's a tour across Delhi, relishing the beauty of the city with indelible bus-rides. We had  exciting ice-breakers to know our batchmates, and memories to cherish. We visited nearby monuments and tourist spots, and had a day filled with games and fun activities</p>
 			
 			<div class="row arrow-box justify-content-center" style="text-align: center;">
 			<a class="arrow-up" href="#gallery">
@@ -202,14 +202,35 @@
 <div class="container-fluid" id="gallery">
 	<style>
 		.thumbnail{
-			width:100%;
+			width:90%;
 			height:auto;
 			border-radius: 10px;
-			display: inline-block;
+			display: inline;
+			text-align: center !important;
+			margin: 0 auto;
 		}
+		
+
+		.slick-active .thumbnail{
+		width:95% !important;
+		height:auto;
+		border-radius: 10px;
+		display: inline;
+		transition : all 0.5s ease-in-out;
+		margin: 0 auto;
+		}
+		.slick-current .thumbnail{
+		width:100% !important;
+		height:auto;
+		border-radius: 10px;
+		display: inline;
+		transition : all 0.5s ease-in-out;
+		margin: 0 auto;
+		}
+		.t
 		.thumb-div{
-			margin: 20px;
-			text-align: center;
+			display: inline !important;
+			text-align: center !important;
 		}
 		.img-link{
 			margin-bottom:10px;
@@ -218,10 +239,10 @@
 	</style>
 <br>
 
-	<div class="row justify-content-center your-class">
+	<div class="row justify-content-center your-class align-middle">
 	<?php
 		for($i=1; $i<10; $i=$i+1){
-			echo '<div class="thumb-div">';
+			echo '<div class="thumb-div align-middle">';
 			//echo '<a class="col-12 col-md-4 col-lg-3" href="images/op_delhidarshan/'.$i.'.JPG" >';
 			echo '<img class="thumbnail" src="images/op_delhidarshan/'.$i.'.JPG" alt="BSW Delhi Darshan" />';
 			//echo '</a>';
@@ -248,7 +269,7 @@
 
 
 	<div class="row">
-		<h1 class=" ml-4 my-2" style="font-size: 60px;">Journey</h1>
+		<h1 class=" my-2" style="font-size: 60px;">Journey</h1>
 	</div>
 
 	<div class="row my-4">
@@ -256,8 +277,8 @@
 			<img class="thumbnail" src="images/op_delhidarshan/1.JPG" alt="BSW Delhi Darshan" />
 		</div>
 		<div class="col-12 col-md-6 my-4 " style="font-size:20px;">
-		<h2>Location</h2>
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		<h2>Qutub Minar</h2>
+		The Qutub Minar is a minaret and "victory tower" that forms part of the Qutb complex, a UNESCO World Heritage Site in the Mehrauli area of Delhi, India. While cherishing the mesmerizing beauty of Qutub Minar, lots of freshers were modelling and making the most of iconic backgrounds!
 		</div>
 	</div>
 
@@ -267,8 +288,8 @@
 		</div>
 
 		<div class="col-12 col-md-6 my-4 " style="font-size:20px;">
-		<h2>Location</h2>
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		<h2>Lotus Temple</h2>
+		The Lotus Temple, located in Delhi, India, is a Baháʼí House of Worship that was dedicated in December 1986.Notable for its flowerlike shape, it has become a prominent attraction in the city.  The highlight of lotus temple is the unique silent prayers it has , which provided a sense of completeness and calm to us.
 		</div>
 
 		<div class="col-12 col-md-6 d-none d-md-block" style="width: 98%;">
@@ -281,9 +302,8 @@
 			<img class="thumbnail" src="images/op_delhidarshan/3.JPG" alt="BSW Delhi Darshan" />
 		</div>
 		<div class="col-12 col-md-6 my-4 " style="font-size:20px;">
-		<h2>Location</h2>
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-		</div>
+		<h2>Gurudwara Bangla Sahib</h2>
+		Gurudwara Bangla Sahib is one of the most prominent Sikh gurdwara, or Sikh house of worship, in Delhi and known for its association with the eighth Sikh Guru, Guru Har Krishan, as well as the holy pool inside its complex, known as the "Sarovar." 		</div>
 	</div>
 
 	<div class="row my-4">
@@ -292,15 +312,22 @@
 		</div>
 
 		<div class="col-12 col-md-6 my-4 " style="font-size:20px;">
-		<h2>Location</h2>
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-		</div>
+		<h2>Chandni Chowk</h2>
+		The most iconic chowk in Delhi ,the Chandni chowk has lot to offer ,which our freshers enjoyed and had the amazing shopping experience!		</div>
 
 		<div class="col-12 col-md-6 d-none d-md-block" style="width: 98%;">
 			<img class="thumbnail" src="images/op_delhidarshan/2.JPG" alt="BSW Delhi Darshan" />
 		</div>
 	</div>
-	
+
+	<div class="row my-4">
+		<div class="col-12 col-md-6" style="width: 98%;">
+			<img class="thumbnail" src="images/op_delhidarshan/3.JPG" alt="BSW Delhi Darshan" />
+		</div>
+		<div class="col-12 col-md-6 my-4 " style="font-size:20px;">
+		<h2>Lodhi Garden</h2>
+		The last stop of our fun filled day ,is the Lodhi Garden. Spread over 90 acres (360,000 m2), it contains, Mohammed Shah's Tomb, Tomb of Sikandar Lodi, Shisha Gumbad and Bara Gumbad, architectural works of the 15th century by Lodis. We had various fun filled activities,games for our freshers to enjoy, and  thus we welcomed themto our ever-growing IITD community!	</div>
+	</div>
 
 </div>
 
@@ -313,10 +340,13 @@
 <script>
 	$(document).ready(function(){
 		$('.your-class').slick({
-			arrows: true,
-			centerMode: true,
-			centerPadding: '60px',
+			swipeToSlide: true,
+			centerMode:true,
 			slidesToShow: 3,
+			slidesToScroll: 1,
+			dots: true,
+			focusOnSelect: true,
+			arrows: true,
 			responsive: [
 				{
 				breakpoint: 768,
