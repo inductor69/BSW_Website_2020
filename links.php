@@ -97,25 +97,25 @@
 
     <div class="card col-11 ">
     <ul class="list-group list-group-flush">
-        <li class="list-group-item"><a href="http://www.iitd.ac.in/" target="_blank" > <span class="fa fa-external-link"><span> IIT Delhi Website </a></li>
-        <li class="list-group-item"><a href="http://www.internal.iitd.ac.in/" target="_blank" > <span class="fa fa-external-link"><span> IIT Delhi Internal Website </a></li>
-        <li class="list-group-item"><a href="https://webmail.iitd.ernet.in/roundcube/" target="_blank" > <span class="fa fa-external-link"><span> IIT Delhi Webmail </a></li>
-        <li class="list-group-item"><a href="http://www.cc.iitd.ac.in/" target="_blank" > <span class="fa fa-external-link"><span> CSC: Computer Services Center </a></li>
-        <li class="list-group-item"><a href="http://timetable.iitd.ac.in/" target="_blank" > <span class="fa fa-external-link"><span> Time Table </a></li>
-        <li class="list-group-item"><a href="https://academics1.iitd.ac.in/" target="_blank" > <span class="fa fa-external-link"><span> IIT Delhi WBAMS/Campus1* </a></li>
-        <li class="list-group-item"><a href="https://moodle.iitd.ac.in/" target="_blank" > <span class="fa fa-external-link"><span> MOODLE </a></li>
-        <li class="list-group-item"><a href="http://owncloud.iitd.ac.in/" target="_blank" > <span class="fa fa-external-link"><span> OwnCloud </a></li>
-        <li class="list-group-item"><a href="http://academic.iitd.ernet.in/academic/" target="_blank" > <span class="fa fa-external-link"><span> Academic Site </a></li>
-        <li class="list-group-item"><a href="http://library.iitd.ac.in/" target="_blank" > <span class="fa fa-external-link"><span> Central Library</a></li>
-        <li class="list-group-item"><a href="http://hospital.iitd.ac.in/" target="_blank" > <span class="fa fa-external-link"><span> IIT Delhi Hospital </a></li>
-        <li class="list-group-item"><a href="http://tnp.iitd.ac.in/" target="_blank" > <span class="fa fa-external-link"><span> T&P: Training & Placement Cell </a></li>
-        <li class="list-group-item"><a href="http://10.220.108.35/Etsc/videoprogrammes.html" target="_blank" > <span class="fa fa-external-link"><span> Video Lectures (Proxy Free!) </a></li>
-        <li class="list-group-item"><a href="http://etsc.iitd.ac.in/" target="_blank" > <span class="fa fa-external-link"><span> ETSC: Educational Technologies Services Center </a></li>
-        <li class="list-group-item"><a href="http://dos.iitd.ac.in/" target="_blank" > <span class="fa fa-external-link"><span> Dean of Student Affairs </a></li>
-        <li class="list-group-item"><a href="http://web.iitd.ac.in/~ravimr/curriculum/ucic/" target="_blank" > <span class="fa fa-external-link"><span> Undergraduate Curriculum Implementation Committee (UCIC) </a></li>
-        <li class="list-group-item"><a href="http://www.iitd.ac.in/content/anti-sexual-harassment-policy" target="_blank" > <span class="fa fa-external-link"><span> Internal Complaints Committee (ICC) / Anti Sexual Harassment Policy </a></li>
-        <li class="list-group-item"><a href="https://infrasla.iitd.ac.in/netserv/" target="_blank" > <span class="fa fa-external-link"><span> SLA for Networking Services (LAN Complaints) </a></li>
-        <li class="list-group-item"><a href="https://internal.iitd.ernet.in/?q=content/ug-notices" target="_blank" > <span class="fa fa-external-link"><span> Online UG Notice Board </a></li>
+        <li class="list-group-item"><a href="http://www.iitd.ac.in/" target="_blank" > <span class="fa fa-external-link"></span> IIT Delhi Website </a></li>
+        <li class="list-group-item"><a href="http://www.internal.iitd.ac.in/" target="_blank" > <span class="fa fa-external-link"></span> IIT Delhi Internal Website </a></li>
+        <li class="list-group-item"><a href="https://webmail.iitd.ernet.in/roundcube/" target="_blank" > <span class="fa fa-external-link"></span> IIT Delhi Webmail </a></li>
+        <li class="list-group-item"><a href="http://www.cc.iitd.ac.in/" target="_blank" > <span class="fa fa-external-link"></span> CSC: Computer Services Center </a></li>
+        <li class="list-group-item"><a href="http://timetable.iitd.ac.in/" target="_blank" > <span class="fa fa-external-link"></span> Time Table </a></li>
+        <li class="list-group-item"><a href="https://academics1.iitd.ac.in/" target="_blank" > <span class="fa fa-external-link"></span> IIT Delhi WBAMS/Campus1* </a></li>
+        <li class="list-group-item"><a href="https://moodle.iitd.ac.in/" target="_blank" > <span class="fa fa-external-link"></span> MOODLE </a></li>
+        <li class="list-group-item"><a href="http://owncloud.iitd.ac.in/" target="_blank" > <span class="fa fa-external-link"></span> OwnCloud </a></li>
+        <li class="list-group-item"><a href="http://academic.iitd.ernet.in/academic/" target="_blank" > <span class="fa fa-external-link"></span> Academic Site </a></li>
+        <li class="list-group-item"><a href="http://library.iitd.ac.in/" target="_blank" > <span class="fa fa-external-link"></span> Central Library</a></li>
+        <li class="list-group-item"><a href="http://hospital.iitd.ac.in/" target="_blank" > <span class="fa fa-external-link"></span> IIT Delhi Hospital </a></li>
+        <li class="list-group-item"><a href="http://tnp.iitd.ac.in/" target="_blank" > <span class="fa fa-external-link"></span> T&P: Training & Placement Cell </a></li>
+        <li class="list-group-item"><a href="http://10.220.108.35/Etsc/videoprogrammes.html" target="_blank" > <span class="fa fa-external-link"></span> Video Lectures (Proxy Free!) </a></li>
+        <li class="list-group-item"><a href="http://etsc.iitd.ac.in/" target="_blank" > <span class="fa fa-external-link"></span> ETSC: Educational Technologies Services Center </a></li>
+        <li class="list-group-item"><a href="http://dos.iitd.ac.in/" target="_blank" > <span class="fa fa-external-link"></span> Dean of Student Affairs </a></li>
+        <li class="list-group-item"><a href="http://web.iitd.ac.in/~ravimr/curriculum/ucic/" target="_blank" > <span class="fa fa-external-link"></span> Undergraduate Curriculum Implementation Committee (UCIC) </a></li>
+        <li class="list-group-item"><a href="http://www.iitd.ac.in/content/anti-sexual-harassment-policy" target="_blank" > <span class="fa fa-external-link"></span> Internal Complaints Committee (ICC) / Anti Sexual Harassment Policy </a></li>
+        <li class="list-group-item"><a href="https://infrasla.iitd.ac.in/netserv/" target="_blank" > <span class="fa fa-external-link"></span> SLA for Networking Services (LAN Complaints) </a></li>
+        <li class="list-group-item"><a href="https://internal.iitd.ernet.in/?q=content/ug-notices" target="_blank" > <span class="fa fa-external-link"></span> Online UG Notice Board </a></li>
 
 
     </ul>
