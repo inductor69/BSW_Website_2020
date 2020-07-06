@@ -151,9 +151,100 @@
 	transform: rotate(180deg);
 }
 #gallery{
-	background-image: linear-gradient(0deg, #eeeeee 0%, #F0CB35 100%);
+	background-image: linear-gradient(0deg, #ffffff 0%, #F0CB35 100%);
 	padding-left: 20px;
 	padding-right: 20px;
+}
+
+.arrow-up-2 {
+	 height: 40px;
+	 width: 42px;
+	 display: block;
+	 border: 1px solid #000;
+	 position: relative;
+	 cursor: pointer;
+	 transition: all 0.5s cubic-bezier(0.25, 1.7, 0.35, 1.5);
+	 overflow: hidden;
+}
+ .arrow-slide-2 {
+	 left: 0;
+	 top: -100%;
+	 width: 100%;
+	 height: 100%;
+	 background: #000;
+	 position: absolute;
+	 display: block;
+	 z-index: 0;
+}
+ .left-arm-2 {
+	 position: absolute;
+	 z-index: 1;
+	 background-color: transparent;
+	 top: 19px;
+	 left: 3px;
+	 width: 20px;
+	 display: block;
+	 transform: rotate(-45deg);
+}
+ .left-arm-2:after {
+	 content: "";
+	 background-color: #000;
+	 width: 20px;
+	 height: 1px;
+	 display: block;
+	 border-radius: 1px;
+	 transition: all 0.5s cubic-bezier(0.25, 1.7, 0.35, 1.5);
+	 transform-origin: right center;
+	 z-index: -1;
+}
+ .right-arm-2 {
+	 position: absolute;
+	 z-index: 1;
+	 background-color: transparent;
+	 top: 19px;
+	 left: 17px;
+	 width: 20px;
+	 display: block;
+	 transform: rotate(45deg);
+	 border-radius: 2px;
+}
+ .right-arm-2:after {
+	 content: "";
+	 background-color: #000;
+	 width: 20px;
+	 height: 1px;
+	 display: block;
+	 border-radius: 1px;
+	 transition: all 0.5s cubic-bezier(0.25, 1.7, 0.35, 1.5);
+	 transform-origin: left center;
+	 z-index: -1;
+}
+ .arrow-up-2:hover {
+	 transition: all 0.1s;
+}
+ .arrow-up-2:hover .left-arm-2:after {
+	 transform: rotate(-10deg);
+}
+ .arrow-up-2:hover .right-arm-2:after {
+	 transform: rotate(10deg);
+}
+ .arrow-up-2:hover .arrow-slide-2 {
+	 transition: all 0.4s ease-in-out;
+	 transform: translateY(200%);
+}
+
+.arrow-up-2:active {
+	 transition: all 0.1s;
+}
+ .arrow-up-2:active .left-arm-2:after {
+	 transform: rotate(-10deg);
+}
+ .arrow-up-2:active .right-arm-2:after {
+	 transform: rotate(10deg);
+}
+ .arrow-up-2:active .arrow-slide-2 {
+	 transition: all 0.4s ease-in-out;
+	 transform: translateY(200%);
 }
  
  
@@ -204,6 +295,7 @@
 
 <div class="container-fluid" id="gallery">
 	<style>
+		
 		.thumbnaili{
 			object-fit: cover !important;
 			width:300px !important;
@@ -262,11 +354,32 @@
 		}
 
 		#loc-1{
-			background: #999;
+			background-image: linear-gradient(180deg, #000000 0%, #323232 100%);
 			padding:10px;
 			padding-top: 30px;
 			padding-bottom: 30px;
 			border-radius:40px;
+			color: #fff !important;
+		}
+
+		@media (max-width: 700px){
+			.thumbnaili{
+			object-fit: cover !important;
+			width:200px !important;
+			height:auto;
+			border-radius: 10px;
+			margin:50px 10px 10px 10px !important
+		}
+		.slick-current{
+			object-fit: cover !important;
+			display: block;
+			width:300px !important;
+			height:auto;
+			border-radius: 10px;
+			transition: height 1s, width 1s ease-in-out;
+			margin: 10px !important;
+		}
+
 		}
 
 	</style>
@@ -284,10 +397,10 @@
 	</div>
 
 	<div class="row arrow-box justify-content-center" style="text-align: center; margin-top: 100px;">
-			<a class="arrow-up" href="#journey">
-				<span class="left-arm"></span>
-				<span class="right-arm"></span>
-				<span class="arrow-slide"></span>
+			<a class="arrow-up-2" href="#journey">
+				<span class="left-arm-2"></span>
+				<span class="right-arm-2"></span>
+				<span class="arrow-slide-2"></span>
 			</a>
 	</div>
 
@@ -304,8 +417,8 @@
 	</div>
 
 	<div class="row my-4" id="loc-1">
-		<div class="col-12 col-md-6" style="width: 98%;">
-			<img class="thumbnail" src="images/op_delhidarshan/1.JPG" alt="BSW Delhi Darshan" />
+		<div class="col-12 col-md-6 align-middle" style="width: 98%;">
+			<img class="thumbnail align-middle" src="images/op_delhidarshan/1.JPG" alt="BSW Delhi Darshan" />
 		</div>
 		<div class="col-12 col-md-6 my-4 " style="font-size:20px;">
 		<h2>Qutub Minar</h2>
@@ -314,7 +427,7 @@
 	</div>
 
 	<div class="row my-4">
-	<div class="col-12 col-md-6 d-sm-block d-md-none" style="width: 98%;">
+	<div class="col-12 col-md-6 d-sm-block d-md-none align-middle" style="width: 98%;">
 			<img class="thumbnail" src="images/op_delhidarshan/2.JPG" alt="BSW Delhi Darshan" />
 		</div>
 
@@ -324,13 +437,13 @@
 		</div>
 
 		<div class="col-12 col-md-6 d-none d-md-block" style="width: 98%;">
-			<img class="thumbnail" src="images/op_delhidarshan/2.JPG" alt="BSW Delhi Darshan" />
+			<img class="thumbnail align-middle" src="images/op_delhidarshan/2.JPG" alt="BSW Delhi Darshan" />
 		</div>
 	</div>
 
 	<div class="row my-4" id="loc-1">
 		<div class="col-12 col-md-6" style="width: 98%;">
-			<img class="thumbnail" src="images/op_delhidarshan/3.JPG" alt="BSW Delhi Darshan" />
+			<img class="thumbnail align-middle" src="images/op_delhidarshan/3.JPG" alt="BSW Delhi Darshan" />
 		</div>
 		<div class="col-12 col-md-6 my-4 " style="font-size:20px;">
 		<h2>Gurudwara Bangla Sahib</h2>
@@ -347,13 +460,13 @@
 		The most iconic chowk in Delhi ,the Chandni chowk has lot to offer ,which our freshers enjoyed and had the amazing shopping experience!		</div>
 
 		<div class="col-12 col-md-6 d-none d-md-block" style="width: 98%;">
-			<img class="thumbnail" src="images/op_delhidarshan/2.JPG" alt="BSW Delhi Darshan" />
+			<img class="thumbnail align-middle" src="images/op_delhidarshan/2.JPG" alt="BSW Delhi Darshan" />
 		</div>
 	</div>
 
 	<div class="row my-4" id="loc-1">
 		<div class="col-12 col-md-6" style="width: 98%;">
-			<img class="thumbnail" src="images/op_delhidarshan/3.JPG" alt="BSW Delhi Darshan" />
+			<img class="thumbnail align-middle" src="images/op_delhidarshan/3.JPG" alt="BSW Delhi Darshan" />
 		</div>
 		<div class="col-12 col-md-6 my-4 " style="font-size:20px;">
 		<h2>Lodhi Garden</h2>
@@ -371,6 +484,7 @@
 <script>
 	$(document).ready(function(){
 		$('.your-class').slick({
+			accessibility: true,
 			autoplay: true,
 			variableWidth: true,
 			swipeToSlide: true,
