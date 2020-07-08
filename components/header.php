@@ -234,8 +234,8 @@
 					<li><a class="dropdown-item" href="#">Mentorship <span id="right-drop-arrow">&#9658;</span></a>
 						<ul class="submenu dropdown-menu">
 							<li><a class="dropdown-item" href="">Academic Mentorship</a></li>
-							<li><a class="dropdown-item" href="https://iitd.almaconnect.com/">Alumni Mentorship</a></li>
-							<li><a class="dropdown-item" href="">Language Mentorship </a></li>
+							<li><a class="dropdown-item" href="https://iitd.almaconnect.com/">Alumni Mentorship    <span class="fa fa-external-link-square"></span></a><li>
+							<li><a class="dropdown-item" href="language_mentorship.php">Language Mentorship </a></li>
 							<li><a class="dropdown-item" href="">Mental Health Mentorship &amp; Counselling</a></li>
 						</ul>
 					</li>

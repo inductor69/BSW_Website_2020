@@ -9,7 +9,7 @@
     padding-top:30px;
     padding-bottom:30px;
     width: 100%;
-    background-image: linear-gradient(90deg, #67B26F 0%, #4CA2CD 100%);
+    background-image: linear-gradient(180deg, #67B26F 0%, rgba(24,86,117,0.62) 100%, rgba(0,0,0,0.95) 100%);        
     border: none;
 	}
     #footer.container{

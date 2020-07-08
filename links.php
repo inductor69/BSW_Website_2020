@@ -116,8 +116,6 @@
         <li class="list-group-item"><a href="http://www.iitd.ac.in/content/anti-sexual-harassment-policy" target="_blank" > <span class="fa fa-external-link"></span> Internal Complaints Committee (ICC) / Anti Sexual Harassment Policy </a></li>
         <li class="list-group-item"><a href="https://infrasla.iitd.ac.in/netserv/" target="_blank" > <span class="fa fa-external-link"></span> SLA for Networking Services (LAN Complaints) </a></li>
         <li class="list-group-item"><a href="https://internal.iitd.ernet.in/?q=content/ug-notices" target="_blank" > <span class="fa fa-external-link"></span> Online UG Notice Board </a></li>
-
-
     </ul>
     </div>
 
