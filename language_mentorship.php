@@ -37,7 +37,6 @@ body{
 		color: #fff;
 		font-weight: medium;
 		font-size:1rem;
-		margin-bottom: 20px;
 	}
 	
 	#page-header{
@@ -45,13 +44,6 @@ body{
         margin-top:0px;
 		text-align: center;
 		}
-	.orientation-image{
-		object-fit: cover !important;
-		display: block;
-		margin-bottom:10px;
-		width:100%;
-		height:100%;
-	}
 	#lm-desc{
 		text-align: center;
 		background-color: rgba(68,215,182,0.1);
@@ -67,16 +59,12 @@ body{
 		background: #FFFFFF;
 		box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05);
 		border-radius: 20px;
-		padding: 20px;
+		padding-top: 10px;
 		margin: 10px;
 		text-align: center;
 	}
-	#mentor-tab a btn-primary {
-		width: 70%;
-		box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05);
-	}
-	#mentor-tab a btn-danger {
-		width: 30%;
+	#mentor-tab a {
+		width: 35%;
 		box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05);
 	}
 
@@ -135,154 +123,120 @@ body{
 			</div>
 
 			<div class="col-lg-2 col-md-3 col-5 " id="mentor-tab">
-			<h4>Mentor 1</h4>
-			<a class="btn btn-danger my-1" style="color: white; border-radius:10px;"><span class="fa fa-envelope"></span> Mail </a>
-			<a class="btn btn-primary my-1" style="color: white; border-radius:10px;"><span class="fa fa-facebook"></span> facebook</a>
+			 <p>Mentor Name 			<a class="btn btn-success" style="color: white; border-radius:10px;"><span class="fa fa-phone"></span></a></p>
 			</div>
 
 			<div class="col-lg-2 col-md-3 col-5 " id="mentor-tab">
-			<h4>Mentor 2</h4>
-			<a class="btn btn-danger my-1" style="color: white; border-radius:10px;"><span class="fa fa-envelope"></span> Mail </a>
-			<a class="btn btn-primary my-1" style="color: white; border-radius:10px;"><span class="fa fa-facebook"></span> facebook</a>
+			 <p>Mentor Name 			<a class="btn btn-success" style="color: white; border-radius:10px;"><span class="fa fa-phone"></span></a></p>
 			</div>
 
 			<div class="col-lg-2 col-md-3 col-5 " id="mentor-tab">
-			<h4>Mentor 3</h4>
-			<a class="btn btn-danger my-1" style="color: white; border-radius:10px;"><span class="fa fa-envelope"></span> Mail </a>
-			<a class="btn btn-primary my-1" style="color: white; border-radius:10px;"><span class="fa fa-facebook"></span> facebook</a>
+			 <p>Mentor Name 			<a class="btn btn-success" style="color: white; border-radius:10px;"><span class="fa fa-phone"></span></a></p>
 			</div>
 
 			<div class="col-lg-2 col-md-3 col-5 " id="mentor-tab">
-			<h4>Mentor 4</h4>
-			<a class="btn btn-danger my-1" style="color: white; border-radius:10px;"><span class="fa fa-envelope"></span> Mail </a>
-			<a class="btn btn-primary my-1" style="color: white; border-radius:10px;"><span class="fa fa-facebook"></span>  facebook</a>
+			 <p>Mentor Name 			<a class="btn btn-success" style="color: white; border-radius:10px;"><span class="fa fa-phone"></span> </a>
 			</div>
 
 			<div class="col-lg-2 col-md-3 col-5 " id="mentor-tab">
-			<h4>Mentor 5</h4>
-			<a class="btn btn-danger my-1" style="color: white; border-radius:10px;"><span class="fa fa-envelope"></span> Mail </a>
-			<a class="btn btn-primary my-1" style="color: white; border-radius:10px;"><span class="fa fa-facebook"></span> facebook</a>
+			 <p>Mentor Name 			<a class="btn btn-success" style="color: white; border-radius:10px;"><span class="fa fa-phone"></span></a></p>
 			</div>
 
 			<div class="col-lg-2 col-md-3 col-5 " id="mentor-tab">
-			<h4>Mentor 6</h4>
-			<a class="btn btn-danger my-1" style="color: white; border-radius:10px;"><span class="fa fa-envelope"></span> Mail </a>
-			<a class="btn btn-primary my-1" style="color: white; border-radius:10px;"><span class="fa fa-facebook"></span> facebook</a>
+			 <p>Mentor Name 			<a class="btn btn-success" style="color: white; border-radius:10px;"><span class="fa fa-phone"></span></a></p>
 			</div>
 
 			<div class="col-lg-2 col-md-3 col-5 " id="mentor-tab">
-			<h4>Mentor 7</h4>
-			<a class="btn btn-danger my-1" style="color: white; border-radius:10px;"><span class="fa fa-envelope"></span> Mail </a>
-			<a class="btn btn-primary my-1" style="color: white; border-radius:10px;"><span class="fa fa-facebook"></span> facebook</a>
+			 <p>Mentor Name 			<a class="btn btn-success" style="color: white; border-radius:10px;"><span class="fa fa-phone"></span></a></p>
 			</div>
 
 			<div class="col-lg-2 col-md-3 col-5 " id="mentor-tab">
-			<h4>Mentor 8</h4>
-			<a class="btn btn-danger my-1" style="color: white; border-radius:10px;"><span class="fa fa-envelope"></span> Mail </a>
-			<a class="btn btn-primary my-1" style="color: white; border-radius:10px;"><span class="fa fa-facebook"></span> facebook</a>
+			 <p>Mentor Name 			<a class="btn btn-success" style="color: white; border-radius:10px;"><span class="fa fa-phone"></span></a></p>
 			</div>
 
 			<div class="col-lg-2 col-md-3 col-5 " id="mentor-tab">
-			<h4>Mentor 9</h4>
-			<a class="btn btn-danger my-1" style="color: white; border-radius:10px;"><span class="fa fa-envelope"></span> Mail </a>
-			<a class="btn btn-primary my-1" style="color: white; border-radius:10px;"><span class="fa fa-facebook"></span> facebook</a>
+			 <p>Mentor Name 			<a class="btn btn-success" style="color: white; border-radius:10px;"><span class="fa fa-phone"></span></a></p>
 			</div>
 
 			<div class="col-lg-2 col-md-3 col-5 " id="mentor-tab">
-			<h4>Mentor 10</h4>
-			<a class="btn btn-danger my-1" style="color: white; border-radius:10px;"><span class="fa fa-envelope"></span> Mail </a>
-			<a class="btn btn-primary my-1" style="color: white; border-radius:10px;"><span class="fa fa-facebook"></span> facebook</a>
+			 <p>Mentor Name 
+			<a class="btn btn-success" style="color: white; border-radius:10px;"><span class="fa fa-phone"></span></a></p>
 			</div>
 
 			<div class="col-lg-2 col-md-3 col-5 " id="mentor-tab">
-			<h4>Mentor 12</h4>
-			<a class="btn btn-danger my-1" style="color: white; border-radius:10px;"><span class="fa fa-envelope"></span> Mail </a>
-			<a class="btn btn-primary my-1" style="color: white; border-radius:10px;"><span class="fa fa-facebook"></span> facebook</a>
+			 <p>Mentor Name 
+			<a class="btn btn-success" style="color: white; border-radius:10px;"><span class="fa fa-phone"></span></a></p>
 			</div>
 
 			<div class="col-lg-2 col-md-3 col-5 " id="mentor-tab">
-			<h4>Mentor 13</h4>
-			<a class="btn btn-danger my-1" style="color: white; border-radius:10px;"><span class="fa fa-envelope"></span> Mail </a>
-			<a class="btn btn-primary my-1" style="color: white; border-radius:10px;"><span class="fa fa-facebook"></span> facebook</a>
+			 <p>Mentor Name 
+			<a class="btn btn-success" style="color: white; border-radius:10px;"><span class="fa fa-phone"></span></a></p>
 			</div>
 	
 
 			<div class="col-lg-2 col-md-3 col-5 " id="mentor-tab">
-			<h4>Mentor 14</h4>
-			<a class="btn btn-danger my-1" style="color: white; border-radius:10px;"><span class="fa fa-envelope"></span> Mail </a>
-			<a class="btn btn-primary my-1" style="color: white; border-radius:10px;"><span class="fa fa-facebook"></span> facebook</a>
+			 <p>Mentor Name 
+			<a class="btn btn-success" style="color: white; border-radius:10px;"><span class="fa fa-phone"></span></a></p>
 			</div>
 
 			<div class="col-lg-2 col-md-3 col-5 " id="mentor-tab">
-			<h4>Mentor 15</h4>
-			<a class="btn btn-danger my-1" style="color: white; border-radius:10px;"><span class="fa fa-envelope"></span> Mail </a>
-			<a class="btn btn-primary my-1" style="color: white; border-radius:10px;"><span class="fa fa-facebook"></span> facebook</a>
+			 <p>Mentor Name 
+			<a class="btn btn-success" style="color: white; border-radius:10px;"><span class="fa fa-phone"></span></a></p>
 			</div>
 
 			<div class="col-lg-2 col-md-3 col-5 " id="mentor-tab">
-			<h4>Mentor 16</h4>
-			<a class="btn btn-danger my-1" style="color: white; border-radius:10px;"><span class="fa fa-envelope"></span> Mail </a>
-			<a class="btn btn-primary my-1" style="color: white; border-radius:10px;"><span class="fa fa-facebook"></span> facebook</a>
+			 <p>Mentor Name 
+			<a class="btn btn-success" style="color: white; border-radius:10px;"><span class="fa fa-phone"></span></a></p>
 			</div>
 
 			<div class="col-lg-2 col-md-3 col-5 " id="mentor-tab">
-			<h4>Mentor 17</h4>
-			<a class="btn btn-danger my-1" style="color: white; border-radius:10px;"><span class="fa fa-envelope"></span> Mail </a>
-			<a class="btn btn-primary my-1" style="color: white; border-radius:10px;"><span class="fa fa-facebook"></span>  facebook</a>
+			 <p>Mentor Name 
+			<a class="btn btn-success" style="color: white; border-radius:10px;"><span class="fa fa-phone"></span> </a>
 			</div>
 
 			<div class="col-lg-2 col-md-3 col-5 " id="mentor-tab">
-			<h4>Mentor 18</h4>
-			<a class="btn btn-danger my-1" style="color: white; border-radius:10px;"><span class="fa fa-envelope"></span> Mail </a>
-			<a class="btn btn-primary my-1" style="color: white; border-radius:10px;"><span class="fa fa-facebook"></span> facebook</a>
+			 <p>Mentor Name 
+			<a class="btn btn-success" style="color: white; border-radius:10px;"><span class="fa fa-phone"></span></a></p>
 			</div>
 
 			<div class="col-lg-2 col-md-3 col-5 " id="mentor-tab">
-			<h4>Mentor 19</h4>
-			<a class="btn btn-danger my-1" style="color: white; border-radius:10px;"><span class="fa fa-envelope"></span> Mail </a>
-			<a class="btn btn-primary my-1" style="color: white; border-radius:10px;"><span class="fa fa-facebook"></span> facebook</a>
+			 <p>Mentor Name 
+			<a class="btn btn-success" style="color: white; border-radius:10px;"><span class="fa fa-phone"></span></a></p>
 			</div>
 
 			<div class="col-lg-2 col-md-3 col-5 " id="mentor-tab">
-			<h4>Mentor 20</h4>
-			<a class="btn btn-danger my-1" style="color: white; border-radius:10px;"><span class="fa fa-envelope"></span> Mail </a>
-			<a class="btn btn-primary my-1" style="color: white; border-radius:10px;"><span class="fa fa-facebook"></span> facebook</a>
+			 <p>Mentor Name 
+			<a class="btn btn-success" style="color: white; border-radius:10px;"><span class="fa fa-phone"></span></a></p>
 			</div>
 
 			<div class="col-lg-2 col-md-3 col-5 " id="mentor-tab">
-			<h4>Mentor 21</h4>
-			<a class="btn btn-danger my-1" style="color: white; border-radius:10px;"><span class="fa fa-envelope"></span> Mail </a>
-			<a class="btn btn-primary my-1" style="color: white; border-radius:10px;"><span class="fa fa-facebook"></span> facebook</a>
+			 <p>Mentor Name 
+			<a class="btn btn-success" style="color: white; border-radius:10px;"><span class="fa fa-phone"></span></a></p>
 			</div>
 
 			<div class="col-lg-2 col-md-3 col-5 " id="mentor-tab">
-			<h4>Mentor 22</h4>
-			<a class="btn btn-danger my-1" style="color: white; border-radius:10px;"><span class="fa fa-envelope"></span> Mail </a>
-			<a class="btn btn-primary my-1" style="color: white; border-radius:10px;"><span class="fa fa-facebook"></span> facebook</a>
+			 <p>Mentor Name 
+			<a class="btn btn-success" style="color: white; border-radius:10px;"><span class="fa fa-phone"></span></a></p>
 			</div>
 
 			<div class="col-lg-2 col-md-3 col-5 " id="mentor-tab">
-			<h4>Mentor 22</h4>
-			<a class="btn btn-danger my-1" style="color: white; border-radius:10px;"><span class="fa fa-envelope"></span> Mail </a>
-			<a class="btn btn-primary my-1" style="color: white; border-radius:10px;"><span class="fa fa-facebook"></span> facebook</a>
+			 <p>Mentor Name 
+			<a class="btn btn-success" style="color: white; border-radius:10px;"><span class="fa fa-phone"></span></a></p>
 			</div>
 
 			<div class="col-lg-2 col-md-3 col-5 " id="mentor-tab">
-			<h4>Mentor 23</h4>
-			<a class="btn btn-danger my-1" style="color: white; border-radius:10px;"><span class="fa fa-envelope"></span> Mail </a>
-			<a class="btn btn-primary my-1" style="color: white; border-radius:10px;"><span class="fa fa-facebook"></span> facebook</a>
+			 <p>Mentor Name 
+			<a class="btn btn-success" style="color: white; border-radius:10px;"><span class="fa fa-phone"></span></a></p>
 			</div>
 
 			<div class="col-lg-2 col-md-3 col-5 " id="mentor-tab">
-			<h4>Mentor 24</h4>
-			<a class="btn btn-danger my-1" style="color: white; border-radius:10px;"><span class="fa fa-envelope"></span> Mail </a>
-			<a class="btn btn-primary my-1" style="color: white; border-radius:10px;"><span class="fa fa-facebook"></span> facebook</a>
+			 <p>Mentor Name 
+			<a class="btn btn-success" style="color: white; border-radius:10px;"><span class="fa fa-phone"></span></a></p>
 			</div>
 
 			<div class="col-lg-2 col-md-3 col-5 " id="mentor-tab">
-			<h4>Mentor 25</h4>
-			<a class="btn btn-danger my-1" style="color: white; border-radius:10px;"><span class="fa fa-envelope"></span> Mail </a>
-			<a class="btn btn-primary my-1" style="color: white; border-radius:10px;"><span class="fa fa-facebook"></span> facebook</a>
+			 <p>Mentor Name 
+			<a class="btn btn-success" style="color: white; border-radius:10px;"><span class="fa fa-phone"></span></a></p>
 			</div>
 
 	</div>
