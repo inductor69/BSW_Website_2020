@@ -51,6 +51,11 @@
 			font-family: 'neue_montrealmedium' !important;
 		}
 
+		#userText{
+			background-color: #000 !important;
+			width: 100% !important;
+		}
+
 
 
 
