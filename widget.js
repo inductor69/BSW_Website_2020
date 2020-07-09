@@ -849,19 +849,19 @@
     }), n.d(e, "a", function() {
         return p
     });
-    var o = {
+    var o = {    //desktop chatbox iframe
             position: "fixed",
             bottom: "20px",
             right: "20px",
             zIndex: 2147483647,
-            borderRadius: "5px",
+            borderRadius: "20px",
             boxSizing: "content-box",
             boxShadow: "0px 0px 20px rgba(0, 0, 0, 0.2)",
             overflow: "hidden"
-        },
-        r = {
+        }, 
+        r = {      //desktop chatbox icon div
             position: "fixed",
-            bottom: "0px",
+            bottom: "20px",
             right: "20px",
             zIndex: 2147483647,
             minWidth: "400px",
@@ -869,29 +869,28 @@
             overflow: "hidden",
             minHeight: "120px"
         },
-        i = {
+        i = {  //mobile chatbox icon div
             position: "fixed",
-            bottom: "0px",
-            right: "0px",
+            bottom: "10px",
+            right: "10px",
             zIndex: 2147483647,
             minWidth: "400px",
             boxSizing: "content-box",
             overflow: "hidden",
             minHeight: "120px"
         },
-        a = {
+        a = {  //mobile chatbox iframe, height is %of that declared at the bottom
+            borderRadius: "20px",
             position: "fixed",
-            top: 0,
-            right: 0,
-            bottom: 0,
+            bottom: "20px",
             right: 0,
             zIndex: 2147483647,
             width: "100%",
-            height: "100%",
+            height: "60%",
             overflowY: "visible",
-            boxSizing: "content-box"
+            boxSizing: "content-box",
         },
-        s = {
+        s = {   //title box for both desktop and mobile
             height: "40px",
             lineHeight: "30px",
             fontSize: "20px",
@@ -928,7 +927,7 @@
             borderRadius: "50%",
             boxShadow: "0px 0px 20px rgba(0, 0, 0, 0.2)"
         },
-        p = {
+        p = {               //chatbox-icon
             width: "100%",
             height: "auto",
             borderRadius: "999px"
@@ -1403,8 +1402,8 @@
         bubbleAvatarUrl: "images/chatbot_logo.svg",
         desktopHeight: 450,
         desktopWidth: 370,
-        mobileHeight: "80%",
-        mobileWidth: "100%",
+        mobileHeight: "100%",
+        mobileWidth: "80%",
         videoHeight: 160,
         aboutLink: "https://bsw.iitd.ac.in",
         aboutText: "",

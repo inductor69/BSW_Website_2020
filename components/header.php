@@ -8,9 +8,9 @@
 	  <script>
         var botmanWidget = {
             frameEndpoint: 'chat.html',
-            introMessage: 'Hello',
+            introMessage: "Hi! BSW is here to help you with your concerns. How may I help you?",
             chatServer : 'botman.php', 
-            title: 'BotMan'
+            title: 'BSW Chatbot'
         }; 
     </script>
 

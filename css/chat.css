@@ -1,11 +1,14 @@
 
  body, html {
-     background-image: url(images/chatbot_bg.svg);
+    background-image: url(images/chatbot_bg.svg);
     background-color: #ffffff;
     font-family: 'Montserrat', sans-serif !important;
     font-size: 14px;
     margin: 0;
     padding: 0;
+}
+#chatBotManFrame{
+    border-radius: 20px !important;
 }
 #messageArea {
     overflow-y: scroll;
