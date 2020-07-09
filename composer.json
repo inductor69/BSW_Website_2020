@@ -8,6 +8,10 @@
             "email": "singhjapneetssa@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "botman/botman": "^2.3",
+        "botman/driver-web": "^1.5",
+        "symfony/cache": "3.2"
+    },
     "license": "MIT"
 }
