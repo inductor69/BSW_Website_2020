@@ -31,14 +31,25 @@
 		top: 50px;
 		width: 100%;
 		color: #FFF;
+		text-align: center;
+		font-family: NeueMontreal-Bold;
 
 	}
-	.intro-text {
-		padding-top: 60px;
-		font-weight: 700;
-		font-size: 6vw;
-		text-shadow: 2px 2px 2px #000000;
+	@media (max-width:988px){
+		.intro-text {
+		padding-top: 40px;
+		font-weight: 600;
+		font-size: 30px;
+		padding-left: 20px;
 	}
+}
+	@media (min-width:987px){
+		.intro-text {
+		padding-top: 30px;
+		font-weight: 600;
+		font-size: 40px;
+	}}
+	
 	.intro-text-subtitle {
 		font-weight: 400;
 		font-size: 4vw;
@@ -333,28 +344,28 @@
         <div class="carousel-inner">
             
             <div class="carousel-item active">
-                <img class="d-block w-100 imagic" src="images/team_pic.jpg" alt="First slide" style="object-fit: cover;">
+                <img class="d-block w-100 imagic" src="images/carousel1.JPG" alt="First slide" style="object-fit: cover;">
                 <div class="carousel-caption " style="padding-bottom: 40px">   
                   <!-- <h1 class="main-text">Board of Student Welfare</h1> -->
                 </div>
             </div>
 
             <div class="carousel-item ">
-                <img class="d-block w-100 imagic" src="images/iitpyramid2.jpg" alt="Second slide" style="object-fit: cover;">
+                <img class="d-block w-100 imagic" src="images/carousel2.jpg" alt="Second slide" style="object-fit: cover;">
                 <div class="carousel-caption " style="padding-bottom: 40px">
                   <!-- <a href="#about-us"> <button class="btn btn-primary text-uppercase btn-lg">start exploring</button></a> -->
                 </div>
            </div>
 
             <div class="carousel-item">
-                <img class="d-block w-100 imagic" src="images/iitpyramid4.jpg" alt="Second slide" style="object-fit: cover;">
+                <img class="d-block w-100 imagic" src="images/carousel3.png" alt="Second slide" style="object-fit: cover;">
                 <div class="carousel-caption " style="padding-bottom: 40px">
                   <!-- <a href="#about-us"> <button class="btn btn-primary text-uppercase btn-lg">start exploring</button></a> -->
                 </div>
             </div>
 
             <div class="carousel-item">
-                <img class="d-block w-100 imagic" src="images/carousel-svg.svg" alt="Second slide" style="object-fit: cover;">
+                <img class="d-block w-100 imagic" src="images/carousel4.jpeg" alt="Second slide" style="object-fit: cover;">
              
                 <div class="carousel-caption " style="padding-bottom: 40px">
                    
@@ -375,12 +386,12 @@
             </a>
         </div>
 
-        <!-- <div class="main-text text-center">
-            <div class="col-md-12 text-center " >
+        <div class="main-text ">
+            <div class="col-12 " >
                 <h1 class="intro-text">Board for Student Welfare</h1>
                 
             </div>
-        </div> -->
+        </div>
     </div>
 
 </div>
