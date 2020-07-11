@@ -1392,7 +1392,7 @@
         title: "BSW Chatbot",
         cookieValidInDays: 1,
         introMessage: "Hi! BSW is here to help you with your concerns. How may I help you?",
-        placeholderText: "Send a message ...",
+        placeholderText: "Hit enter to send a message ...",
         displayMessageTime: !1,
         sendWidgetOpenedEvent: !1,
         widgetOpenedEventData: !0,
