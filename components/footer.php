@@ -117,6 +117,19 @@
 		</div>
         </div>
 
+<script src="widget.js"></script>
+<script>
+        var botmanWidget = {
+            frameEndpoint: 'chat.html',
+			introMessage: `Hi! BSW is here to help you with your concerns. How may I help you?
+								Send !q to submit a query 
+								Say Hello to talk with me 
+								Send !joke to have a laugh`,
+            chatServer : 'botman.php', 
+			title: 'BSW Chatbot',
+			placeholderText: "Hit enter to send a message ...",
+        }; 
+</script>
 </body>
 </html>
 

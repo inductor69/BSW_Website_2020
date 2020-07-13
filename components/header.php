@@ -4,19 +4,6 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js" type="text/javascript"></script>
 <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"> 
-<script src="widget.js"></script>
-	  <script>
-        var botmanWidget = {
-            frameEndpoint: 'chat.html',
-			introMessage: `Hi! BSW is here to help you with your concerns. How may I help you?
-								Send !q to submit a query 
-								Say Hello to talk with me 
-								Send !joke to have a laugh`,
-            chatServer : 'botman.php', 
-			title: 'BSW Chatbot',
-			placeholderText: "Hit enter to send a message ...",
-        }; 
-    </script>
 
 <style type="text/css">
 
