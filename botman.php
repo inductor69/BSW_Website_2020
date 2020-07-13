@@ -20,12 +20,16 @@ $adapter = new FilesystemAdapter();
 $botman = BotManFactory::create($config, new SymfonyCache($adapter));
 
 $botman->hears('Hello', function($bot) {
-    
     $bot->startConversation(new OnboardingConversation);
     
 });
 
 $botman->hears('!q', function($bot) {
+    
+    $bot->startConversation(new Query);
+    
+});
+$botman->hears('query', function($bot) {
     
     $bot->startConversation(new Query);
     
@@ -58,9 +62,40 @@ $botman->hears('Whats up', function ($bot) {
     $bot->reply('The URL Bar! Oh wait, that one’s just for us chatbots.');
 });
 
+$botman->hears('!qp {course}', function ($bot, $course) {
+    $bot->reply('<a target="_blank" style="color: cornsilk;" href="http://localhost:8888/BSW_Website_2020/coursepage.php?course='.strtoupper($course).'">Click here for '.strtoupper($course).' Question Papers</a>');
+});
+$botman->hears('past qps {course}', function ($bot, $course) {
+    $bot->reply('<a target="_blank" style="color: cornsilk;" href="http://localhost:8888/BSW_Website_2020/coursepage.php?course='.strtoupper($course).'">Click here for '.strtoupper($course).' Question Papers</a>');
+});
+$botman->hears('qps {course}', function ($bot, $course) {
+    $bot->reply('<a target="_blank" style="color: cornsilk;" href="http://localhost:8888/BSW_Website_2020/coursepage.php?course='.strtoupper($course).'">Click here for '.strtoupper($course).' Question Papers</a>');
+});
+$botman->hears('question papers {course}', function ($bot, $course) {
+    $bot->reply('<a target="_blank" style="color: cornsilk;" href="http://localhost:8888/BSW_Website_2020/coursepage.php?course='.strtoupper($course).'">Click here for '.strtoupper($course).' Question Papers</a>');
+});
+$botman->hears('-{course}', function ($bot, $course) {
+    $bot->reply('<a target="_blank" style="color: cornsilk;" href="http://localhost:8888/BSW_Website_2020/coursepage.php?course='.strtoupper($course).'">Click here for '.strtoupper($course).' Question Papers</a>');
+});
 
 
 $botman->hears('!joke', function ($bot) {
+
+    $curl = new Curl\Curl();
+    $curl->setHeader('Accept', 'text/plain');
+    $curl->get('https://icanhazdadjoke.com/');
+
+    $bot->reply($curl->response);
+});
+$botman->hears('joke', function ($bot) {
+
+    $curl = new Curl\Curl();
+    $curl->setHeader('Accept', 'text/plain');
+    $curl->get('https://icanhazdadjoke.com/');
+
+    $bot->reply($curl->response);
+});
+$botman->hears('tell me a joke', function ($bot) {
 
     $curl = new Curl\Curl();
     $curl->setHeader('Accept', 'text/plain');
