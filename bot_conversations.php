@@ -2,6 +2,17 @@
 
 use BotMan\BotMan\Messages\Conversations\Conversation;
 
+// Import PHPMailer classes into the global namespace
+// These must be at the top of your script, not inside a function
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\SMTP;
+use PHPMailer\PHPMailer\Exception;
+
+// Load Composer's autoloader
+require 'vendor/autoload.php';
+require 'credentials.php';
+
+
 class OnboardingConversation extends Conversation
 {
 
@@ -25,9 +36,10 @@ class OnboardingConversation extends Conversation
 class Query extends Conversation
 {
 
-    protected $name;
-    protected $entrynumber;
-    protected $query;
+    private $name;
+    private $entrynumber;
+    private $query;
+    public $success;
 
     public function askName()
     {
@@ -50,10 +62,56 @@ class Query extends Conversation
     public function takeQuery()
     {
         $this->ask('You may now describe the problem you are facing.', function($answer) {
-            $entrynumber = $answer->getText();
-            $this->say('I have registered your request. BSW will contact you shortly!');
-            $this->say('Thankyou for contacting us!');
+            $name = $name;
+            $entrynumber = $entrynumber;
+            $query = $answer->getText();
+            $this->say('Please wait while I register your request ...');
+            $this->sendMail($this->name, $this->entrynumber,$query);
         });
+    }
+
+
+    public function sendMail($name, $entrynumber, $query)
+    {
+            $mail = new PHPMailer(true);
+
+            //Server settings
+            $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      // Enable verbose debug output
+            $mail->isSMTP();                                            // Send using SMTP
+            $mail->Host = 'smtp.gmail.com';                    // Set the SMTP server to send through
+            //Set the SMTP port number - 587 for authenticated TLS, a.k.a. RFC4409 SMTP submission
+            $mail->Port = 587;
+            //Set the encryption mechanism to use - STARTTLS or SMTPS
+            $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+            //Whether to use SMTP authentication
+            $mail->SMTPAuth = true;
+            //Username to use for SMTP authentication - use full email address for gmail
+
+            
+            //Password to use for SMTP authentication
+            $secret_class = new Credentials();
+            $key = $secret_class->password;
+            $mail->Password = $key;
+            $user = $secret_class->email_address;
+            $mail->Username = $user;
+            //Recipients
+            $mail->setFrom($user, 'Query via BSW Chatbot');
+            $mail->addAddress('singhjapneetssa@gmail.com', 'Japneet Singh');     // Add a recipient
+            $mail->addCC('singhjapneetssa@gmail.com');
+        
+            // Attachments
+            // $mail->addAttachment('/var/tmp/file.tar.gz');         // Add attachments
+            // $mail->addAttachment('/tmp/image.jpg', 'new.jpg');    // Optional name
+        
+            // Content
+            $mailbody = 'Name: '.$name.'<br>Entry Number: '.$entrynumber.'<br>Query: '.$query.'<br>';
+            $mail->isHTML(true);                                  // Set email format to HTML
+            $mail->Subject = 'Query Request';
+            $mail->Body    = $mailbody;
+        
+            $mail->send();
+            $success = true;
+      
     }
 
 
