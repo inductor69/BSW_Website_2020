@@ -58,8 +58,15 @@ $botman->hears('Whats up', function ($bot) {
     $bot->reply('The URL Bar! Oh wait, that one’s just for us chatbots.');
 });
 
+
+
 $botman->hears('!joke', function ($bot) {
-    $bot->reply('What do you say at a robot funeral? ...... Rust In Peace :p');
+
+    $curl = new Curl\Curl();
+    $curl->setHeader('Accept', 'text/plain');
+    $curl->get('https://icanhazdadjoke.com/');
+
+    $bot->reply($curl->response);
 });
 
 

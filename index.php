@@ -365,7 +365,7 @@
             </div>
 
             <div class="carousel-item">
-                <img class="d-block w-100 imagic" src="images/carousel4.jpeg" alt="Second slide" style="object-fit: cover;">
+                <img class="d-block w-100 imagic" src="images/carousel4.jpg" alt="Second slide" style="object-fit: cover;">
              
                 <div class="carousel-caption " style="padding-bottom: 40px">
                    
