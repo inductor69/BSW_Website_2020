@@ -19,9 +19,12 @@ $adapter = new FilesystemAdapter();
 
 $botman = BotManFactory::create($config, new SymfonyCache($adapter));
 
-$botman->hears('Hello', function($bot) {
+
+$botman->hears('.*hello.*', function ($bot) {
     $bot->startConversation(new OnboardingConversation);
-    
+});
+$botman->hears('.*hi.*', function ($bot) {
+    $bot->startConversation(new OnboardingConversation);
 });
 
 $botman->hears('!q', function($bot) {
@@ -35,9 +38,6 @@ $botman->hears('query', function($bot) {
     
 });
 
-$botman->hears('hi', function($bot) {
-    $bot->startConversation(new OnboardingConversation);
-});
 
 
 
