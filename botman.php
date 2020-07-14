@@ -11,12 +11,15 @@ use BotMan\BotMan\Messages\Attachments\Image;
 
 require_once('bot_conversations.php');
 
-$config = [];
+$config = [
+    'botman' => [
+        'conversation_cache_time' => 30
+    ],
+];
 
 DriverManager::loadDriver(\BotMan\Drivers\Web\WebDriver::class);
 
 $adapter = new FilesystemAdapter();
-
 $botman = BotManFactory::create($config, new SymfonyCache($adapter));
 
 
@@ -24,6 +27,9 @@ $botman->hears('.*hello.*', function ($bot) {
     $bot->startConversation(new OnboardingConversation);
 });
 $botman->hears('.*hi.*', function ($bot) {
+    $bot->startConversation(new OnboardingConversation);
+});
+$botman->hears('.*yo.*', function ($bot) {
     $bot->startConversation(new OnboardingConversation);
 });
 
@@ -251,7 +257,14 @@ $botman->hears('tell me a joke', function ($bot) {
 
 
 $botman->fallback(function($bot) {
-    $bot->reply('Sorry, I am not able to understand what you said. Here is a list of things I can do for you: ');
+    $bot->reply('Sorry, I am not able to understand what you said. Here is a list of things I can do for you: <br> 								!q to submit a query <br>
+    Hi or Hello to talk with me <br>
+    !joke to have a laugh <br>
+    !qp [course] to go to course question papers eg. !qp cml100 <br>
+    !em for emergency contacts <br>
+    !em security for security contacts <br>
+    !em hostels for hostel contacts <br>
+    !rep [hostel_name] for BSW Rep details');
 });
 
 $botman->listen();

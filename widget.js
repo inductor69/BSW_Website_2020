@@ -1409,6 +1409,7 @@
         aboutText: "",
         chatId: "",
         userId: "",
-        alwaysUseFloatingButton: !1
+        alwaysUseFloatingButton: !1,
+        conversation_cache_time: 30,
     }
 }]);

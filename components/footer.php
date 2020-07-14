@@ -130,10 +130,12 @@
                                 !em for emergency contacts <br>
                                 !em security for security contacts <br>
                                 !em hostels for hostel contacts <br>
+                                !rep [hostel_name] for BSW Rep details
                                 `,
             chatServer : 'botman.php', 
 			title: 'BSW Chatbot',
-			placeholderText: "Hit enter to send a message ...",
+            placeholderText: "Hit enter to send a message ...",
+            conversation_cache_time: 30,
         }; 
 </script>
 </body>
