@@ -121,3 +121,68 @@ class Query extends Conversation
         $this->askName();
     }
 }
+
+class FeatureRequest extends Conversation
+{
+
+    private $feature;
+    public $success;
+
+    public function askName()
+    {
+        $this->ask('Hi, please describe your feature request.', function($answer) {
+            $feature = $answer->getText();
+            $this->say('Thankyou! Your request has been registered.');
+            $this->sendMail($feature);
+        });
+    }
+
+    public function sendMail($feature)
+    {
+            $mail = new PHPMailer(true);
+
+            //Server settings
+            $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      // Enable verbose debug output
+            $mail->isSMTP();                                            // Send using SMTP
+            $mail->Host = 'smtp.gmail.com';                    // Set the SMTP server to send through
+            //Set the SMTP port number - 587 for authenticated TLS, a.k.a. RFC4409 SMTP submission
+            $mail->Port = 587;
+            //Set the encryption mechanism to use - STARTTLS or SMTPS
+            $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+            //Whether to use SMTP authentication
+            $mail->SMTPAuth = true;
+            //Username to use for SMTP authentication - use full email address for gmail
+
+            
+            //Password to use for SMTP authentication
+            $secret_class = new Credentials();
+            $key = $secret_class->password;
+            $mail->Password = $key;
+            $user = $secret_class->email_address;
+            $mail->Username = $user;
+            //Recipients
+            $mail->setFrom($user, 'Feature Request via BSW Chatbot');
+            $mail->addAddress('singhjapneetssa@gmail.com', 'Japneet Singh');     // Add a recipient
+        
+            // Attachments
+            // $mail->addAttachment('/var/tmp/file.tar.gz');         // Add attachments
+            // $mail->addAttachment('/tmp/image.jpg', 'new.jpg');    // Optional name
+        
+            // Content
+            $mailbody = 'Feature Request: '.$feature.'<br>';
+            $mail->isHTML(true);                                  // Set email format to HTML
+            $mail->Subject = 'Feature Request';
+            $mail->Body    = $mailbody;
+        
+            $mail->send();
+            $success = true;
+      
+    }
+
+
+
+    public function run()
+    {
+        $this->askName();
+    }
+}
