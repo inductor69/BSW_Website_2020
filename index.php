@@ -672,6 +672,14 @@
 
 <?php require 'components/footer.php'; ?>
 
+<div class="container">
+			<div class="row">
+			<div class="col-12">
+<small id="credits" style="color: white; font-family: Montserrat; font-style: italic;"># Credits for IIT Delhi campus images used in the slideshow go to Nishant Bansal, Apar Ahuja and Sahil Kumar Raj respectively. </small>
+			</div>
+			</div>
+</div>
+
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" i0degrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" i0degrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 
