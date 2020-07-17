@@ -55,6 +55,16 @@ body{
 		letter-spacing: 0;
 		text-align: center;
 	}
+	#lm-wb{
+		text-align: center;
+		font-family: Montserrat;
+		font-weight:500;
+		font-size: 20px;
+		text-shadow: 0 2px 4px rgba(0,0,0,0.25);
+		color: rgba(0,0,0,0.85);
+		letter-spacing: 0;
+		text-align: center;
+	}
 	#mentor-tab{
 		background: #FFFFFF;
 		box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05);
@@ -103,8 +113,13 @@ body{
 	<div class="container">
 	<div class="row">
 
+        <div class="col-12" style="text-align: center;">
+		<h1 class="my-4" style="font-family: Montserrat !important; ">What is language mentorship?</h1>
+        </div>
+
 		<div class="col-12 my-4">
-		Language Mentorship Program is aimed at students who clear JEE in Hindi medium. It is a 15-20 day language learning session conducted by professionals from IIT Delhi's Humanities Department. 
+		Language Mentorship is an initiative of BSW that aims to create a holistic ecosystem where students can learn and practice language. The objective is to help students who are not comfortable with English or Hindi understand and comprehend the language so that they can adapt to the academic system in IITD and interact with their peers respectively.
+		In this initiative language mentors are made from 2nd and 3rd year students who help and teach freshers. A language mentor's work is to help mentees learn the language, help them in solving assignments which they will be given, take individual sessions with the mentees and keep a track record of their performance.
 		</div>
 
 	</div>
@@ -112,132 +127,57 @@ body{
 
 </div>
 
-<div class="container-fluid justify-content-center mb-4">
+<div class="container justify-content-center mb-4" id="lm-wb">
 
 	<div class="row justify-content-center">
 
-            <div class="col-12 mt-4 about-us-title justify-content-center" style="text-align: center">
-			<h1>
-			The Mentors            
+            <div class="col-12 mt-4 about-us-title justify-content-center" style="text-align: center; font-family: Montserrat !important;">
+			<h1 style="font-family: Montserrat !important; ">
+			The Workbook           
 			</h1>
 			</div>
 
-			<div class="col-lg-2 col-md-3 col-5 " id="mentor-tab">
-			 <p>Mentor Name 			<a class="btn btn-success" style="color: white; border-radius:10px;"><span class="fa fa-phone"></span></a></p>
+
+		<div class="col-12 my-4">
+		This year we have created a pedagogical tool, the activity workbook in English. You can work on enhancing and elaborating the study material further in both English and Hindi.		
+		</div>
+
+
+	</div>
+
+</div>
+
+<div class="container-fluid justify-content-center mb-4" id="lm-desc">
+
+	<div class="row justify-content-center">
+
+            <div class="col-12 mt-4 about-us-title justify-content-center" style="text-align: center; font-family: Montserrat !important;">
+			<div class="col-12">
+            <img src="images/bbr.png">
+            </div>
+			<h1 style="font-family: Montserrat !important; ">
+			Blackboard Radio        
+			</h1>
 			</div>
 
-			<div class="col-lg-2 col-md-3 col-5 " id="mentor-tab">
-			 <p>Mentor Name 			<a class="btn btn-success" style="color: white; border-radius:10px;"><span class="fa fa-phone"></span></a></p>
+			<div class="container">
+			<div class="row">
+
+			<div class="col-12 my-4">
+			Blackboard Radio (BBR) is a product designed for young students to improve their conversational English skills. It is designed specifically to solve for "silent English" i.e ability to read & write in English - but not being able to speak in English confidently & fluently. 
+			<br><br>
+			We need at least a few hundred hours of speaking practice to become better at a language. Hence, students practice speaking on the BBR app in a non-judgmental environment & receive constructive feedback from trainers available on the app. 
+			<br><br>The app is available at: <a href="http://bit.ly/blackboardradio">http://bit.ly/blackboardradio</a>
+
+			<br><br><small>* BBR is a paid service, but for selected IIT Delhi students, will be provided for free.</small>
+
 			</div>
 
-			<div class="col-lg-2 col-md-3 col-5 " id="mentor-tab">
-			 <p>Mentor Name 			<a class="btn btn-success" style="color: white; border-radius:10px;"><span class="fa fa-phone"></span></a></p>
+
+			</div>
 			</div>
 
-			<div class="col-lg-2 col-md-3 col-5 " id="mentor-tab">
-			 <p>Mentor Name 			<a class="btn btn-success" style="color: white; border-radius:10px;"><span class="fa fa-phone"></span> </a>
-			</div>
 
-			<div class="col-lg-2 col-md-3 col-5 " id="mentor-tab">
-			 <p>Mentor Name 			<a class="btn btn-success" style="color: white; border-radius:10px;"><span class="fa fa-phone"></span></a></p>
-			</div>
-
-			<div class="col-lg-2 col-md-3 col-5 " id="mentor-tab">
-			 <p>Mentor Name 			<a class="btn btn-success" style="color: white; border-radius:10px;"><span class="fa fa-phone"></span></a></p>
-			</div>
-
-			<div class="col-lg-2 col-md-3 col-5 " id="mentor-tab">
-			 <p>Mentor Name 			<a class="btn btn-success" style="color: white; border-radius:10px;"><span class="fa fa-phone"></span></a></p>
-			</div>
-
-			<div class="col-lg-2 col-md-3 col-5 " id="mentor-tab">
-			 <p>Mentor Name 			<a class="btn btn-success" style="color: white; border-radius:10px;"><span class="fa fa-phone"></span></a></p>
-			</div>
-
-			<div class="col-lg-2 col-md-3 col-5 " id="mentor-tab">
-			 <p>Mentor Name 			<a class="btn btn-success" style="color: white; border-radius:10px;"><span class="fa fa-phone"></span></a></p>
-			</div>
-
-			<div class="col-lg-2 col-md-3 col-5 " id="mentor-tab">
-			 <p>Mentor Name 
-			<a class="btn btn-success" style="color: white; border-radius:10px;"><span class="fa fa-phone"></span></a></p>
-			</div>
-
-			<div class="col-lg-2 col-md-3 col-5 " id="mentor-tab">
-			 <p>Mentor Name 
-			<a class="btn btn-success" style="color: white; border-radius:10px;"><span class="fa fa-phone"></span></a></p>
-			</div>
-
-			<div class="col-lg-2 col-md-3 col-5 " id="mentor-tab">
-			 <p>Mentor Name 
-			<a class="btn btn-success" style="color: white; border-radius:10px;"><span class="fa fa-phone"></span></a></p>
-			</div>
-	
-
-			<div class="col-lg-2 col-md-3 col-5 " id="mentor-tab">
-			 <p>Mentor Name 
-			<a class="btn btn-success" style="color: white; border-radius:10px;"><span class="fa fa-phone"></span></a></p>
-			</div>
-
-			<div class="col-lg-2 col-md-3 col-5 " id="mentor-tab">
-			 <p>Mentor Name 
-			<a class="btn btn-success" style="color: white; border-radius:10px;"><span class="fa fa-phone"></span></a></p>
-			</div>
-
-			<div class="col-lg-2 col-md-3 col-5 " id="mentor-tab">
-			 <p>Mentor Name 
-			<a class="btn btn-success" style="color: white; border-radius:10px;"><span class="fa fa-phone"></span></a></p>
-			</div>
-
-			<div class="col-lg-2 col-md-3 col-5 " id="mentor-tab">
-			 <p>Mentor Name 
-			<a class="btn btn-success" style="color: white; border-radius:10px;"><span class="fa fa-phone"></span> </a>
-			</div>
-
-			<div class="col-lg-2 col-md-3 col-5 " id="mentor-tab">
-			 <p>Mentor Name 
-			<a class="btn btn-success" style="color: white; border-radius:10px;"><span class="fa fa-phone"></span></a></p>
-			</div>
-
-			<div class="col-lg-2 col-md-3 col-5 " id="mentor-tab">
-			 <p>Mentor Name 
-			<a class="btn btn-success" style="color: white; border-radius:10px;"><span class="fa fa-phone"></span></a></p>
-			</div>
-
-			<div class="col-lg-2 col-md-3 col-5 " id="mentor-tab">
-			 <p>Mentor Name 
-			<a class="btn btn-success" style="color: white; border-radius:10px;"><span class="fa fa-phone"></span></a></p>
-			</div>
-
-			<div class="col-lg-2 col-md-3 col-5 " id="mentor-tab">
-			 <p>Mentor Name 
-			<a class="btn btn-success" style="color: white; border-radius:10px;"><span class="fa fa-phone"></span></a></p>
-			</div>
-
-			<div class="col-lg-2 col-md-3 col-5 " id="mentor-tab">
-			 <p>Mentor Name 
-			<a class="btn btn-success" style="color: white; border-radius:10px;"><span class="fa fa-phone"></span></a></p>
-			</div>
-
-			<div class="col-lg-2 col-md-3 col-5 " id="mentor-tab">
-			 <p>Mentor Name 
-			<a class="btn btn-success" style="color: white; border-radius:10px;"><span class="fa fa-phone"></span></a></p>
-			</div>
-
-			<div class="col-lg-2 col-md-3 col-5 " id="mentor-tab">
-			 <p>Mentor Name 
-			<a class="btn btn-success" style="color: white; border-radius:10px;"><span class="fa fa-phone"></span></a></p>
-			</div>
-
-			<div class="col-lg-2 col-md-3 col-5 " id="mentor-tab">
-			 <p>Mentor Name 
-			<a class="btn btn-success" style="color: white; border-radius:10px;"><span class="fa fa-phone"></span></a></p>
-			</div>
-
-			<div class="col-lg-2 col-md-3 col-5 " id="mentor-tab">
-			 <p>Mentor Name 
-			<a class="btn btn-success" style="color: white; border-radius:10px;"><span class="fa fa-phone"></span></a></p>
-			</div>
 
 	</div>
 
