@@ -77,6 +77,9 @@ body{
 		width: 35%;
 		box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05);
 	}
+	.form-preview{
+        height:80vh;
+    }
 
 	
 </style>
@@ -135,11 +138,16 @@ body{
 			<h1 style="font-family: Montserrat !important; ">
 			The Workbook           
 			</h1>
+
 			</div>
 
 
 		<div class="col-12 my-4">
-		This year we have created a pedagogical tool, the activity workbook in English. You can work on enhancing and elaborating the study material further in both English and Hindi.		
+		This year we have created a pedagogical tool, the activity workbook in English. You can work on enhancing and elaborating the study material further in both English and Hindi.	<br>	
+		<a href="misc/lang_workbook.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-primary my-4" style={display:inline;}><span class="fa fa-download fa-lg"></span> Download Workbook</a>
+		<div class="card col-12 my-4">
+		<embed src="misc/lang_workbook.pdf" class="form-preview">
+		</div>
 		</div>
 
 

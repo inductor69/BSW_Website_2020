@@ -169,12 +169,23 @@
 
     <div class="row justify-content-center">
 
-        <div class="col-4 steps" style="text-align: center;">
-        <p>Present IITD students and IITD alumni need to fill our Exhaustive Registration Form</p>
+        <div class="col-4 steps" style="text-align: right;">
+        <div class="container">
+        <div class="row">
+        <div class="col-2"><span style="padding:5px; padding-left:12px; padding-right:12px; background: tomato; border-radius: 40px; width: 40px; margin: 10px; color: white;">1</span></div>
+        <div class="col-10"> <p>Present IITD students and IITD alumni need to fill our Exhaustive Registration Form</p></div>
+        </div>
+        </div>
         </div>
 
-        <div class="col-7 steps ml-4" style="text-align: center;">
-        <p>Our profile matching software would scan through the responses received and match them based on the interested profile and future prospects stated by the student to the working profile of a mentor.</p>
+        <div class="col-7 steps ml-4" style="text-align: right;">
+        <div class="container">
+        <div class="row">
+        <div class="col-1"><span style="padding:5px; padding-left:12px; padding-right:12px; background: #ffae42; border-radius: 40px; width: 40px; margin: 10px; color: white;">2</span></div>
+        <div class="col-11"><p>Our profile matching software would scan through the responses received and match them based on the interested profile and future prospects stated by the student to the working profile of a mentor.</p>
+        </div>
+        </div>
+        </div>
         </div>
 
 	</div>
@@ -182,7 +193,13 @@
     <div class="row my-4 justify-content-center">
 
         <div class="col-11 steps" style="text-align: center;">
-        <p>For those who couldn't be matched with a mentor , a repository containing the contact details of alumni of IITD across various fields would be made available who can be contacted by any student independently.</p>
+        <div class="container">
+        <div class="row">
+        <div class="col-1"><span style="padding:5px; padding-left:12px; padding-right:12px; background: mediumaquamarine; border-radius: 40px; width: 40px; margin: 10px; color: white;">3</span></div>
+        <div class="col-11"><p>For those who couldn't be matched with a mentor , a repository containing the contact details of alumni of IITD across various fields would be made available who can be contacted by any student independently.</p>
+        </div>
+        </div>
+        </div>
         </div>
 
     </div>
@@ -204,11 +221,13 @@
     <div class="row justify-content-center mb-4">
 
         <div class="col-12 col-md-5 steps my-2" style="text-align: center;">
-        <p><h1>For Mentors</h1>We believe that the versatile and dynamic alumni network of IIT Delhi is always willing to help motivated students in different career avenues. As an alumni mentor, you will have the opportunity to advise student(s) on academic guidance, career advice and personal development. You form meaningful, rewarding relationships that prepare students to be better employees and leaders, inspire them to stay connected with IITD, and motivate them to support the next generation of students. Mentors help perpetuate, grow, and strengthen IITD’s global alumni network. You do not have to be on campus to guide the mentees. </p>
+        <img src="images/mentor_bubble.svg" style="position: absolute; left: -50px; top: -80px; height:200px; width:200px;"/>
+        <p><h1 style="margin-left:50px">For Mentors</h1>We believe that the versatile and dynamic alumni network of IIT Delhi is always willing to help motivated students in different career avenues. As an alumni mentor, you will have the opportunity to advise student(s) on academic guidance, career advice and personal development. You form meaningful, rewarding relationships that prepare students to be better employees and leaders, inspire them to stay connected with IITD, and motivate them to support the next generation of students. Mentors help perpetuate, grow, and strengthen IITD’s global alumni network. You do not have to be on campus to guide the mentees. </p>
         </div>
 
         <div class="col-12 col-md-5 steps ml-md-4 mt-4 mt-md-2" style="text-align: center;">
-        <p><h1>For Mentees</h1>As a mentee, you have exclusive access to a robust network of alumni who are eager and willing to meet you and share their wisdom and advice about life beyond IITD. The IITD Alumni Mentor Program is a unique opportunity for you to form meaningful and lasting relationships with alumni that will extend beyond campus walls. As a program participant, you’ll have a chance to request a mentor to assist you with academic guidance, career advice and personal development. It’s a valuable relationship that serves as an important complement to your classroom and action learning experiences, and makes for a richer IITD experience. </p>
+        <img src="images/mentee_bubble.svg" style="position: absolute; right: -50px; top: -80px; height:200px; width:200px;"/>
+        <p><h1 style="margin-right:50px">For Mentees</h1>As a mentee, you have exclusive access to a robust network of alumni who are eager and willing to meet you and share their wisdom and advice about life beyond IITD. The IITD Alumni Mentor Program is a unique opportunity for you to form meaningful and lasting relationships with alumni that will extend beyond campus walls. As a program participant, you’ll have a chance to request a mentor to assist you with academic guidance, career advice and personal development. It’s a valuable relationship that serves as an important complement to your classroom and action learning experiences, and makes for a richer IITD experience. </p>
         </div>
 
 	</div>

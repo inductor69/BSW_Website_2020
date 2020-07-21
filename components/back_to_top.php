@@ -3,14 +3,14 @@ html{
   scroll-behavior: auto;
 }
 .back_to_top {
-    font-size: 25px;
+    font-size: 20px;
     padding: 10px;
     position: fixed;
-    bottom: 20px;
-    left: 30px;
+    bottom: 30px;
+    left: 20px;
     z-index: 9999;
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     border-radius: 60px;
     text-align: center;
     line-height: 30px;
