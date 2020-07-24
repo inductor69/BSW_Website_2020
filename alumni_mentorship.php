@@ -148,7 +148,7 @@
 
         <div class="col-12" style="text-align: center;">
 		<h1 class="my-4" style="font-family: Montserrat !important; ">Why do we need this program?</h1>
-        <p style="font-size: 1.2rem">With the vast number of opportunities available in IITD, comes in a lot of confusion regarding what path to choose and in deciding what the ultimate goal is. In the process there is a huge chance to lose oneself and merge with the herd. That is when we realised that the people who themselves have faced this confusion first hand and have successfully gone through this phase will be the best people to guide and counsel the future generation. Under this programme, we invite our alumni from across the world and from different fields to interact with the students and help them build their network and gain a new perspective on the possibilities open to them after graduation. </p>
+        <p style="font-size: 1.2rem">Students after coming to IIT are overwhelmed by the countless opportunities present here and often end up confused or going with the herd. Through this program, we aspire to give the students access to our diverse global alumni network to gain new perspectives and responsibly plan their career trajectories.</p>
         </div>
 
 	</div>
@@ -169,7 +169,7 @@
 
     <div class="row justify-content-center">
 
-        <div class="col-4 steps" style="text-align: right;">
+        <div class="col-5 steps" style="text-align: right;">
         <div class="container">
         <div class="row">
         <div class="col-2"><span style="padding:5px; padding-left:12px; padding-right:12px; background: tomato; border-radius: 40px; width: 40px; margin: 10px; color: white;">1</span></div>
@@ -178,11 +178,11 @@
         </div>
         </div>
 
-        <div class="col-7 steps ml-4" style="text-align: right;">
+        <div class="col-5 steps ml-4" style="text-align: right;">
         <div class="container">
         <div class="row">
         <div class="col-1"><span style="padding:5px; padding-left:12px; padding-right:12px; background: #ffae42; border-radius: 40px; width: 40px; margin: 10px; color: white;">2</span></div>
-        <div class="col-11"><p>Our profile matching software would scan through the responses received and match them based on the interested profile and future prospects stated by the student to the working profile of a mentor.</p>
+        <div class="col-11"><p>Algorithm driven mapping connects the students and mentors based on their interests and goals.</p>
         </div>
         </div>
         </div>
@@ -192,11 +192,11 @@
 
     <div class="row my-4 justify-content-center">
 
-        <div class="col-11 steps" style="text-align: center;">
+        <div class="col-10 steps" style="text-align: center;">
         <div class="container">
         <div class="row">
         <div class="col-1"><span style="padding:5px; padding-left:12px; padding-right:12px; background: mediumaquamarine; border-radius: 40px; width: 40px; margin: 10px; color: white;">3</span></div>
-        <div class="col-11"><p>For those who couldn't be matched with a mentor , a repository containing the contact details of alumni of IITD across various fields would be made available who can be contacted by any student independently.</p>
+        <div class="col-11"><p>A repository of IITD Alumni’s contact details is made available to the students who could not be matched.</p>
         </div>
         </div>
         </div>
@@ -221,13 +221,13 @@
     <div class="row justify-content-center mb-4">
 
         <div class="col-12 col-md-5 steps my-2" style="text-align: center;">
-        <img src="images/mentor_bubble.svg" style="position: absolute; left: -50px; top: -80px; height:200px; width:200px;"/>
-        <p><h1 style="margin-left:50px">For Mentors</h1>We believe that the versatile and dynamic alumni network of IIT Delhi is always willing to help motivated students in different career avenues. As an alumni mentor, you will have the opportunity to advise student(s) on academic guidance, career advice and personal development. You form meaningful, rewarding relationships that prepare students to be better employees and leaders, inspire them to stay connected with IITD, and motivate them to support the next generation of students. Mentors help perpetuate, grow, and strengthen IITD’s global alumni network. You do not have to be on campus to guide the mentees. </p>
+        <img src="images/mentor_bubble.png" style="position: absolute; left: -50px; top: -80px; height:200px; width:200px;"/>
+        <p><h1 style="margin-left:50px">For Alumni</h1>One of the key pillars of IITD is it’s versatile alumni network who are always keen to contribute to their alma mater. Being an alumni mentor, you will be guiding and motivating the students who are in the same shoes as you were some years before. You will form personal and meaningful relations with these students and prepare them for the world beyond IIT.</p>
         </div>
 
         <div class="col-12 col-md-5 steps ml-md-4 mt-4 mt-md-2" style="text-align: center;">
-        <img src="images/mentee_bubble.svg" style="position: absolute; right: -50px; top: -80px; height:200px; width:200px;"/>
-        <p><h1 style="margin-right:50px">For Mentees</h1>As a mentee, you have exclusive access to a robust network of alumni who are eager and willing to meet you and share their wisdom and advice about life beyond IITD. The IITD Alumni Mentor Program is a unique opportunity for you to form meaningful and lasting relationships with alumni that will extend beyond campus walls. As a program participant, you’ll have a chance to request a mentor to assist you with academic guidance, career advice and personal development. It’s a valuable relationship that serves as an important complement to your classroom and action learning experiences, and makes for a richer IITD experience. </p>
+        <img src="images/mentee_bubble.png" style="position: absolute; right: -50px; top: -80px; height:200px; width:200px;"/>
+        <p><h1 style="margin-right:50px">For Students</h1>This is a unique opportunity wherein you will have access to the vast alumni network of IITD, who will share their personal life experiences and learnings with you. They will help you gain a better and mature perspective and enrich your college experience. You will not only grow professionally but also personally by forming meaningful relations with these alumni.</p>
         </div>
 
 	</div>
