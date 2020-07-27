@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
  
 
-<title>Alumni Mentorship | BSW</title>
+<title>Academic Mentorship | BSW</title>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
 

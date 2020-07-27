@@ -135,7 +135,7 @@
 		font-family: 'neue_montrealmedium' !important;
 	}
 	#qPapers{
-		background: #FFE487;
+		background: #EF949A;
 		border-radius: 10px;
 		font-size: 24px;
 		color: rgba(0,0,0,0.46);
@@ -203,7 +203,7 @@
 }
 
 .pinned-note2 {
-  background: #ffc;
+  background: #d0fed0a6;
   -webkit-transform: rotate(2deg);
   -moz-transform: rotate(2deg);
   -o-transform: rotate(2deg);
@@ -408,11 +408,7 @@
         </div>
 
         <div class="col-12 col-lg-8">
-          <p class="about-us-text">BSW “Board for Student Welfare” consists of student
-            representatives from each hostel and a few faculty members. This
-            board has been constituted to help the students in the hour of need.
-            BSW gives financial help, informative sessions, counselling and looks after other modes of
-            student welfare.
+          <p class="about-us-text">BSW (Board for Student Welfare) is primarily a student body consisting of student representatives from each hostel and a few faculty members. The Board has been constituted to formulate various welfare initiatives, organise social events and provide mentorship to students across multiple domains. Our work includes giving financial help, informative sessions, counselling, mentorship, etc.
           </p>
         </div>
 
@@ -434,10 +430,8 @@
 						<div class="quote-container">
 						<i class="pin"></i>
 						<blockquote class="note pinned-note1">
-						<h3>Blanket Camp</h3>
-						<h5>31 Oct 2019</h5>
-						<p>BSW is organising a blanket camp, for notice regarding quotations and other information, <a href="http://bsw.iitd.ac.in/notices/camp-converted.pdf" target="_blank">click here</a></p>
-						<p>BSW is organising a blanket camp, for notice regarding quotations and other information, <a href="http://bsw.iitd.ac.in/notices/camp-converted.pdf" target="_blank">click here</a></p>
+						<h3>Caution Money</h3>
+						<p>Contribute to the BSW Fund before saying the last goodbye to help make a positive impact in someone’s lives.</a></p>
 						</blockquote>
 						</div>
 					</div>
@@ -446,10 +440,9 @@
 						<div class="quote-container">
 						<i class="pin"></i>
 						<blockquote class="note pinned-note2">
-						<h3>Cycle Camp</h3>
-						<h5>18 - 21 July 2019</h5>
-						<p>BSW is organising a cycle camp, for notice regarding quotations and other information, <a href="http://bsw.iitd.ac.in/notices/camp-converted.pdf" target="_blank">click here</a></p>
-						<p>BSW is organising a cycle camp, for notice regarding quotations and other information, <a href="http://bsw.iitd.ac.in/notices/camp-converted.pdf" target="_blank">click here</a></p>
+						<h3>Updated Academic Calendar</h3>
+						<h5>2020-21</h5>
+						<p>Updated Academic Calendar for the year 2020-21</a></p>
 						</blockquote>
 						</div>
 					</div>
@@ -477,30 +470,30 @@
 
 					<div class="notice   col-5 col-md-3 col-lg-3 my-4">
 						<div class="notice-inner">
-						<h3>Sample Notice</h3>
-						<h5>31 Oct 2019</h5>
-						<p>Sample text sample sample sample sample sample sample</p>
+						<h3>BSW Diary</h3>
+						<h5><a href="diary_newsletter.php">Read here</a></h5>
+						<p>Your one stop access to make your life easier in IITD.</p>
 						</div>
 					</div>
 					<div class="notice   col-5 col-md-3 col-lg-3 my-4">
 					<div class="notice-inner">
-						<h3>Sample Notice</h3>
-						<h5>31 Oct 2019</h5>
-						<p>Sample text sample sample sample sample sample sample</p>
+						<h3>Official IITD Website</h3>
+						<h5><a href="https://home.iitd.ac.in/">Visit</a></h5>
+						<p>The new and updated official IIT Delhi website.</p>
 						</div>
 					</div>
 					<div class="notice col-5 col-md-3 col-lg-3 my-4">
 					<div class="notice-inner">
-						<h3>Sample Notice</h3>
-						<h5>31 Oct 2019</h5>
-						<p>Sample text sample sample sample sample sample sample</p>
+						<h3>Moodle</h3>
+						<h5><a href="https://moodle.iitd.ac.in/login/index.php">Visit IIT Delhi Moodle</a></h5>
+						<p>The academic repository.</p>
 						</div>
 					</div>
 					<div class="notice   col-5 col-md-3 col-lg-3 my-4">
 					<div class="notice-inner">
-						<h3>Sample Notice</h3>
-						<h5>31 Oct 2019</h5>
-						<p>Sample text sample sample sample sample sample sample</p>
+						<h3>BSW Team</h3>
+						<h5><a href="structure.php">View the BSW Team</a></h5>
+						<p>Meet the team that makes it all happen.</p>
 						</div>
 					</div>
 
@@ -510,13 +503,13 @@
 			</div>
 
 				<div class="col-12 col-lg-4">
-				<a href="" style="text-decoration: none">
+				<a href="mental_health.php" style="text-decoration: none">
 				<div id="yourDost" class="home-quick-links">
 				<img src="images/yourDost.svg" width="60" height="60" alt="">
 				Counselling
 				</div>
 				</a>
-				<a href="https://iitd.almaconnect.com/" style="text-decoration: none" >
+				<a href="alumni_mentorship.php" style="text-decoration: none" >
 				<div id="almaConnect" class="home-quick-links">
 				<img src="images/almaConnect.svg" width="60" height="60" alt="">
 				AlmaConnect
@@ -528,12 +521,12 @@
 				BSW Loans
 				</div>
 				</a>
-				<a href="index.php" style="text-decoration: none" >
+				<!-- <a href="index.php" style="text-decoration: none" >
 				<div  id="careerCounselling" class="home-quick-links">
 				<img src="images/careerCounselling.svg" width="60" height="60" alt="">
 				Career Counselling
 				</div>
-				</a>
+				</a> -->
 				<a href="question_papers.php" style="text-decoration: none" >
 				<div  id="qPapers" class="home-quick-links">
 				<img src="images/qPapers.svg" width="60" height="60" alt="">

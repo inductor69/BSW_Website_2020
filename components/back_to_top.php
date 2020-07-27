@@ -8,7 +8,7 @@ html{
     position: fixed;
     bottom: 30px;
     left: 20px;
-    z-index: 9999;
+    z-index: 2147483648;
     width: 50px;
     height: 50px;
     border-radius: 60px;
