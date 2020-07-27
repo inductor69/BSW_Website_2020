@@ -109,7 +109,7 @@ body{
 		
 	</div>
 
-	</div>
+</div>
 
 <div class="container-fluid" id="lm-desc">
 

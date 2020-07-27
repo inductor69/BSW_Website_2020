@@ -886,7 +886,7 @@
             right: 0,
             zIndex: 2147483647,
             width: "100%",
-            height: "60%",
+            height: "100%",
             overflowY: "visible",
             boxSizing: "content-box",
         },
