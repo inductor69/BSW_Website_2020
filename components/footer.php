@@ -122,15 +122,15 @@
         var botmanWidget = {
             frameEndpoint: 'chat.html',
             introMessage: `Hi! BSW is here to help you with your concerns. How may I help you? <br>
-                            Here are some commands I understand: <br>
-								!q to submit a query <br>
-								Hi or Hello to talk with me <br>
-                                !joke to have a laugh <br>
-                                !qp [course] to go to course question papers eg. !qp cml100 <br>
-                                !em for emergency contacts <br>
-                                !em security for security contacts <br>
-                                !em hostels for hostel contacts <br>
-                                !rep [hostel_name] for BSW Rep details
+                            Here are some commands I understand: <br><br>
+								<em>!q</em> to submit a query <br><br>
+								<em>Hi</em> or <em>Hello</em> to chat with me <br><br>
+                                <em>!joke</em> to have a laugh <br><br>
+                                <em>!qp [course]</em> to go to course question papers eg. !qp cml100 <br><br>
+                                <em>!em</em> for emergency contacts <br><br>
+                                <em>!em security</em> for security contacts <br><br>
+                                <em>!em hostels</em> for hostel contacts <br><br>
+                                <em>!rep [hostel_name]</em> for BSW Rep details
                                 `,
             chatServer : 'botman.php', 
 			title: 'BSW Chatbot',

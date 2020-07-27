@@ -257,14 +257,16 @@ $botman->hears('tell me a joke', function ($bot) {
 
 
 $botman->fallback(function($bot) {
-    $bot->reply('Sorry, I am not able to understand what you said. Here is a list of things I can do for you: <br> 								!q to submit a query <br>
-    Hi or Hello to talk with me <br>
-    !joke to have a laugh <br>
-    !qp [course] to go to course question papers eg. !qp cml100 <br>
-    !em for emergency contacts <br>
-    !em security for security contacts <br>
-    !em hostels for hostel contacts <br>
-    !rep [hostel_name] for BSW Rep details');
+    $bot->reply('Sorry, I am not able to understand what you said. Here is a list of things I can do for you: <br>
+<br>
+    <em>!q</em> to submit a query <br><br>
+    <em>Hi</em> or <em>Hello</em> to chat with me <br><br>
+    <em>!joke</em> to have a laugh <br><br>
+    <em>!qp [course]</em> to go to course question papers eg. !qp cml100 <br><br>
+    <em>!em</em> for emergency contacts <br><br>
+    <em>!em security</em> for security contacts <br><br>
+    <em>!em hostels</em> for hostel contacts <br><br>
+    <em>!rep [hostel_name]</em> for BSW Rep details');
 });
 
 $botman->listen();

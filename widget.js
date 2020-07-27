@@ -882,7 +882,7 @@
         a = {  //mobile chatbox iframe, height is %of that declared at the bottom
             borderRadius: "20px",
             position: "fixed",
-            bottom: "20px",
+            bottom: "0px",
             right: 0,
             zIndex: 2147483647,
             width: "100%",
