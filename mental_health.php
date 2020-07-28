@@ -244,6 +244,8 @@ body{
                 <div class="card col-12 my-4">
                 <embed src="misc/we_the_young.pdf" class="form-preview">
                 </div>
+
+                <iframe width="100%" height="400px" src="https://www.youtube.com/embed/oQKh29_ENnw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             
             </div>
 
@@ -265,7 +267,7 @@ body{
 
                 <div class="row justify-content-center" >
                     <div class="col-12 my-4" >
-                    <img src="images/simar_singh.jpg" style="display:inline-block; border-radius:20px; padding:0; margin:0;">
+                    <img src="images/simar_singh.jpg" style="display:inline-block; border-radius:20px; padding:0; margin:0; width:100%;">
                     </div>
                 </div>
 
@@ -316,9 +318,26 @@ body{
 The workshop was intended to help in : Understand one's emotions, unwinding and reconnecting with the inner self, feeling more at peace with your thoughts, having a more positive perspective on life and experiencing catharsis.
             </p>
 
-            <div class="col-12 ">
-                <img src="images/lte.png" width="100%" style="display:inline-block; border-radius:10px; object-fit: cover;">
+
+            <div class="row justify-content-center" style="text-align: center;">
+
+
+                <div class="col-12 col-md-4 justify-content-center my-2">
+                <img src="images/lte1.jpg" width="95%" style="display:inline-block; border-radius:10px;">
+                </div>
+                <div class="col-12 col-md-4 justify-content-center my-2">
+                <img src="images/lte2.jpg" width="95%" style="display:inline-block; border-radius:10px;">
+                </div>
+                <div class="col-12 col-md-4 justify-content-center my-2">
+                <img src="images/lte3.jpg" width="95%" style="display:inline-block; border-radius:10px;">
+                </div>
+
             </div>
+
+            <div class="col-12 justify-content-center my-2">
+                <img src="images/lte5.jpg" width="100%" style="display:inline-block; border-radius:10px;">
+            </div>
+
 
         </div>
 
