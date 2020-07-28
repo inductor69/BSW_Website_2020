@@ -271,7 +271,7 @@
 								<li><a class="dropdown-item" href="question_papers.php">Question Papers</a></li>
 								<li><a class="dropdown-item" href="booklets.php">Booklets</a></li>
 								<!-- <li><a class="dropdown-item" href="">Equivalent Courses</a></li> -->
-								<li><a class="dropdown-item" href="intern.php">Interns &amp; NGOs</a></li>
+								<!-- <li><a class="dropdown-item" href="intern.php">Interns &amp; NGOs</a></li> -->
 							</ul>
 						</li>
 
