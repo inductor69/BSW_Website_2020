@@ -147,21 +147,48 @@ margin-bottom: 4px
 			Professor Narayanan Kurur, Shalini Gupta, Ravinder Kaur, Sumeet Agarwal, Sangeeta Kohli among others were present to grace the occasion.            </p>
     </div>
 
-            <div class="col-12 col-md-5 justify-content-center my-2 thumbs">
-			<a href="images/op_orientation/1.jpg" >
-				<img class="orientation-img col-12" src="images/op_orientation/1.jpg" alt="Director at the orientation">
-			</a>
-            </div>
 
 		</div>
 	</div>
 
+	<div class="container-fluid mt-4" id="softwares-list">
+	<style>
+		.thumbnail{
+			object-fit: cover !important;
+			display: block;
+			margin-bottom:10px;
+			width:100%;
+			height:100%;
+		}
+		.img-link{
+			margin-bottom:10px;
+		}
+
+	</style>
+
+	<div class="row justify-content-center thumbs">
+	<?php
+		for($i=1; $i<7; $i=$i+1){
+			echo '<a class=" img-link col-12 col-md-4 col-lg-3" href="images/op_fjc/'.$i.'.jpg" target="_blank" >';
+			echo '<img class="thumbnail " src="images/op_fjc/'.$i.'.jpg" alt="BSW Female JEE Counselling" />';
+			echo '</a>';
+		}
+		?>
+			
+	</div>
+
+</div>
 
 
 <?php require 'components/footer.php'; ?>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-
+<script src="js/touchTouch.jquery.js"></script>
+<script>
+$(document).ready(function(){
+	$('.thumbs a').touchTouch();
+	});
+</script>
 </body>
 </html>

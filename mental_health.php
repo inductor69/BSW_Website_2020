@@ -160,16 +160,14 @@ body{
 
 <div class="container" >
 
-	<div class="row justify-content-center">
+            <div class="row justify-content-center">
 
-        <div class="col-12 my-4">
-        <h1 style="font-family: Montserrat !important;" id="mh_events" >Past Events</h1>
-        </div>
+                <div class="col-12 my-4">
+                <h1 style="font-family: Montserrat !important;" id="mh_events" >Past Events</h1>
+                </div>
 
-    </div>
+            </div>
 
-
-        <div class="col-12">
 
 
             <div class="row events">
@@ -210,7 +208,7 @@ body{
 
             </div>
 
-            <div class="row events my-4">
+            <div class="row justify-content-center events my-4">
 
                 <div class="col-12 col-md-6 my-4">
                 <img src="images/young.svg"  width="80%" style="display:inline-block; border-radius:10px;">
@@ -228,9 +226,9 @@ body{
             </div>
 
 
-            <div class="row events my-4">
+            <div class="row justify-content-center events my-4">
 
-                <div class="row">
+                <div class="row justify-content-center">
 
                     <div class="col-12 col-md-6" style="text-align: center">
                     <img src="images/unerase.svg" width="50%" style="border-radius:100%; display:inline-block">
@@ -243,9 +241,9 @@ body{
                 </div>
 
 
-                <div class="row justify-content-center my-4" >
+                <div class="row justify-content-center" >
                     <div class="col-12 my-4" >
-                    <img src="images/simar_singh.jpg" style="display:inline-block; border-radius:20px; width:100%;">
+                    <img src="images/simar_singh.jpg" style="display:inline-block; border-radius:20px; padding:0; margin:0;">
                     </div>
                 </div>
 
