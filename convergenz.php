@@ -210,10 +210,10 @@ Indian cricket team jersey.
             <p>This evening was dedicated to young couples who wanted to know each other better and spend some quality time together. Romantic Music as well as some short, quirky games ensured the crowd was always involved. The event was  followed by some rocking music wherein everyone- Stags as well as couples- were invited. This marked the end of a very successful Convergence-2019.</p>
         </div>
         <div class="col-6  align-middle">
-            <img src="images/promnight.JPG" class="convergenz-event">
+            <img src="images/promnight.JPG" class="convergenz-event my-4">
         </div>
         <div class="col-6 align-middle">
-            <img src="images/promnight_poster.jpg" class="convergenz-event">
+            <img src="images/promnight_poster.jpg" class="convergenz-event my-2">
         </div>
 
     </div>

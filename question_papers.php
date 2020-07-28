@@ -471,7 +471,7 @@
                         </div>
                         <button class=\"w3-button ".$listnetdept[$k]." w3-block w3-dark-grey viewallbutton" .
                   $k .
-                  "\" href=\"#\">+ View all courses</button>
+                  "\" href=\"#\">View all courses ↓</button>
                       </div>
           
                     </div>
@@ -512,14 +512,14 @@ $(document).ready(function(){
   });
 
   $(".w3-card-4 button ").click(function(){
-            if($(this).text() == "Click to hide"  )
+            if($(this).text() == "Contract ↑"  )
             {
                 $(this).parent().children(".clickable").height("250px");
-                $(this).text("Click to show");
+                $(this).text("View all courses ↓");
             }
             else{
                 $(this).parent().children(".clickable").height("auto").css('min-height', '250px');
-                $(this).text("Click to hide"); 
+                $(this).text("Contract ↑"); 
             }
          
         });

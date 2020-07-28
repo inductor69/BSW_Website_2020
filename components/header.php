@@ -223,7 +223,7 @@
 						Who We Are
 					</a>
 					<ul class="dropdown-menu">
-					<li><a class="dropdown-item" href="#"> About Us </a></li>
+					<li><a class="dropdown-item" href="about_us.php"> About Us </a></li>
 					<li><a class="dropdown-item" href="diary_newsletter.php">Diary &amp; Newsletter </a></li>
 					<li><a class="dropdown-item" href="structure.php"> BSW Structure </a></li>
 					</ul>
@@ -249,13 +249,13 @@
 							<li><a class="dropdown-item" href="orientation.php">Orientation</a></li>
 							<li><a class="dropdown-item" href="delhidarshan.php">Delhi Darshan</a></li>
 							<li><a class="dropdown-item" href="sticdinner.php">STIC Dinner</a></li>
-							<li><a class="dropdown-item" href="convergenz.php">Convergenz</a></li>
 							<li><a class="dropdown-item" href="informative_sessions.php">Informative Sessions</a></li>
 							<li><a class="dropdown-item" href="bsw_loans.php">BSW Loans</a></li>
 							<!-- <li><a class="dropdown-item" href="scoops.php">SCOOPS</a></li>
 							<li><a class="dropdown-item" href="workshops.php">Workshops</a></li> -->
 						</ul>
 					</li>
+					<li><a class="dropdown-item" href="convergenz.php">Sperenza</a></li>
 					</ul>
 				</li>
 				
@@ -270,7 +270,7 @@
 							<ul class="submenu dropdown-menu">
 								<li><a class="dropdown-item" href="question_papers.php">Question Papers</a></li>
 								<li><a class="dropdown-item" href="booklets.php">Booklets</a></li>
-								<li><a class="dropdown-item" href="">Equivalent Courses</a></li>
+								<!-- <li><a class="dropdown-item" href="">Equivalent Courses</a></li> -->
 								<li><a class="dropdown-item" href="intern.php">Interns &amp; NGOs</a></li>
 							</ul>
 						</li>

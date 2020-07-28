@@ -77,7 +77,7 @@
         <div class="row justify-content-center">
 
             <div class="col-12 col-lg-4 justify-content-center">
-            <h1 class="about-us-title">Wifi & Internet</h1>
+            <h1 class="about-us-title"><span class="fa fa-wifi"></span> Wifi & Internet</h1>
             </div>
 
             <div class="col-12 col-lg-8">

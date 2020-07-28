@@ -75,6 +75,7 @@
         <div class="col-12 col-md-6 col-lg-4  center-block">
             <h3><strong style="font-weight: bold; font-family: 'Montserrat', sans-serif ;">Useful Links</strong></h3>
             <ul>
+                <li><a href="mental_health.php"><span class="fa fa-commenting"></span> YourDOST & SCS</a></li>
                 <li><a href="emergency_contacts.php"><span class="fa fa-globe"></span> Emergency Contacts</a></li>
                 <li><a href="https://internal.iitd.ernet.in/"><span class="fa fa-sticky-note"></span> Internal Notices</a></li>
                 <li><a href="https://webmail.iitd.ernet.in/roundcube/"><span class="fa fa-envelope"></span> Webmail</a></li>

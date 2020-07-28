@@ -64,7 +64,7 @@
         <div class="row justify-content-center">
 
             <div class="col-12 col-lg-4 justify-content-center">
-            <h1 class="about-us-title">Emergency Contacts</h1>
+            <h1 class="about-us-title"><span class="fa fa-phone"></span> Emergency Contacts</h1>
             </div>
 
             <div class="col-12 col-lg-7 ml-auto">

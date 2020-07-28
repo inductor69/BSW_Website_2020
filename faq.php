@@ -6,7 +6,7 @@
 <meta name="keywords" content="htmlcss bootstrap menu, navbar, mega menu examples" />
 <meta name="description" content="Navigation  menu with submenu examples for any type of project, Bootstrap 4" />  
 
-<title>FAQ | BSW</title>
+<title>FAQs | BSW</title>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
 
@@ -84,7 +84,7 @@
         <div class="row justify-content-center">
 
             <div class="col-12 col-lg-4 justify-content-center">
-            <h1 class="about-us-title">FAQ</h1>
+            <h1 class="about-us-title"><span class="fa fa-question-circle"></span> FAQs</h1>
             </div>
 
             <div class="col-12 col-lg-7 ml-auto">

@@ -167,7 +167,7 @@
               
                       </div>
 
-                      <button class="w3-button w3-block w3-dark-grey " href="#">Click to show</button>
+                      <button class="w3-button w3-block w3-dark-grey " href="#">Expand ↓</button>
                     </div>
         
                 </div>
@@ -212,7 +212,7 @@
                           </div>
                 
                         </div>
-                        <button class="w3-button w3-block w3-dark-grey" href="#" id="Minor2-expand">Click to show</button>
+                        <button class="w3-button w3-block w3-dark-grey" href="#" id="Minor2-expand">Expand ↓</button>
                       </div>
           
                   </div>
@@ -257,7 +257,7 @@
                             
                   
                           </div>
-                          <button class="w3-button w3-block w3-dark-grey" href="#">Click to show</button>
+                          <button class="w3-button w3-block w3-dark-grey" href="#">Expand ↓</button>
                         </div>
             
                     </div>
@@ -280,40 +280,40 @@
     $(document).ready(function(){
       
         $(".minor1 .w3-card-4 button").click(function(){
-            if($(this).text() == "Click to hide"  )
+            if($(this).text() == "Contract ↑"  )
             {
                 $(".minor1 .clickable").height("200px");
-                $(this).text("Click to show");
+                $(this).text("Expand ↓");
             }
             else{
                 $(".minor1 .clickable").height("auto");
-                $(this).text("Click to hide"); 
+                $(this).text("Contract ↑"); 
             }
          
         });
 
         $(".minor2 .w3-card-4 button").click(function(){
-            if($(this).text() == "Click to hide"  )
+            if($(this).text() == "Contract ↑"  )
             {
                 $(".minor2 .clickable").height("200px");
-                $(this).text("Click to show");
+                $(this).text("Expand ↓");
             }
             else{
                 $(".minor2 .clickable").height("auto");
-                $(this).text("Click to hide"); 
+                $(this).text("Contract ↑"); 
             }
          
         });
 
         $(".major .w3-card-4 button").click(function(){
-            if($(this).text() == "Click to hide"  )
+            if($(this).text() == "Contract ↑"  )
             {
                 $(".major .clickable").height("200px");
-                $(this).text("Click to show");
+                $(this).text("Expand ↓");
             }
             else{
                 $(".major .clickable").height("auto");
-                $(this).text("Click to hide"); 
+                $(this).text("Contract ↑"); 
             }
          
         });

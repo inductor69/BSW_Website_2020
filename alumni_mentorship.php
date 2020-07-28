@@ -250,19 +250,55 @@
     <div class="row justify-content-center mb-4">
 
         <div class="col-12">
-        <p><h1>Mentor Registration</h1>1. Register/ Log in to https://iitd.almaconnect.com/mentorship  <br>
-        2. Fill out our form. Fill out all the details accurately as this response would be used to match you to your mentee <br>
-        3. Once we find you a match, we will let you know of your allotted mentees and the portal could also be used to establish meaningful connection.</p>
+        <p><h1>Mentor Registration</h1>
+        </div>
+</div>
+
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-3 my-2" style="background: white; border-radius:20px; padding:10px">
+                <img src="images/reg1.svg">
+                <p style="text-align: center;">
+                1. Register/ Log in to <a href="https://iitd.almaconnect.com/mentorship">https://iitd.almaconnect.com/mentorship</a>
+                </p>
+            </div>
+            <div class="col-12 col-md-4 mx-2 my-2" style="background: white; border-radius:20px; padding:10px">
+                <img src="images/form1.svg">
+                <p style="text-align: center;">
+                2. Fill out our form. Fill out all the details accurately as this response would be used to match you to your mentee
+                </p>
+            </div>
+            <div class="col-12 col-md-4 my-2" style="background: white; border-radius:20px; padding:10px">
+                <img src="images/mentor1.svg">
+                <p style="text-align: center;">
+                3. Once we find you a match, we will let you know of your allotted mentees and the portal could also be used to establish meaningful connection.                </p>
+            </div>
         </div>
 
+        <div class="row justify-content-center mb-4">
         <div class="col-12" >
-        <p><h1>Mentee Registration</h1>1. Register/ Log in to https://iitd.almaconnect.com/mentorship <br>
-        2. Fill out our form. Fill out all the details accurately as this response would be used to match you to your mentor <br>
-        3. Once we find you a match, we will let you know of your allotted mentor and the portal could also be used to establish meaningful connection. <br>
-        </p>
+        <p><h1>Mentee Registration</h1></p>
+        </div>
         </div>
 
-	</div>
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-3 my-2" style="background: white; border-radius:20px; padding:10px">
+                <img src="images/reg2.svg" class="my-4">
+                <p style="text-align: center;" class="my-4">
+                1. Register/ Log in to <a href="https://iitd.almaconnect.com/mentorshipp">https://iitd.almaconnect.com/mentorship</a>
+                </p>
+            </div>
+            <div class="col-12 col-md-4 mx-2 my-2" style="background: white; border-radius:20px; padding:10px">
+                <img src="images/form2.svg">
+                <p style="text-align: center;">
+                2. Fill out our form. Fill out all the details accurately as this response would be used to match you to your mentor                </p>
+            </div>
+            <div class="col-12 col-md-4 my-2" style="background: white; border-radius:20px; padding:10px">
+                <img src="images/mentor2.svg">
+                <p style="text-align: center;">
+                3. Once we find you a match, we will let you know of your allotted mentor and the portal could also be used to establish meaningful connection. <br>
+            </div>
+        </div>
+
 
 
 	</div>
@@ -290,6 +326,10 @@
 
 
 <?php require 'components/footer.php'; ?>
+
+<div class="col-12">
+<a href="https://stories.freepik.com/web"><small><em># Illustration by Stories by Freepik</em></small></a>
+</div>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

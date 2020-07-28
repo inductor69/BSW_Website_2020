@@ -157,6 +157,7 @@
         <div class="col-12 col-md-5 steps mx-2 my-4" style="text-align: center;">
         <div class="container">
         <div class="row">
+        <img src="images/acad_mentor.png" style="position: absolute; left: -50px; top: -60px; height:150px; width:150px;"/>
         <div class="col-12"> <h3>Selection of <br> Academic Mentors</h3></div>
         <div class="col-12"> <p>A form is floated to know the interest of the course a student wants to teach and their grades in those courses to check the credibility. After that the selected students (based on form and interviews) were assigned a course and a hostel group to teach the students. They must teach once every week for 2-2.5 hrs.</p></div>
         </div>
@@ -166,6 +167,7 @@
         <div class="col-12 col-md-5 steps mx-2 my-4" style="text-align: center;">
         <div class="container">
         <div class="row">
+        <img src="images/doubt.png" style="position: absolute; right: -50px; top: -60px; height:150px; width:150px;"/>
         <div class="col-12"><h3>Extra Doubt Solving <br> and  Revision Sessions</h3></div>
         <div class="col-12"> <p>Extra doubt solving and revision sessions were conducted at the institute level before minors and majors especially for the subjects in which students face maximum problems (from past record) such as MTL100,101 and COL100. These sessions are of around 4-5 hrs and taken by 3-4 mentors for each course. We have received a lot of positive reviews from the previous sessions for being very helpful for students.</p></div>
         </div>
