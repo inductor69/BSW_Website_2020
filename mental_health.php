@@ -126,31 +126,53 @@ body{
 	</div>
 </div>
 
-<div class="container-fluid" >
+<div class="container" >
 
 	<div class="row justify-content-center mx-2">
 
         <div class="col-12">
-        <h1 style="font-family: Montserrat !important;" id="mh_heading" >BSW Initiatives</h1>
+        <h1 style="font-family: Montserrat !important;" id="mh_heading" >Initiatives</h1>
         </div>
 
-        <div class="col-12 col-lg-5 my-4 initiative1 mx-4">
-        <img src="images/yourDost.svg" style="border-radius:10px; display:inline;" width="20%"><span><h1>YourDost</h1></span>
+        <div class="col-12 my-4 initiative2 mx-4">
+        <h1><img src="images/bsw_circle.svg" style="border-radius:10px; display:inline; height:100px; width:100px; padding:10px;"><img src="images/yourDost.svg" style="border-radius:10px; display:inline; height:100px; width:100px; padding:10px;"><img src="images/iitd_logo.png" style="border-radius:10px; display:inline; height:100px; width:100px; padding:10px;"></h1><h1 style="font-size: 40px;">YourDost</h1>
         <hr>
-        <p>IIT Delhi is proud to introduce its association with YourDOST, an online emotional wellness platform for FREE Counselling & Guidance to all our students. With YourDOST, you can connect 24x7 with 900+ experts right from your laptop/mobile. What's more - you can stay anonymous and discuss about relationships, academics, career, life and more. <br>
-        Visit http://bit.ly/YDatIITDelhi and start talking to an expert right now!
-        <br>
-        <span style="font-weight: bold;">Note:</span> Please use our your official email ID (ending with '@iitd.ac.in') or Institute wifi for signing up for the first time. This will whitelist you to use the platform for free counselling sessions with experts.
+        <p>Your journey through college must be riddled with so many questions right? Questions about academics, career, relationships and even yourself. If only it were possible to get a friend who could give you anonymous, unbiased, round the clock help. Well, look no further, because we've got just the thing for you.
+        <br>IIT Delhi is pleased to join hands with YourDOST, one of India's leading online and emotional wellness platforms, to ensure that your emotional well-being is always looked after.
+        <br><strong>Important!</strong>- ​You must sign up using your official IIT Delhi email id (ending with "i​ itd.ac.in"​ ). This will white list your account and make sure that you receive our services for free.
+        <br>Please write to ​campus@yourdost.com​ if you face any issues.
         </p>
+        <div class="row justify-content-center" style="padding: 10px">
+
+        <div class="col-12 col-lg-3 mx-2 my-2" style="background: white; border-radius: 20px; padding:10px; margin: 20px;">
+        <img src="images/yd1.png" style="width: 98%; border-radius: 10px; "><br>1. Visit <a href="​www.yourdost.com">yourdost.com</a>
+        </div>
+
+        <div class="col-12 col-lg-3 mx-2 my-2" style="background: white; border-radius: 20px; padding:10px;">
+        <img src="images/yd2.png" style="width: 98%; border-radius: 10px; "><br>2. Sign up in a jiffy and be on your way to seeking professional guidance in no time.
+        </div>
+
+        <div class="col-12 col-lg-3 mx-2 my-2" style="background: white; border-radius: 20px; padding:10px;">
+        <img src="images/yd3.png" style="width: 98%; border-radius: 10px; "><br>3. After verifying your email address, click "​Chat Now​" to start chatting with a YourDOST Expert.
+        </div>
+
+        <div class="col-12 col-lg-3 mx-2 my-2" style="background: white; border-radius: 20px; padding:10px;">
+        <img src="images/yd4.png" style="width: 98%; border-radius: 10px; "><br>4. That's all! You can now start chatting with a YourDOST Expert anytime you want.
+        </div>
+
+        <div class="col-12 col-lg-3 mx-2 my-2" style="background: white; border-radius: 20px; padding:10px;">
+        <img src="images/yd5.png" style="width: 98%; border-radius: 10px; "><br>5. Alternatively, click "​Book An Appointment​" to book an audio/video appointment with a YourDOST Expert.
+        </div>
+
+        </div>
 		</div>
 
-        <div class="col-12 col-lg-5 my-4 initiative2 mx-2">
-        <img src="images/yourDost.svg" style="border-radius:10px; display:inline;" width="20%"><span><h1>SCS</h1></span>
+        <div class="col-12my-4 initiative1 mx-2">
+        <img src="images/scs.png" style="border-radius:10px; display:inline;" width="60%"><span><h1>Student Counselling Service</h1></span>
         <hr>
-        <p>IIT Delhi is proud to introduce its association with YourDOST, an online emotional wellness platform for FREE Counselling & Guidance to all our students. With YourDOST, you can connect 24x7 with 900+ experts right from your laptop/mobile. What's more - you can stay anonymous and discuss about relationships, academics, career, life and more. <br>
-        Visit http://bit.ly/YDatIITDelhi and start talking to an expert right now!
+        <p>We know these are unusual times and you all have to cope with a lot of uncertainty and stress in your lives. Hope all of you are doing fine but if there’s anything troubling you, we request you get in touch with someone. <br>The <strong>Student Counselling Service</strong> is still active and can be availed by anyone who feels the need to do so. <br><br>SCS is currently providing their services through phone. You can take an appointment with the counsellor by mailing on <strong>iitdcounsellors@gmail.com</strong>. For students who feel the need to be in touch with someone immediately, here are the contact numbers of our counsellors, you can call them to discuss any of your concerns freely.
+<br>Krithika - +91 98713 84771
         <br>
-        <span style="font-weight: bold;">Note:</span> Please use our your official email ID (ending with '@iitd.ac.in') or Institute wifi for signing up for the first time. This will whitelist you to use the platform for free counselling sessions with experts.
         </p>
 		</div>
 
@@ -254,41 +276,70 @@ body{
 
         <div class="row events my-4">
 
-        <div class="row">
 
-        <div class="col-12 col-md-6 my-4">
-        <img src="images/unlimited.svg" width="100%" style="border-radius:10px;">
-        </div>
+                    <div class="col-12 col-md-6 my-4">
+                    <img src="images/unlimited.svg" width="100%" style="border-radius:10px;">
+                    </div>
 
-        <div class="col-12 col-md-6 my-4">
-        <h1 style="font-family: Montserrat !important; text-align: center">Dance & Movement Theory<br><small>Eshna Kutty</small></h1>
-        </div>
+                    <div class="col-12 col-md-6 my-4">
+                    <h1 style="font-family: Montserrat !important; text-align: center">Dance & Movement Theory<br><small>Eshna Kutty</small></h1>
+                    </div>
 
-        </div>
 
-        <div class="row justify-content-center" style="text-align: center;">
 
-        <div class="col-12 col-md-6 justify-content-center my-2">
-        <img src="images/dmt1.JPG" width="80%"  height="320px" style="display:inline-block; border-radius:10px; object-fit: cover;">
-        </div>
+            <div class="row justify-content-center" style="text-align: center;">
 
-        <div class="col-12 col-md-6 justify-content-center my-2">
-        <img src="images/dmt2.JPG" width="80%"  height="320px" style="display:inline-block; border-radius:10px; object-fit: cover;">
-        </div>
+                <div class="col-12 col-md-6 my-2">
+                <img src="images/dmt1.JPG" width="80%"  height="320px" style="display:inline-block; border-radius:10px; object-fit: cover;">
+                </div>
 
-        </div>
+                <div class="col-12 col-md-6 my-2">
+                <img src="images/dmt2.JPG" width="80%"  height="320px" style="display:inline-block; border-radius:10px; object-fit: cover;">
+                </div>
+
+            </div>
 
         </div>
 
         <div class="row events my-4">
 
-        <div class="col-12 col-md-6 my-4">
-        <img src="images/unlimited.svg" width="100%" style="border-radius:10px;">
+            <div class="col-12 col-md-6 my-4">
+            <img src="images/unlimited.svg" width="100%" style="border-radius:10px;">
+            </div>
+
+            <div class="col-12 col-md-6 my-4">
+            <h1 style="font-family: Montserrat !important; text-align: center">Letter to Emotions<br><small>Juhi Sharma</small></h1>
+            </div>
+
+            <p class="my-4">
+            Letter To Emotions was a flagship workshop conducted by Juhi Sharma, Founder, Light Up Emotions Matter Foundation. The day was all about self-love and embracing all the love one has within. <br>
+The workshop was intended to help in : Understand one's emotions, unwinding and reconnecting with the inner self, feeling more at peace with your thoughts, having a more positive perspective on life and experiencing catharsis.
+            </p>
+
+            <div class="col-12 ">
+                <img src="images/lte.png" width="100%" style="display:inline-block; border-radius:10px; object-fit: cover;">
+            </div>
+
         </div>
 
-        <div class="col-12 col-md-6 my-4">
-        <h1 style="font-family: Montserrat !important; text-align: center">Letter to Emotions<br><small>Juhi Sharma</small></h1>
-        </div>
+
+        <div class="row justify-content-center events my-4">
+
+            <div class="col-12 col-md-6 my-4">
+            <img src="images/young.svg"  width="80%" style="display:inline-block; border-radius:10px;">
+            </div>
+
+            <div class="col-12 col-md-6 my-4" style="text-align: center">
+            <h1 style="font-family: Montserrat !important; text-align: center">Shweta Kothari<br><small>The Logical Indian</small></h1>
+            </div>
+
+            <p>
+            The session was an attempt to understand the intricacies of journalism and storytelling. Additionally, insights into how the media field works were also given. Attention was given on identifying fake news as viewers. The session will concluded with a Q & A where students interacted with Ms Shweta Kothari. 
+            </p>    
+
+            <div class="col-12 ">
+                <img src="images/li.png" width="100%" style="display:inline-block; border-radius:10px; object-fit: cover;">
+            </div>
 
         </div>
 
@@ -296,6 +347,10 @@ body{
         </div>
 
 	</div>
+
+  
+
+
 
 </div>
 
