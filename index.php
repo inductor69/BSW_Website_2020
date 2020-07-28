@@ -143,8 +143,18 @@
 		text-align: center;
 		font-family: 'neue_montrealmedium' !important;
 	}
+	#forms{
+		background: mediumseagreen;
+		border-radius: 10px;
+		font-size: 24px;
+		color: rgba(0,0,0,0.46);
+		letter-spacing: 0;
+		text-align: center;
+		font-family: 'neue_montrealmedium' !important;
+	}
 
 	.notice-inner:nth-child(even){
+		font-size: 1.1rem;
 		background:#ffc;
 		border-radius: 10px;
 		padding: 10px;
@@ -153,6 +163,7 @@
 	}
 
 	.notice-inner:nth-child(odd){
+		font-size: 1.1rem;
 		background:#ffc;
 		border-radius: 10px;
 		padding: 10px;
@@ -161,6 +172,7 @@
 	}
 
 	.notice-inner:hover{
+		font-size: 1.1rem;
 		box-shadow: 0 10px 10px 2px rgba(0,0,0,0.3);
 		transition:all 0.15s ease-out;
 	}
@@ -175,6 +187,7 @@
 }
 
 .note {
+
   color: #333;
   position: relative;
   width: 100%;
@@ -203,6 +216,7 @@
 }
 
 .pinned-note2 {
+	font-size: 1.2rem;
   background: #d0fed0a6;
   -webkit-transform: rotate(2deg);
   -moz-transform: rotate(2deg);
@@ -212,6 +226,7 @@
 }
 
 .pinned-note1 {
+	font-size: 1.2rem;
   background: #d0fed0a6;
   -webkit-transform: rotate(-3deg);
   -moz-transform: rotate(-3deg);
@@ -442,7 +457,7 @@
 						<blockquote class="note pinned-note2">
 						<h3>Updated Academic Calendar</h3>
 						<h5>2020-21</h5>
-						<p>Updated Academic Calendar for the year 2020-21</a></p>
+						<p>Updated Academic Calendar for the year 2020-21 can be downloaded from <a href="">here</a></p>
 						</blockquote>
 						</div>
 					</div>
@@ -531,6 +546,13 @@
 				<div  id="qPapers" class="home-quick-links">
 				<img src="images/qPapers.svg" width="60" height="60" alt="">
 				Question Papers
+				</div>
+				</a>
+
+				<a href="forms.php" style="text-decoration: none" >
+				<div  id="forms" class="home-quick-links">
+				<img src="images/forms.ico" width="60" height="60" alt="">
+				Forms
 				</div>
 				</a>
 				</div>
