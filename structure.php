@@ -84,6 +84,16 @@
     .btn-primary, .btn-success, .btn-info{
         width:100% !important;
     }
+    @media (max-width:769px){
+        #hostel_button{
+            max-width:200px;
+        }
+    }
+    @media (min-width:769px){
+        #hostel_button{
+            max-width:300px;
+        }
+    }
 
 	
 </style>
@@ -411,15 +421,15 @@
                 <img class="mr-3 media-image" src="team2019/members/6.jpg" alt="Generic placeholder image" style="border-radius:10px;">
                 <div class="media-body">
                 <h5 class="mt-1 mb-2">Dipanshu Patidar</h5>
-                <button class="btn btn-primary" style="font-size:16px; max-width:200px;"><span class="fa fa-facebook"></span> dkdk5122000@gmail.com </button><br>
-                <button class="btn btn-success my-1" style="font-size:16px; max-width:200px;"><span class="fa fa-phone"></span> +91 7424905782   </button><br>            </div>
+                <button class="btn btn-primary" style="font-size:16px; " id="hostel_button"><span class="fa fa-facebook"></span> dkdk5122000@gmail.com </button><br>
+                <button class="btn btn-success my-1" style="font-size:16px; " id="hostel_button"><span class="fa fa-phone"></span> +91 7424905782   </button><br>            </div>
             </li>
             <li class="media my-4">
             <img class="mr-3 media-image" src="team2019/members/21.jpg" alt="Generic placeholder image" style="border-radius:10px;">
                 <div class="media-body">
                 <h5 class="mt-1 mb-2">Prakhar Sharma</h5>
-                <button class="btn btn-primary" style="font-size:16px; max-width:200px;"><span class="fa fa-facebook"></span> prakharsharma1999@gmail.com </button><br>
-                <button class="btn btn-success my-1" style="font-size:16px; max-width:200px;"><span class="fa fa-phone"></span> +91 7055051155   </button><br>            </div>
+                <button class="btn btn-primary" style="font-size:16px; " id="hostel_button"><span class="fa fa-facebook"></span> prakharsharma1999@gmail.com </button><br>
+                <button class="btn btn-success my-1" style="font-size:16px; " id="hostel_button"><span class="fa fa-phone"></span> +91 7055051155   </button><br>            </div>
             </li>
             </ul>
         </div>
@@ -437,15 +447,15 @@
                 <img class="mr-3 media-image" src="team2019/members/12.jpg" alt="Generic placeholder image" style="border-radius:10px;">
                 <div class="media-body">
                 <h5 class="mt-1 mb-2">Gaurav Chauhan</h5>
-                <button class="btn btn-primary" style="font-size:16px; max-width:200px;"><span class="fa fa-facebook"></span> gauravseema1411@gmail.com </button><br>
-                <button class="btn btn-success my-1" style="font-size:16px; max-width:200px;"><span class="fa fa-phone"></span> +91 6239961770   </button><br>            </div>
+                <button class="btn btn-primary" style="font-size:16px; " id="hostel_button"><span class="fa fa-facebook"></span> gauravseema1411@gmail.com </button><br>
+                <button class="btn btn-success my-1" style="font-size:16px; " id="hostel_button"><span class="fa fa-phone"></span> +91 6239961770   </button><br>            </div>
             </li>
             <li class="media my-4">
             <img class="mr-3 media-image" src="team2019/members/7.jpg" alt="Generic placeholder image" style="border-radius:10px;">
                 <div class="media-body">
                 <h5 class="mt-1 mb-2">Prabhpreet Singh</h5>
-                <button class="btn btn-primary" style="font-size:16px; max-width:200px;"><span class="fa fa-facebook"></span> yash.prabhpreet@gmail.com </button><br>
-                <button class="btn btn-success my-1" style="font-size:16px; max-width:200px;"><span class="fa fa-phone"></span> +91 9915438685   </button><br>            </div>
+                <button class="btn btn-primary" style="font-size:16px; " id="hostel_button"><span class="fa fa-facebook"></span> yash.prabhpreet@gmail.com </button><br>
+                <button class="btn btn-success my-1" style="font-size:16px; " id="hostel_button"><span class="fa fa-phone"></span> +91 9915438685   </button><br>            </div>
             </li>
             </ul>
         </div>
@@ -468,15 +478,15 @@
                 <img class="mr-3 media-image" src="team2019/members/11.jpg" alt="Generic placeholder image" style="border-radius:10px;">
                 <div class="media-body">
                 <h5 class="mt-1 mb-2">Ichha Rathod</h5>
-                <button class="btn btn-primary" style="font-size:16px; max-width:200px;"><span class="fa fa-facebook"></span> ichharathod@gmail.com </button><br>
-                <button class="btn btn-success my-1" style="font-size:16px; max-width:200px;"><span class="fa fa-phone"></span> +91 9664114447   </button><br>            </div>
+                <button class="btn btn-primary" style="font-size:16px; " id="hostel_button"><span class="fa fa-facebook"></span> ichharathod@gmail.com </button><br>
+                <button class="btn btn-success my-1" style="font-size:16px; " id="hostel_button"><span class="fa fa-phone"></span> +91 9664114447   </button><br>            </div>
             </li>
             <li class="media my-4">
             <img class="mr-3 media-image" src="team2019/members/24.jpg" alt="Generic placeholder image" style="border-radius:10px;">
                 <div class="media-body">
                 <h5 class="mt-1 mb-2">Ishita Chawla</h5>
-                <button class="btn btn-primary" style="font-size:16px; max-width:200px;"><span class="fa fa-facebook"></span> chawlaishita13@gmail.com </button><br>
-                <button class="btn btn-success my-1" style="font-size:16px; max-width:200px;"><span class="fa fa-phone"></span> +91 8375883773   </button><br>            </div>
+                <button class="btn btn-primary" style="font-size:16px; " id="hostel_button"><span class="fa fa-facebook"></span> chawlaishita13@gmail.com </button><br>
+                <button class="btn btn-success my-1" style="font-size:16px; " id="hostel_button"><span class="fa fa-phone"></span> +91 8375883773   </button><br>            </div>
             </li>
             </ul>
         </div>
@@ -494,15 +504,15 @@
                 <img class="mr-3 media-image" src="team2019/members/20.jpg" alt="Generic placeholder image" style="border-radius:10px;">
                 <div class="media-body">
                 <h5 class="mt-1 mb-2">Franklin Gari </h5>
-                <button class="btn btn-primary" style="font-size:16px; max-width:200px;"><span class="fa fa-facebook"></span> franklin02082001@gmail.com </button><br>
-                <button class="btn btn-success my-1" style="font-size:16px; max-width:200px;"><span class="fa fa-phone"></span> +91 8248563561   </button><br>            </div>
+                <button class="btn btn-primary" style="font-size:16px; " id="hostel_button"><span class="fa fa-facebook"></span> franklin02082001@gmail.com </button><br>
+                <button class="btn btn-success my-1" style="font-size:16px; " id="hostel_button"><span class="fa fa-phone"></span> +91 8248563561   </button><br>            </div>
             </li>
             <li class="media my-4">
             <img class="mr-3 media-image" src="team2019/members/13.jpg" alt="Generic placeholder image" style="border-radius:10px;">
                 <div class="media-body">
                 <h5 class="mt-1 mb-2">Abhimanyu Singh</h5>
-                <button class="btn btn-primary" style="font-size:16px; max-width:200px;"><span class="fa fa-facebook"></span> abhimanyu1867@gmail.com</button><br>
-                <button class="btn btn-success my-1" style="font-size:16px; max-width:200px;"><span class="fa fa-phone"></span> +91 9588354698   </button><br>            </div>
+                <button class="btn btn-primary" style="font-size:16px; " id="hostel_button"><span class="fa fa-facebook"></span> abhimanyu1867@gmail.com</button><br>
+                <button class="btn btn-success my-1" style="font-size:16px; " id="hostel_button"><span class="fa fa-phone"></span> +91 9588354698   </button><br>            </div>
             </li>
             </ul>
         </div>
@@ -525,15 +535,15 @@
                 <img class="mr-3 media-image" src="team2019/members/22.jpg" alt="Generic placeholder image" style="border-radius:10px;">
                 <div class="media-body">
                 <h5 class="mt-1 mb-2">Ruchika kumari</h5>
-                <button class="btn btn-primary" style="font-size:16px; max-width:200px;"><span class="fa fa-facebook"></span> kumariruchika885@gmail.com </button><br>
-                <button class="btn btn-success my-1" style="font-size:16px; max-width:200px;"><span class="fa fa-phone"></span> +91 8271812751   </button><br>            </div>
+                <button class="btn btn-primary" style="font-size:16px; " id="hostel_button"><span class="fa fa-facebook"></span> kumariruchika885@gmail.com </button><br>
+                <button class="btn btn-success my-1" style="font-size:16px; " id="hostel_button"><span class="fa fa-phone"></span> +91 8271812751   </button><br>            </div>
             </li>
             <li class="media my-4">
             <img class="mr-3 media-image" src="team2019/members/10.jpg" alt="Generic placeholder image" style="border-radius:10px;">
                 <div class="media-body">
                 <h5 class="mt-1 mb-2">Sakshi Bhandari</h5>
-                <button class="btn btn-primary" style="font-size:16px; max-width:200px;"><span class="fa fa-facebook"></span> bsak2222@gmail.com </button><br>
-                <button class="btn btn-success my-1" style="font-size:16px; max-width:200px;"><span class="fa fa-phone"></span> +91 9586597182   </button><br>            </div>
+                <button class="btn btn-primary" style="font-size:16px; " id="hostel_button"><span class="fa fa-facebook"></span> bsak2222@gmail.com </button><br>
+                <button class="btn btn-success my-1" style="font-size:16px; " id="hostel_button"><span class="fa fa-phone"></span> +91 9586597182   </button><br>            </div>
             </li>
             </ul>
         </div>
@@ -551,15 +561,15 @@
                 <img class="mr-3 media-image" src="team2019/members/.jpg" alt="Generic placeholder image" style="border-radius:10px;">
                 <div class="media-body">
                 <h5 class="mt-1 mb-2">Aashish Choudary</h5>
-                <button class="btn btn-primary" style="font-size:16px; max-width:200px;"><span class="fa fa-facebook"></span> ...</button><br>
-                <button class="btn btn-success my-1" style="font-size:16px; max-width:200px;"><span class="fa fa-phone"></span>...  </button><br>            </div>
+                <button class="btn btn-primary" style="font-size:16px; " id="hostel_button"><span class="fa fa-facebook"></span> ...</button><br>
+                <button class="btn btn-success my-1" style="font-size:16px; " id="hostel_button"><span class="fa fa-phone"></span>...  </button><br>            </div>
             </li>
             <li class="media my-4">
             <img class="mr-3 media-image" src="team2019/members/15.jpg" alt="Generic placeholder image" style="border-radius:10px;">
                 <div class="media-body">
                 <h5 class="mt-1 mb-2">Piyush Gupta</h5>
-                <button class="btn btn-primary" style="font-size:16px; max-width:200px;"><span class="fa fa-facebook"></span> piyush37gupta@gmail.com </button><br>
-                <button class="btn btn-success my-1" style="font-size:16px; max-width:200px;"><span class="fa fa-phone"></span> +91 9425707560   </button><br>            </div>
+                <button class="btn btn-primary" style="font-size:16px; " id="hostel_button"><span class="fa fa-facebook"></span> piyush37gupta@gmail.com </button><br>
+                <button class="btn btn-success my-1" style="font-size:16px; " id="hostel_button"><span class="fa fa-phone"></span> +91 9425707560   </button><br>            </div>
             </li>
             </ul>
         </div>
@@ -582,15 +592,15 @@
                 <img class="mr-3 media-image" src="team2019/members/32.jpg" alt="Generic placeholder image" style="border-radius:10px;">
                 <div class="media-body">
                 <h5 class="mt-1 mb-2">Hardik Tanwar</h5>
-                <button class="btn btn-primary" style="font-size:16px; max-width:200px;"><span class="fa fa-facebook"></span> tmkoc2000@gmail.com </button><br>
-                <button class="btn btn-success my-1" style="font-size:16px; max-width:200px;"><span class="fa fa-phone"></span> +91 9530368472   </button><br>            </div>
+                <button class="btn btn-primary" style="font-size:16px; " id="hostel_button"><span class="fa fa-facebook"></span> tmkoc2000@gmail.com </button><br>
+                <button class="btn btn-success my-1" style="font-size:16px; " id="hostel_button"><span class="fa fa-phone"></span> +91 9530368472   </button><br>            </div>
             </li>
             <li class="media my-4">
             <img class="mr-3 media-image" src="team2019/members/3.jpg" alt="Generic placeholder image" style="border-radius:10px;">
                 <div class="media-body">
                 <h5 class="mt-1 mb-2">Mihir Kedia</h5>
-                <button class="btn btn-primary" style="font-size:16px; max-width:200px;"><span class="fa fa-facebook"></span> mihirkedia1208@gmail.com </button><br>
-                <button class="btn btn-success my-1" style="font-size:16px; max-width:200px;"><span class="fa fa-phone"></span> +91 8800908227   </button><br>            </div>
+                <button class="btn btn-primary" style="font-size:16px; " id="hostel_button"><span class="fa fa-facebook"></span> mihirkedia1208@gmail.com </button><br>
+                <button class="btn btn-success my-1" style="font-size:16px; " id="hostel_button"><span class="fa fa-phone"></span> +91 8800908227   </button><br>            </div>
             </li>
             </ul>
         </div>
@@ -608,15 +618,15 @@
                 <img class="mr-3 media-image" src="team2019/members/2.jpg" alt="Generic placeholder image" style="border-radius:10px;">
                 <div class="media-body">
                 <h5 class="mt-1 mb-2">Jatin Goel</h5>
-                <button class="btn btn-primary" style="font-size:16px; max-width:200px;"><span class="fa fa-facebook"></span> goel.jatin2001@gmail.com </button><br>
-                <button class="btn btn-success my-1" style="font-size:16px; max-width:200px;"><span class="fa fa-phone"></span> +91 9716338929   </button><br>            </div>
+                <button class="btn btn-primary" style="font-size:16px; " id="hostel_button"><span class="fa fa-facebook"></span> goel.jatin2001@gmail.com </button><br>
+                <button class="btn btn-success my-1" style="font-size:16px; " id="hostel_button"><span class="fa fa-phone"></span> +91 9716338929   </button><br>            </div>
             </li>
             <li class="media my-4">
             <img class="mr-3 media-image" src="team2019/members/8.jpg" alt="Generic placeholder image" style="border-radius:10px;">
                 <div class="media-body">
                 <h5 class="mt-1 mb-2">Puru Arora</h5>
-                <button class="btn btn-primary" style="font-size:16px; max-width:200px;"><span class="fa fa-facebook"></span> puruarora1@gmail.com </button><br>
-                <button class="btn btn-success my-1" style="font-size:16px; max-width:200px;"><span class="fa fa-phone"></span> +91 8448555978   </button><br>            </div>
+                <button class="btn btn-primary" style="font-size:16px; " id="hostel_button"><span class="fa fa-facebook"></span> puruarora1@gmail.com </button><br>
+                <button class="btn btn-success my-1" style="font-size:16px; " id="hostel_button"><span class="fa fa-phone"></span> +91 8448555978   </button><br>            </div>
             </li>
             </ul>
         </div>
@@ -639,15 +649,15 @@
                 <img class="mr-3 media-image" src="team2019/members/19.jpg" alt="Generic placeholder image" style="border-radius:10px;">
                 <div class="media-body">
                 <h5 class="mt-1 mb-2">Arvin Goyal </h5>
-                <button class="btn btn-primary" style="font-size:16px; max-width:200px;"><span class="fa fa-facebook"></span> arving1908@gmail.com </button><br>
-                <button class="btn btn-success my-1" style="font-size:16px; max-width:200px;"><span class="fa fa-phone"></span> +91 9517649345   </button><br>            </div>
+                <button class="btn btn-primary" style="font-size:16px; " id="hostel_button"><span class="fa fa-facebook"></span> arving1908@gmail.com </button><br>
+                <button class="btn btn-success my-1" style="font-size:16px; " id="hostel_button"><span class="fa fa-phone"></span> +91 9517649345   </button><br>            </div>
             </li>
             <li class="media my-4">
             <img class="mr-3 media-image" src="team2019/members/31.jpg" alt="Generic placeholder image" style="border-radius:10px;">
                 <div class="media-body">
                 <h5 class="mt-1 mb-2">Raghav Ajitsaria</h5>
-                <button class="btn btn-primary" style="font-size:16px; max-width:200px;"><span class="fa fa-facebook"></span> ajitsaria.raghavr1@gmail.com </button><br>
-                <button class="btn btn-success my-1" style="font-size:16px; max-width:200px;"><span class="fa fa-phone"></span> +91 7595868183   </button><br>            </div>
+                <button class="btn btn-primary" style="font-size:16px; " id="hostel_button"><span class="fa fa-facebook"></span> ajitsaria.raghavr1@gmail.com </button><br>
+                <button class="btn btn-success my-1" style="font-size:16px; " id="hostel_button"><span class="fa fa-phone"></span> +91 7595868183   </button><br>            </div>
             </li>
             </ul>
         </div>
@@ -665,15 +675,15 @@
                 <img class="mr-3 media-image" src="team2019/members/17.jpg" alt="Generic placeholder image" style="border-radius:10px;">
                 <div class="media-body">
                 <h5 class="mt-1 mb-2">Ayush Kanodia</h5>
-                <button class="btn btn-primary" style="font-size:16px; max-width:200px;"><span class="fa fa-facebook"></span> akanodia11@gmail.com</button><br>
-                <button class="btn btn-success my-1" style="font-size:16px; max-width:200px;"><span class="fa fa-phone"></span> +91 9451422334   </button><br>            </div>
+                <button class="btn btn-primary" style="font-size:16px; " id="hostel_button"><span class="fa fa-facebook"></span> akanodia11@gmail.com</button><br>
+                <button class="btn btn-success my-1" style="font-size:16px; " id="hostel_button"><span class="fa fa-phone"></span> +91 9451422334   </button><br>            </div>
             </li>
             <li class="media my-4">
             <img class="mr-3 media-image" src="team2019/members/4.jpg" alt="Generic placeholder image" style="border-radius:10px;">
                 <div class="media-body">
                 <h5 class="mt-1 mb-2">Siddhant Choudhary</h5>
-                <button class="btn btn-primary" style="font-size:16px; max-width:200px;"><span class="fa fa-facebook"></span> sid2001.iitd@gmail.com </button><br>
-                <button class="btn btn-success my-1" style="font-size:16px; max-width:200px;"><span class="fa fa-phone"></span> +91 9935029433   </button><br>            </div>
+                <button class="btn btn-primary" style="font-size:16px; " id="hostel_button"><span class="fa fa-facebook"></span> sid2001.iitd@gmail.com </button><br>
+                <button class="btn btn-success my-1" style="font-size:16px; " id="hostel_button"><span class="fa fa-phone"></span> +91 9935029433   </button><br>            </div>
             </li>
             </ul>
         </div>
@@ -696,15 +706,15 @@
                 <img class="mr-3 media-image" src="team2019/members/9.jpg" alt="Generic placeholder image" style="border-radius:10px;">
                 <div class="media-body">
                 <h5 class="mt-1 mb-2">Chirag Maheshwari</h5>
-                <button class="btn btn-primary" style="font-size:16px; max-width:200px;"><span class="fa fa-facebook"></span> chiragmahheshwari@gmail.com </button><br>
-                <button class="btn btn-success my-1" style="font-size:16px; max-width:200px;"><span class="fa fa-phone"></span> +91 8233957000   </button><br>            </div>
+                <button class="btn btn-primary" style="font-size:16px; " id="hostel_button"><span class="fa fa-facebook"></span> chiragmahheshwari@gmail.com </button><br>
+                <button class="btn btn-success my-1" style="font-size:16px; " id="hostel_button"><span class="fa fa-phone"></span> +91 8233957000   </button><br>            </div>
             </li>
             <li class="media my-4">
             <img class="mr-3 media-image" src="team2019/members/16.jpg" alt="Generic placeholder image" style="border-radius:10px;">
                 <div class="media-body">
                 <h5 class="mt-1 mb-2">Shikhar Anand</h5>
-                <button class="btn btn-primary" style="font-size:16px; max-width:200px;"><span class="fa fa-facebook"></span> anandshikhar99@gmail.com </button><br>
-                <button class="btn btn-success my-1" style="font-size:16px; max-width:200px;"><span class="fa fa-phone"></span> +91 7000680741   </button><br>            </div>
+                <button class="btn btn-primary" style="font-size:16px; " id="hostel_button"><span class="fa fa-facebook"></span> anandshikhar99@gmail.com </button><br>
+                <button class="btn btn-success my-1" style="font-size:16px; " id="hostel_button"><span class="fa fa-phone"></span> +91 7000680741   </button><br>            </div>
             </li>
             </ul>
         </div>
@@ -722,15 +732,15 @@
                 <img class="mr-3 media-image" src="team2019/members/5.jpg" alt="Generic placeholder image" style="border-radius:10px;">
                 <div class="media-body">
                 <h5 class="mt-1 mb-2">Gaurav Pande</h5>
-                <button class="btn btn-primary" style="font-size:16px; max-width:200px;"><span class="fa fa-facebook"></span> gaurav24061999@gmail.com </button><br>
-                <button class="btn btn-success my-1" style="font-size:16px; max-width:200px;"><span class="fa fa-phone"></span> +91 7219584694   </button><br>            </div>
+                <button class="btn btn-primary" style="font-size:16px; " id="hostel_button"><span class="fa fa-facebook"></span> gaurav24061999@gmail.com </button><br>
+                <button class="btn btn-success my-1" style="font-size:16px; " id="hostel_button"><span class="fa fa-phone"></span> +91 7219584694   </button><br>            </div>
             </li>
             <li class="media my-4">
             <img class="mr-3 media-image" src="team2019/members/18.jpg" alt="Generic placeholder image" style="border-radius:10px;">
                 <div class="media-body">
                 <h5 class="mt-1 mb-2">Yash Jain</h5>
-                <button class="btn btn-primary" style="font-size:16px; max-width:200px;"><span class="fa fa-facebook"></span> yash.jain.guwahati@gmail.com </button><br>
-                <button class="btn btn-success my-1" style="font-size:16px; max-width:200px;"><span class="fa fa-phone"></span> +91 9706099045   </button><br>            </div>
+                <button class="btn btn-primary" style="font-size:16px; " id="hostel_button"><span class="fa fa-facebook"></span> yash.jain.guwahati@gmail.com </button><br>
+                <button class="btn btn-success my-1" style="font-size:16px; " id="hostel_button"><span class="fa fa-phone"></span> +91 9706099045   </button><br>            </div>
             </li>
             </ul>
         </div>
@@ -752,15 +762,15 @@
                 <img class="mr-3 media-image" src="team2019/members/30.jpg" alt="Generic placeholder image" style="border-radius:10px;">
                 <div class="media-body">
                 <h5 class="mt-1 mb-2">Bhupender Dhaka </h5>
-                <button class="btn btn-primary" style="font-size:16px; max-width:200px;"><span class="fa fa-facebook"></span> bhupenderdhaka226@gmail.com </button><br>
-                <button class="btn btn-success my-1" style="font-size:16px; max-width:200px;"><span class="fa fa-phone"></span> +91 6377593404   </button><br>            </div>
+                <button class="btn btn-primary" style="font-size:16px; " id="hostel_button"><span class="fa fa-facebook"></span> bhupenderdhaka226@gmail.com </button><br>
+                <button class="btn btn-success my-1" style="font-size:16px; " id="hostel_button"><span class="fa fa-phone"></span> +91 6377593404   </button><br>            </div>
             </li>
             <li class="media my-4">
             <img class="mr-3 media-image" src="team2019/members/1.jpg" alt="Generic placeholder image" style="border-radius:10px;">
                 <div class="media-body">
                 <h5 class="mt-1 mb-2">Sanidhya Jain</h5>
-                <button class="btn btn-primary" style="font-size:16px; max-width:200px;"><span class="fa fa-facebook"></span> sanidhyaleo10@gmail.com </button><br>
-                <button class="btn btn-success my-1" style="font-size:16px; max-width:200px;"><span class="fa fa-phone"></span> +91 6264363313   </button><br>            </div>
+                <button class="btn btn-primary" style="font-size:16px; " id="hostel_button"><span class="fa fa-facebook"></span> sanidhyaleo10@gmail.com </button><br>
+                <button class="btn btn-success my-1" style="font-size:16px; " id="hostel_button"><span class="fa fa-phone"></span> +91 6264363313   </button><br>            </div>
             </li>
             </ul>
         </div>

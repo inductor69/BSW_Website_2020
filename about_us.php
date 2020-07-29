@@ -59,7 +59,7 @@
 
         <div class="row justify-content-center">
 
-            <div class="col-12 justify-content-center">
+            <div class="col-12 justify-content-center my-2">
             <h1 class="about-us-title"> About Us <small>| Board for Student Welfare, IIT Delhi</small></h1>
             </div>
 
@@ -74,13 +74,13 @@
 
 <div class="row justify-content-center my-4">
 
-<div class="col-12 col-md-6">
-<img src="images/op_orientation/12.JPG" width="100%" style="border-radius:20px;">
+<div class="col-12 col-md-6" >
+<img src="images/op_orientation/12.JPG" width="100%" height="100%" style="border-radius:20px; object-fit: cover; ">
 </div>
 
-<div class="col-12 col-md-6 my-4">
-<strong><h1>Our Objective</h1></strong>
-<p style="font-size:1.2rem">BSW (Board for Student Welfare) is a constituent body of the Student Affairs Council (SAC), with the primary objective of identifying issues faced by the student community related to academics, social life, mental health and career, and address them through welfare activities and mentorship programs. </p>
+<div class="col-12 col-md-5 card" style="text-align: center; padding:20px; border-radius: 20px">
+<strong><h1 class="card-header" style="border-radius: 20px; border:none; margin: 10px;">Our Objective</h1></strong>
+<p style="font-size:1.2rem">BSW (Board for Student Welfare) is a constituent body of the Student Affairs Council (SAC).<br> BSW's primary objective is identifying the issues faced by the student community related to academics, social life, mental health and career, and address them through welfare activities and mentorship programs. </p>
 </div>
 
 </div>
@@ -91,23 +91,53 @@
 <div class="col-12 my-2" style="text-align: center;">
 <strong><h1>How does the board function?</h1></strong>
 <p style="font-size:1.2rem">
-The Board is majorly divided into 2 units based on their domain of responsibilities - Operations and Mentorship. </p>
+The Board is majorly divided into 2 units based on their domain of responsibilities -<br> <span class="fa fa-cogs"></span> Operations and <span class="fa fa-users"></span> Mentorship. </p>
 </div>
 
-<div class="col-12 col-md-6 my-4">
-<strong><h1>Operations</h1></strong>
+<div class="col-12 col-md-5 my-4 card" style="text-align: center; margin: 10px; padding:20px; border-radius: 20px">
+<div class="card-header" style="border-radius: 20px; border:none; margin: 10px;">
+<strong><h1><span class="fa fa-cogs"></span></h1></strong>
+<strong><h1 >Operations</h1></strong>
+</div>
 <p style="font-size:1.2rem">The operations committee executes welfare activities and provides assistance (financial and in kind) to the students in need. It also looks over SCOOPS, SCS and STIC which is an integral part of BSW. Our activities include smooth induction of the orientation process, setting up of various camps such as cycle camp, book camp, etc., conducting informative sessions and collaborative events, organising Convergenz (annual youth festival) and carrying out various initiatives for student welfare throughout the year. </p>
+<h4>Operations' Events</h4>
+<ul class="list-group-flush" style="width: 100%; padding:0;">
+<li class="list-group-item list-group-item-action"><a href="female_jee_counselling.php">Female JEE Counselling</a></li>
+<li class="list-group-item list-group-item-action"><a href="female_jee_counselling.php">Orientation</a></li>
+<li class="list-group-item list-group-item-action"><a href="female_jee_counselling.php">Delhi Darshan</a></li>
+<li class="list-group-item list-group-item-action"><a href="female_jee_counselling.php">STIC Dinner</a></li>
+<li class="list-group-item list-group-item-action"><a href="female_jee_counselling.php">Informative Sessions</a></li>
+<li class="list-group-item list-group-item-action"><a href="female_jee_counselling.php">BSW Loans</a></li>
+</ul>
 </div>
 
-<div class="col-12 col-md-6 my-4">
+<div class="col-12 col-md-5 my-4 card" style="text-align: center; margin: 10px; padding:20px; border-radius: 20px">
+<div class="card-header" style="border-radius: 20px; border:none; margin: 10px;">
+<strong><h1><span class="fa fa-users"></span></h1></strong>
 <strong><h1>Mentorship</h1></strong>
+</div>
 <p style="font-size:1.2rem">The Mentorship Committee of BSW executes & monitors all mentorship initiatives & activities for IIT Delhi students. These include freshers' orientation, mentorship of freshmen students, student-alumni mentorship, academic mentorship, language mentorship, counselling services, etc. On the commencement of one's IITD life, every individual is provided a mentor who is a trained & experienced senior student. The mentor is responsible for making the student capable of taking informed decisions in academic, extra-curricular & personal fronts by sharing unbiased knowledge & experiences. Mentors are also expected to contribute their efforts in other mentorship initiatives. </p>
+<h4>Mentorship Programmes</h4>
+<ul class="list-group-flush" style="width: 100%; padding:0;">
+<li class="list-group-item list-group-item-action"><a href="female_jee_counselling.php">Academic Mentorship</a></li>
+<li class="list-group-item list-group-item-action"><a href="female_jee_counselling.php">Alumni Mentorship</a></li>
+<li class="list-group-item list-group-item-action"><a href="female_jee_counselling.php">Mental health Mentorship & Counselling</a></li>
+<li class="list-group-item list-group-item-action"><a href="female_jee_counselling.php">Language Mentorship</a></li>
+
+</ul>
+
+
 </div>
 
 <div class="col-12 my-4" style="text-align: center;">
 <strong><h1>How are these programs implemented?</h1></strong>
 <p style="font-size:1.2rem">
-There are two student representatives from each hostel who actively work on all these initiatives and ensure all the welfare activities reach every student. Along with them, there are multiple student mentors from each hostel who carry out all the mentorship related activities.</p>
+There are two student representatives from each hostel who actively work on all these initiatives and ensure all the welfare activities reach every student. <br>Along with them, there are multiple student mentors from each hostel who carry out all the mentorship related activities.</p>
+<p style="font-size:1.2rem">
+<a href="structure.php">
+Meet the team that makes it all happen.
+</a>
+</p>
 </div>
 
 </div>
