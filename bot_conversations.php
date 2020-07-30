@@ -63,14 +63,32 @@ class Query extends Conversation
     {
         $this->ask('You may now describe the problem you are facing.', function($answer) {
             $this->query = $answer->getText();
-            $this->say('Please wait while I register your request ...');
-            $this->sendMail($this->name, $this->entrynumber, $this->query);
+            $this->mailStop();
         });
     }
 
+    public function mailStop(){
+        
+        $this->ask('Say Y/y to confirm your request. Doing this will register it with the admin. Send N/n to cancel.', [
+            [
+                'pattern' => 'y|Y|yes|yep',
+                'callback' => function () {
+                    $this->say('Thankyou!');
+                    $this->sendMail($this->name, $this->entrynumber, $this->query);
+                }
+            ],
+            [
+                'pattern' => 'nah|no|nope|n|N',
+                'callback' => function () {
+                    $this->say('Your request has been cancelled.');
+                }
+            ]
+        ]);   
+    }
 
     public function sendMail($name, $entrynumber, $query)
     {       
+            $this->say('Please wait while I register your request ...');
             $nameM = $name;
             $entrynumberM = $entrynumber;
             $queryM = $query;
@@ -109,13 +127,29 @@ class Query extends Conversation
             $mail->isHTML(true);                                  // Set email format to HTML
             $mail->Subject = 'Query Request';
             $mail->Body    = $mailbody;
-        
+
+            $this->ask('Your request has been registered. Thankyou!', function($answer) {
+                $this->name = $answer->getText();
+                $this->say('Nice to meet you '.$this->name);
+                $this->askEntryNumber();
+            });
             $mail->send();
-            $success = true;
+            $this->success = true;
+            return;
+
+        
       
     }
 
-
+    public function acknowledge($success){
+        if($success){
+            $this->ask('Your request has been registered. Thankyou!', function($answer) {
+                $this->name = $answer->getText();
+                $this->say('Nice to meet you '.$this->name);
+                $this->askEntryNumber();
+            });
+        }
+    }
 
     public function run()
     {
