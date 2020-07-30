@@ -68,14 +68,14 @@
         <div class="row justify-content-center">
 
             <div class="col-12 col-lg-4 justify-content-center">
-            <h1 class="about-us-title"><span class="fa fa-newspaper-o"></span> Diary & Newsletter</h1>
+            <h1 class="about-us-title"> Newsletter</h1>
             </div>
 
             <div class="col-12 col-lg-7 ml-auto">
             <p class="about-us-text">
-            Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.<br />
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <br />
+            The BSW Newsletter is every fresher's first peek into the college life. It contains relevant information about life at college. The newsletter also gives details about the initiatives of BSW designed to help the student community.
            </p>
+           <a href="misc/bswNewsletter.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-primary mb-4" style={display:inline;}><span class="fa fa-download fa-lg"></span> Download Newsletter</a>
             </div>
 
         </div>
@@ -86,21 +86,13 @@
 
 <div class="container my-4" id="softwares-list">
 
-<div class="row">
-    <div class="col-12 col-lg-6 my-2">
-        <h4>BSW Diary</h4><span><a href="misc/bswDiary.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-primary " style={display:inline;}><span class="fa fa-download fa-lg"></span> Download Diary</a>
-    </div>
-    <div class="col-12 col-lg-6 my-2">
-        <h4>BSW Newsletter</h4><span><a href="misc/bswNewsletter.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-primary " style={display:inline;}><span class="fa fa-download fa-lg"></span> Download Newsletter</a>    </div>
-    </div>
+
 
 <div class="row justify-content-center">
 
-<div class="card col-12 col-lg-6 mt-2">
-<embed src="misc/bswDiary.pdf" class="form-preview m">
-</div>
 
-<div class="card col-12 col-lg-6 mt-2">
+
+<div class="card col-12  mt-2">
 <embed src="misc/bswNewsletter.pdf" class="form-preview m">
 </div>
 

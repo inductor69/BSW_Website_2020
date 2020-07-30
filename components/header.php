@@ -224,7 +224,7 @@
 					</a>
 					<ul class="dropdown-menu">
 					<li><a class="dropdown-item" href="about_us.php"> About Us </a></li>
-					<li><a class="dropdown-item" href="diary_newsletter.php">Diary &amp; Newsletter </a></li>
+					<li><a class="dropdown-item" href="newsletter.php">Newsletter </a></li>
 					<li><a class="dropdown-item" href="structure.php"> BSW Structure </a></li>
 					</ul>
 				</li>
@@ -274,6 +274,8 @@
 								<!-- <li><a class="dropdown-item" href="intern.php">Interns &amp; NGOs</a></li> -->
 							</ul>
 						</li>
+
+						<li><a class="dropdown-item" href="diary.php">Diary </a></li>
 
 						<li>
 							<a class="dropdown-item" href="#">Medical Facilities <span id="right-drop-arrow">&#9658;</span></a>
