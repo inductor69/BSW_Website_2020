@@ -36,16 +36,16 @@ class OnboardingConversation extends Conversation
 class Query extends Conversation
 {
 
-    private $name;
-    private $entrynumber;
-    private $query;
+    public $name;
+    public $entrynumber;
+    public $query;
     public $success;
 
     public function askName()
     {
         $this->ask('Hi, what is your name?', function($answer) {
-            $name = $answer->getText();
-            $this->say('Nice to meet you '.$name);
+            $this->name = $answer->getText();
+            $this->say('Nice to meet you '.$this->name);
             $this->askEntryNumber();
         });
     }
@@ -53,7 +53,7 @@ class Query extends Conversation
     public function askEntryNumber()
     {
         $this->ask('May I know your entry number?', function($answer) {
-            $entrynumber = $answer->getText();
+            $this->entrynumber = $answer->getText();
             $this->say('Thankyou!');
             $this->takeQuery();
         });
@@ -62,17 +62,18 @@ class Query extends Conversation
     public function takeQuery()
     {
         $this->ask('You may now describe the problem you are facing.', function($answer) {
-            $name = $name;
-            $entrynumber = $entrynumber;
-            $query = $answer->getText();
+            $this->query = $answer->getText();
             $this->say('Please wait while I register your request ...');
-            $this->sendMail($this->name, $this->entrynumber,$query);
+            $this->sendMail($this->name, $this->entrynumber, $this->query);
         });
     }
 
 
     public function sendMail($name, $entrynumber, $query)
-    {
+    {       
+            $nameM = $name;
+            $entrynumberM = $entrynumber;
+            $queryM = $query;
             $mail = new PHPMailer(true);
 
             //Server settings
@@ -104,7 +105,7 @@ class Query extends Conversation
             // $mail->addAttachment('/tmp/image.jpg', 'new.jpg');    // Optional name
         
             // Content
-            $mailbody = 'Name: '.$name.'<br>Entry Number: '.$entrynumber.'<br>Query: '.$query.'<br>';
+            $mailbody = 'Name: '.$nameM.'<br>Entry Number: '.$entrynumberM.'<br>Query: '.$queryM.'<br>';
             $mail->isHTML(true);                                  // Set email format to HTML
             $mail->Subject = 'Query Request';
             $mail->Body    = $mailbody;
