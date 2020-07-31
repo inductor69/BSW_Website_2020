@@ -10,6 +10,8 @@
 
 
 <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js" type="text/javascript"></script>
 <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
@@ -180,7 +182,7 @@ body{
 
 </div>
 
-<div class="container" >
+<div class="container " style="padding: 10px;" >
 
             <div class="row justify-content-center">
 
@@ -196,56 +198,94 @@ body{
 
                 <div class="row" style="text-align: center;">
 
-                <div class="col-12 col-md-6 my-4">
-                <img src="images/slow_school.svg" width="80%" style="display:inline-block; border-radius:10px;">
-                </div>
-
-                <div class="col-12 col-md-6 my-4">
-                <h2 style="font-family: Montserrat !important; text-align: center">IT IS OKAY TO <br> NOT BE OKAY<br><small>Slow School, Dalberg </small></h2>
-                </div>
+                    
 
                 </div>
 
-                <div class="row justify-content-center" style="text-align: center;">
+                
+
+                <div class="row justify-content-center carousel slide" style="text-align: center;" data-ride="carousel" id="carouselExampleIndicators1" data-interval="2000">
+                    
+                    <div class="col-12 col-md-6" style="padding:0;">
+                    
+                    <div class="carousel slide" data-ride="carousel" id="carouselExampleIndicators1" data-interval="4000">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators1" data-slide-to="2"></li>
+                            <li data-target="#carouselExampleIndicators1" data-slide-to="3"></li>
+                        </ol>
+
+                        <div class="carousel-inner col-12">
+
+                        <div class="carousel-item active">
+                            <img  src="https://instagram.fdel17-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/s640x640/71289599_924376761267725_1874541534911444466_n.jpg?_nc_ht=instagram.fdel17-1.fna.fbcdn.net&_nc_cat=105&_nc_ohc=kTWbAY-VvdYAX9TCv5M&oh=90badb2aa19af6d5a97571421b78a345&oe=5F49A08A" style="display:inline-block; border-radius:10px; width: 100%; height: 300px; object-fit:cover;">
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="https://instagram.fdel17-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/s640x640/70538705_159181805174358_4266146350146007957_n.jpg?_nc_ht=instagram.fdel17-1.fna.fbcdn.net&_nc_cat=106&_nc_ohc=xmmjL0wC0RYAX_4chT-&oh=23c193e3e6564670a7ea46ddca5295f8&oe=5F473810" style="display:inline-block;width: 100%;  border-radius:10px; height: 300px; object-fit:cover;">
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="https://instagram.fdel17-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/s640x640/71015119_428830984489370_6346578465940523554_n.jpg?_nc_ht=instagram.fdel17-1.fna.fbcdn.net&_nc_cat=102&_nc_ohc=mjsMnKzRHNEAX_UyOIT&oh=0e4c9d4fd3e6b85d148a7291a80b97a0&oe=5F4EB0B1" style="display:inline-block; border-radius:10px; width: 100%; height: 300px; object-fit:cover;">
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="https://instagram.fdel17-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/s640x640/71196189_925961187803278_8889990705653425947_n.jpg?_nc_ht=instagram.fdel17-1.fna.fbcdn.net&_nc_cat=110&_nc_ohc=-N7mwKlN72cAX-dQdGU&oh=8e2ed9c80e5ab3d293be924aec237772&oe=5F4FCA10" style="display:inline-block; border-radius:10px; width: 100%; height: 300px; object-fit:cover;">
+                        </div>
+                    
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators1" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+
+                    </div>
 
 
-                    <div class="col-12 col-md-3 justify-content-center my-2">
-                    <img src="https://instagram.fdel17-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/s640x640/71289599_924376761267725_1874541534911444466_n.jpg?_nc_ht=instagram.fdel17-1.fna.fbcdn.net&_nc_cat=105&_nc_ohc=kTWbAY-VvdYAX9TCv5M&oh=90badb2aa19af6d5a97571421b78a345&oe=5F49A08A" width="80%" style="display:inline-block; border-radius:10px;">
                     </div>
-                    <div class="col-12 col-md-3 justify-content-center my-2">
-                    <img src="https://instagram.fdel17-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/s640x640/70538705_159181805174358_4266146350146007957_n.jpg?_nc_ht=instagram.fdel17-1.fna.fbcdn.net&_nc_cat=106&_nc_ohc=xmmjL0wC0RYAX_4chT-&oh=23c193e3e6564670a7ea46ddca5295f8&oe=5F473810" width="80%" style="display:inline-block; border-radius:10px;">
-                    </div>
-                    <div class="col-12 col-md-3 justify-content-center my-2">
-                    <img src="https://instagram.fdel17-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/s640x640/72483328_539225296836638_1364096847906791914_n.jpg?_nc_ht=instagram.fdel17-1.fna.fbcdn.net&_nc_cat=102&_nc_ohc=ABvJ5KBGXQgAX_cgydy&oh=d491a50dae9bbbb8eb3ca33dffa8c421&oe=5F47651C" width="80%" style="display:inline-block; border-radius:10px;">
-                    </div>
-                    <div class="col-12 col-md-3 justify-content-center my-2">
-                    <img src="https://instagram.fdel17-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/s640x640/73254680_139535087363775_619452559727957713_n.jpg?_nc_ht=instagram.fdel17-1.fna.fbcdn.net&_nc_cat=103&_nc_ohc=nGWf9Wi6LRQAX-NGPCc&oh=7ac917c97d07ef0ff259ebe66aa48eec&oe=5F48AD94" width="80%" style="display:inline-block; border-radius:10px;">
                     </div>
 
+                    <div class="col-12 col-md-6" style="text-align: center;">
+                    
+                    <!-- <div class="col-12 col-md-6 my-4">
+                    <img src="images/slow_school.svg" style="display:inline-block; border-radius:10px;">
+                    </div> -->
+
+                    <div class="col-12 my-4">
+                    <h2 style="font-family: Montserrat !important; text-align: center">IT IS OKAY TO NOT BE OKAY<br><small>Slow School, Dalberg </small></h2>
+                    
+                    </div>
+                    <p class="my-4">
+                    The Slow School  held a session with the students of IIT Delhi on mental health and well-being, "It's Okay To Be Not Okay". Through the session, the students talked about the emotions that they see as positive and negative, how they impact their mental and emotional space at IIT and how the environment impacts them too.
+                    The two-hour intensive workshop created a pathway for the students to share some of their aspirations, fears, hopes, and dreams; the expected ones and the ones for their own 'self'.</p>
+                    </div>
 
                 </div>
 
-                <p class="my-4">The Slow School  held a session with the students of IIT Delhi on mental health and well-being, "It's Okay To Be Not Okay". Through the session, the students talked about the emotions that they see as positive and negative, how they impact their mental and emotional space at IIT and how the environment impacts them too.
-                                The two-hour intensive workshop created a pathway for the students to share some of their aspirations, fears, hopes, and dreams; the expected ones and the ones for their own 'self'.</p>
 
             </div>
 
             <div class="row justify-content-center events my-4">
 
-                <div class="col-12 col-md-6 my-4">
-                <img src="images/young.svg"  width="80%" style="display:inline-block; border-radius:10px;">
-                </div>
+                <!-- <div class="col-12 col-md-6 my-4">
+                <img src="images/young.svg"  style="display:inline-block; border-radius:10px;">
+                </div> -->
 
                 <div class="col-12 col-md-6 my-4" style="text-align: center">
                 <h1 style="font-family: Montserrat !important; text-align: center">Whats Up Zindagi?<br><small>We The Young</small></h1>
                 <a href="misc/we_the_young.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-primary my-4" style={display:inline;}><span class="fa fa-download fa-lg"></span> Download Newsletter</a>
+                <p>We The Young organised Delhi's biggest youth mental health event on 9th November 2019 at IIT Delhi. The event saw hundreds of youngsters coming together from across the city to talk about things that matter to them!</p>
+                <iframe width="100%" height="400px" src="https://www.youtube.com/embed/oQKh29_ENnw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
                 </div>
 
-                <div class="card col-12 my-4">
+                <div class="card col-12 col-md-6 my-4">
                 <embed src="misc/we_the_young.pdf" class="form-preview">
                 </div>
-
-                <iframe width="100%" height="400px" src="https://www.youtube.com/embed/oQKh29_ENnw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             
             </div>
 
@@ -254,23 +294,30 @@ body{
 
                 <div class="row justify-content-center">
 
-                    <div class="col-12 col-md-6" style="text-align: center">
+                    <!-- <div class="col-12 col-md-6" style="text-align: center">
                     <img src="images/unerase.svg" width="50%" style="border-radius:100%; display:inline-block">
+                    </div> -->
+
+
+                    <div class="col-12  col-md-6 my-4" >
+                    <img src="images/simar_singh.jpg" style="display:inline-block; border-radius:20px; padding:0; margin:0; width:100%;">
+
                     </div>
+
 
                     <div class="col-12 col-md-6 my-4">
                     <h1 style="font-family: Montserrat !important; text-align: center">SPOKEN WORD BOOTCAMP<br><small>Simar Singh, Unerase Poetry</small></h1>
+                    <p style="text-align: center;">
+                    BSW curated a spoken word boot camp at IIT Delhi to provide training to budding spoken word artists. The boot camp was mentored by one of the most famous poets in India, Simar Singh, founder, UnErase Poetry. 
+                    The Bootcamp aimed at training the participants in Ideation, Writing a piece, Performance and the Business of spoken word.
+                    The Bootcamp concluded with all the participants sharing the stage with Simar and performing their pieces. 
+                    </p>
                     </div>
 
-                </div>
 
 
-                <div class="row justify-content-center" >
-                    <div class="col-12 my-4" >
-                    <img src="images/simar_singh.jpg" style="display:inline-block; border-radius:20px; padding:0; margin:0; width:100%;">
-                    </div>
-                </div>
 
+            </div>
             </div>
 
 
@@ -278,85 +325,128 @@ body{
 
         <div class="row events my-4">
 
-
+<!-- 
                     <div class="col-12 col-md-6 my-4">
                     <img src="images/unlimited.svg" width="100%" style="border-radius:10px;">
+                    </div> -->
+
+
+                    <div class="col-12 col-md-6 my-4" >
+                        <h1 style="font-family: Montserrat !important; text-align: center">Dance & Movement Theory<br><small>Eshna Kutty</small></h1>
+                        <p style="text-align: center;">Kho Gaye Hum Kahan, Rangon Sa Ye Jahan..
+                        We know life can get daunting and we might often forget to take care of ourselves in the way. A Dance & Movement Therapy session was conducted by one of the leading professionals in this field, Eshna Kutty. 
+                        The session focused on Helping people unwind and de-stress, Evoking new introspections, Enhanced sense of self-awareness, Enhanced sense of self-acceptance and self-love and Releasing bodily tensions. </p>
                     </div>
 
-                    <div class="col-12 col-md-6 my-4">
-                    <h1 style="font-family: Montserrat !important; text-align: center">Dance & Movement Theory<br><small>Eshna Kutty</small></h1>
+
+                    <div class="col-12 col-md-6" style="padding:0;">
+
+                    <div class="row justify-content-center carousel slide" style="text-align: center;" data-ride="carousel" id="carouselExampleIndicators2" data-interval="2000">
+
+
+                    
+                    <div class="carousel slide" data-ride="carousel" id="carouselExampleIndicators2" data-interval="4000">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
+                        </ol>
+
+                        <div class="carousel-inner col-12">
+
+                        <div class="carousel-item active">
+                            <img src="images/dmt2.JPG" style="display:inline-block; border-radius:10px; width: 100%; height: 300px; object-fit:cover;">
+                        </div>
+
+                        <div class="carousel-item">
+                            <img  src="images/dmt1.JPG" style="display:inline-block;width: 100%;  border-radius:10px; height: 300px; object-fit:cover;">
+                        </div>
+                    
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+
+                        </div>
+                        </div>
+                        
                     </div>
-
-
-
-            <div class="row justify-content-center" style="text-align: center;">
-
-                <div class="col-12 col-md-6 my-2">
-                <img src="images/dmt1.JPG" width="80%"  height="320px" style="display:inline-block; border-radius:10px; object-fit: cover;">
-                </div>
-
-                <div class="col-12 col-md-6 my-2">
-                <img src="images/dmt2.JPG" width="80%"  height="320px" style="display:inline-block; border-radius:10px; object-fit: cover;">
-                </div>
-
-            </div>
+                    </div>
 
         </div>
 
         <div class="row events my-4">
 
-            <div class="col-12 col-md-6 my-4">
+            <!-- <div class="col-12 col-md-6 my-4">
             <img src="images/unlimited.svg" width="100%" style="border-radius:10px;">
-            </div>
+            </div> -->
 
-            <div class="col-12 col-md-6 my-4">
+
+
+
+            <div class="col-12 col-md-6" style="padding:0;">
+
+                    <div class="row justify-content-center carousel slide" style="text-align: center;" data-ride="carousel" id="carouselExampleIndicators3" data-interval="2000">
+
+
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators3" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators3" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators3" data-slide-to="2"></li>
+                        </ol>
+
+                        <div class="carousel-inner col-12">
+
+                            <div class="carousel-item active" >
+                            <img src="images/lte.png" style="display:inline-block; border-radius:10px;height: 300px; width:100%; object-fit:cover;">
+                            </div>
+                            <div class="carousel-item" >
+                            <img src="images/lte4.jpg" style="display:inline-block; border-radius:10px;  height: 300px; object-fit:cover;">
+                            </div>
+                            <div class="carousel-item" >
+                            <img src="images/lte5.jpg" style="display:inline-block; border-radius:10px;  height: 300px; object-fit:cover;">
+                            </div>
+
+
+                        </div>
+
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators3" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleIndicators3" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                    
+                    </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 my-4">
             <h1 style="font-family: Montserrat !important; text-align: center">Letter to Emotions<br><small>Juhi Sharma</small></h1>
-            </div>
-
             <p class="my-4">
             Letter To Emotions was a flagship workshop conducted by Juhi Sharma, Founder, Light Up Emotions Matter Foundation. The day was all about self-love and embracing all the love one has within. <br>
 The workshop was intended to help in : Understand one's emotions, unwinding and reconnecting with the inner self, feeling more at peace with your thoughts, having a more positive perspective on life and experiencing catharsis.
             </p>
-
-
-            <div class="row justify-content-center" style="text-align: center;">
-
-
-                <div class="col-12 col-md-4 justify-content-center my-2">
-                <img src="images/lte1.jpg" width="95%" style="display:inline-block; border-radius:10px;">
-                </div>
-                <div class="col-12 col-md-4 justify-content-center my-2">
-                <img src="images/lte2.jpg" width="95%" style="display:inline-block; border-radius:10px;">
-                </div>
-                <div class="col-12 col-md-4 justify-content-center my-2">
-                <img src="images/lte3.jpg" width="95%" style="display:inline-block; border-radius:10px;">
-                </div>
-
             </div>
-
-            <div class="col-12 justify-content-center my-2">
-                <img src="images/lte5.jpg" width="100%" style="display:inline-block; border-radius:10px;">
-            </div>
-
 
         </div>
 
 
         <div class="row justify-content-center events my-4">
 
-            <div class="col-12 col-md-6 my-4">
-            <img src="images/young.svg"  width="80%" style="display:inline-block; border-radius:10px;">
-            </div>
 
             <div class="col-12 col-md-6 my-4" style="text-align: center">
             <h1 style="font-family: Montserrat !important; text-align: center">Shweta Kothari<br><small>The Logical Indian</small></h1>
-            </div>
-
             <p>
             The session was an attempt to understand the intricacies of journalism and storytelling. Additionally, insights into how the media field works were also given. Attention was given on identifying fake news as viewers. The session will concluded with a Q & A where students interacted with Ms Shweta Kothari. 
-            </p>    
+            </p>  
+            </div>
 
-            <div class="col-12 ">
+            <div class="col-12 col-md-6 ">
                 <img src="images/li.png" width="100%" style="display:inline-block; border-radius:10px; object-fit: cover;">
             </div>
 
@@ -377,9 +467,9 @@ The workshop was intended to help in : Understand one's emotions, unwinding and 
 
 <?php require 'components/footer.php'; ?>
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" i0degrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" i0degrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 
 </body>
 </html>
