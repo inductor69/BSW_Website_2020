@@ -106,6 +106,12 @@
 		transition: linear;
 	}
 
+@media (max-width:992px){
+	#nav-align-handle{
+		margin-left: -147.4px;"
+	}
+
+}
 
 	@media (max-width: 992px){
 		.dropdown-menu{
@@ -210,15 +216,15 @@
 			<span class="fa fa-bars fa-lg"></span>
 		</button>
 		
-		<div class="collapse navbar-collapse justify-content-center" id="main_nav">
+		<div class="collapse navbar-collapse justify-content-center" id="main_nav" id="nav-align-handle">
 
-			<ul class="navbar-nav nav justify-content-center">
+			<ul class="navbar-nav nav ">
 
 				<li class="nav-item active"> 
 					<a class="nav-link" href="#">Freshers'20</a>
 				</li>
 				
-				<li class="nav-item dropdown">
+				<li class="nav-item ">
 					<a class="nav-link" href="about_us.php" data-toggle="dropdown"> 
 						About Us
 					</a>
@@ -300,6 +306,18 @@
 							<a class="dropdown-item" href="emergency_contacts.php">Emergency Contacts</a>
 						</li>
 
+					</ul>
+				</li>
+
+
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
+						Highlights
+					</a>
+					<ul class="dropdown-menu">
+					<li><a class="dropdown-item" href="delhidarshan.php">Delhi Darshan</a></li>
+					<li><a class="dropdown-item" href="convergenz.php">Speranza</a></li>
+					<li><a class="dropdown-item" href="sticdinner.php">STIC Dinner</a></li>
 					</ul>
 				</li>
 

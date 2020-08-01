@@ -99,7 +99,7 @@ overflow-y: scroll
 			width:300px !important;
 			height:auto;
 			border-radius: 10px;
-			margin:67px 10px 10px 10px !important
+			margin:175px 10px 10px 10px !important
 		}
 		.thumbnail{
 			object-fit: cover !important;
@@ -136,7 +136,7 @@ overflow-y: scroll
 		.slick-current{
 		object-fit: cover !important;
 		display: block;
-		width:500px !important;
+		width:700px !important;
 		height:auto;
 		border-radius: 10px;
 		transition: height 0.5s ease-in-out !important;

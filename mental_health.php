@@ -74,13 +74,15 @@ body{
 }
 
 .initiative1{
+    box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05);
     margin: 10px;
-    background: #7CAAE4;
+    background: #EA9EC177;
     border-radius: 30px;
     padding: 30px;
     text-align: center;
 }
 .initiative2{
+    box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05);
     background: #9FE5E3;
     border-radius: 30px;
     padding: 30px;
@@ -96,6 +98,14 @@ body{
 	.form-preview{
         height:80vh;
     }
+
+    .vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
 
 
 
@@ -139,7 +149,7 @@ body{
         <div class="col-12 my-4 initiative2 mx-4">
         <h1><img src="images/bsw_circle.svg" style="border-radius:10px; display:inline; height:100px; width:100px; padding:10px;"><img src="images/yourDost.svg" style="border-radius:10px; display:inline; height:100px; width:100px; padding:10px;"><img src="images/iitd_logo.png" style="border-radius:10px; display:inline; height:100px; width:100px; padding:10px;"></h1><h1 style="font-size: 40px;">YourDost</h1>
         <hr>
-        <p>Your journey through college must be riddled with so many questions right? Questions about academics, career, relationships and even yourself. If only it were possible to get a friend who could give you anonymous, unbiased, round the clock help. Well, look no further, because we've got just the thing for you.
+        <p style="font-size:1.2rem">Your journey through college must be riddled with so many questions right? Questions about academics, career, relationships and even yourself. If only it were possible to get a friend who could give you anonymous, unbiased, round the clock help. Well, look no further, because we've got just the thing for you.
         <br>IIT Delhi is pleased to join hands with YourDOST, one of India's leading online and emotional wellness platforms, to ensure that your emotional well-being is always looked after.
         <br><strong>Important!</strong>- ​You must sign up using your official IIT Delhi email id (ending with "i​ itd.ac.in"​ ). This will white list your account and make sure that you receive our services for free.
         <br>Please write to ​campus@yourdost.com​ if you face any issues.
@@ -170,9 +180,9 @@ body{
 		</div>
 
         <div class="col-12my-4 initiative1 mx-2">
-        <img src="images/scs.png" style="border-radius:10px; display:inline;" width="60%"><span><h1>Student Counselling Service</h1></span>
+        <img src="images/scs.png" style="border-radius:10px; display:inline; ;" width="60%"><span><h1>Student Counselling Service</h1></span>
         <hr>
-        <p>We know these are unusual times and you all have to cope with a lot of uncertainty and stress in your lives. Hope all of you are doing fine but if there’s anything troubling you, we request you get in touch with someone. <br>The <strong>Student Counselling Service</strong> is still active and can be availed by anyone who feels the need to do so. <br><br>SCS is currently providing their services through phone. You can take an appointment with the counsellor by mailing on <strong>iitdcounsellors@gmail.com</strong>. For students who feel the need to be in touch with someone immediately, here are the contact numbers of our counsellors, you can call them to discuss any of your concerns freely.
+        <p style="font-size:1.2rem">We know these are unusual times and you all have to cope with a lot of uncertainty and stress in your lives. Hope all of you are doing fine but if there’s anything troubling you, we request you get in touch with someone. <br>The <strong>Student Counselling Service</strong> is still active and can be availed by anyone who feels the need to do so. <br><br>SCS is currently providing their services through phone. You can take an appointment with the counsellor by mailing on <strong>iitdcounsellors@gmail.com</strong>. For students who feel the need to be in touch with someone immediately, here are the contact numbers of our counsellors, you can call them to discuss any of your concerns freely.
 <br>Krithika - +91 98713 84771
         <br>
         </p>
@@ -216,22 +226,22 @@ body{
                             <li data-target="#carouselExampleIndicators1" data-slide-to="3"></li>
                         </ol>
 
-                        <div class="carousel-inner col-12">
+                        <div class="carousel-inner col-12" style="display:inline-block; border-radius:20px; height: 400px; width:100%; object-fit:cover; ">
 
                         <div class="carousel-item active">
-                            <img  src="https://instagram.fdel17-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/s640x640/71289599_924376761267725_1874541534911444466_n.jpg?_nc_ht=instagram.fdel17-1.fna.fbcdn.net&_nc_cat=105&_nc_ohc=kTWbAY-VvdYAX9TCv5M&oh=90badb2aa19af6d5a97571421b78a345&oe=5F49A08A" style="display:inline-block; border-radius:10px; width: 100%; height: 300px; object-fit:cover;">
+                            <img  src="https://instagram.fdel17-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/s640x640/71289599_924376761267725_1874541534911444466_n.jpg?_nc_ht=instagram.fdel17-1.fna.fbcdn.net&_nc_cat=105&_nc_ohc=kTWbAY-VvdYAX9TCv5M&oh=90badb2aa19af6d5a97571421b78a345&oe=5F49A08A" style="display:inline-block; border-radius:10px; width: 100%; height: 400px; object-fit:cover;">
                         </div>
 
                         <div class="carousel-item">
-                            <img src="https://instagram.fdel17-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/s640x640/70538705_159181805174358_4266146350146007957_n.jpg?_nc_ht=instagram.fdel17-1.fna.fbcdn.net&_nc_cat=106&_nc_ohc=xmmjL0wC0RYAX_4chT-&oh=23c193e3e6564670a7ea46ddca5295f8&oe=5F473810" style="display:inline-block;width: 100%;  border-radius:10px; height: 300px; object-fit:cover;">
+                            <img src="https://instagram.fdel17-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/s640x640/70538705_159181805174358_4266146350146007957_n.jpg?_nc_ht=instagram.fdel17-1.fna.fbcdn.net&_nc_cat=106&_nc_ohc=xmmjL0wC0RYAX_4chT-&oh=23c193e3e6564670a7ea46ddca5295f8&oe=5F473810" style="display:inline-block;width: 100%;  border-radius:10px; height: 400px; object-fit:cover;">
                         </div>
 
                         <div class="carousel-item">
-                            <img src="https://instagram.fdel17-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/s640x640/71015119_428830984489370_6346578465940523554_n.jpg?_nc_ht=instagram.fdel17-1.fna.fbcdn.net&_nc_cat=102&_nc_ohc=mjsMnKzRHNEAX_UyOIT&oh=0e4c9d4fd3e6b85d148a7291a80b97a0&oe=5F4EB0B1" style="display:inline-block; border-radius:10px; width: 100%; height: 300px; object-fit:cover;">
+                            <img src="https://instagram.fdel17-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/s640x640/71015119_428830984489370_6346578465940523554_n.jpg?_nc_ht=instagram.fdel17-1.fna.fbcdn.net&_nc_cat=102&_nc_ohc=mjsMnKzRHNEAX_UyOIT&oh=0e4c9d4fd3e6b85d148a7291a80b97a0&oe=5F4EB0B1" style="display:inline-block; border-radius:10px; width: 100%; height: 400px; object-fit:cover;">
                         </div>
 
                         <div class="carousel-item">
-                            <img src="https://instagram.fdel17-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/s640x640/71196189_925961187803278_8889990705653425947_n.jpg?_nc_ht=instagram.fdel17-1.fna.fbcdn.net&_nc_cat=110&_nc_ohc=-N7mwKlN72cAX-dQdGU&oh=8e2ed9c80e5ab3d293be924aec237772&oe=5F4FCA10" style="display:inline-block; border-radius:10px; width: 100%; height: 300px; object-fit:cover;">
+                            <img src="https://instagram.fdel17-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/s640x640/71196189_925961187803278_8889990705653425947_n.jpg?_nc_ht=instagram.fdel17-1.fna.fbcdn.net&_nc_cat=110&_nc_ohc=-N7mwKlN72cAX-dQdGU&oh=8e2ed9c80e5ab3d293be924aec237772&oe=5F4FCA10" style="display:inline-block; border-radius:10px; width: 100%; height: 400px; object-fit:cover;">
                         </div>
                     
                         <a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button" data-slide="prev">
@@ -300,7 +310,7 @@ body{
 
 
                     <div class="col-12  col-md-6 my-4" >
-                    <img src="images/simar_singh.jpg" style="display:inline-block; border-radius:20px; padding:0; margin:0; width:100%;">
+                    <img src="images/simar_singh.jpg" style="display:inline-block; border-radius:20px; height: 400px; width:100%; object-fit:cover; ">
 
                     </div>
 
@@ -351,14 +361,14 @@ body{
                             <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
                         </ol>
 
-                        <div class="carousel-inner col-12">
+                        <div class="carousel-inner col-12" style="display:inline-block; border-radius:20px; height: 400px; width:100%; object-fit:cover; padding:20px;">
 
                         <div class="carousel-item active">
-                            <img src="images/dmt2.JPG" style="display:inline-block; border-radius:10px; width: 100%; height: 300px; object-fit:cover;">
+                            <img src="images/dmt2.JPG" style="display:inline-block; border-radius:10px; width: 100%; height: 400px; object-fit:cover;">
                         </div>
 
                         <div class="carousel-item">
-                            <img  src="images/dmt1.JPG" style="display:inline-block;width: 100%;  border-radius:10px; height: 300px; object-fit:cover;">
+                            <img  src="images/dmt1.JPG" style="display:inline-block;width: 100%;  border-radius:10px; height: 400px; object-fit:cover;">
                         </div>
                     
                         <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
@@ -398,16 +408,16 @@ body{
                             <li data-target="#carouselExampleIndicators3" data-slide-to="2"></li>
                         </ol>
 
-                        <div class="carousel-inner col-12">
+                        <div class="carousel-inner col-12 my-4 " style="display:inline-block; border-radius:20px; height: 400px; width:100%; object-fit:cover; padding:20px;">
 
                             <div class="carousel-item active" >
-                            <img src="images/lte.png" style="display:inline-block; border-radius:10px;height: 300px; width:100%; object-fit:cover;">
+                            <img src="images/lte.png" style="display:inline-block; border-radius:10px;height: 400px; width:100%; object-fit:cover;">
                             </div>
                             <div class="carousel-item" >
-                            <img src="images/lte4.jpg" style="display:inline-block; border-radius:10px;  height: 300px; object-fit:cover;">
+                            <img src="images/lte4.jpg" style="display:inline-block; border-radius:10px;  height: 400px; object-fit:cover;">
                             </div>
                             <div class="carousel-item" >
-                            <img src="images/lte5.jpg" style="display:inline-block; border-radius:10px;  height: 300px; object-fit:cover;">
+                            <img src="images/lte5.jpg" style="display:inline-block; border-radius:10px;  height: 400px; object-fit:cover;">
                             </div>
 
 

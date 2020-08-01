@@ -573,7 +573,7 @@
 						</figcaption>
 					</figure>
 					<figure>
-						<a href="delhi_darshan.php" class="photostack-img"><img class="gallery-img" src="images/op_delhidarshan/5.JPG" alt="Delhi Darshan" style="height:240px; width:240px; object-fit:cover;"/></a>
+						<a href="delhidarshan.php" class="photostack-img"><img class="gallery-img" src="images/op_delhidarshan/5.JPG" alt="Delhi Darshan" style="height:240px; width:240px; object-fit:cover;"/></a>
 						<figcaption>
 							<h2 class="photostack-title">Delhi Darshan</h2>
 						</figcaption>
@@ -585,7 +585,7 @@
 						</figcaption>
 					</figure>
 					<figure data-dummy>
-						<a href="stic_dinner.php" class="photostack-img"><img class="gallery-img" src="images/op_sticd/5.jpg" alt="STIC Dinner" style="height:240px; width:240px; object-fit:cover;"/></a>
+						<a href="sticdinner.php" class="photostack-img"><img class="gallery-img" src="images/op_sticd/5.jpg" alt="STIC Dinner" style="height:240px; width:240px; object-fit:cover;"/></a>
 						<figcaption>
 							<h2 class="photostack-title">STIC Dinner</h2>
 						</figcaption>
@@ -597,25 +597,25 @@
 						</figcaption>
 					</figure>
 					<figure data-dummy>
-						<a href="delhi_darshan.php" class="photostack-img"><img class="gallery-img" src="images/op_delhidarshan/1.JPG" alt="Delhi Darshan" style="height:240px; width:240px; object-fit:cover;"/></a>
+						<a href="delhidarshan.php" class="photostack-img"><img class="gallery-img" src="images/op_delhidarshan/1.JPG" alt="Delhi Darshan" style="height:240px; width:240px; object-fit:cover;"/></a>
 						<figcaption>
 							<h2 class="photostack-title">Delhi Darshan</h2>
 						</figcaption>
 					</figure>
 					<figure data-dummy>
-						<a href="delhi_darshan.php" class="photostack-img"><img class="gallery-img" src="images/op_delhidarshan/6.jpg" alt="Delhi Darshan" style="height:240px; width:240px; object-fit:cover;"/></a>
+						<a href="delhidarshan.php" class="photostack-img"><img class="gallery-img" src="images/op_delhidarshan/6.jpg" alt="Delhi Darshan" style="height:240px; width:240px; object-fit:cover;"/></a>
 						<figcaption>
 							<h2 class="photostack-title">Delhi Darshan</h2>
 						</figcaption>
 					</figure>
 					<figure data-dummy>
-						<a href="delhi_darshan.php" class="photostack-img"><img class="gallery-img" src="images/op_delhidarshan/2.jpg" alt="Delhi Darshan" style="height:240px; width:240px; object-fit:cover;"/></a>
+						<a href="delhidarshan.php" class="photostack-img"><img class="gallery-img" src="images/op_delhidarshan/2.jpg" alt="Delhi Darshan" style="height:240px; width:240px; object-fit:cover;"/></a>
 						<figcaption>
 							<h2 class="photostack-title">Delhi Darshan</h2>
 						</figcaption>
 					</figure>
 					<figure data-dummy>
-						<a href="delhi_darshan.php" class="photostack-img"><img class="gallery-img" src="images/op_delhidarshan/8.JPG" alt="Delhi Darshan" style="height:240px; width:240px; object-fit:cover;"/></a>
+						<a href="delhidarshan.php" class="photostack-img"><img class="gallery-img" src="images/op_delhidarshan/8.JPG" alt="Delhi Darshan" style="height:240px; width:240px; object-fit:cover;"/></a>
 						<figcaption>
 							<h2 class="photostack-title">Delhi Darshan</h2>
 						</figcaption>

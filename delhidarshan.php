@@ -155,14 +155,14 @@
 	transform: rotate(180deg);
 }
 #gallery{
-	background-image: linear-gradient(0deg, #ffffff 0%, #F0CB35 100%);
 	padding-left: 20px;
 	padding-right: 20px;
 }
 
 .arrow-up-2 {
-	 height: 40px;
-	 width: 42px;
+	 height: 60px;
+	 width: 62px;
+	 border-radius: 40px;
 	 display: block;
 	 border: 1px solid #000;
 	 position: relative;
@@ -179,13 +179,14 @@
 	 position: absolute;
 	 display: block;
 	 z-index: 0;
+	 border-radius: 60px;
 }
  .left-arm-2 {
 	 position: absolute;
 	 z-index: 1;
 	 background-color: transparent;
-	 top: 19px;
-	 left: 3px;
+	 top: 29px;
+	 left: 13px;
 	 width: 20px;
 	 display: block;
 	 transform: rotate(-45deg);
@@ -205,8 +206,8 @@
 	 position: absolute;
 	 z-index: 1;
 	 background-color: transparent;
-	 top: 19px;
-	 left: 17px;
+	 top: 29px;
+	 left: 27px;
 	 width: 20px;
 	 display: block;
 	 transform: rotate(45deg);
@@ -279,14 +280,7 @@
 
             <div class="col-12 about-us-text" style="text-align: center;">
             <p class="dd-text">Delhi Darshan 2019 was organized on the 3rd & 4th of August. It's a tour across Delhi, relishing the beauty of the city with indelible bus-rides. We had  exciting ice-breakers to know our batchmates, and memories to cherish. We visited nearby monuments and tourist spots, and had a day filled with games and fun activities</p>
-			
-			<div class="row arrow-box justify-content-center" style="text-align: center;">
-			<a class="arrow-up" href="#gallery">
-				<span class="left-arm"></span>
-				<span class="right-arm"></span>
-				<span class="arrow-slide"></span>
-			</a>
-			</div>
+		
 
 
             </div>
@@ -298,6 +292,13 @@
 </div>
 
 <div class="container-fluid" id="gallery">
+<div class="row arrow-box justify-content-center" style="text-align: center;">
+			<a class="arrow-up-2" href="#gallery">
+				<span class="left-arm-2"></span>
+				<span class="right-arm-2"></span>
+				<span class="arrow-slide"></span>
+			</a>
+			</div>
 	<style>
 		
 		.thumbnaili{
@@ -305,7 +306,7 @@
 			width:300px !important;
 			height:auto;
 			border-radius: 10px;
-			margin:67px 10px 10px 10px !important
+			margin:175px 10px 10px 10px !important
 		}
 		.thumbnail{
 			object-fit: cover !important;
