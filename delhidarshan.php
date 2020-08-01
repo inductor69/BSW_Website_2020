@@ -56,14 +56,17 @@
 		font-size:1.15rem;
 	}
 	.arrow-up {
-	 height: 40px;
-	 width: 42px;
+	
+	 height: 60px;
+	 width: 62px;
 	 display: block;
 	 border: 1px solid #fff;
 	 position: relative;
 	 cursor: pointer;
 	 transition: all 0.5s cubic-bezier(0.25, 1.7, 0.35, 1.5);
 	 overflow: hidden;
+	 border-radius: 40px;
+	 padding: 20px;
 }
  .arrow-slide {
 	 left: 0;
@@ -142,6 +145,7 @@
 	 transform: rotate(10deg);
 }
  .arrow-up:active .arrow-slide {
+	 border-radius: 60px;
 	 transition: all 0.4s ease-in-out;
 	 transform: translateY(200%);
 }
@@ -338,7 +342,7 @@
 		.slick-current{
 		object-fit: cover !important;
 		display: block;
-		width:500px !important;
+		width:700px !important;
 		height:auto;
 		border-radius: 10px;
 		transition: height 0.5s ease-in-out !important;

@@ -427,7 +427,7 @@ body{
 
                     <div class="col-12 col-md-6 my-4">
             <h1 style="font-family: Montserrat !important; text-align: center">Letter to Emotions<br><small>Juhi Sharma</small></h1>
-            <p class="my-4">
+            <p class="my-4" style="text-align: center">
             Letter To Emotions was a flagship workshop conducted by Juhi Sharma, Founder, Light Up Emotions Matter Foundation. The day was all about self-love and embracing all the love one has within. <br>
 The workshop was intended to help in : Understand one's emotions, unwinding and reconnecting with the inner self, feeling more at peace with your thoughts, having a more positive perspective on life and experiencing catharsis.
             </p>

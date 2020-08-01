@@ -77,10 +77,9 @@
             <ul>
                 <li><a href="mental_health.php"><span class="fa fa-commenting"></span> YourDOST & SCS</a></li>
                 <li><a href="emergency_contacts.php"><span class="fa fa-globe"></span> Emergency Contacts</a></li>
-                <li><a href="https://internal.iitd.ernet.in/"><span class="fa fa-sticky-note"></span> Internal Notices</a></li>
+                <li><a href="https://eacademics.iitd.ac.in/sportal/login"><span class="fa fa-bookmark"></span> eAcademics</a></li>
                 <li><a href="https://webmail.iitd.ernet.in/roundcube/"><span class="fa fa-envelope"></span> Webmail</a></li>
                 <li><a href="https://moodle.iitd.ac.in/login/index.php"><span class="fa fa-book"></span> Moodle</a></li>
-                <li><a href="https://academics1.iitd.ac.in/Academics/"><span class="fa fa-bookmark"></span> Academics</a></li>
                 <li><a href="https://ngu.iitd.ac.in/"><span class="fa fa-paperclip"></span> NGU</a></li>
                 <li><a href="https://helpline.iitd.ac.in/"><span class="fa fa-phone"></span> IITD Helpline</a></li>
             </ul>
@@ -108,6 +107,7 @@
                 <p>All rights reserved.</p>
                 <p><strong style="font-weight: bold; font-family: 'Montserrat', sans-serif ;">Website Created and Maintained by:</strong><br />
                 <span class="fa fa-code"></span><a href="">  Japneet Singh</a></br>
+                <span class="fa fa-code"></span><a href="">  Prabhpreet Singh</a></br>
                 <span class="fa fa-code"></span><a href="http://">  Ayush Shrivastava</a></br>
                 <span class="fa fa-code"></span><a href="">  Vishal Singh</a></br>
                 </p>

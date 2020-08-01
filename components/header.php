@@ -204,7 +204,7 @@
 		<nav class="navbar navbar-expand-lg mr-auto fixed-top nav-colored " id="myNav">
 
 		<a class="navbar-brand" href="index.php">
-			<img src="images/bsw_logo2.svg" width="120" height="30" alt="">
+			<img src="images/bsw_logo.png" width="147.4" height="40" alt="">
 		</a>
 		<button id="navbar-toggler" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav">
 			<span class="fa fa-bars fa-lg"></span>
@@ -219,14 +219,9 @@
 				</li>
 				
 				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown"> 
-						Who We Are
+					<a class="nav-link" href="about_us.php" data-toggle="dropdown"> 
+						About Us
 					</a>
-					<ul class="dropdown-menu">
-					<li><a class="dropdown-item" href="about_us.php"> About Us </a></li>
-					<li><a class="dropdown-item" href="newsletter.php">Newsletter </a></li>
-					<li><a class="dropdown-item" href="structure.php"> BSW Structure </a></li>
-					</ul>
 				</li>
 
 
@@ -255,9 +250,11 @@
 							<li><a class="dropdown-item" href="workshops.php">Workshops</a></li> -->
 						</ul>
 					</li>
-					<li><a class="dropdown-item" href="convergenz.php">Sperenza</a></li>
+					<li><a class="dropdown-item" href="convergenz.php">Speranza</a></li>
 					</ul>
 				</li>
+
+
 				
 				<li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
@@ -265,17 +262,11 @@
 					</a>
 					<ul class="dropdown-menu">
 
-						<li>
-							<a class="dropdown-item" href="#">Academics <span id="right-drop-arrow">&#9658;</span></a>
-							<ul class="submenu dropdown-menu">
-								<li><a class="dropdown-item" href="question_papers.php">Question Papers</a></li>
-								<li><a class="dropdown-item" href="booklets.php">Booklets</a></li>
-								<!-- <li><a class="dropdown-item" href="">Equivalent Courses</a></li> -->
-								<!-- <li><a class="dropdown-item" href="intern.php">Interns &amp; NGOs</a></li> -->
-							</ul>
-						</li>
+						<li><a class="dropdown-item" href="question_papers.php">Question Papers</a></li>
+						<li><a class="dropdown-item" href="booklets.php">Booklets</a></li>
 
 						<li><a class="dropdown-item" href="diary.php">Diary </a></li>
+						<li><a class="dropdown-item" href="newsletter.php">Newsletter </a></li>
 
 						<li>
 							<a class="dropdown-item" href="#">Medical Facilities <span id="right-drop-arrow">&#9658;</span></a>

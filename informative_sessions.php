@@ -129,6 +129,11 @@ margin-bottom: 4px
             </h2>
             </div>
 
+
+            <div class="col-12 col-12 ml-auto mb-4 about-us-text" style="font-size: 1.2rem">
+			Interactive sessions are organised where seniors from all the branches share their experiences as well as tips and tricks on how to bag foreign internships. They also share best practices on CV making, finding universities or programs, mailing the professors and all other formalities involved along with some additional hacks learnt from their personal experiences.
+            </div>
+
 		</div>
 		
 
@@ -141,15 +146,122 @@ margin-bottom: 4px
 
 	<div class="row justify-content-center">
 
-            <div class="col-12 col-12 ml-auto my-2">
-            <p class="">
-			Interactive sessions are organised where seniors from all the branches share their experiences as well as tips and tricks on how to bag foreign internships. They also share best practices on CV making, finding universities or programs, mailing the professors and all other formalities involved along with some additional hacks learnt from their personal experiences.            </p>
-            </div>
 
 		</div>
 	</div>
 
+	<div class="container" style="padding-right: 40px; padding-left: 40px;" id="journey">
+	
+
+
+	<div class="row">
+		<h1 class="mt-4" style="font-size: 60px;">Past Sessions</h1>
+	</div>
+
+	<div class="row my-4" id="loc-1">
+		<div class="col-12 col-md-6 align-middle" style="width: 98%;">
+			<img class="thumbnail align-middle" src="images/op_delhidarshan/1.JPG" alt="BSW Delhi Darshan" />
+		</div>
+		<div class="col-12 col-md-6 my-4 " style="font-size:20px;">
+		<h2>Minor Degree Ke Fundae</h2>
+		The Qutub Minar is a minaret and "victory tower" that forms part of the Qutb complex, a UNESCO World Heritage Site in the Mehrauli area of Delhi, India. While cherishing the mesmerizing beauty of Qutub Minar, lots of freshers were modelling and making the most of iconic backgrounds!
+		</div>
+	</div>
+
+	<div class="row my-4">
+	<div class="col-12 col-md-6 d-sm-block d-md-none align-middle" style="width: 98%;">
+			<img class="thumbnail" src="images/lotus_temple.jpg" alt="BSW Delhi Darshan" />
+		</div>
+
+		<div class="col-12 col-md-6 my-4 " style="font-size:20px;">
+		<h2>Foreign Intern Ke Fundae</h2>
+		The Lotus Temple is a Baháʼí House of Worship that was dedicated in December 1986.Notable for its flowerlike shape, it has become a prominent attraction in the city.  The highlight of lotus temple is the unique silent prayers it has , which provided a sense of completeness and calm to us.
+		</div>
+
+		<div class="col-12 col-md-6 d-none d-md-block" style="width: 98%;">
+			<img class="thumbnail align-middle" src="images/lotus_temple.jpg" alt="BSW Delhi Darshan" />
+		</div>
+	</div>
+
+	<div class="row my-4" id="loc-1">
+		<div class="col-12 col-md-6" style="width: 98%;">
+			<img class="thumbnail align-middle" src="images/bangla_sahib.jpg" alt="BSW Delhi Darshan" />
+		</div>
+		<div class="col-12 col-md-6 my-4 " style="font-size:20px;">
+		<h2>Forex Ke Fundae</h2>
+		Gurudwara Bangla Sahib is one of the most prominent Sikh gurdwara, or Sikh house of worship, in Delhi and known for its association with the eighth Sikh Guru, Guru Har Krishan, as well as the holy pool inside its complex, known as the "Sarovar." 		</div>
+	</div>
+
+
+
+</div>
+
 	<div class="container-fluid mt-4" id="softwares-list">
+	<style>
+		
+		.thumbnaili{
+			object-fit: cover !important;
+			width:300px !important;
+			height:auto;
+			border-radius: 10px;
+			margin:67px 10px 10px 10px !important
+		}
+		.thumbnail{
+			object-fit: cover !important;
+			width: 100%;
+			height:auto;
+			border-radius: 20px;
+		}
+	
+		.slick-current{
+		object-fit: cover !important;
+		display: block;
+		width:500px !important;
+		height:auto;
+		border-radius: 10px;
+		transition: height 0.5s ease-in-out !important;
+		margin: 10px !important;
+		}
+		.t
+		.thumb-div{
+			display: block !important;
+			text-align: center !important;
+		}
+		.img-link{
+			margin-bottom:10px;
+		}
+
+
+		#loc-1{
+			background-image: linear-gradient(180deg, #000000 0%, #323232 100%);
+			padding:10px;
+			padding-top: 30px;
+			padding-bottom: 30px;
+			border-radius:40px;
+			color: #fff !important;
+		}
+
+		@media (max-width: 700px){
+			.thumbnaili{
+			object-fit: cover !important;
+			width:200px !important;
+			height:auto;
+			border-radius: 10px;
+			margin:50px 10px 10px 10px !important
+		}
+		.slick-current{
+			object-fit: cover !important;
+			display: block;
+			width:300px !important;
+			height:auto;
+			border-radius: 10px;
+			transition: height 1s, width 1s ease-in-out;
+			margin: 10px !important;
+		}
+
+		}
+
+	</style>
 	<style>
 		.thumbnail{
 			object-fit: cover !important;
@@ -164,16 +276,6 @@ margin-bottom: 4px
 
 	</style>
 
-	<div class="row justify-content-center thumbs">
-	<?php
-		for($i=1; $i<9; $i=$i+1){
-			echo '<a class=" img-link col-12 col-md-4 col-lg-3" href="images/op_info/'.$i.'.jpg" target="_blank" >';
-			echo '<img class="thumbnail " src="images/op_info/'.$i.'.jpg" alt="BSW Female JEE Counselling" />';
-			echo '</a>';
-		}
-		?>
-			
-	</div>
 
 </div>
 <?php require 'components/footer.php'; ?>

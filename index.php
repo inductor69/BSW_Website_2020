@@ -33,13 +33,15 @@
 		color: #FFF;
 		text-align: center;
 		font-family: NeueMontreal-Bold;
+		text-shadow: 2px 2px 10px #00000088;
+		font-size: 100px !important;
 
 	}
 	@media (max-width:988px){
 		.intro-text {
 		padding-top: 40px;
 		font-weight: 600;
-		font-size: 30px;
+		font-size: 40px;
 		padding-left: 20px;
 	}
 }
@@ -47,7 +49,7 @@
 		.intro-text {
 		padding-top: 30px;
 		font-weight: 600;
-		font-size: 40px;
+		font-size: 70px;
 	}}
 	
 	.intro-text-subtitle {
@@ -227,12 +229,12 @@
 
 .pinned-note1 {
 	font-size: 1.2rem;
-  background: #d0fed0a6;
-  -webkit-transform: rotate(-3deg);
-  -moz-transform: rotate(-3deg);
-  -o-transform: rotate(-3deg);
-  -ms-transform: rotate(-3deg);
-  transform: rotate(-3deg);
+  background: #ffc;
+  -webkit-transform: rotate(2deg);
+  -moz-transform: rotate(2deg);
+  -o-transform: rotate(2deg);
+  -ms-transform: rotate(2deg);
+  transform: rotate(2deg);
 }
 
 .pin {
@@ -405,7 +407,7 @@
 
         <div class="main-text ">
             <div class="col-12 " >
-                <h1 class="intro-text">Board for Student Welfare</h1>
+                <h1 class="intro-text" style="">Board for Student Welfare</h1>
                 
             </div>
         </div>
@@ -436,132 +438,120 @@
 </div>
 
 <div id="home-quick-links-notices">
+
 	<div class="container-fluid my-4">
 
-		<div class="row flex-lg-row-reverse">
-
-			<div class="col-12 col-lg-8 notices  my-auto">
-					<div class="row justify-content-center">
-					
-					<div class="notice col-6 my-2">
-						<div class="quote-container">
-						<i class="pin"></i>
-						<blockquote class="note pinned-note1">
-						<h3>Caution Money</h3>
-						<p>Contribute to the BSW Fund before saying the last goodbye to help make a positive impact in someone’s lives.</a></p>
-						</blockquote>
+		<div class="row">
+						
+						<div class="col-12 col-lg-5 d-none d-lg-block">
+							<a href="mental_health.php" style="text-decoration: none">
+							<div id="yourDost" class="home-quick-links">
+							<img src="images/yourDost.svg" width="60" height="60" alt="">
+							Counselling
+							</div>
+							</a>
+							<a href="bsw_loans.php" style="text-decoration: none" >
+							<div id="bswLoans" class="home-quick-links">
+							<img src="images/bswLoans.svg" width="60" height="60" alt="">
+							BSW Loans
+							</div>
+							</a>
+							<a href="question_papers.php" style="text-decoration: none" >
+							<div  id="qPapers" class="home-quick-links">
+							<img src="images/qPapers.svg" width="60" height="60" alt="">
+							Question Papers
+							</div>
+							</a>
+							<a href="forms.php" style="text-decoration: none" >
+							<div  id="forms" class="home-quick-links">
+							<img src="images/forms.ico" width="60" height="60" alt="">
+							Forms & Checklists
+							</div>
+							</a>
 						</div>
-					</div>
+						
+						<div class="notice col-12 col-lg-4 my-2">
+							<div class="quote-container">
+							<i class="pin"></i>
+							<blockquote class="note pinned-note1">
+							<h3>Caution Money</h3>
+							<p>Contribute to the BSW Fund before saying the last goodbye to help make a positive impact in someone’s lives.</a></p>
+							<br>
+							<h3>Updated Academic Calendar</h3>
+							<h5>2020-21</h5>
+							<p>Updated Academic Calendar for the year 2020-21 can be downloaded from <a href="">here</a></p>
+							<br>
+							</blockquote>
+							</div>
+						</div>
 
-					<div class="notice   col-6">
-						<div class="quote-container">
-						<i class="pin"></i>
-						<blockquote class="note pinned-note2">
-						<h3>Updated Academic Calendar</h3>
-						<h5>2020-21</h5>
-						<p>Updated Academic Calendar for the year 2020-21 can be downloaded from <a href="">here</a></p>
-						</blockquote>
+						<div class="col-12 col-lg-5 d-lg-none ">
+							<a href="mental_health.php" style="text-decoration: none">
+							<div id="yourDost" class="home-quick-links">
+							<img src="images/yourDost.svg" width="60" height="60" alt="">
+							Counselling
+							</div>
+							</a>
+							<a href="bsw_loans.php" style="text-decoration: none" >
+							<div id="bswLoans" class="home-quick-links">
+							<img src="images/bswLoans.svg" width="60" height="60" alt="">
+							BSW Loans
+							</div>
+							</a>
+							<a href="question_papers.php" style="text-decoration: none" >
+							<div  id="qPapers" class="home-quick-links">
+							<img src="images/qPapers.svg" width="60" height="60" alt="">
+							Question Papers
+							</div>
+							</a>
+							<a href="forms.php" style="text-decoration: none" >
+							<div  id="forms" class="home-quick-links">
+							<img src="images/forms.ico" width="60" height="60" alt="">
+							Forms & Checklists
+							</div>
+							</a>
 						</div>
-					</div>
 
-					<!-- <div class="notice    col-5 col-md-3 col-lg-3 my-2">
-						<div class="quote-container">
-						<i class="pin"></i>
-						<blockquote class="note yellow">
-						<h3>Blanket Camp</h3>
-						<h5>31 Oct 2019</h5>
-						<p>Sample text sample sample sample sample sample sample</p>
-						</blockquote>
+						<div class=" col-12 col-lg-3 notices my-4">
+							<a href="newsletter.php" style="text-decoration: none; width: 100%; border-radius: 10px; line-height: 60px;" class="btn btn-light my-2">
+							<h4 class="my-3"><span class="fa fa-newspaper-o"></span> Newsletter</h4>
+							</a>
+							<a href="diary.php" style="text-decoration: none; width: 100%; border-radius: 10px; line-height: 60px;" class="btn btn-light my-2 ">
+							<h4 class="my-3"><span class="fa fa-bookmark"></span> Diary</h4>
+							</a>
+							<a href="booklets.php" style="text-decoration: none; width: 100%; border-radius: 10px; line-height: 60px;" class="btn btn-light my-2 ">
+							<h4 class="my-3"><span class="fa fa-book"></span> Booklets</h4>
+							</a>
+							<a href="forms/wheelchair.pdf" style="text-decoration: none; width: 100%; border-radius: 10px; line-height: 60px;" class="btn btn-light my-2 ">
+							<h4 class="my-3"><span class="fa fa-wheelchair-alt"></span> Wheelchair Form</h4>
+							</a>
 						</div>
-					</div>
-					<div class="notice   col-5 col-md-3 col-lg-3 my-2">
-						<div class="quote-container">
-						<i class="pin"></i>
-						<blockquote class="note yellow">
-						<h3>Blanket Camp</h3>
-						<h5>31 Oct 2019</h5>
-						<p>Sample text sample sample sample sample sample sample</p>
-						</blockquote>
-						</div>
-					</div> -->
-
-					<div class="notice   col-5 col-md-3 col-lg-3 my-4">
-						<div class="notice-inner">
-						<h3>BSW Diary</h3>
-						<h5><a href="diary_newsletter.php">Read here</a></h5>
-						<p>Your one stop access to make your life easier in IITD.</p>
-						</div>
-					</div>
-					<div class="notice   col-5 col-md-3 col-lg-3 my-4">
-					<div class="notice-inner">
-						<h3>Official IITD Website</h3>
-						<h5><a href="https://home.iitd.ac.in/">Visit</a></h5>
-						<p>The new and updated official IIT Delhi website.</p>
-						</div>
-					</div>
-					<div class="notice col-5 col-md-3 col-lg-3 my-4">
-					<div class="notice-inner">
-						<h3>Moodle</h3>
-						<h5><a href="https://moodle.iitd.ac.in/login/index.php">Visit IIT Delhi Moodle</a></h5>
-						<p>The academic repository.</p>
-						</div>
-					</div>
-					<div class="notice   col-5 col-md-3 col-lg-3 my-4">
-					<div class="notice-inner">
-						<h3>BSW Team</h3>
-						<h5><a href="structure.php">View the BSW Team</a></h5>
-						<p>Meet the team that makes it all happen.</p>
-						</div>
-					</div>
-
 
 					</div>
-	
-			</div>
-
-				<div class="col-12 col-lg-4">
-				<a href="mental_health.php" style="text-decoration: none">
-				<div id="yourDost" class="home-quick-links">
-				<img src="images/yourDost.svg" width="60" height="60" alt="">
-				Counselling
-				</div>
-				</a>
-				<a href="alumni_mentorship.php" style="text-decoration: none" >
-				<div id="almaConnect" class="home-quick-links">
-				<img src="images/almaConnect.svg" width="60" height="60" alt="">
-				AlmaConnect
-				</div>
-				</a>
-				<a href="bsw_loans.php" style="text-decoration: none" >
-				<div id="bswLoans" class="home-quick-links">
-				<img src="images/bswLoans.svg" width="60" height="60" alt="">
-				BSW Loans
-				</div>
-				</a>
-				<!-- <a href="index.php" style="text-decoration: none" >
-				<div  id="careerCounselling" class="home-quick-links">
-				<img src="images/careerCounselling.svg" width="60" height="60" alt="">
-				Career Counselling
-				</div>
-				</a> -->
-				<a href="question_papers.php" style="text-decoration: none" >
-				<div  id="qPapers" class="home-quick-links">
-				<img src="images/qPapers.svg" width="60" height="60" alt="">
-				Question Papers
-				</div>
-				</a>
-
-				<a href="forms.php" style="text-decoration: none" >
-				<div  id="forms" class="home-quick-links">
-				<img src="images/forms.ico" width="60" height="60" alt="">
-				Forms
-				</div>
-				</a>
-				</div>
 
 		</div>
+</div>
 
-	</div>
+<div id="about-us">
+  <br />
+
+    <div class="container">
+
+      <div class="row justify-content-center">
+
+        <div class="col-12 justify-content-center">
+          <h1 class="about-us-title"><small>How does the board function?<small></h1>
+        </div>
+
+      </div>
+
+	  <p style="font-size: 1.2rem; color:white;" class="my-2">The Board is majorly divided into 2 units based on their domain of responsibilities : <span class="fa fa-cogs"></span> Operations and <span class="fa fa-users"></span> Mentorship. </p>
+
+		<br>
+
+    
+</div>
+
 </div>
 
 <div id="events-gallery">
@@ -571,97 +561,97 @@
 			<div id="photostack-1" class="photostack col-12">
 				<div>
 					<figure>
-						<a href="http://goo.gl/Qw3ND4" class="photostack-img"><img class="gallery-img" src="images/comedynight.jpg" alt="Comedy Night ft. Nishant Tanwar" style="height:240px; width:240px; object-fit:cover;"/></a>
+						<a href="convergenz.php" class="photostack-img"><img class="gallery-img" src="images/comedynight.jpg" alt="Comedy Night ft. Nishant Tanwar" style="height:240px; width:240px; object-fit:cover;"/></a>
 						<figcaption>
 							<h2 class="photostack-title">Comedy Night ft. Nishant Tanwar</h2>
 						</figcaption>
 					</figure>
 					<figure>
-						<a href="http://goo.gl/Qw3ND4" class="photostack-img"><img class="gallery-img" src="images/bandnight.jpg" alt="Comedy Night ft. Nishant Tanwar" style="height:240px; width:240px; object-fit:cover;"/></a>
+						<a href="convergenz.php" class="photostack-img"><img class="gallery-img" src="images/bandnight.jpg" alt="Band NIght ft. Zikrr" style="height:240px; width:240px; object-fit:cover;"/></a>
 						<figcaption>
 							<h2 class="photostack-title">Band Night ft. Zikrr</h2>
 						</figcaption>
 					</figure>
 					<figure>
-						<a href="http://goo.gl/Qw3ND4" class="photostack-img"><img class="gallery-img" src="images/op_delhidarshan/5.JPG" alt="Comedy Night ft. Nishant Tanwar" style="height:240px; width:240px; object-fit:cover;"/></a>
+						<a href="delhi_darshan.php" class="photostack-img"><img class="gallery-img" src="images/op_delhidarshan/5.JPG" alt="Delhi Darshan" style="height:240px; width:240px; object-fit:cover;"/></a>
 						<figcaption>
 							<h2 class="photostack-title">Delhi Darshan</h2>
 						</figcaption>
 					</figure>
 					<figure>
-						<a href="http://goo.gl/Qw3ND4" class="photostack-img"><img class="gallery-img" src="images/promnight.jpg" alt="Prom Night" style="height:240px; width:240px; object-fit:cover;"/></a>
+						<a href="convergenz.php" class="photostack-img"><img class="gallery-img" src="images/promnight.jpg" alt="Prom Night" style="height:240px; width:240px; object-fit:cover;"/></a>
 						<figcaption>
 							<h2 class="photostack-title">Prom Night</h2>
 						</figcaption>
 					</figure>
 					<figure data-dummy>
-						<a href="http://goo.gl/Qw3ND4" class="photostack-img"><img class="gallery-img" src="images/op_sticd/5.jpg" alt="Comedy Night ft. Nishant Tanwar" style="height:240px; width:240px; object-fit:cover;"/></a>
+						<a href="stic_dinner.php" class="photostack-img"><img class="gallery-img" src="images/op_sticd/5.jpg" alt="STIC Dinner" style="height:240px; width:240px; object-fit:cover;"/></a>
 						<figcaption>
 							<h2 class="photostack-title">STIC Dinner</h2>
 						</figcaption>
 					</figure>
 					<figure>
-						<a href="http://goo.gl/Qw3ND4" class="photostack-img"><img class="gallery-img" src="images/jeopardy.jpg" alt="Comedy Night ft. Nishant Tanwar" style="height:240px; width:240px; object-fit:cover;"/></a>
+						<a href="convergenz.php" class="photostack-img"><img class="gallery-img" src="images/jeopardy.jpg" alt="Jeopardy" style="height:240px; width:240px; object-fit:cover;"/></a>
 						<figcaption>
 							<h2 class="photostack-title">Jeopardy</h2>
 						</figcaption>
 					</figure>
 					<figure data-dummy>
-						<a href="http://goo.gl/Qw3ND4" class="photostack-img"><img class="gallery-img" src="images/op_delhidarshan/1.JPG" alt="Comedy Night ft. Nishant Tanwar" style="height:240px; width:240px; object-fit:cover;"/></a>
+						<a href="delhi_darshan.php" class="photostack-img"><img class="gallery-img" src="images/op_delhidarshan/1.JPG" alt="Delhi Darshan" style="height:240px; width:240px; object-fit:cover;"/></a>
 						<figcaption>
 							<h2 class="photostack-title">Delhi Darshan</h2>
 						</figcaption>
 					</figure>
 					<figure data-dummy>
-						<a href="http://goo.gl/Qw3ND4" class="photostack-img"><img class="gallery-img" src="images/op_delhidarshan/6.jpg" alt="Comedy Night ft. Nishant Tanwar" style="height:240px; width:240px; object-fit:cover;"/></a>
+						<a href="delhi_darshan.php" class="photostack-img"><img class="gallery-img" src="images/op_delhidarshan/6.jpg" alt="Delhi Darshan" style="height:240px; width:240px; object-fit:cover;"/></a>
 						<figcaption>
 							<h2 class="photostack-title">Delhi Darshan</h2>
 						</figcaption>
 					</figure>
 					<figure data-dummy>
-						<a href="http://goo.gl/Qw3ND4" class="photostack-img"><img class="gallery-img" src="images/op_delhidarshan/2.jpg" alt="Comedy Night ft. Nishant Tanwar" style="height:240px; width:240px; object-fit:cover;"/></a>
+						<a href="delhi_darshan.php" class="photostack-img"><img class="gallery-img" src="images/op_delhidarshan/2.jpg" alt="Delhi Darshan" style="height:240px; width:240px; object-fit:cover;"/></a>
 						<figcaption>
 							<h2 class="photostack-title">Delhi Darshan</h2>
 						</figcaption>
 					</figure>
 					<figure data-dummy>
-						<a href="http://goo.gl/Qw3ND4" class="photostack-img"><img class="gallery-img" src="images/op_delhidarshan/8.JPG" alt="Comedy Night ft. Nishant Tanwar" style="height:240px; width:240px; object-fit:cover;"/></a>
+						<a href="delhi_darshan.php" class="photostack-img"><img class="gallery-img" src="images/op_delhidarshan/8.JPG" alt="Delhi Darshan" style="height:240px; width:240px; object-fit:cover;"/></a>
 						<figcaption>
 							<h2 class="photostack-title">Delhi Darshan</h2>
 						</figcaption>
 					</figure>
 					<figure >
-						<a href="http://goo.gl/Qw3ND4" class="photostack-img"><img class="gallery-img" src="images/op_orientation/1.jpg" alt="Comedy Night ft. Nishant Tanwar" style="height:240px; width:240px; object-fit:cover;"/></a>
+						<a href="orientation.php" class="photostack-img"><img class="gallery-img" src="images/op_orientation/1.jpg" alt="Orientation" style="height:240px; width:240px; object-fit:cover;"/></a>
 						<figcaption>
 							<h2 class="photostack-title">Orientation</h2>
 						</figcaption>
 					</figure>
 					<figure >
-						<a href="http://goo.gl/Qw3ND4" class="photostack-img"><img class="gallery-img" src="images/enigma_poster.jpg" alt="Comedy Night ft. Nishant Tanwar" style="height:240px; width:240px; object-fit:cover;"/></a>
+						<a href="convergenz.php" class="photostack-img"><img class="gallery-img" src="images/enigma_poster.jpg" alt="Enigma: The Magic Show" style="height:240px; width:240px; object-fit:cover;"/></a>
 						<figcaption>
 							<h2 class="photostack-title">Enigma: The Magic Show</h2>
 						</figcaption>
 					</figure>
 					<figure data-dummy>
-						<a href="http://goo.gl/Qw3ND4" class="photostack-img"><img class="gallery-img" src="images/enigma.PNG" alt="Comedy Night ft. Nishant Tanwar" style="height:240px; width:240px; object-fit:cover;"/></a>
+						<a href="convergenz.php" class="photostack-img"><img class="gallery-img" src="images/enigma.PNG" alt="Enigma: The Magic Show" style="height:240px; width:240px; object-fit:cover;"/></a>
 						<figcaption>
 							<h2 class="photostack-title">Enigma: The Magic Show</h2>
 						</figcaption>
 					</figure>
 					<figure >
-						<a href="http://goo.gl/Qw3ND4" class="photostack-img"><img class="gallery-img" src="images/freshersmrmrs.jpg" alt="Comedy Night ft. Nishant Tanwar" style="height:240px; width:240px; object-fit:cover;"/></a>
+						<a href="convergenz.php" class="photostack-img"><img class="gallery-img" src="images/freshersmrmrs.jpg" alt="Mr & Ms Freshers" style="height:240px; width:240px; object-fit:cover;"/></a>
 						<figcaption>
 							<h2 class="photostack-title">Mr & Ms Freshers</h2>
 						</figcaption>
 					</figure>
 					<figure data-dummy>
-						<a href="http://goo.gl/Qw3ND4" class="photostack-img"><img class="gallery-img" src="images/bandnight_poster.JPG" alt="Comedy Night ft. Nishant Tanwar" style="height:240px; width:240px; object-fit:cover;"/></a>
+						<a href="convergenz.php" class="photostack-img"><img class="gallery-img" src="images/bandnight_poster.JPG" alt="Band Night ft Zikrr" style="height:240px; width:240px; object-fit:cover;"/></a>
 						<figcaption>
 							<h2 class="photostack-title">Band Night ft. Zikrr</h2>
 						</figcaption>
 					</figure>
 					<figure data-dummy>
-						<a href="http://goo.gl/Qw3ND4" class="photostack-img"><img class="gallery-img" src="images/comedynight_poster.JPG" alt="Comedy Night ft. Nishant Tanwar" style="height:240px; width:240px; object-fit:cover;"/></a>
+						<a href="convergenz.php" class="photostack-img"><img class="gallery-img" src="images/comedynight_poster.JPG" alt="Comedy Night ft. Nishant Tanwar" style="height:240px; width:240px; object-fit:cover;"/></a>
 						<figcaption>
 							<h2 class="photostack-title">Comedy Night ft. Nishant Tanwar</h2>
 						</figcaption>
@@ -749,6 +739,15 @@
  
 
 
+</script>
+<script src="js/scrollreveal.min.js"></script>
+<script>
+    window.sr = ScrollReveal({reset: true});
+    window.sr = ScrollReveal();
+    sr.reveal('#texto', {duration: 700});
+    $('.carousel').carousel({
+        pause: "false"
+    });
 </script>
 
 </body>
