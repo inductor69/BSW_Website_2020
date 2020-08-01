@@ -258,7 +258,7 @@
             <div class="col-12 col-md-3 my-2" style="background: white; border-radius:20px; padding:10px">
                 <img src="images/reg1.svg">
                 <p style="text-align: center;">
-                1. Register/ Log in to <a href="https://iitd.almaconnect.com/mentorship">https://iitd.almaconnect.com/mentorship</a>
+                1. Register/ Log in to <a href="https://iitd.almaconnect.com/mentorship">iitd.almaconnect.com</a>
                 </p>
             </div>
             <div class="col-12 col-md-4 mx-2 my-2" style="background: white; border-radius:20px; padding:10px">
@@ -284,7 +284,7 @@
             <div class="col-12 col-md-3 my-2" style="background: white; border-radius:20px; padding:10px">
                 <img src="images/reg2.svg" class="my-4">
                 <p style="text-align: center;" class="my-4">
-                1. Register/ Log in to <a href="https://iitd.almaconnect.com/mentorshipp">https://iitd.almaconnect.com/mentorship</a>
+                1. Register/ Log in to <a href="https://iitd.almaconnect.com/mentorshipp">iitd.almaconnect.com</a>
                 </p>
             </div>
             <div class="col-12 col-md-4 mx-2 my-2" style="background: white; border-radius:20px; padding:10px">

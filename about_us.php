@@ -106,11 +106,11 @@
 	<h4>Operations' Events</h4>
 	<ul class="list-group-flush" style="width: 100%; padding:0;">
 	<li class="list-group-item list-group-item-action"><a href="female_jee_counselling.php">Female JEE Counselling</a></li>
-	<li class="list-group-item list-group-item-action"><a href="female_jee_counselling.php">Orientation</a></li>
-	<li class="list-group-item list-group-item-action"><a href="female_jee_counselling.php">Delhi Darshan</a></li>
-	<li class="list-group-item list-group-item-action"><a href="female_jee_counselling.php">STIC Dinner</a></li>
-	<li class="list-group-item list-group-item-action"><a href="female_jee_counselling.php">Informative Sessions</a></li>
-	<li class="list-group-item list-group-item-action"><a href="female_jee_counselling.php">BSW Loans</a></li>
+	<li class="list-group-item list-group-item-action"><a href="orientation.php">Orientation</a></li>
+	<li class="list-group-item list-group-item-action"><a href="delhidarshan.php">Delhi Darshan</a></li>
+	<li class="list-group-item list-group-item-action"><a href="sticdinner.php">STIC Dinner</a></li>
+	<li class="list-group-item list-group-item-action"><a href="informative_sessions.php">Informative Sessions</a></li>
+	<li class="list-group-item list-group-item-action"><a href="bsw_loans.php">BSW Loans</a></li>
 	</ul>
 	</div>
 
@@ -122,10 +122,10 @@
 	<p style="font-size:1.2rem">The Mentorship Committee of BSW executes & monitors all mentorship initiatives & activities for IIT Delhi students. These include freshers' orientation, mentorship of freshmen students, student-alumni mentorship, academic mentorship, language mentorship, counselling services, etc. On the commencement of one's IITD life, every individual is provided a mentor who is a trained & experienced senior student. The mentor is responsible for making the student capable of taking informed decisions in academic, extra-curricular & personal fronts by sharing unbiased knowledge & experiences. Mentors are also expected to contribute their efforts in other mentorship initiatives. </p>
 	<h4>Mentorship Programmes</h4>
 	<ul class="list-group-flush" style="width: 100%; padding:0;">
-	<li class="list-group-item list-group-item-action"><a href="female_jee_counselling.php">Academic Mentorship</a></li>
-	<li class="list-group-item list-group-item-action"><a href="female_jee_counselling.php">Alumni Mentorship</a></li>
-	<li class="list-group-item list-group-item-action"><a href="female_jee_counselling.php">Mental health Mentorship & Counselling</a></li>
-	<li class="list-group-item list-group-item-action"><a href="female_jee_counselling.php">Language Mentorship</a></li>
+	<li class="list-group-item list-group-item-action"><a href="academic_mentorship.php">Academic Mentorship</a></li>
+	<li class="list-group-item list-group-item-action"><a href="alumni_mentorship.php">Alumni Mentorship</a></li>
+	<li class="list-group-item list-group-item-action"><a href="mental_health.php">Mental health Mentorship & Counselling</a></li>
+	<li class="list-group-item list-group-item-action"><a href="flanguage_mentorship.php">Language Mentorship</a></li>
 	</ul>
 	</div>
 
@@ -136,13 +136,13 @@
 
 
 <div class="col-12 my-4" style="text-align: center;">
-<strong><h1>How are these programs implemented?</h1></strong>
-<p style="font-size:1.2rem">
-There are two student representatives from each hostel who actively work on all these initiatives and ensure all the welfare activities reach every student. <br>Along with them, there are multiple student mentors from each hostel who carry out all the mentorship related activities.</p>
-<p style="font-size:1.2rem">
-<a href="structure.php">
-Meet the team that makes it all happen.
+<strong><h1>BSW Newsletter</h1></strong>The BSW Newsletter is every fresher's first peek into the college life. It contains relevant information about life at college. The newsletter also gives details about the initiatives of BSW designed to help the student community.
+           <br><a href="misc/bswNewsletter.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-primary mb-4" style={display:inline;}><span class="fa fa-download fa-lg"></span> Download Newsletter</a>
+		   <a href="structure.php">
+<br>Meet the team that makes it all happen.
 </a>
+			</div>
+
 </p>
 </div>
 

@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
  
 
-<title>Orientation | BSW</title>
+<title>Freshers Orientation | BSW</title>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
 
@@ -14,6 +14,8 @@
 
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js" type="text/javascript"></script>
 <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="css/slick.css"/>
+<link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
 
 
 <style type="text/css">
@@ -127,7 +129,7 @@ margin-bottom: 4px
         <div class="row justify-content-center">
 
             <div class="col-12  justify-content-center">
-            <h1 class="about-us-title"><span class="fa fa-graduation-cap"></span> Orientation</h1>
+            <h1 class="about-us-title"><span class="fa fa-graduation-cap"></span> Freshers Orientation</h1>
             </div>
 
             <div class="col-12  ml-auto">
@@ -144,51 +146,181 @@ margin-bottom: 4px
 
 </div>
 
+
 <div class="container">
+<div class="col-12 my-4">
+<h1>Few Glimpses of the Event</h1>
+</div>
+</div>
 
-	<div class="row justify-content-center">
-
-            <div class="thumbs col-12 col-md-5 justify-content-center my-2">
-			<a href="images/op_orientation/1.jpg" >
-				<img class="orientation-img col-12" src="images/op_orientation/1.jpg" alt="Director at the orientation">
-			</a>
-            </div>
-
-            <div class="col-12 col-md-7 ml-auto my-2">
-            <p style="text-align: justify;">
-			The session with the director was followed by evening games inside LHC where they played different games in various groups. <br> The second day of the orientation was lined up with 3 events. <br> Session with mentors, where the student mentors informed them about all the academic details and the rules and regulations here. <br> Department Orientation, where professors from their departments spoke about various aspects of their department. <br> Finally, the Registration, where students did all the paperwork and were finally registered as students of IIT Delhi. <br> Later in the week, Tour of Stalls was organised to give a glimpse of various clubs and boards here at IIT to the freshers. </p>
-            </div>
-
-		</div>
-	</div>
-
-<div class="container-fluid mt-4" id="softwares-list">
+<div class="container-fluid" id="gallery">
 	<style>
+		
+		.thumbnaili{
+			object-fit: cover !important;
+			width:300px !important;
+			height:auto;
+			border-radius: 10px;
+			margin:175px 10px 10px 10px !important
+		}
 		.thumbnail{
 			object-fit: cover !important;
-			display: block;
-			margin-bottom:10px;
-			width:100%;
-			height:100%;
+			width: 100%;
+			height:auto;
+			border-radius: 20px;
+		}
+		.slick-next{
+			margin-right:40px;
+			width: 80px !important;
+			height: 80px !important;
+		}
+		.slick-prev{
+			margin-left:40px !important;
+			width: 80px !important;
+			height: 80px !important;
+			z-index: 100000 !important;
+			font-size: 40px !important;
+		}
+		.slick-prev::before{
+			font-size: 40px !important;
+		}
+		.slick-next::before{
+			font-size: 40px !important;
+		}
+		.slick-dots li button::before {
+			font-size: 12px !important;
+		}
+		
+		.slick-dots{
+			position: relative !important;
+		}
+		
+		.slick-current{
+		object-fit: cover !important;
+		display: block;
+		width:700px !important;
+		height:auto;
+		border-radius: 10px;
+		transition: height 0.5s ease-in-out !important;
+		margin: 10px !important;
+		}
+		.t
+		.thumb-div{
+			display: block !important;
+			text-align: center !important;
 		}
 		.img-link{
 			margin-bottom:10px;
 		}
 
-	</style>
 
-	<div class="row justify-content-center thumbs">
+		#loc-1{
+			background-image: linear-gradient(180deg, #000000 0%, #323232 100%);
+			padding:10px;
+			padding-top: 30px;
+			padding-bottom: 30px;
+			border-radius:40px;
+			color: #fff !important;
+		}
+
+		@media (max-width: 700px){
+			.thumbnaili{
+			object-fit: cover !important;
+			width:200px !important;
+			height:auto;
+			border-radius: 10px;
+			margin:50px 10px 10px 10px !important
+		}
+		.slick-current{
+			object-fit: cover !important;
+			display: block;
+			width:300px !important;
+			height:auto;
+			border-radius: 10px;
+			transition: height 1s, width 1s ease-in-out;
+			margin: 10px !important;
+		}
+
+		}
+
+	</style>
+<br>
+
+<div class="row justify-content-center your-class align-middle">
+
 	<?php
-		for($i=2; $i<12; $i=$i+1){
-			echo '<a class=" img-link col-12 col-md-4 col-lg-3" href="images/op_orientation/'.$i.'.jpg" target="_blank" >';
-			echo '<img class="thumbnail " src="images/op_orientation/'.$i.'.jpg" alt="BSW Orientation" />';
-			echo '</a>';
+		for($i=1; $i<12; $i=$i+1){
+			//echo '<a class="col-12 col-md-4 col-lg-3" href="images/op_delhidarshan/'.$i.'.JPG" >';
+			echo '<img class="thumbnaili" src="images/op_orientation/'.$i.'.JPG" alt="BSW Delhi Darshan" />';
+			//echo '</a>';
 		}
 		?>
 			
 	</div>
 
+	<div class="row arrow-box justify-content-center" style="text-align: center; margin-top: 100px;">
+			<a class="arrow-up-2" href="#journey">
+				<span class="left-arm-2"></span>
+				<span class="right-arm-2"></span>
+				<span class="arrow-slide-2"></span>
+			</a>
+	</div>
+
+
 </div>
+
+
+
+
+	<div class="container" style="padding-right: 40px; padding-left: 40px;" id="journey">
+	
+
+
+	<div class="row">
+		<h1 class="my-4" style="font-size: 60px;">About the event</h1>
+		<p style="font-size:1.2rem">			The session with the director was followed by evening games inside LHC where they played different games in various groups. <br> The second day of the orientation was lined up with 3 events. <br> Session with mentors, where the student mentors informed them about all the academic details and the rules and regulations here. <br> Department Orientation, where professors from their departments spoke about various aspects of their department. <br> Finally, the Registration, where students did all the paperwork and were finally registered as students of IIT Delhi. <br> Later in the week, Tour of Stalls was organised to give a glimpse of various clubs and boards here at IIT to the freshers. </p>
+</p>
+
+	</div>
+
+	<div class="row my-4" id="loc-1">
+		<div class="col-12 col-md-6 align-middle" style="width: 98%;">
+			<img class="thumbnail align-middle" src="images/op_delhidarshan/1.JPG" alt="BSW Delhi Darshan" />
+		</div>
+		<div class="col-12 col-md-6 my-4 " style="font-size:20px;">
+		<h2>Activities throughout the event</h2>
+		The Qutub Minar is a minaret and "victory tower" that forms part of the Qutb complex, a UNESCO World Heritage Site in the Mehrauli area of Delhi, India. While cherishing the mesmerizing beauty of Qutub Minar, lots of freshers were modelling and making the most of iconic backgrounds!
+		</div>
+	</div>
+
+	<div class="row my-4">
+	<div class="col-12 col-md-6 d-sm-block d-md-none align-middle" style="width: 98%;">
+			<img class="thumbnail" src="images/lotus_temple.jpg" alt="BSW Delhi Darshan" />
+		</div>
+
+		<div class="col-12 col-md-6 my-4 " style="font-size:20px;">
+		<h2>Interaction between professors and the students</h2>
+		The Lotus Temple is a Baháʼí House of Worship that was dedicated in December 1986.Notable for its flowerlike shape, it has become a prominent attraction in the city.  The highlight of lotus temple is the unique silent prayers it has , which provided a sense of completeness and calm to us.
+		</div>
+
+		<div class="col-12 col-md-6 d-none d-md-block" style="width: 98%;">
+			<img class="thumbnail align-middle" src="images/lotus_temple.jpg" alt="BSW Delhi Darshan" />
+		</div>
+	</div>
+
+	<div class="row my-4" id="loc-1">
+		<div class="col-12 col-md-6" style="width: 98%;">
+			<img class="thumbnail align-middle" src="images/bangla_sahib.jpg" alt="BSW Delhi Darshan" />
+		</div>
+		<div class="col-12 col-md-6 my-4 " style="font-size:20px;">
+		<h2>Conversations over food</h2>
+		Gurudwara Bangla Sahib is one of the most prominent Sikh gurdwara, or Sikh house of worship, in Delhi and known for its association with the eighth Sikh Guru, Guru Har Krishan, as well as the holy pool inside its complex, known as the "Sarovar." 		</div>
+	</div>
+
+
+
+</div>
+
 
 <?php require 'components/footer.php'; ?>
 <?php require 'components/back_to_top.php'; ?>
@@ -196,9 +328,41 @@ margin-bottom: 4px
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="js/touchTouch.jquery.js"></script>
+<script type="text/javascript" src="js/slick.min.js"></script>
 <script>
-$(document).ready(function(){
-	$('.thumbs a').touchTouch();
+	$(document).ready(function(){
+		$('.your-class').slick({
+			accessibility: true,
+			autoplay: true,
+			variableWidth: true,
+			swipeToSlide: true,
+			centerMode:true,
+			slidesToShow: 3,
+			slidesToScroll: 1,
+			dots: true,
+			focusOnSelect: true,
+			arrows: true,
+			responsive: [
+				{
+				breakpoint: 768,
+				settings: {
+					arrows: true,
+					centerMode: true,
+					centerPadding: '40px',
+					slidesToShow: 3
+				}
+				},
+				{
+				breakpoint: 480,
+				settings: {
+					arrows: true,
+					centerMode: true,
+					centerPadding: '40px',
+					slidesToShow: 1
+				}
+				}
+			]
+		});
 	});
 </script>
 

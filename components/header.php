@@ -221,13 +221,11 @@
 			<ul class="navbar-nav nav ">
 
 				<li class="nav-item active"> 
-					<a class="nav-link" href="#">Freshers'20</a>
+					<a class="nav-link" href="./freshers/index.php"><span class="fa fa-external-link-square"></span>  Freshers'20 </a>
 				</li>
 				
 				<li class="nav-item ">
-					<a class="nav-link" href="about_us.php" data-toggle="dropdown"> 
-						About Us
-					</a>
+					<a class="nav-link" href="about_us.php">About Us</a>
 				</li>
 
 
@@ -236,7 +234,7 @@
 						What We Do
 					</a>
 					<ul class="dropdown-menu">
-					<li><a class="dropdown-item" href="#">Mentorship <span id="right-drop-arrow">&#9658;</span></a>
+					<li><a class="dropdown-item" href="#">Mentorship <small><span id="right-drop-arrow">&#9658;</span></small></a>
 						<ul class="submenu dropdown-menu">
 							<li><a class="dropdown-item" href="academic_mentorship.php">Academic Mentorship</a></li>
 							<li><a class="dropdown-item" href="alumni_mentorship.php">Alumni Mentorship</a><li>
@@ -244,7 +242,7 @@
 							<li><a class="dropdown-item" href="mental_health.php">Mental Health Mentorship &amp; Counselling</a></li>
 						</ul>
 					</li>
-					<li><a class="dropdown-item" href="#">Operations <span id="right-drop-arrow">&#9658;</span></a>
+					<li><a class="dropdown-item" href="#">Operations <small><span id="right-drop-arrow">&#9658;</span></small></a>
 						<ul class="submenu dropdown-menu">
 							<li><a class="dropdown-item" href="female_jee_counselling.php">Female JEE Counselling</a></li>
 							<li><a class="dropdown-item" href="orientation.php">Orientation</a></li>
@@ -269,26 +267,30 @@
 					<ul class="dropdown-menu">
 
 						<li><a class="dropdown-item" href="question_papers.php">Question Papers</a></li>
-						<li><a class="dropdown-item" href="booklets.php">Booklets</a></li>
-
-						<li><a class="dropdown-item" href="diary.php">Diary </a></li>
-						<li><a class="dropdown-item" href="newsletter.php">Newsletter </a></li>
 
 						<li>
-							<a class="dropdown-item" href="#">Medical Facilities <span id="right-drop-arrow">&#9658;</span></a>
+							<a class="dropdown-item" href="#">Internet &amp; Email <small><span id="right-drop-arrow">&#9658;</span></small></a>
+							<ul class="submenu dropdown-menu">
+								<li><a class="dropdown-item" href="email_config.php">Email Configuration</a></li>
+								<li><a class="dropdown-item" href="wifi_config.php">Internet Setup</a></li>
+							</ul>
+						</li>
+
+						<li><a class="dropdown-item" href="diary.php">Diary </a></li>
+
+						<li><a class="dropdown-item" href="booklets.php">Booklets</a></li>
+
+						<!-- <li><a class="dropdown-item" href="newsletter.php">Newsletter </a></li> -->
+
+						<li>
+							<a class="dropdown-item" href="#">Medical Facilities <small><span id="right-drop-arrow">&#9658;</span></small></a>
 							<ul class="submenu dropdown-menu">
 								<li><a class="dropdown-item" href="health_insurance.php">Health Insurance</a></li>
 								<li><a class="dropdown-item" target="_blank" href="forms/wheelchair.pdf">Wheelchair Form</a></li>
 							</ul>
 						</li>
 
-						<li>
-							<a class="dropdown-item" href="#">Internet &amp; Email <span id="right-drop-arrow">&#9658;</span></a>
-							<ul class="submenu dropdown-menu">
-								<li><a class="dropdown-item" href="email_config.php">Email Configuration</a></li>
-								<li><a class="dropdown-item" href="wifi_config.php">Internet Setup</a></li>
-							</ul>
-						</li>
+
 
 						<li>
 							<a class="dropdown-item" href="softwares.php">Softwares</a>
@@ -311,9 +313,9 @@
 
 
 				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
+					<!-- <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
 						Highlights
-					</a>
+					</a> -->
 					<ul class="dropdown-menu">
 					<li><a class="dropdown-item" href="delhidarshan.php">Delhi Darshan</a></li>
 					<li><a class="dropdown-item" href="convergenz.php">Speranza</a></li>

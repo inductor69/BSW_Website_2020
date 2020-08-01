@@ -545,8 +545,8 @@
 
       </div>
 
-	  <p style="font-size: 1.2rem; color:white;" class="my-2">The Board is majorly divided into 2 units based on their domain of responsibilities : <span class="fa fa-cogs"></span> Operations and <span class="fa fa-users"></span> Mentorship. </p>
-
+	  <p style="font-size: 1.2rem; color:white;" class="mt-2">The Board is majorly divided into 2 units based on their domain of responsibilities : <span class="fa fa-cogs"></span> Operations and <span class="fa fa-users"></span> Mentorship.
+<a href="about_us.php">Learn More</a> about BSW.</p> 
 		<br>
 
     
@@ -555,7 +555,7 @@
 </div>
 
 <div id="events-gallery">
-<div class="container-fluid mt-4" style="padding-right: 0px;padding-left: 0px; margin-bottom:0px;">
+<div class="container-fluid" style="padding-right: 0px;padding-left: 0px; margin-bottom:0px;">
 
 
 			<div id="photostack-1" class="photostack col-12">
