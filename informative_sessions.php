@@ -131,8 +131,7 @@ margin-bottom: 4px
 
 
             <div class="col-12 col-12 ml-auto mb-4 about-us-text" style="font-size: 1.2rem">
-			Interactive sessions are organised where seniors from all the branches share their experiences as well as tips and tricks on how to bag foreign internships. They also share best practices on CV making, finding universities or programs, mailing the professors and all other formalities involved along with some additional hacks learnt from their personal experiences.
-            </div>
+			IIT Delhi provides its students a large number of diverse opportunities to learn and grow. Students are often confused how to go about making the most of these opportunities. In the various information sessions, we have seniors from all branches share their experiences navigating through the vast pool of opportunities. These sessions are an attempt to bridge the senior-junior gap, while encouraging the practice of learning from one another. <br><strong>We have seniors covering important topics such as foreign exchange, foreign internships & minor degree planning among others. </strong>           </div>
 
 		</div>
 		
@@ -160,37 +159,40 @@ margin-bottom: 4px
 
 	<div class="row my-4" id="loc-1">
 		<div class="col-12 col-md-6 align-middle" style="width: 98%;">
-			<img class="thumbnail align-middle" src="images/op_delhidarshan/1.JPG" alt="BSW Delhi Darshan" />
+			<img class="thumbnail align-middle" src="images/op_info/6.jpg" alt="BSW Delhi Darshan" />
 		</div>
 		<div class="col-12 col-md-6 my-4 " style="font-size:20px;">
 		<h2>Minor Degree Ke Fundae</h2>
-		The Qutub Minar is a minaret and "victory tower" that forms part of the Qutb complex, a UNESCO World Heritage Site in the Mehrauli area of Delhi, India. While cherishing the mesmerizing beauty of Qutub Minar, lots of freshers were modelling and making the most of iconic backgrounds!
-		</div>
+In addition to their major, students can also aim for a minor degree in an area of their interest such as Computer Science, Management, etc. In this session, we get seniors minoring in these fields to converse with aspiring students and help clear their doubts. Some pertinent questions answered include “How to balance major & minor courses in each semester?”, “What challenges one faces while pursuing a minor degree?”, “What are the career benefits of pursuing a minor degree”, among others.  
+	</div>
 	</div>
 
 	<div class="row my-4">
 	<div class="col-12 col-md-6 d-sm-block d-md-none align-middle" style="width: 98%;">
-			<img class="thumbnail" src="images/lotus_temple.jpg" alt="BSW Delhi Darshan" />
+			<img class="thumbnail" src="images/op_info/5.jpg" alt="BSW Delhi Darshan" />
 		</div>
 
 		<div class="col-12 col-md-6 my-4 " style="font-size:20px;">
 		<h2>Foreign Intern Ke Fundae</h2>
-		The Lotus Temple is a Baháʼí House of Worship that was dedicated in December 1986.Notable for its flowerlike shape, it has become a prominent attraction in the city.  The highlight of lotus temple is the unique silent prayers it has , which provided a sense of completeness and calm to us.
+		To utilize their summers, students can apply for research internships 
+at a foreign university. It not only helps in gaining research experience but 
+also teaches students about the global scientific scenario. Seniors share 
+best practices on finding universities or programs, mailing professors and 
+inform about the highs and lows of foreign internships
 		</div>
 
 		<div class="col-12 col-md-6 d-none d-md-block" style="width: 98%;">
-			<img class="thumbnail align-middle" src="images/lotus_temple.jpg" alt="BSW Delhi Darshan" />
+			<img class="thumbnail align-middle" src="images/op_info/5.jpg" alt="BSW Delhi Darshan" />
 		</div>
 	</div>
 
 	<div class="row my-4" id="loc-1">
 		<div class="col-12 col-md-6" style="width: 98%;">
-			<img class="thumbnail align-middle" src="images/bangla_sahib.jpg" alt="BSW Delhi Darshan" />
+			<img class="thumbnail align-middle" src="images/op_info/8.jpg" alt="BSW Delhi Darshan" />
 		</div>
 		<div class="col-12 col-md-6 my-4 " style="font-size:20px;">
 		<h2>Forex Ke Fundae</h2>
-		Gurudwara Bangla Sahib is one of the most prominent Sikh gurdwara, or Sikh house of worship, in Delhi and known for its association with the eighth Sikh Guru, Guru Har Krishan, as well as the holy pool inside its complex, known as the "Sarovar." 		</div>
-	</div>
+		Selected students have an option to spend either their 5th or 6th semester entirely in a foreign university. Living in a foreign country for an entire semester not only helps students understand the education scenario of another country but also instills essential life-skills in them. Students who have been on the exchange program share with aspiring students essential information about the selection procedure, interview preparation tips along with clearing any confusion around the program.	</div>
 
 
 
@@ -276,7 +278,7 @@ margin-bottom: 4px
 
 	</style>
 
-
+</div>
 </div>
 <?php require 'components/footer.php'; ?>
 

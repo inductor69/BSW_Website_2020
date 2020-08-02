@@ -103,14 +103,12 @@
 	<strong><h1 >Operations</h1></strong>
 	</div>
 	<p style="font-size:1.2rem">The operations committee executes welfare activities and provides assistance (financial and in kind) to the students in need. It also looks over SCOOPS, SCS and STIC which is an integral part of BSW. Our activities include smooth induction of the orientation process, setting up of various camps such as cycle camp, book camp, etc., conducting informative sessions and collaborative events, organising Convergenz (annual youth festival) and carrying out various initiatives for student welfare throughout the year. </p>
-	<h4>Operations' Events</h4>
+	<h4>Operations Programmes</h4>
 	<ul class="list-group-flush" style="width: 100%; padding:0;">
-	<li class="list-group-item list-group-item-action"><a href="female_jee_counselling.php">Female JEE Counselling</a></li>
-	<li class="list-group-item list-group-item-action"><a href="orientation.php">Orientation</a></li>
-	<li class="list-group-item list-group-item-action"><a href="delhidarshan.php">Delhi Darshan</a></li>
-	<li class="list-group-item list-group-item-action"><a href="sticdinner.php">STIC Dinner</a></li>
-	<li class="list-group-item list-group-item-action"><a href="informative_sessions.php">Informative Sessions</a></li>
-	<li class="list-group-item list-group-item-action"><a href="bsw_loans.php">BSW Loans</a></li>
+	<li class="list-group-item list-group-item-action"><a href="orientation.php">Freshers Orientation</a></li>
+	<li class="list-group-item list-group-item-action"><a href="events.php">All Events</a></li>
+	<li class="list-group-item list-group-item-action"><a href="scoops.php">SCOOPS</a></li>
+	<li class="list-group-item list-group-item-action"><a href="career_counselling.php">Career Counselling</a></li>
 	</ul>
 	</div>
 

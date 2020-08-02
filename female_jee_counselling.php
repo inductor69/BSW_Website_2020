@@ -17,7 +17,9 @@
 
 
 <style type="text/css">
-
+p{
+	font-size: 1.2rem;
+}
 html {
 overflow-y: scroll
 }
@@ -33,7 +35,7 @@ overflow-y: scroll
 	.about-us-text{
 		color: #fff;
 		font-weight: medium;
-		font-size:1rem;
+		font-size:1.3rem;
 		margin-bottom: 20px;
 	}
 	#about-us{
@@ -74,9 +76,7 @@ overflow-y: scroll
             </div>
 
 			<p class="about-us-text mx-2">
-			A female counselling session was organised by BSW in collaboration with IGES (Initiative for Gender Equity and Sensitization) on the 23rd June 2019 to increase awareness among female IIT aspirants who had cleared JEE Advanced. 
-			This session was conducted in a view to help the female students who have cleared JEE Advanced 2019 to wisely fill their choices and solve their doubts.        </p>
-
+			BSW organizes a female counselling session in collaboration with IGES (Initiative for Gender Equity and Sensitization) every year to increase awareness about the engineering opportunities among female IIT aspirants who have cleared JEE Advanced. Also, to help students wisely ﬁll their preferences and solve any doubts the students or their parents might have.
 		</div>
 		
 
@@ -214,11 +214,14 @@ overflow-y: scroll
 	<div class="col-12 mb-4" style="text-align : justify;">
             <p>
 			
-			The session was conducted in two slots and a total of 170 girls registered for the counselling session and 130 of them attended the session. Many student volunteers and faculty members were present to help the girls and to give them a clear idea. <br> 
-			Counters consisting of faculty members,3rd year and 4th year students of all branches were there to provide help.
-			Professor Narayanan Kurur, Shalini Gupta, Ravinder Kaur, Sumeet Agarwal, Sangeeta Kohli among others were present to grace the occasion.            </p>
-    </div>
+			We have a diverse team consisting of faculty and senior students representing each branch offered at IIT Delhi. The responsibility of the team is towards the girls who register annually for the counselling sessions. The team perseveres to make the process of filling branch preferences less strenuous for students. They do so by making interactive presentations about each engineering department and shedding some light on the career opportunities one can pursue.      
+			
+			<br>
+			<br>
 
+One of the unique features of the counselling session, 2019, was the event being conducted in two slots dispersing a personalized guidance to over ~130 aspirants. Professors namely, Narayan Kurur, Shalini Gupta, Ravinder Kaur, Sumeet Agarwal, Sangeeta Kohli among others, were instrumental in making this possible.      
+
+</div>
 
 	</div>
 </div>

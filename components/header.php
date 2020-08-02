@@ -244,12 +244,10 @@
 					</li>
 					<li><a class="dropdown-item" href="#">Operations <small><span id="right-drop-arrow">&#9658;</span></small></a>
 						<ul class="submenu dropdown-menu">
-							<li><a class="dropdown-item" href="female_jee_counselling.php">Female JEE Counselling</a></li>
-							<li><a class="dropdown-item" href="orientation.php">Orientation</a></li>
-							<li><a class="dropdown-item" href="delhidarshan.php">Delhi Darshan</a></li>
-							<li><a class="dropdown-item" href="sticdinner.php">STIC Dinner</a></li>
-							<li><a class="dropdown-item" href="informative_sessions.php">Informative Sessions</a></li>
-							<li><a class="dropdown-item" href="bsw_loans.php">BSW Loans</a></li>
+							<li><a class="dropdown-item" href="orientation.php">Freshers Orientation</a></li>
+							<li><a class="dropdown-item" href="events.php">Events</a></li>
+							<li><a class="dropdown-item" href="scoops.php">SCOOPS</a></li>
+							<li><a class="dropdown-item" href="career_counselling.php">Career Counselling</a></li>
 							<!-- <li><a class="dropdown-item" href="scoops.php">SCOOPS</a></li>
 							<li><a class="dropdown-item" href="workshops.php">Workshops</a></li> -->
 						</ul>
@@ -307,6 +305,8 @@
 						<li>
 							<a class="dropdown-item" href="emergency_contacts.php">Emergency Contacts</a>
 						</li>
+
+						<li><a class="dropdown-item" href="bsw_loans.php">BSW Loans</a></li>
 
 					</ul>
 				</li>

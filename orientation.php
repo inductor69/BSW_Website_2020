@@ -86,7 +86,7 @@ margin-bottom: 4px
 	.about-us-text{
 		color: #fff;
 		font-weight: medium;
-		font-size:1rem;
+		font-size:1.3rem;
 		margin-bottom: 20px;
 	}
 	.line-break{
@@ -138,10 +138,13 @@ margin-bottom: 4px
             </p>
             </div>
 
+		
+
 		</div>
 		
 
 	</div>
+	<img src="images/lhc.svg" width="100%" style="padding: 0;">
 	
 
 </div>
@@ -278,47 +281,86 @@ margin-bottom: 4px
 
 	<div class="row">
 		<h1 class="my-4" style="font-size: 60px;">About the event</h1>
-		<p style="font-size:1.2rem">			The session with the director was followed by evening games inside LHC where they played different games in various groups. <br> The second day of the orientation was lined up with 3 events. <br> Session with mentors, where the student mentors informed them about all the academic details and the rules and regulations here. <br> Department Orientation, where professors from their departments spoke about various aspects of their department. <br> Finally, the Registration, where students did all the paperwork and were finally registered as students of IIT Delhi. <br> Later in the week, Tour of Stalls was organised to give a glimpse of various clubs and boards here at IIT to the freshers. </p>
+		<p style="font-size:1.2rem"></p>
 </p>
 
 	</div>
 
 	<div class="row my-4" id="loc-1">
 		<div class="col-12 col-md-6 align-middle" style="width: 98%;">
-			<img class="thumbnail align-middle" src="images/op_delhidarshan/1.JPG" alt="BSW Delhi Darshan" />
+			<img class="thumbnail align-middle" src="images/op_orientation/1.JPG" alt="BSW Director's Address" />
 		</div>
 		<div class="col-12 col-md-6 my-4 " style="font-size:20px;">
-		<h2>Activities throughout the event</h2>
-		The Qutub Minar is a minaret and "victory tower" that forms part of the Qutb complex, a UNESCO World Heritage Site in the Mehrauli area of Delhi, India. While cherishing the mesmerizing beauty of Qutub Minar, lots of freshers were modelling and making the most of iconic backgrounds!
+		<h2>Director's Address</h2>
+		The Director of IITD welcomes all the parents and students and talks about the culture and legacy of our college. He is followed by the other Deans who addresses the key elements and working of our institute.
 		</div>
 	</div>
 
 	<div class="row my-4">
 	<div class="col-12 col-md-6 d-sm-block d-md-none align-middle" style="width: 98%;">
-			<img class="thumbnail" src="images/lotus_temple.jpg" alt="BSW Delhi Darshan" />
+			<img class="thumbnail" src="images/op_orientation/2.JPG" alt="BSW Orientation" />
 		</div>
 
 		<div class="col-12 col-md-6 my-4 " style="font-size:20px;">
-		<h2>Interaction between professors and the students</h2>
-		The Lotus Temple is a Baháʼí House of Worship that was dedicated in December 1986.Notable for its flowerlike shape, it has become a prominent attraction in the city.  The highlight of lotus temple is the unique silent prayers it has , which provided a sense of completeness and calm to us.
-		</div>
+		<h2>Department Orientation</h2>
+		Every Department organizes a session for the freshers in their department wherein the HoD along with some other professors talk about various aspects of their department including the course content, research facilities, future opportunities. This gives the students a glimpse of their forthcoming academic journey.		</div>
 
 		<div class="col-12 col-md-6 d-none d-md-block" style="width: 98%;">
-			<img class="thumbnail align-middle" src="images/lotus_temple.jpg" alt="BSW Delhi Darshan" />
+			<img class="thumbnail align-middle" src="images/op_orientation/2.JPG" alt="BSW Orientation" />
 		</div>
 	</div>
 
 	<div class="row my-4" id="loc-1">
 		<div class="col-12 col-md-6" style="width: 98%;">
-			<img class="thumbnail align-middle" src="images/bangla_sahib.jpg" alt="BSW Delhi Darshan" />
+			<img class="thumbnail align-middle" src="images/op_orientation/11.JPG" alt="BSW Delhi Darshan" />
 		</div>
 		<div class="col-12 col-md-6 my-4 " style="font-size:20px;">
-		<h2>Conversations over food</h2>
-		Gurudwara Bangla Sahib is one of the most prominent Sikh gurdwara, or Sikh house of worship, in Delhi and known for its association with the eighth Sikh Guru, Guru Har Krishan, as well as the holy pool inside its complex, known as the "Sarovar." 		</div>
+		<h2>Session with Mentors</h2>
+		This is an informative session with the student mentors where they inform about all the academic details like calculating CGPA, Courses of Study, DepC etc.
+		The mentors also guide them through the institute's rules and regulations along with some major policies. 	
+	</div>
 	</div>
 
+	<div class="row my-4">
+	<div class="col-12 col-md-6 d-sm-block d-md-none align-middle" style="width: 98%;">
+			<img class="thumbnail" src="images/op_orientation/2.JPG" alt="BSW Orientation" />
+		</div>
+
+		<div class="col-12 col-md-6 my-4 " style="font-size:20px;">
+		<h2>Evening Games</h2>
+		As the name suggests, this event is organized every year to acquaint the freshers with the fun side of their college, who have only went through all the rigorous paperwork and formal sessions till this event. The freshers engage in some fun activities and exciting games in groups in the evening. They also get acquainted with some of their new batchmates through this event.
+		</div>
+		<div class="col-12 col-md-6 d-none d-md-block" style="width: 98%;">
+			<img class="thumbnail align-middle" src="images/op_orientation/2.JPG" alt="BSW Orientation" />
+		</div>
+
+	</div>
+
+	<div class="row my-4" id="loc-1">
+		<div class="col-12 col-md-6" style="width: 98%;">
+			<img class="thumbnail align-middle" src="images/op_orientation/6.JPG" alt="BSW Delhi Darshan" />
+		</div>
+		<div class="col-12 col-md-6 my-4 " style="font-size:20px;">
+		<h2>Registration</h2>
+		The members of BSW along with the UG Section ensure that the registration process for every student goes smoothly. They help the students who face any problems with the paperwork and guide them through every stage of the process. After the registration, every student officialy becomes a part of the IIT Delhi fraternity.	</div>
 
 
+
+</div>
+
+<div class="row my-4">
+	<div class="col-12 col-md-6 d-sm-block d-md-none align-middle" style="width: 98%;">
+			<img class="thumbnail" src="images/op_orientation/13.jpg" alt="BSW Orientation" />
+		</div>
+
+		<div class="col-12 col-md-6 my-4 " style="font-size:20px;">
+		<h2>Tour of Stalls</h2>
+		This is a preliminary Orientation from every club and student board inside IIT. The freshers get a glimpse of everything that goes on in the various clubs by visiting the stall of every club, where they are attended by the representatives from these clubs. The Tour of Stalls every year is followed by a play specially made for the freshers by the Dramatics Society of IITD - Ankahi.		</div>
+		<div class="col-12 col-md-6 d-none d-md-block" style="width: 98%;">
+			<img class="thumbnail align-middle" src="images/op_orientation/13.jpg" alt="BSW Orientation" />
+		</div>
+
+	</div>
 </div>
 
 

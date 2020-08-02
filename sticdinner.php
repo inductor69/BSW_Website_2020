@@ -84,7 +84,7 @@ margin-bottom: 4px
 	.about-us-text{
 		color: #fff;
 		font-weight: medium;
-		font-size:1rem;
+		font-size:1.3rem;
 		margin-bottom: 20px;
 	}
 	.line-break{
@@ -125,8 +125,7 @@ margin-bottom: 4px
 
             <div class="col-12 ml-auto">
             <p class="about-us-text">
-			The STIC Dinner provides the students with an opportunity to interact informally with professors and to get more familiar with them. With music and dinner to accompany them, the students had a great opportunity to freely talk with the professors who teach them.             </p>
-            </div>
+			The STIC Dinner or “Student-Teacher Interaction Dinner” is an event conducted annually for the first-year students. With music and dinner to accompany them, the students get a great opportunity to freely converse with their professors and get more familiar with them. This endeavor is to bridge the student-teacher gap and to encourage friendly bonding between the two.             </div>
 
         </div>
 
@@ -270,46 +269,50 @@ margin-bottom: 4px
 
 	<div class="row">
 		<h1 class="my-4" style="font-size: 60px;">About the event</h1>
-		<p style="font-size:1.2rem">The Qutub Minar is a minaret and "victory tower" that forms part of the Qutb complex, a UNESCO World Heritage Site in the Mehrauli area of Delhi, India. While cherishing the mesmerizing beauty of Qutub Minar, lots of freshers were modelling and making the most of iconic backgrounds!</p>
+		<p style="font-size:1.2rem">
+		STIC dinner was conceptualized with the belief that for an efficient learning experience, both parties, students and teachers must freely express their feedback of one another. In lecture halls, due to a large number of students in one class never really allows free interaction to take place. However, this is made possible at the STIC dinner!
+<br>The STIC dinner is a two-day event. The first day is graced by students belonging to groups 1-20 and their respective professors. The second day is for students belonging to groups 21-40 and their professors. To ensure the event activities are conducted smoothly, we have put in place a per-student pass system. 
 
 	</div>
 
 	<div class="row my-4" id="loc-1">
 		<div class="col-12 col-md-6 align-middle" style="width: 98%;">
-			<img class="thumbnail align-middle" src="images/op_delhidarshan/1.JPG" alt="BSW Delhi Darshan" />
+			<img class="thumbnail align-middle" src="images/op_sticd/15.jpg" alt="BSW Delhi Darshan" />
 		</div>
 		<div class="col-12 col-md-6 my-4 " style="font-size:20px;">
 		<h2>Activities throughout the event</h2>
-		The Qutub Minar is a minaret and "victory tower" that forms part of the Qutb complex, a UNESCO World Heritage Site in the Mehrauli area of Delhi, India. While cherishing the mesmerizing beauty of Qutub Minar, lots of freshers were modelling and making the most of iconic backgrounds!
-		</div>
+		The event begins by a performance by the music club, where all get to see an amazing collaboration between vocalists and instrumentalists. Followed by this, all see students and teachers showing off their skills such as singing, dancing, etc. The BSW host presents a set of fun questions to teachers encouraging them to share their fun college memories. Several other activities throughout the event make it an entertaining and memorable night!   		</div>
 	</div>
 
 	<div class="row my-4">
 	<div class="col-12 col-md-6 d-sm-block d-md-none align-middle" style="width: 98%;">
-			<img class="thumbnail" src="images/lotus_temple.jpg" alt="BSW Delhi Darshan" />
+			<img class="thumbnail" src="images/op_sticd/14.jpg" alt="BSW Delhi Darshan" />
 		</div>
 
 		<div class="col-12 col-md-6 my-4 " style="font-size:20px;">
 		<h2>Interaction between professors and the students</h2>
-		The Lotus Temple is a Baháʼí House of Worship that was dedicated in December 1986.Notable for its flowerlike shape, it has become a prominent attraction in the city.  The highlight of lotus temple is the unique silent prayers it has , which provided a sense of completeness and calm to us.
+		BSW sees the purpose of STIC dinner being solved when teachers openly 
+share their life experiences with students, while also taking an active interest 
+in the student’s life and vice-versa. Along with enhancing the student-teacher 
+relationship, the larger purpose of effective learning from one another is
+encouraged through these interactions!
 		</div>
 
 		<div class="col-12 col-md-6 d-none d-md-block" style="width: 98%;">
-			<img class="thumbnail align-middle" src="images/lotus_temple.jpg" alt="BSW Delhi Darshan" />
+			<img class="thumbnail align-middle" src="images/op_sticd/14.jpg" alt="BSW Delhi Darshan" />
 		</div>
 	</div>
 
 	<div class="row my-4" id="loc-1">
 		<div class="col-12 col-md-6" style="width: 98%;">
-			<img class="thumbnail align-middle" src="images/bangla_sahib.jpg" alt="BSW Delhi Darshan" />
+			<img class="thumbnail align-middle" src="images/op_sticd/19.jpg" alt="BSW Delhi Darshan" />
 		</div>
 		<div class="col-12 col-md-6 my-4 " style="font-size:20px;">
 		<h2>Conversations over food</h2>
-		Gurudwara Bangla Sahib is one of the most prominent Sikh gurdwara, or Sikh house of worship, in Delhi and known for its association with the eighth Sikh Guru, Guru Har Krishan, as well as the holy pool inside its complex, known as the "Sarovar." 		</div>
-	</div>
+		BSW also provide dinner for both professors and students. Informal conversations over food make students more comfortable while talking to the professor in the lecture hall. 	</div>
 
 
-
+</div>
 </div>
 
 

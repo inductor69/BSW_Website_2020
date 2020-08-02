@@ -32,7 +32,7 @@
 	.about-us-text{
 		color: #fff;
 		font-weight: medium;
-		font-size:1rem;
+		font-size:1.3rem;
 		margin-bottom: 20px;
 	}
 	#about-us{
@@ -296,7 +296,7 @@
 			<a class="arrow-up-2" href="#gallery">
 				<span class="left-arm-2"></span>
 				<span class="right-arm-2"></span>
-				<span class="arrow-slide"></span>
+				<span class="arrow-slide-2"></span>
 			</a>
 			</div>
 	<style>
