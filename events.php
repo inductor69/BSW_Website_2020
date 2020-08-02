@@ -189,7 +189,7 @@ body{
     <h4>Informative Sessions</h4>
     </a>
     Seniors from all branches share their experiences navigating through the vast pool of opportunities. An attempt to bridge the senior-junior gap, while encouraging student participation and learning.<br>
-    <a href="sticdinner.php">Learn More about this event</a>
+    <a href="informative_sessions.php">Learn More about this event</a>
     <img src="images/op_info/2.jpg" style="width:80%; border-radius: 10px; margin: 20px;">
     </div>
 
