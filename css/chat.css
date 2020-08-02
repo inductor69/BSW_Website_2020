@@ -1,4 +1,6 @@
-
+a{
+    color: white !important;
+}
  body, html {
     background-image: url(images/chatbot_bg.svg);
     background-color: #ffffff;
