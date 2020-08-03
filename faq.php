@@ -17,8 +17,8 @@
 
 <style type="text/css">
 
-	body{
-		background-color: #a4e7f055;
+body{
+        background-color: rgba(68,215,182,0.18) !important;
 	}
 	
 	.about-us-title{
@@ -31,12 +31,7 @@
 		font-size:1rem;
 		margin-bottom: 20px;
 	}
-	.line-break{
-		width:80%;
-		border: 0;
-		height: 10px;
-		background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-	}
+
 	#about-us{
     padding-top:60px;
         margin-top:0px;
@@ -46,7 +41,7 @@
     .faq-option{
         background-color:purple;
         color:#fff;
-        border-radius:10px;
+        border-radius:20px;
         width:90%;
         height: 200px;
         padding:10px;
@@ -134,13 +129,17 @@
 
   <div class="tab-pane fade show active" id="pills-general" role="tabpanel" aria-labelledby="pills-general-tab">
 
-                                    <div class="panel panel-default" style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; margin-bottom: 10px;">
+                                    <div class="panel panel-default" style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; margin-bottom: 10px;">
 
                                                     <a data-toggle="collapse" href="#collapse1">
                                                     <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q. When can I contact the BSW representatives/ secretaries? 
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq1"></span></h5>
@@ -155,12 +154,16 @@
                                                 </div>
 
                                                 <div class="panel panel-default"
-                                                     style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                     style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse2">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q. Can I be a part of BSW in any form?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq2"></span></h5>
@@ -175,12 +178,16 @@
                                                 </div>
 
                                                 <div class="panel panel-default"
-                                                     style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                     style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse3">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q. Are there any benefits which the BSW provides me?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq3"></span></h5>
@@ -196,12 +203,16 @@
                                                 </div>
 
                                                 <div class="panel panel-default"
-                                                     style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                     style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse4">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q. What are the swimming facilities in and around the campus?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq4"></span></h5>
@@ -218,12 +229,16 @@
                                                 </div>
 
                                                 <div class="panel panel-default"
-                                                     style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                     style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse5">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q. What are the timings of BSW bus services?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -237,12 +252,16 @@
                                                 </div>
 
                                                 <div class="panel panel-default"
-                                                     style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                     style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse6">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q. What is DISCO ?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -257,12 +276,16 @@
                                                 </div>
 
                                                 <div class="panel panel-default"
-                                                     style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                     style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse7">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q. What is proctoral team?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -277,12 +300,16 @@
                                                 </div>
 
                                                 <div class="panel panel-default"
-                                                     style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                     style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse8">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q. What are the timings of library and Ex-Hall?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -296,12 +323,16 @@
                                                 </div>
 
                                                 <div class="panel panel-default"
-                                                     style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                     style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse9">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q. Can we move in/out of the campus any time?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -316,12 +347,16 @@
                                                 </div>
 
                                                 <div class="panel panel-default"
-                                                     style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                     style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse10">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q. Are girls allowed in boys hostel? and vice-versa?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -339,12 +374,16 @@
                                                 </div>
 
                                                 <div class="panel panel-default"
-                                                     style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                     style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse11">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q. When can we apply for department change?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -360,12 +399,16 @@
                                                 </div>
 
                                                 <div class="panel panel-default"
-                                                     style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                     style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse12">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q. Canteens/restaurants in/near the campus?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -394,12 +437,16 @@
                                                 </div>
 
                                                 <div class="panel panel-default"
-                                                     style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                     style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse13">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q. Which is the metro station nearest to IIT?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -416,12 +463,16 @@
                                                 </div>
 
                                                 <div class="panel panel-default"
-                                                     style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                     style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse14">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q. How to reach IIT campus?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -436,12 +487,16 @@
                                                 </div>
 
                                                 <div class="panel panel-default"
-                                                     style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                     style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse15">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q. What is proxy limit and what happens once it is squished?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -456,12 +511,16 @@
                                                 </div>
 
                                                 <div class="panel panel-default"
-                                                     style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                     style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse16">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q. How can I be allowed to stay in hostel during vacations?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -477,12 +536,16 @@
                                                 </div>
 
                                                 <div class="panel panel-default"
-                                                     style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                     style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse17">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q. What is I grade?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -498,12 +561,16 @@
                                                 </div>
 
                                                 <div class="panel panel-default"
-                                                     style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                     style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse18">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q. Am I allowed to bring my bike/car to campus?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -520,12 +587,16 @@
                                                 </div>
 
                                                 <div class="panel panel-default"
-                                                     style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                     style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse19">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q. What Medical facilities are available near the campus?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -545,12 +616,16 @@
                                                 </div>
 
                                                 <div class="panel panel-default"
-                                                     style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                     style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse20">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q. What to do if I-Card is lost ?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -564,12 +639,16 @@
                                                 </div>
 
                                                 <div class="panel panel-default"
-                                                     style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                     style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse21">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q. Nearby movie theatres
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -585,12 +664,16 @@
                                                 </div>
 
                                                 <div class="panel panel-default"
-                                                     style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                     style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse22">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q. What is GCL ?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -604,12 +687,16 @@
                                                 </div>
 
                                                 <div class="panel panel-default"
-                                                     style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                     style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse23">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q. What to do if I-Card is lost ?. Where to get pens, registers,
                                                                 calculators and lab coats from?
@@ -622,12 +709,16 @@
                                                 </div>
 
                                                 <div class="panel panel-default"
-                                                     style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                     style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse24">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q. Where to go for books?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -642,12 +733,16 @@
                                                 </div>
 
                                                 <div class="panel panel-default"
-                                                     style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                     style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse25">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q. Where to get things like soap shampoo etc from ?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -662,12 +757,16 @@
                                                 </div>
 
                                                 <div class="panel panel-default"
-                                                     style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                     style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse26">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q. What is ODC ?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -681,12 +780,16 @@
                                                 </div>
 
                                                 <div class="panel panel-default"
-                                                     style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                     style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse27">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q. How to get a medical booklet and what is the use of it?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -701,12 +804,16 @@
                                                 </div>
 
                                                 <div class="panel panel-default"
-                                                     style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                     style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse28">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q. What is a medical certificate, what is the use and how to get it?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -722,12 +829,16 @@
                                                 </div>
 
                                                 <div class="panel panel-default"
-                                                     style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                     style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse29">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q. Are we allowed to go anywhere in the IIT campus?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -741,12 +852,16 @@
                                                 </div>
 
                                                 <div class="panel panel-default"
-                                                     style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                     style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse30">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q. In case of stress issues, where should we go to treat with them?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -765,12 +880,16 @@
   <div class="tab-pane fade" id="pills-overview" role="tabpanel" aria-labelledby="pills-profile-tab">
 
                                                 <div class="panel panel-default"
-                                                                         style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                                         style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse31">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.1 What are the total credits as per the new system?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -788,12 +907,16 @@
                                                 </div>
                                                 
                                                 <div class="panel panel-default"
-                                                           style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                           style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse32">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.2 What are the graded credits?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -815,12 +938,16 @@
                                                 </div>
                                                 
                                                 <div class="panel panel-default"
-                                                           style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                           style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse33">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.3 What are the non-graded units?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -843,12 +970,16 @@
                                                 </div>
                                                 
                                                 <div class="panel panel-default"
-                                                           style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                           style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse34">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.4 What are capability linked opportunities?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -876,12 +1007,16 @@
   
   <div class="tab-pane fade" id="pills-cad" role="tabpanel" aria-labelledby="pills-cad-tab">
   <div class="panel panel-default"
-                                                                         style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                                         style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse35">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.1 What are the minimum and maximum number of credits that can registered for?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -895,12 +1030,16 @@
                                                         </div>
                                                     </div>
                                                 </div><div class="panel panel-default"
-                                                           style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                           style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse36">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.2 Can I register for 28 credits while doing Major Project?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -914,12 +1053,16 @@
                                                         </div>
                                                     </div>
                                                 </div><div class="panel panel-default"
-                                                           style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                           style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse37">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.3 Are there any special restrictions on the number of credits that a student can register for?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -934,12 +1077,16 @@
                                                         </div>
                                                     </div>
                                                 </div><div class="panel panel-default"
-                                                           style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                           style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse38">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.4 Will non-departmental courses of 700 and 800 level qualify as OC?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -953,12 +1100,16 @@
                                                         </div>
                                                     </div>
                                                 </div><div class="panel panel-default"
-                                                           style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                           style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse39">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.5 Up to what limit are HU courses counted in OC?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -972,12 +1123,16 @@
                                                         </div>
                                                     </div>
                                                 </div><div class="panel panel-default"
-                                                           style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                           style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse40">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.6 Can mini project be done when someone is registered for BTP or MTP in the same semester?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -991,12 +1146,16 @@
                                                         </div>
                                                     </div>
                                                 </div><div class="panel panel-default"
-                                                           style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                           style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse41">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.7 What is the maximum number of Lecture courses that can be done in a semester?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -1010,12 +1169,16 @@
                                                         </div>
                                                     </div>
                                                 </div><div class="panel panel-default"
-                                                           style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                           style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse42">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.8 Are the ‘V’ courses with course structure (1-0-0) counted as Lecture courses?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -1029,12 +1192,16 @@
                                                         </div>
                                                     </div>
                                                 </div><div class="panel panel-default"
-                                                           style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                           style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse43">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.9 How many times can I do 28 credits during my degree?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -1048,12 +1215,16 @@
                                                         </div>
                                                     </div>
                                                 </div><div class="panel panel-default"
-                                                           style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                           style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse44">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.10 Can I do more than one HUL course in a semester and get them counted towards HU credits?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -1067,12 +1238,16 @@
                                                         </div>
                                                     </div>
                                                 </div><div class="panel panel-default"
-                                                           style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                           style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse45">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.11 What is the minimum number of Lecture credits that one can register in a semester?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -1086,12 +1261,16 @@
                                                         </div>
                                                     </div>
                                                 </div><div class="panel panel-default"
-                                                           style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                           style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse46">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.12 What are the requirements for registering for a Mini Project and Independent Study?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -1105,12 +1284,16 @@
                                                         </div>
                                                     </div>
                                                 </div><div class="panel panel-default"
-                                                           style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                           style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse47">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.13 What are the Pre-requisite earned credits for special courses?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -1130,12 +1313,16 @@
                                                         </div>
                                                     </div>
                                                 </div><div class="panel panel-default"
-                                                           style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                           style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse48">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.14 Are PG students allowed to register for 100-400 level courses?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -1149,12 +1336,16 @@
                                                         </div>
                                                     </div>
                                                 </div><div class="panel panel-default"
-                                                           style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                           style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse49">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.15 Can UG students register for 700-800 level courses?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -1168,12 +1359,16 @@
                                                         </div>
                                                     </div>
                                                 </div><div class="panel panel-default"
-                                                           style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                           style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse50">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.16 Can a 700 level course be done without fulfilling the criteria of 75 credits?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -1187,12 +1382,16 @@
                                                         </div>
                                                     </div>
                                                 </div><div class="panel panel-default"
-                                                           style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                           style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse51">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.17 Are 500 level courses only for M.Sc. students?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -1206,12 +1405,16 @@
                                                         </div>
                                                     </div>
                                                 </div><div class="panel panel-default"
-                                                           style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                           style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse52">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.18 Is registration in an overlapping course as an alternative to a core course allowed?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -1225,12 +1428,16 @@
                                                         </div>
                                                     </div>
                                                 </div><div class="panel panel-default"
-                                                           style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                           style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse53">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.19 What needs to be done for registration validation?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -1244,12 +1451,16 @@
                                                         </div>
                                                     </div>
                                                 </div><div class="panel panel-default"
-                                                           style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                           style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse54">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.20 What is the consequence of non-validation of registration?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -1263,12 +1474,16 @@
                                                         </div>
                                                     </div>
                                                 </div><div class="panel panel-default"
-                                                           style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                           style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse55">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.21 Can a Special Module Course 'V' be registered for if the pre-requisite course is being done at the time of registration?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -1282,12 +1497,16 @@
                                                         </div>
                                                     </div>
                                                 </div><div class="panel panel-default"
-                                                           style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                           style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse56">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.22 After adding courses, when we will know whether we got the course or not?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -1301,12 +1520,16 @@
                                                         </div>
                                                     </div>
                                                 </div><div class="panel panel-default"
-                                                           style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                           style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse57">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.23 How many Mini Projects can a student take outside his/her department?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -1320,12 +1543,16 @@
                                                         </div>
                                                     </div>
                                                 </div><div class="panel panel-default"
-                                                           style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                           style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse58">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.24 Will Biology and Environment courses be floated every semester? Can we do these courses whenever we like during our degree tenure?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -1341,12 +1568,16 @@
                                                 </div>
 
                                                 <div class="panel panel-default"
-                                                     style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                     style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse58">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.24 Will Biology and Environment courses be floated every semester? Can we do these courses whenever we like during our degree tenure?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -1365,12 +1596,16 @@
 
 <div class="tab-pane fade" id="pills-cwa" role="tabpanel" aria-labelledby="pills-cwa-tab">
 <div class="panel panel-default"
-                                                                         style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                                         style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse59">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.1 What is the minimum number of credits earned to be eligible to audit a course?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -1384,12 +1619,16 @@
                                                         </div>
                                                     </div>
                                                 </div><div class="panel panel-default"
-                                                           style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                           style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse60">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.2 Can Minor Area courses be audited?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -1403,12 +1642,16 @@
                                                         </div>
                                                     </div>
                                                 </div><div class="panel panel-default"
-                                                           style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                           style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse61">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.3 Can I audit the credits in addition to the total credit requirement?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -1422,12 +1665,16 @@
                                                         </div>
                                                     </div>
                                                 </div><div class="panel panel-default"
-                                                           style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                           style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse62">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.4 Who sets up the audit pass criteria and when?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -1441,12 +1688,16 @@
                                                         </div>
                                                     </div>
                                                 </div><div class="panel panel-default"
-                                                           style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                           style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse63">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.5 Are there any restrictions on the Audit facility?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -1461,12 +1712,16 @@
                                                         </div>
                                                     </div>
                                                 </div><div class="panel panel-default"
-                                                           style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                           style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse64">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.6 Can dual degree students audit Program Electives (PE)?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -1480,12 +1735,16 @@
                                                         </div>
                                                     </div>
                                                 </div><div class="panel panel-default"
-                                                           style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                           style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse65">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.7 Can a HM category course be audited?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -1504,12 +1763,16 @@
 
 <div class="tab-pane fade" id="pills-dr" role="tabpanel" aria-labelledby="pills-dr-tab">
 
-<div class="panel panel-default" style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+<div class="panel panel-default" style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse66">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.1 Is there any CGPA requirement to be eligible for obtaining the respective degree?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -1523,12 +1786,16 @@
                                                         </div>
                                                     </div>
                                                 </div><div class="panel panel-default"
-                                                           style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                           style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse67">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.2 Is there some provision for those who can’t obtain the stipulated credits required for the degree?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -1542,12 +1809,16 @@
                                                         </div>
                                                     </div>
                                                 </div><div class="panel panel-default"
-                                                           style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                           style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse68">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.3 What is the procedure of mentioning the distribution of our OC, DE and PEs to the UG section and settle the degree requirement issues?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -1567,12 +1838,16 @@
 
 
                                     <div class="panel panel-default"
-                                                                         style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                                         style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse69">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.1 How many credits do I have to do in HU category?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -1586,12 +1861,16 @@
                                                         </div>
                                                     </div>
                                                 </div><div class="panel panel-default"
-                                                           style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                           style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse70">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.2 Which courses can be done in HU category?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -1606,12 +1885,16 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default"
-                                                           style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                           style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse71">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.3 Are HUL 700,800 level courses counted towards HM or do they fulfil the OC requirements?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -1632,12 +1915,16 @@
 
                    
                             <div class="panel panel-default"
-                                                                         style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                                         style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse72">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.1 Can a student do multiple minor degrees/departmental specialization/interdisciplinary specialization?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -1651,12 +1938,16 @@
                                                         </div>
                                                     </div>
                                                 </div><div class="panel panel-default"
-                                                           style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                           style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse73">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.2 What is the complete list of departments offering minor area and the courses which need to be done?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -1670,12 +1961,16 @@
                                                         </div>
                                                     </div>
                                                 </div><div class="panel panel-default"
-                                                           style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                           style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse74">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.3 Is there an upper limit on the maximum number of students who can enroll for a minor area in a particular department? If yes, what is the criteria for selecting them?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -1689,12 +1984,16 @@
                                                         </div>
                                                     </div>
                                                 </div><div class="panel panel-default"
-                                                           style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                           style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse75">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.4 I have done a course, which is an overlapping course with an optional course for minor degree. Will the course be considered valid for my minor degree requirement?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -1713,12 +2012,16 @@
 <div class="tab-pane fade " id="pills-grade" role="tabpanel" aria-labelledby="pills-grade-tab">
 
                                     <div class="panel panel-default"
-                                                                         style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                                         style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse76">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.1 What is the basis for awarding grades?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -1732,12 +2035,16 @@
                                                         </div>
                                                     </div>
                                                 </div><div class="panel panel-default"
-                                                           style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                           style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse77">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.2 Do 'E' &amp; 'F' grades stay permanently on the grade card?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -1751,12 +2058,16 @@
                                                         </div>
                                                     </div>
                                                 </div><div class="panel panel-default"
-                                                           style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                           style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse78">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.3 How is an 'E' grade different from 'F' grade?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -1770,12 +2081,16 @@
                                                         </div>
                                                     </div>
                                                 </div><div class="panel panel-default"
-                                                           style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                           style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse79">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.4 What is an 'I' grade?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -1789,12 +2104,16 @@
                                                         </div>
                                                     </div>
                                                 </div><div class="panel panel-default"
-                                                           style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                           style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse80">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.5 What is the time limit for award of 'I' grade?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -1809,12 +2128,16 @@
                                                         </div>
                                                     </div>
                                                 </div><div class="panel panel-default"
-                                                           style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                           style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse81">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.6 Does the 'I' grade remain permanently on the grade sheet?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -1828,12 +2151,16 @@
                                                         </div>
                                                     </div>
                                                 </div><div class="panel panel-default"
-                                                           style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                           style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse82">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.7 What is the 'X' grade?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -1852,12 +2179,16 @@
 <div class="tab-pane fade " id="pills-ast" role="tabpanel" aria-labelledby="pills-ast-tab">
 
                                     <div class="panel panel-default"
-                                                                         style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                                         style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse83">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.1 What are the eligibility criteria for Assistantship for Dual Degree?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -1871,12 +2202,16 @@
                                                         </div>
                                                     </div>
                                                 </div><div class="panel panel-default"
-                                                           style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                           style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse84">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.2 What are the work hours that a student has to put in for TA-ship?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -1890,12 +2225,16 @@
                                                         </div>
                                                     </div>
                                                 </div><div class="panel panel-default"
-                                                           style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                           style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse85">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.3 How many days leave is a student receiving TA-ship eligible for?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -1909,12 +2248,16 @@
                                                         </div>
                                                     </div>
                                                 </div><div class="panel panel-default"
-                                                           style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                           style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse86">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.4 Is a student receiving TA-ship entitled to mid-semester breaks or vacations?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -1932,12 +2275,16 @@
 
 <div class="tab-pane fade" id="pills-ngu" role="tabpanel" aria-labelledby="pills-ngu-tab">
 
-                            <div class="panel panel-default" style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                            <div class="panel panel-default" style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse87">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.1 What is the expected amount of work per non-graded unit?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -1951,12 +2298,16 @@
                                                         </div>
                                                     </div>
                                                 </div><div class="panel panel-default"
-                                                           style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                           style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse88">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.2 Can partial units be awarded?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -1970,12 +2321,16 @@
                                                         </div>
                                                     </div>
                                                 </div><div class="panel panel-default"
-                                                           style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                           style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse89">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.3 Can an activity be evaluated for more than one component?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -1989,12 +2344,16 @@
                                                         </div>
                                                     </div>
                                                 </div><div class="panel panel-default"
-                                                           style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                           style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse90">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.4 How do I earn Introduction to Engineering and Programme units?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -2008,12 +2367,16 @@
                                                         </div>
                                                     </div>
                                                 </div><div class="panel panel-default"
-                                                           style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                           style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse91">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.5 What is the criteria of evaluation in Introduction to Engineering and Programme units?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -2027,12 +2390,16 @@
                                                         </div>
                                                     </div>
                                                 </div><div class="panel panel-default"
-                                                           style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                           style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse92">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.6 How can I earn Language and Writing Skills units?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -2049,12 +2416,16 @@
                                                         </div>
                                                     </div>
                                                 </div><div class="panel panel-default"
-                                                           style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                           style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse93">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.7 How and till when can one earn NCC/NSO/NSS units?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -2072,12 +2443,16 @@
                                                         </div>
                                                     </div>
                                                 </div><div class="panel panel-default"
-                                                           style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                           style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse94">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.8 What activities would be included to complete the 2 units of the PESR non-graded component?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -2097,12 +2472,16 @@
                                                         </div>
                                                     </div>
                                                 </div><div class="panel panel-default"
-                                                           style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                           style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse95">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.9 Till when can PESR units be earned?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -2116,12 +2495,16 @@
                                                         </div>
                                                     </div>
                                                 </div><div class="panel panel-default"
-                                                           style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                           style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse96">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.10 Please elaborate what is to be done in NEN100 and NEN101 courses?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -2135,12 +2518,16 @@
                                                         </div>
                                                     </div>
                                                 </div><div class="panel panel-default"
-                                                           style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                           style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse97">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.11 What is the criterion for selection into NEN201, NEN 202 or NEN203 courses?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -2154,12 +2541,16 @@
                                                         </div>
                                                     </div>
                                                 </div><div class="panel panel-default"
-                                                           style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                           style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse98">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.12 What work is to be undertaken in NEN201 PESR internships?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -2178,12 +2569,16 @@
                                                         </div>
                                                     </div>
                                                 </div><div class="panel panel-default"
-                                                           style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                           style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse99">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.13 What work is to be undertaken in NEN202 PESR workshops?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -2199,12 +2594,16 @@
                                                         </div>
                                                     </div>
                                                 </div><div class="panel panel-default"
-                                                           style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                           style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse100">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.14 What work is to be undertaken in NEN203 PESR Projects?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -2219,12 +2618,16 @@
                                                         </div>
                                                     </div>
                                                 </div><div class="panel panel-default"
-                                                           style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                           style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse101">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.15 Who would be responsible for monitoring the activities undertaken under NEN201, NEN202 or NEN203 courses?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -2238,12 +2641,16 @@
                                                         </div>
                                                     </div>
                                                 </div><div class="panel panel-default"
-                                                           style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                           style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse102">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.16 What about overlapping PESR activities for earning NSS hours, design credits etc.?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -2261,12 +2668,16 @@
                                                         </div>
                                                     </div>
                                                 </div><div class="panel panel-default"
-                                                           style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                           style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse103">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.17 When can I earn Communication Skills/ Seminar units?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -2280,12 +2691,16 @@
                                                         </div>
                                                     </div>
                                                 </div><div class="panel panel-default"
-                                                           style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                           style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse104">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.18 What activities would be included to complete 2 units of Communication Skills?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -2306,12 +2721,16 @@
                                                         </div>
                                                     </div>
                                                 </div><div class="panel panel-default"
-                                                           style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                           style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse105">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.19 What is the attendance policy of the Seminar courses?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -2325,12 +2744,16 @@
                                                         </div>
                                                     </div>
                                                 </div><div class="panel panel-default"
-                                                           style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                           style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse106">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.20 In what ways can DPE units be earned?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -2351,12 +2774,16 @@
                                                         </div>
                                                     </div>
                                                 </div><div class="panel panel-default"
-                                                           style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                           style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse107">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.21 Specialized Elective Courses related to Design and Practical Experience XXD35y (Maximum 2 Units)
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -2370,12 +2797,16 @@
                                                         </div>
                                                     </div>
                                                 </div><div class="panel panel-default"
-                                                           style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                           style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse108">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.22 Semester/Summer/Winter Projects under the guidance of IIT Delhi Faculty (Maximum 2 Units)
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -2391,12 +2822,16 @@
                                                         </div>
                                                     </div>
                                                 </div><div class="panel panel-default"
-                                                           style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                           style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse109">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.23 Regular Courses with optional DPE Component (Maximum 2 Units)
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -2410,12 +2845,16 @@
                                                         </div>
                                                     </div>
                                                 </div><div class="panel panel-default"
-                                                           style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                           style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse110">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.24 Summer Internships (2 Units)
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -2429,12 +2868,16 @@
                                                         </div>
                                                     </div>
                                                 </div><div class="panel panel-default"
-                                                           style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                           style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse111">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.25 One-Semester Internship (Maximum 5 Units)
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -2448,12 +2891,16 @@
                                                         </div>
                                                     </div>
                                                 </div><div class="panel panel-default"
-                                                           style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                           style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse112">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.26 One Time Design Practical Experience Module (1 Unit)
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -2467,12 +2914,16 @@
                                                         </div>
                                                     </div>
                                                 </div><div class="panel panel-default"
-                                                           style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                           style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse113">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.27 Who manages DPE units and the approval of activities for DPE units?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -2486,12 +2937,16 @@
                                                         </div>
                                                     </div>
                                                 </div><div class="panel panel-default"
-                                                           style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                           style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse114">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.28 When can I start earning Design and Practical Experience (DPE) Units?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -2505,12 +2960,16 @@
                                                         </div>
                                                     </div>
                                                 </div><div class="panel panel-default"
-                                                           style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                           style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse115">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.29 How many DPE units can be earned at a time?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -2528,12 +2987,16 @@
 
 <div class="tab-pane fade" id="pills-intern" role="tabpanel" aria-labelledby="pills-intern-tab">
 
-                                    <div class="panel panel-default" style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                    <div class="panel panel-default" style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse116">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.1 How many internships can I do for design units?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -2547,12 +3010,16 @@
                                                         </div>
                                                     </div>
                                                 </div><div class="panel panel-default"
-                                                           style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                           style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse117">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.2 What formats of internships are allowed?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -2567,12 +3034,16 @@
                                                         </div>
                                                     </div>
                                                 </div><div class="panel panel-default"
-                                                           style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                           style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse118">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.3 When can I go for an internship?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -2586,12 +3057,16 @@
                                                         </div>
                                                     </div>
                                                 </div><div class="panel panel-default"
-                                                           style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                           style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse119">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.4 What kind of internships are allowed?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -2605,12 +3080,16 @@
                                                         </div>
                                                     </div>
                                                 </div><div class="panel panel-default"
-                                                           style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                           style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse120">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.5 Who will evaluate my work during an internship?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -2624,12 +3103,16 @@
                                                         </div>
                                                     </div>
                                                 </div><div class="panel panel-default"
-                                                           style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                           style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse121">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.6 What are my options to complete DPE units through internships?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -2647,12 +3130,16 @@
                                                         </div>
                                                     </div>
                                                 </div><div class="panel panel-default"
-                                                           style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                           style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse122">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.7 Who will handle the administration and correspondence for self-arranged internships?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -2666,12 +3153,16 @@
                                                         </div>
                                                     </div>
                                                 </div><div class="panel panel-default"
-                                                           style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                           style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse123">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.8 How do I opt for an internship?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -2691,12 +3182,16 @@
                                                         </div>
                                                     </div>
                                                 </div><div class="panel panel-default"
-                                                           style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                           style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse124">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.9 When do I register for an internship course, to get an internship through T&amp;P?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -2711,12 +3206,16 @@
                                                         </div>
                                                     </div>
                                                 </div><div class="panel panel-default"
-                                                           style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                           style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse125">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.10 Are there any restrictions on me if I opt for an internship through T&amp;P?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -2730,12 +3229,16 @@
                                                         </div>
                                                     </div>
                                                 </div><div class="panel panel-default"
-                                                           style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                           style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse126">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.11 What will happen if I take up an internship, but don’t go for it?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
@@ -2749,12 +3252,16 @@
                                                         </div>
                                                     </div>
                                                 </div><div class="panel panel-default"
-                                                           style=" border-radius:10px; background-color:#eee;   margin-bottom: 10px; ">
+                                                           style=" border-radius:20px; background-color:#eee;   margin-bottom: 10px; ">
                                                     <a data-toggle="collapse" href="#collapse127">
                                                         <div class="panel-heading mt-1"
-                                                             style=" padding: 6px; "
-                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;"
-                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='10px' color:'#fff';;">
+                                                             style=" background: #FFFFFF !important;
+box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+border: 0 !important;
+border-radius: 15px !important;
+padding: 10px !important;"
+                                                             onmouseover="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;"
+                                                             onmouseout="this.style.background='#eee'; this.style.border-radius='20px' color:'#fff';;">
                                                             <h5 class="panel-title">
                                                                 Q.12 Does opting for an internship through T&amp;P mean that I will get an internship for sure?
                                                             <span class="float-md-right ml-sm-2 rotate ml-md-0 mt-1 mr-2 fa fa-arrow-up" style="opacity:0.2;" id="arrow-faq"></span></h5>
