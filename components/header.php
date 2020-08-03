@@ -106,12 +106,12 @@
 		transition: linear;
 	}
 
-@media (max-width:992px){
-	#nav-align-handle{
-		margin-left: -147.4px;"
+@media (min-width: 992px){
+	ul.navbar-nav.nav{
+		margin-left: -147.4px;
 	}
-
 }
+
 
 	@media (max-width: 992px){
 		.dropdown-menu{
