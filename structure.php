@@ -17,10 +17,24 @@
 
 <style type="text/css">
 
+a{
+    color: white !important;
+}
 @media (min-width: 992px){
 	#offset-card{
 		margin-bottom: -300px !important;
+        z-index: 2 !important;
 	}
+}
+
+.card{
+    background: #FFFFFF !important;
+        box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+        border: 0 !important;
+        border-radius: 15px !important;
+        padding: 10px !important;
+        margin-right: 0 !important;
+        margin-left: 0 !important;
 }
 
 .card-header{
@@ -35,7 +49,6 @@
         box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
         border: 0 !important;
         border-radius: 30px !important;
-        padding: 10px !important;
 }
 
 .hostel-inner-card{
@@ -136,17 +149,17 @@
 <?php require 'components/back_to_top.php'; ?>
 
 
-<div id="about-us">
+<div id="about-us" style="background: rgba(68,215,182,0.1);">
     
     <br />
 
-    <div class="container">
+    <div class="container" >
 
         <div class="row justify-content-center">
 
             <div class="col-12 justify-content-center">
             <h1 class="about-us-title"><span class="fa fa-users"></span><h1 style="font-size: 4rem"> BSW Structure</h1>
-            <p> To go directly to Hostel Representatives, <a href="#hostel_reps">Click Here</a></p>
+            <p> To go directly to Hostel Representatives, <a href="#hostel_reps" style="color: #007bff !important">Click Here</a></p>
             </div>
 
         </div>
@@ -155,8 +168,8 @@
 
 </div>
 
-<div id="supervision"></div>
-<div class="my-4">
+<div id="supervision" style="text-align:center" ></div>
+<div class="my-4" style="background: rgba(68,215,182,0.1); padding-top: 20px;">
     
     <br />
 
@@ -174,41 +187,41 @@
 
 </div>
 
-<div class="container-fluid justify-content-center mx-auto" id="softwares-list">
+<div class="container-fluid mx-2 " id="softwares-list">
 
 
 
     <div class="row justify-content-center">
 
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-md-6 justify-content-center">
 
-                <div class="card  my-2 text-dark" style="max-width:300px;">
+                <div class="card  my-2 text-dark mx-auto mx-md-4 ml-md-auto" style="max-width:300px;">
                     <img class="card-img-top" src="team2019/members/president.jpg" alt="Card image cap">
                     <div class="card-header">Prof. Angelie Multani
                     <br>
                     <em>President</em>
                     </div>
                     <div class="card-body">
-                        <button class="btn btn-primary "><span class="fa fa-envelope"></span> angelie@hss.iitd.ac.in</button><br>
-                        <button class="btn btn-success my-1"><span class="fa fa-phone"></span> 011-26596524 </button><br>
-                        <button class="btn btn-info"><span class="fa fa-home"></span> HUSS Department, MS638</button>
+                        <button class="btn btn-primary  style="opacity:0.8; border-radius:10px""><span class="fa fa-envelope"></span><a href="mailto:angelie@hss.iitd.ac.in"> angelie@hss.iitd.ac.in</a></button><br>
+                        <button class="btn btn-success my-1" style="opacity: 0.8; border-radius: 10px;"><span class="fa fa-phone"></span><a href="callto:01126596524"> 011-26596524</a></button><br>
+                        <button class="btn btn-link disabled" style="color: black !important"><span class="fa fa-home"></span> HUSS Department, MS638</button>
                     </div>
                 </div>
 
         </div>
         
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-md-6 justify-content-center">
 
-            <div class="card  my-2 text-dark " style="max-width:300px;">
+            <div class="card  my-2 text-dark mx-auto mx-md-4 mr-md-auto" style="max-width:300px;">
                 <img class="card-img-top" src="team2019/members/vicepresident.jpeg" alt="Card image cap">
                 <div class="card-header">Prof. Sudip Pattnayek 
                 <br>
                 <em>Vice President</em>
                 </div>
                 <div class="card-body">
-                    <button class="btn btn-primary"><span class="fa fa-envelope"></span> sudip@chemical.iitd.ac.in</button><br>
-                    <button class="btn btn-success my-1"><span class="fa fa-phone"></span> +91 11 26591018</button><br>
-                    <button class="btn btn-info"><span class="fa fa-home"></span> Block-II, 283 (Office)</button>
+                    <button class="btn btn-primary" style="opacity:0.8; border-radius:10px"><span class="fa fa-envelope"></span><a href="mailto:sudip@chemical.iitd.ac.in"> sudip@chemical.iitd.ac.in</a></button><br>
+                    <button class="btn btn-success my-1" style="opacity: 0.8; border-radius: 10px;"><span class="fa fa-phone"></span><a href="callto:+91112659101"> +91 11 2659101</a>8</button><br>
+                    <button class="btn btn-link disabled" style="color: black !important"><span class="fa fa-home"></span> Block-II, 283 (Office)</button>
                 </div>
             </div>
 
@@ -217,7 +230,7 @@
     </div>
 
     <div id="student team"></div>
-<div class="my-4">
+<div class="my-4" style="background: rgba(68,215,182,0.1); padding-top: 20px;">
     
     <br />
 
@@ -235,7 +248,7 @@
 
 </div>
 
-    <div class="row justify-content-center my-4">
+    <div class="row justify-content-center my-4" style="z-index: 1000;">
 
         <div class="col-12 col-md-6 justify-content-center">
 
@@ -246,10 +259,10 @@
                 <em>General Seceratry</em>
                 </div>
                 <div class="card-body">
-                    <button class="btn" style="background-color: #1778F2; color: white; width:100%;"><span class="fa fa-facebook"></span><a href="https://www.facebook.com/yks.11209111" style="color: white;"> @yks.11209111 </a></button><br>
-                    <button class="btn btn-primary mt-1"><span class="fa fa-envelope"></span> yks11209111@gmail.com</button><br>
-                    <button class="btn btn-success my-1"><span class="fa fa-phone"></span> +91 9711155131 </button><br>
-                    <button class="btn btn-info"><span class="fa fa-home"></span> Vindhyachal</button>
+                    <button class="btn" style="background-color: #1778F2; color: white; width:100%; opacity: 0.9; border-radius: 10px"><span class="fa fa-facebook"></span><a href="https://www.facebook.com/yks.11209111" style="color: white;"> @yks.11209111 </button></a><br>
+                    <button class="btn btn-primary mt-1"  style="opacity:0.8; border-radius:10px"><span class="fa fa-envelope"></span> <a href="mailto:yks11209111@gmail.com"> yks11209111@gmail.com</a></button><br>
+                    <button class="btn btn-success my-1" style="opacity: 0.8; border-radius: 10px;"><span class="fa fa-phone"></span> <a href="callto:+919711155131"> +91 9711155131</a> </button><br>
+                    <button class="btn btn-link disabled" style="color: black !important"><span class="fa fa-home"></span> Vindhyachal</button>
                 </div>
             </div>
 
@@ -270,10 +283,10 @@
                 <em>Deputy General Secretary (Operations)</em>
                 </div>
                 <div class="card-body">
-                    <button class="btn mb-1" style="background-color: #1778F2; color: white; width:100%;"><span class="fa fa-facebook"></span><a href="https://www.facebook.com/aashi.agarwal.3576224" style="color: white;"> @aashi.agarwal.3576224 </a></button><br>
-                    <button class="btn btn-primary"><span class="fa fa-envelope"></span> aashiagarwal06@gmail.com</button><br>
-                    <button class="btn btn-success my-1"><span class="fa fa-phone"></span> +91 9690107820   </button><br>
-                    <button class="btn btn-info"><span class="fa fa-home"></span> Kailash</button>
+                    <button class="btn mb-1" style="background-color: #1778F2; color: white; width:100%; opacity: 0.9; border-radius: 10px"><span class="fa fa-facebook"></span><a href="https://www.facebook.com/aashi.agarwal.3576224" style="color: white;"> @aashi.agarwal.3576224 </a></button><br>
+                    <button class="btn btn-primary" style="opacity:0.8; border-radius:10px"><span class="fa fa-envelope"></span><a href="mailto:aashiagarwal06@gmail.com"> aashiagarwal06@gmail.com</a></a></button><br>
+                    <button class="btn btn-success my-1" style="opacity: 0.8; border-radius: 10px;"><span class="fa fa-phone"></span><a href="callto:+919690107820"> +91 9690107820</a>   </button><br>
+                    <button class="btn btn-link disabled" style="color: black !important"><span class="fa fa-home"></span> Kailash</button>
                 </div>
             </div>
 
@@ -288,10 +301,10 @@
                 <em>Deputy General Secretary (Mentorship)</em>
                 </div>
                 <div class="card-body">
-                    <button class="btn mb-1" style="background-color: #1778F2; color: white; width:100%;"><span class="fa fa-facebook"></span><a href="https://www.facebook.com/umesh.shahdadpuri" style="color: white;"> @umesh.shahdadpuri </a></button><br>
-                    <button class="btn btn-primary"><span class="fa fa-envelope"></span> umeshspuri14@gmail.com</button><br>
-                    <button class="btn btn-success my-1"><span class="fa fa-phone"></span> +91 9811839060  </button><br>
-                    <button class="btn btn-info"><span class="fa fa-home"></span> Girnar</button>
+                    <button class="btn mb-1" style="background-color: #1778F2; color: white; width:100%; opacity: 0.9; border-radius: 10px"><span class="fa fa-facebook"></span><a href="https://www.facebook.com/umesh.shahdadpuri" style="color: white;"> @umesh.shahdadpuri </a></button><br>
+                    <button class="btn btn-primary" style="opacity:0.8; border-radius:10px"><span class="fa fa-envelope"></span><a href="mailto:umeshspuri14@gmail.com"> umeshspuri14@gmail.com</a></button><br>
+                    <button class="btn btn-success my-1" style="opacity: 0.8; border-radius: 10px;"><span class="fa fa-phone"></span><a href="callto:+919811839060"> +91 9811839060</a>  </button><br>
+                    <button class="btn btn-link disabled" style="color: black !important"><span class="fa fa-home"></span> Girnar</button>
 
                 </div>
             </div>
@@ -312,10 +325,10 @@
                 <em>Secretary</em>
                 </div>
                 <div class="card-body">
-                    <button class="btn mb-1" style="background-color: #1778F2; color: white; width:100%;"><span class="fa fa-facebook"></span><a href="https://www.facebook.com/profile.php?id=100004418085951" style="color: white;"> Aayush Sharma </a></button><br>
-                    <button class="btn btn-primary"><span class="fa fa-envelope"></span> sharmaaayushcoolaa@gmail.com</button><br>
-                    <button class="btn btn-success my-1"><span class="fa fa-phone"></span> +91 8005875834  </button><br>
-                    <button class="btn btn-info"><span class="fa fa-home"></span> Girnar</button>
+                    <button class="btn mb-1" style="background-color: #1778F2; color: white; width:100%; opacity: 0.9; border-radius: 10px"><span class="fa fa-facebook"></span><a href="https://www.facebook.com/profile.php?id=100004418085951" style="color: white;"> Aayush Sharma </a></button><br>
+                    <button class="btn btn-primary" style="opacity:0.8; border-radius:10px"><span class="fa fa-envelope"></span><a href="mailto:sharmaaayushcoolaa@gmail.com"> sharmaaayushcoolaa@gmail.com</a></button><br>
+                    <button class="btn btn-success my-1" style="opacity: 0.8; border-radius: 10px;"><span class="fa fa-phone"></span><a href="callto:+918005875834"> +91 8005875834</a>  </button><br>
+                    <button class="btn btn-link disabled" style="color: black !important"><span class="fa fa-home"></span> Girnar</button>
 
                 </div>
             </div>
@@ -331,10 +344,10 @@
                 <em>Secretary</em>
                 </div>
                 <div class="card-body">
-                    <button class="btn mb-1" style="background-color: #1778F2; color: white; width:100%;"><span class="fa fa-facebook"></span><a href="https://www.facebook.com/harshit.khanna.1010" style="color: white;"> @harshit.khanna.1010 </a></button><br>
-                    <button class="btn btn-primary"><span class="fa fa-envelope"></span> harshitkhanna1010@gmail.com</button><br>
-                    <button class="btn btn-success my-1"><span class="fa fa-phone"></span> +91 9406559834  </button><br>
-                    <button class="btn btn-info"><span class="fa fa-home"></span> Aravali</button>
+                    <button class="btn mb-1" style="background-color: #1778F2; color: white; width:100%; opacity: 0.9; border-radius: 10px"><span class="fa fa-facebook"></span><a href="https://www.facebook.com/harshit.khanna.1010" style="color: white;"> @harshit.khanna.1010 </a></button><br>
+                    <button class="btn btn-primary" style="opacity:0.8; border-radius:10px"><span class="fa fa-envelope"></span><a href="mailto:harshitkhanna1010@gmail.com"> harshitkhanna1010@gmail.com</a></button><br>
+                    <button class="btn btn-success my-1" style="opacity: 0.8; border-radius: 10px;"><span class="fa fa-phone"></span><a href="callto:+919406559834"> +91 9406559834</a>  </button><br>
+                    <button class="btn btn-link disabled" style="color: black !important"><span class="fa fa-home"></span> Aravali</button>
 
                 </div>
             </div>
@@ -350,11 +363,11 @@
         <em>Coordinator</em>
         </div>
         <div class="card-body">
-        <button class="btn mb-1" style="background-color: #1778F2; color: white; width:100%;"><span class="fa fa-facebook"></span><a href="https://www.facebook.com/neharika.singhal.7" style="color: white;"> @neharika.singhal.7 </a></button><br>
+        <button class="btn mb-1" style="background-color: #1778F2; color: white; width:100%; opacity: 0.9; border-radius: 10px"><span class="fa fa-facebook"></span><a href="https://www.facebook.com/neharika.singhal.7" style="color: white;"> @neharika.singhal.7 </a></button><br>
 
-                                <button class="btn btn-primary"><span class="fa fa-envelope"></span> neharika98singhal@gmail.com</button><br>
-                    <button class="btn btn-success my-1"><span class="fa fa-phone"></span> +91 9611519628  </button><br>
-                    <button class="btn btn-info"><span class="fa fa-home"></span> Kailash</button>
+                                <button class="btn btn-primary" style="opacity:0.8; border-radius:10px"><span class="fa fa-envelope"></span><a href="mailto:neharika98singhal@gmail.com"> neharika98singhal@gmail.com</a></button><br>
+                    <button class="btn btn-success my-1" style="opacity: 0.8; border-radius: 10px;"><span class="fa fa-phone"></span><a href="callto:+919611519628"> +91 9611519628</a>  </button><br>
+                    <button class="btn btn-link disabled" style="color: black !important"><span class="fa fa-home"></span> Kailash</button>
 
         </div>
     </div>
@@ -370,10 +383,10 @@
         <em>Coordinator</em>
         </div>
         <div class="card-body">
-        <button class="btn mb-1" style="background-color: #1778F2; color: white; width:100%;"><span class="fa fa-facebook"></span><a href="https://www.facebook.com/nishtha.gupta.18" style="color: white;"> @nishtha.gupta.18 </a></button><br>
-                                <button class="btn btn-primary"><span class="fa fa-envelope"></span> nishtha.gupta97@gmail.com</button><br>
-                    <button class="btn btn-success my-1"><span class="fa fa-phone"></span> +91 09958230079  </button><br>
-                    <button class="btn btn-info"><span class="fa fa-home"></span> Himadri</button>
+        <button class="btn mb-1" style="background-color: #1778F2; color: white; width:100%; opacity: 0.9; border-radius: 10px"><span class="fa fa-facebook"></span><a href="https://www.facebook.com/nishtha.gupta.18" style="color: white;"> @nishtha.gupta.18 </a></button><br>
+                                <button class="btn btn-primary" style="opacity:0.8; border-radius:10px"><span class="fa fa-envelope"></span><a href="mailto:nishtha.gupta97@gmail.com"> nishtha.gupta97@gmail.com</a></button><br>
+                    <button class="btn btn-success my-1" style="opacity: 0.8; border-radius: 10px;"><span class="fa fa-phone"></span><a href="callto:+910995823007"> +91 0995823007</a>9  </button><br>
+                    <button class="btn btn-link disabled" style="color: black !important"><span class="fa fa-home"></span> Himadri</button>
 
         </div>
     </div>
@@ -397,10 +410,10 @@
                 <em>Secretary</em>
                 </div>
                 <div class="card-body">
-                <button class="btn mb-1" style="background-color: #1778F2; color: white; width:100%;"><span class="fa fa-facebook"></span><a href="https://www.facebook.com/kartikayansharma.99" style="color: white;"> @kartikayansharma.99 </a></button><br>
-                    <button class="btn btn-primary"><span class="fa fa-envelope"></span> kartikayansharma@gmail.com</button><br>
-                    <button class="btn btn-success my-1"><span class="fa fa-phone"></span> +91 9968431431  </button><br>
-                    <button class="btn btn-info"><span class="fa fa-home"></span> Karakoram</button>
+                <button class="btn mb-1" style="background-color: #1778F2; color: white; width:100%; opacity: 0.9; border-radius: 10px"><span class="fa fa-facebook"></span><a href="https://www.facebook.com/kartikayansharma.99" style="color: white;"> @kartikayansharma.99 </a></button><br>
+                    <button class="btn btn-primary" style="opacity:0.8; border-radius:10px"><span class="fa fa-envelope"></span><a href="mailto:yks11209111@gmail.com"> kartikayansharma@gmail.com</a></button><br>
+                    <button class="btn btn-success my-1" style="opacity: 0.8; border-radius: 10px;"><span class="fa fa-phone"></span><a href="callto:+919968431431"> +91 9968431431</a>  </button><br>
+                    <button class="btn btn-link disabled" style="color: black !important"><span class="fa fa-home"></span> Karakoram</button>
 
                 </div>
             </div>
@@ -416,11 +429,11 @@
                 <em>Secretary</em>
                 </div>
                 <div class="card-body">
-                <button class="btn mb-1" style="background-color: #1778F2; color: white; width:100%;"><span class="fa fa-facebook"></span><a href="https://www.facebook.com/siddharth.singh.92372446" style="color: white;"> @siddharth.singh.92372446 </a></button><br>
+                <button class="btn mb-1" style="background-color: #1778F2; color: white; width:100%; opacity: 0.9; border-radius: 10px"><span class="fa fa-facebook"></span><a href="https://www.facebook.com/siddharth.singh.92372446" style="color: white;"> <small>@siddharth.singh.92372446</small> </a></button><br>
 
-                                        <button class="btn btn-primary"><span class="fa fa-envelope"></span> siddharth1606@gmail.com</button><br>
-                    <button class="btn btn-success my-1"><span class="fa fa-phone"></span> +91 9468841810  </button><br>
-                    <button class="btn btn-info"><span class="fa fa-home"></span> Zanskar</button>
+                                        <button class="btn btn-primary" style="opacity:0.8; border-radius:10px"><span class="fa fa-envelope"></span><a href="mailto:siddharth1606@gmail.com"> siddharth1606@gmail.com</a></button><br>
+                    <button class="btn btn-success my-1" style="opacity: 0.8; border-radius: 10px;"><span class="fa fa-phone"></span><a href="callto:+919468841810"> +91 9468841810</a>  </button><br>
+                    <button class="btn btn-link disabled" style="color: black !important"><span class="fa fa-home"></span> Zanskar</button>
 
                 </div>
             </div>
@@ -438,11 +451,11 @@
         <em>Coordinator</em>
         </div>
         <div class="card-body">
-        <button class="btn mb-1" style="background-color: #1778F2; color: white; width:100%;"><span class="fa fa-facebook"></span><a href="https://www.facebook.com/heisenberg.1147" style="color: white;"> @heisenberg.1147 </a></button><br>
+        <button class="btn mb-1" style="background-color: #1778F2; color: white; width:100%; opacity: 0.9; border-radius: 10px"><span class="fa fa-facebook"></span><a href="https://www.facebook.com/heisenberg.1147" style="color: white;"> @heisenberg.1147 </a></button><br>
 
-                                <button class="btn btn-primary"><span class="fa fa-envelope"></span> bilvpatel1758@gmail.com</button><br>
-                    <button class="btn btn-success my-1"><span class="fa fa-phone"></span> +91 8826077497  </button><br>
-                    <button class="btn btn-info"><span class="fa fa-home"></span> Nilgiri</button>
+                                <button class="btn btn-primary" style="opacity:0.8; border-radius:10px"><span class="fa fa-envelope"></span><a href="mailto:bilvpatel1758@gmail.com"> bilvpatel1758@gmail.com</a></button><br>
+                    <button class="btn btn-success my-1" style="opacity: 0.8; border-radius: 10px;"><span class="fa fa-phone"></span><a href="callto:+918826077497"> +91 8826077497</a>  </button><br>
+                    <button class="btn btn-link disabled" style="color: black !important"><span class="fa fa-home"></span> Nilgiri</button>
 
         </div>
     </div>
@@ -459,9 +472,9 @@
         </div>
         <div class="card-body">
 
-                    <button class="btn btn-primary"><span class="fa fa-envelope"></span> muskan.choudhary06@gmail.com </button><br>
-                    <button class="btn btn-success my-1"><span class="fa fa-phone"></span> +91 7999676445  </button><br>
-                    <button class="btn btn-info"><span class="fa fa-home"></span> Himadri </button>
+                    <button class="btn btn-primary" style="opacity:0.8; border-radius:10px"><span class="fa fa-envelope"></span><a href="mailto:muskan.choudhary06@gmail.com"> muskan.choudhary06@gmail.com </a></button><br>
+                    <button class="btn btn-success my-1" style="opacity: 0.8; border-radius: 10px;"><span class="fa fa-phone"></span><a href="callto:+917999676445"> +91 7999676445</a>  </button><br>
+                    <button class="btn btn-link disabled" style="color: black !important"><span class="fa fa-home"></span> Himadri </button>
 
         </div>
     </div>
@@ -474,7 +487,7 @@
     
 </div>
 <div id="hostel_reps"></div>
-<div >
+<div style="background: rgba(68,215,182,0.1); padding-top: 20px;">
     
     <br />
 
@@ -508,8 +521,8 @@
         <img class="card-img-top" src="team2019/members/6.jpg" alt="Card image cap">
         <div class="card-header">Dipanshu Patidar</div>
         <div class="card-body">
-        <button class="btn btn-primary" style="font-size:16px; " id="hostel_button"><span class="fa fa-envelope"></span> dkdk5122000@gmail.com </button><br>
-        <button class="btn btn-success my-1" style="font-size:16px; " id="hostel_button"><span class="fa fa-phone"></span> +91 7424905782   </button><br>      
+        <button class="btn btn-primary" style="opacity:0.8; border-radius:10px" style="font-size:16px; " id="hostel_button"><span class="fa fa-envelope"></span><a href="mailto:dkdk5122000@gmail.com"> dkdk5122000@gmail.com </a></button><br>
+        <button class="btn btn-success my-1" style="opacity: 0.8; border-radius: 10px;" style="font-size:16px; " id="hostel_button"><span class="fa fa-phone"></span><a href="callto:+917424905782"> +91 7424905782</a>   </button><br>      
         </div>
     </div>
 
@@ -517,8 +530,8 @@
     <img class="card-img-top" src="team2019/members/21.jpg" alt="Generic placeholder image" >
         <div class="card-header">Prakhar Sharma</div>
         <div class="card-body">
-        <button class="btn btn-primary" style="font-size:16px; " id="hostel_button"><span class="fa fa-envelope"></span> prakharsharma1999@gmail.com </button><br>
-        <button class="btn btn-success my-1" style="font-size:16px; " id="hostel_button"><span class="fa fa-phone"></span> +91 7055051155   </button><br>            </div>
+        <button class="btn btn-primary" style="opacity:0.8; border-radius:10px" style="font-size:16px; " id="hostel_button"><span class="fa fa-envelope"></span><a href="mailto:prakharsharma1999@gmail.com"> prakharsharma1999@gmail.com </a></button><br>
+        <button class="btn btn-success my-1" style="opacity: 0.8; border-radius: 10px;" style="font-size:16px; " id="hostel_button"><span class="fa fa-phone"></span><a href="callto:+917055051155"> +91 7055051155</a>   </button><br>            </div>
     </div>
 
     </div>
@@ -537,8 +550,8 @@
         <img class="card-img-top" src="team2019/members/12.jpg" alt="Card image cap">
         <div class="card-header">Gaurav Chauhan</div>
         <div class="card-body">
-        <button class="btn btn-primary" style="font-size:16px; " id="hostel_button"><span class="fa fa-envelope"></span> gauravseema1411@gmail.com </button><br>
-        <button class="btn btn-success my-1" style="font-size:16px; " id="hostel_button"><span class="fa fa-phone"></span> +91 6239961770   </button><br>            </div>
+        <button class="btn btn-primary" style="opacity:0.8; border-radius:10px" style="font-size:16px; " id="hostel_button"><span class="fa fa-envelope"></span><a href="mailto:gauravseema1411@gmail.com"> gauravseema1411@gmail.com </a></button><br>
+        <button class="btn btn-success my-1" style="opacity: 0.8; border-radius: 10px;" style="font-size:16px; " id="hostel_button"><span class="fa fa-phone"></span><a href="callto:+916239961770"> +91 6239961770</a>   </button><br>            </div>
         </div>
 
 
@@ -546,15 +559,14 @@
         <img class="card-img-top" src="team2019/members/7.jpg" alt="Generic placeholder image" >
             <div class="card-header">Prabhpreet Singh</div>
             <div class="card-body">
-            <button class="btn btn-primary" style="font-size:16px; " id="hostel_button"><span class="fa fa-envelope"></span> yash.prabhpreet@gmail.com </button><br>
-            <button class="btn btn-success my-1" style="font-size:16px; " id="hostel_button"><span class="fa fa-phone"></span> +91 9915438685   </button><br>            </div>
+            <button class="btn btn-primary" style="opacity:0.8; border-radius:10px" style="font-size:16px; " id="hostel_button"><span class="fa fa-envelope"></span><a href="mailto:yash.prabhpreet@gmail.com"> yash.prabhpreet@gmail.com </a></button><br>
+            <button class="btn btn-success my-1" style="opacity: 0.8; border-radius: 10px;" style="font-size:16px; " id="hostel_button"><span class="fa fa-phone"></span><a href="callto:+919915438685"> +91 9915438685</a>   </button><br>            </div>
         </div>
 
     </div>
         </div>
     </div>
 
-    </div>
 
 </div>
 
@@ -571,8 +583,8 @@
         <img class="card-img-top" src="team2019/members/11.jpg" alt="Card image cap">
         <div class="card-header">Ichha Rathod</div>
         <div class="card-body">
-        <button class="btn btn-primary" style="font-size:16px; " id="hostel_button"><span class="fa fa-envelope"></span> ichharathod@gmail.com </button><br>
-        <button class="btn btn-success my-1" style="font-size:16px; " id="hostel_button"><span class="fa fa-phone"></span> +91 9664114447   </button><br>            </div>
+        <button class="btn btn-primary" style="opacity:0.8; border-radius:10px" style="font-size:16px; " id="hostel_button"><span class="fa fa-envelope"></span><a href="mailto:ichharathod@gmail.com"> ichharathod@gmail.com </a></button><br>
+        <button class="btn btn-success my-1" style="opacity: 0.8; border-radius: 10px;" style="font-size:16px; " id="hostel_button"><span class="fa fa-phone"></span><a href="callto:+919664114447"> +91 9664114447</a>   </button><br>            </div>
         </div>
 
 
@@ -580,8 +592,8 @@
         <img class="card-img-top" src="team2019/members/24.jpg" alt="Generic placeholder image" >
             <div class="card-header">Ishita Chawla</div>
             <div class="card-body">
-            <button class="btn btn-primary" style="font-size:16px; " id="hostel_button"><span class="fa fa-envelope"></span> chawlaishita13@gmail.com </button><br>
-            <button class="btn btn-success my-1" style="font-size:16px; " id="hostel_button"><span class="fa fa-phone"></span> +91 8375883773   </button><br>            </div>
+            <button class="btn btn-primary" style="opacity:0.8; border-radius:10px" style="font-size:16px; " id="hostel_button"><span class="fa fa-envelope"></span><a href="mailto:chawlaishita13@gmail.com"> chawlaishita13@gmail.com </a></button><br>
+            <button class="btn btn-success my-1" style="opacity: 0.8; border-radius: 10px;" style="font-size:16px; " id="hostel_button"><span class="fa fa-phone"></span><a href="callto:+918375883773"> +91 8375883773</a>   </button><br>            </div>
         </div>
 
         </div>
@@ -599,8 +611,8 @@
         <img class="card-img-top" src="team2019/members/20.jpg" alt="Card image cap">
         <div class="card-header">Franklin Gari</div>
         <div class="card-body">
-        <button class="btn btn-primary" style="font-size:16px; " id="hostel_button"><span class="fa fa-envelope"></span> franklin02082001@gmail.com </button><br>
-                <button class="btn btn-success my-1" style="font-size:16px; " id="hostel_button"><span class="fa fa-phone"></span> +91 8248563561   </button><br>            </div>
+        <button class="btn btn-primary" style="opacity:0.8; border-radius:10px" style="font-size:16px; " id="hostel_button"><span class="fa fa-envelope"></span><a href="mailto:franklin02082001@gmail.com"> franklin02082001@gmail.com </a></button><br>
+                <button class="btn btn-success my-1" style="opacity: 0.8; border-radius: 10px;" style="font-size:16px; " id="hostel_button"><span class="fa fa-phone"></span><a href="callto:+918248563561"> +91 8248563561</a>   </button><br>            </div>
         </div>
 
 
@@ -608,8 +620,8 @@
         <img class="card-img-top" src="team2019/members/13.jpg" alt="Generic placeholder image" >
             <div class="card-header">Abhimanyu Singh</div>
             <div class="card-body">
-            <button class="btn btn-primary" style="font-size:16px; " id="hostel_button"><span class="fa fa-envelope"></span> abhimanyu1867@gmail.com</button><br>
-                <button class="btn btn-success my-1" style="font-size:16px; " id="hostel_button"><span class="fa fa-phone"></span> +91 9588354698   </button><br>            </div>
+            <button class="btn btn-primary" style="opacity:0.8; border-radius:10px" style="font-size:16px; " id="hostel_button"><span class="fa fa-envelope"></span><a href="abhimanyu1867@gmail.com"> abhimanyu1867@gmail.com</a></button><br>
+                <button class="btn btn-success my-1" style="opacity: 0.8; border-radius: 10px;" style="font-size:16px; " id="hostel_button"><span class="fa fa-phone"></span><a href="callto:+919588354698"> +91 9588354698</a>   </button><br>            </div>
         </div>
 
         </div>
@@ -632,8 +644,8 @@
 <img class="card-img-top" src="team2019/members/22.jpg" alt="Card image cap">
 <div class="card-header">Ruchika Kumari</div>
 <div class="card-body">
-<button class="btn btn-primary" style="font-size:16px; " id="hostel_button"><span class="fa fa-envelope"></span> kumariruchika885@gmail.com </button><br>
-                <button class="btn btn-success my-1" style="font-size:16px; " id="hostel_button"><span class="fa fa-phone"></span> +91 8271812751   </button><br>            </div>
+<button class="btn btn-primary" style="opacity:0.8; border-radius:10px" style="font-size:16px; " id="hostel_button"><span class="fa fa-envelope"></span><a href="mailto:kumariruchika885@gmail.com"> kumariruchika885@gmail.com </a></button><br>
+                <button class="btn btn-success my-1" style="opacity: 0.8; border-radius: 10px;" style="font-size:16px; " id="hostel_button"><span class="fa fa-phone"></span><a href="callto:+918271812751"> +91 8271812751</a>   </button><br>            </div>
 </div>
 
 
@@ -641,8 +653,8 @@
 <img class="card-img-top" src="team2019/members/10.jpg" alt="Generic placeholder image" >
     <div class="card-header">Sakshi Bhandari</div>
     <div class="card-body">
-    <button class="btn btn-primary" style="font-size:16px; " id="hostel_button"><span class="fa fa-envelope"></span> bsak2222@gmail.com </button><br>
-                <button class="btn btn-success my-1" style="font-size:16px; " id="hostel_button"><span class="fa fa-phone"></span> +91 9586597182   </button><br>            </div>
+    <button class="btn btn-primary" style="opacity:0.8; border-radius:10px" style="font-size:16px; " id="hostel_button"><span class="fa fa-envelope"></span><a href="mailto:bsak2222@gmail.com"> bsak2222@gmail.com </a></button><br>
+                <button class="btn btn-success my-1" style="opacity: 0.8; border-radius: 10px;" style="font-size:16px; " id="hostel_button"><span class="fa fa-phone"></span><a href="callto:+919586597182"> +91 9586597182</a>   </button><br>            </div>
 </div>
 
         </div>
@@ -660,8 +672,8 @@
 <img class="card-img-top" src="team2019/members/.jpg" alt="Card image cap">
 <div class="card-header">Aashish Choudary</div>
 <div class="card-body">
-<button class="btn btn-primary" style="font-size:16px; " id="hostel_button"><span class="fa fa-envelope"></span> ...</button><br>
-                <button class="btn btn-success my-1" style="font-size:16px; " id="hostel_button"><span class="fa fa-phone"></span>...  </button><br>            </div>
+<button class="btn btn-primary" style="opacity:0.8; border-radius:10px" style="font-size:16px; " id="hostel_button"><span class="fa fa-envelope"></span><a href="mailto:yks11209111@gmail.com"> ...</button><br>
+                <button class="btn btn-success my-1" style="opacity: 0.8; border-radius: 10px;" style="font-size:16px; " id="hostel_button"><span class="fa fa-phone"></span>...  </button><br>            </div>
 </div>
 
 
@@ -669,8 +681,8 @@
 <img class="card-img-top" src="team2019/members/15.jpg" alt="Generic placeholder image" >
     <div class="card-header">Piyush Gupta</div>
     <div class="card-body">
-    <button class="btn btn-primary" style="font-size:16px; " id="hostel_button"><span class="fa fa-envelope"></span> piyush37gupta@gmail.com </button><br>
-                <button class="btn btn-success my-1" style="font-size:16px; " id="hostel_button"><span class="fa fa-phone"></span> +91 9425707560   </button><br>            </div>
+    <button class="btn btn-primary" style="opacity:0.8; border-radius:10px" style="font-size:16px; " id="hostel_button"><span class="fa fa-envelope"></span><a href="mailto:piyush37gupta@gmail.com"> piyush37gupta@gmail.com </a></button><br>
+                <button class="btn btn-success my-1" style="opacity: 0.8; border-radius: 10px;" style="font-size:16px; " id="hostel_button"><span class="fa fa-phone"></span><a href="callto:+919425707560"> +91 9425707560</a>   </button><br>            </div>
 </div>
 
         </div>
@@ -693,8 +705,8 @@
 <img class="card-img-top" src="team2019/members/32.jpg" alt="Card image cap">
 <div class="card-header">Hardik Tanwar</div>
 <div class="card-body">
-<button class="btn btn-primary" style="font-size:16px; " id="hostel_button"><span class="fa fa-envelope"></span> tmkoc2000@gmail.com </button><br>
-                <button class="btn btn-success my-1" style="font-size:16px; " id="hostel_button"><span class="fa fa-phone"></span> +91 9530368472   </button><br>            </div>
+<button class="btn btn-primary" style="opacity:0.8; border-radius:10px" style="font-size:16px; " id="hostel_button"><span class="fa fa-envelope"></span><a href="mailto:tmkoc2000@gmail.com"> tmkoc2000@gmail.com </a></button><br>
+                <button class="btn btn-success my-1" style="opacity: 0.8; border-radius: 10px;" style="font-size:16px; " id="hostel_button"><span class="fa fa-phone"></span><a href="callto:+919530368472"> +91 9530368472</a>   </button><br>            </div>
 </div>
 
 
@@ -702,8 +714,8 @@
 <img class="card-img-top" src="team2019/members/3.jpg" alt="Generic placeholder image" >
     <div class="card-header">Mihir Kedia</div>
     <div class="card-body">
-    <button class="btn btn-primary" style="font-size:16px; " id="hostel_button"><span class="fa fa-envelope"></span> mihirkedia1208@gmail.com </button><br>
-                <button class="btn btn-success my-1" style="font-size:16px; " id="hostel_button"><span class="fa fa-phone"></span> +91 8800908227   </button><br>            </div>
+    <button class="btn btn-primary" style="opacity:0.8; border-radius:10px" style="font-size:16px; " id="hostel_button"><span class="fa fa-envelope"></span><a href="mailto:mihirkedia1208@gmail.com"> mihirkedia1208@gmail.com </a></button><br>
+                <button class="btn btn-success my-1" style="opacity: 0.8; border-radius: 10px;" style="font-size:16px; " id="hostel_button"><span class="fa fa-phone"></span><a href="callto:+918800908227"> +91 8800908227</a>   </button><br>            </div>
 </div>
         </div>
     </div>
@@ -720,8 +732,8 @@
 <img class="card-img-top" src="team2019/members/2.jpg" alt="Card image cap">
 <div class="card-header">Jatin Goel</div>
 <div class="card-body">
-<button class="btn btn-primary" style="font-size:16px; " id="hostel_button"><span class="fa fa-envelope"></span> goel.jatin2001@gmail.com </button><br>
-                <button class="btn btn-success my-1" style="font-size:16px; " id="hostel_button"><span class="fa fa-phone"></span> +91 9716338929   </button><br>            </div>
+<button class="btn btn-primary" style="opacity:0.8; border-radius:10px" style="font-size:16px; " id="hostel_button"><span class="fa fa-envelope"></span><a href="mailto:goel.jatin2001@gmail.com"> goel.jatin2001@gmail.com </a></button><br>
+                <button class="btn btn-success my-1" style="opacity: 0.8; border-radius: 10px;" style="font-size:16px; " id="hostel_button"><span class="fa fa-phone"></span><a href="callto:+919716338929"> +91 9716338929</a>   </button><br>            </div>
 </div>
 
 
@@ -729,8 +741,8 @@
 <img class="card-img-top" src="team2019/members/8.jpg" alt="Generic placeholder image" >
     <div class="card-header">Puru Arora</div>
     <div class="card-body">
-    <button class="btn btn-primary" style="font-size:16px; " id="hostel_button"><span class="fa fa-envelope"></span> puruarora1@gmail.com </button><br>
-                <button class="btn btn-success my-1" style="font-size:16px; " id="hostel_button"><span class="fa fa-phone"></span> +91 8448555978   </button><br>            </div>
+    <button class="btn btn-primary" style="opacity:0.8; border-radius:10px" style="font-size:16px; " id="hostel_button"><span class="fa fa-envelope"></span><a href="mailto:puruarora1@gmail.com"> puruarora1@gmail.com </a></button><br>
+                <button class="btn btn-success my-1" style="opacity: 0.8; border-radius: 10px;" style="font-size:16px; " id="hostel_button"><span class="fa fa-phone"></span><a href="callto:+918448555978"> +91 8448555978</a>   </button><br>            </div>
 </div>
 
         </div>
@@ -753,8 +765,8 @@
 <img class="card-img-top" src="team2019/members/19.jpg" alt="Card image cap">
 <div class="card-header">Arvin Goyal</div>
 <div class="card-body">
-<button class="btn btn-primary" style="font-size:16px; " id="hostel_button"><span class="fa fa-envelope"></span> arving1908@gmail.com </button><br>
-                <button class="btn btn-success my-1" style="font-size:16px; " id="hostel_button"><span class="fa fa-phone"></span> +91 9517649345   </button><br>            </div>
+<button class="btn btn-primary" style="opacity:0.8; border-radius:10px" style="font-size:16px; " id="hostel_button"><span class="fa fa-envelope"></span><a href="mailto:arving1908@gmail.com"> arving1908@gmail.com </a></button><br>
+                <button class="btn btn-success my-1" style="opacity: 0.8; border-radius: 10px;" style="font-size:16px; " id="hostel_button"><span class="fa fa-phone"></span><a href="callto:+919517649345"> +91 9517649345</a>   </button><br>            </div>
 </div>
 
 
@@ -762,8 +774,8 @@
 <img class="card-img-top" src="team2019/members/31.jpg" alt="Generic placeholder image" >
     <div class="card-header">Raghav Ajitsaria</div>
     <div class="card-body">
-    <button class="btn btn-primary" style="font-size:16px; " id="hostel_button"><span class="fa fa-envelope"></span> ajitsaria.raghavr1@gmail.com </button><br>
-                <button class="btn btn-success my-1" style="font-size:16px; " id="hostel_button"><span class="fa fa-phone"></span> +91 7595868183   </button><br>            </div>
+    <button class="btn btn-primary" style="opacity:0.8; border-radius:10px" style="font-size:16px; " id="hostel_button"><span class="fa fa-envelope"></span><a href="mailto:ajitsaria.raghavr1@gmail.com"> ajitsaria.raghavr1@gmail.com </a></button><br>
+                <button class="btn btn-success my-1" style="opacity: 0.8; border-radius: 10px;" style="font-size:16px; " id="hostel_button"><span class="fa fa-phone"></span><a href="callto:+917595868183"> +91 7595868183</a>   </button><br>            </div>
 </div>
 
         </div>
@@ -781,8 +793,8 @@
 <img class="card-img-top" src="team2019/members/17.jpg" alt="Card image cap">
 <div class="card-header">Ayush Kanodia</div>
 <div class="card-body">
-<button class="btn btn-primary" style="font-size:16px; " id="hostel_button"><span class="fa fa-envelope"></span> akanodia11@gmail.com</button><br>
-                <button class="btn btn-success my-1" style="font-size:16px; " id="hostel_button"><span class="fa fa-phone"></span> +91 9451422334   </button><br>            </div>
+<button class="btn btn-primary" style="opacity:0.8; border-radius:10px" style="font-size:16px; " id="hostel_button"><span class="fa fa-envelope"></span><a href="mailto:akanodia11@gmail.com"> akanodia11@gmail.com</a></button><br>
+                <button class="btn btn-success my-1" style="opacity: 0.8; border-radius: 10px;" style="font-size:16px; " id="hostel_button"><span class="fa fa-phone"></span><a href="callto:+919451422334"> +91 9451422334</a>   </button><br>            </div>
 </div>
 
 
@@ -790,8 +802,8 @@
 <img class="card-img-top" src="team2019/members/4.jpg" alt="Generic placeholder image" >
     <div class="card-header">Siddhant Choudhary</div>
     <div class="card-body">
-    <button class="btn btn-primary" style="font-size:16px; " id="hostel_button"><span class="fa fa-envelope"></span> sid2001.iitd@gmail.com </button><br>
-                <button class="btn btn-success my-1" style="font-size:16px; " id="hostel_button"><span class="fa fa-phone"></span> +91 9935029433   </button><br>            </div>
+    <button class="btn btn-primary" style="opacity:0.8; border-radius:10px" style="font-size:16px; " id="hostel_button"><span class="fa fa-envelope"></span><a href="mailto:sid2001.iitd@gmail.com"> sid2001.iitd@gmail.com </a></button><br>
+                <button class="btn btn-success my-1" style="opacity: 0.8; border-radius: 10px;" style="font-size:16px; " id="hostel_button"><span class="fa fa-phone"></span><a href="callto:+919935029433"> +91 9935029433</a>   </button><br>            </div>
 </div>
 
         </div>
@@ -814,8 +826,8 @@
 <img class="card-img-top" src="team2019/members/9.jpg" alt="Card image cap">
 <div class="card-header">Chirag Maheshwari</div>
 <div class="card-body">
-<button class="btn btn-primary" style="font-size:16px; " id="hostel_button"><span class="fa fa-envelope"></span> chiragmahheshwari@gmail.com </button><br>
-                <button class="btn btn-success my-1" style="font-size:16px; " id="hostel_button"><span class="fa fa-phone"></span> +91 8233957000   </button><br>            </div>
+<button class="btn btn-primary" style="opacity:0.8; border-radius:10px" style="font-size:16px; " id="hostel_button"><span class="fa fa-envelope"></span><a href="mailto:chiragmahheshwari@gmail.com"> chiragmahheshwari@gmail.com </a></button><br>
+                <button class="btn btn-success my-1" style="opacity: 0.8; border-radius: 10px;" style="font-size:16px; " id="hostel_button"><span class="fa fa-phone"></span><a href="callto:+918233957000"> +91 8233957000</a>   </button><br>            </div>
 </div>
 
 
@@ -823,8 +835,8 @@
 <img class="card-img-top" src="team2019/members/16.jpg" alt="Generic placeholder image" >
     <div class="card-header">Shikhar Anand</div>
     <div class="card-body">
-    <button class="btn btn-primary" style="font-size:16px; " id="hostel_button"><span class="fa fa-envelope"></span> anandshikhar99@gmail.com </button><br>
-                <button class="btn btn-success my-1" style="font-size:16px; " id="hostel_button"><span class="fa fa-phone"></span> +91 7000680741   </button><br>            </div>
+    <button class="btn btn-primary" style="opacity:0.8; border-radius:10px" style="font-size:16px; " id="hostel_button"><span class="fa fa-envelope"></span><a href="mailto:anandshikhar99@gmail.com"> anandshikhar99@gmail.com </a></button><br>
+                <button class="btn btn-success my-1" style="opacity: 0.8; border-radius: 10px;" style="font-size:16px; " id="hostel_button"><span class="fa fa-phone"></span><a href="callto:+917000680741"> +91 7000680741</a>   </button><br>            </div>
 </div>
         </div>
     </div>
@@ -841,8 +853,8 @@
 <img class="card-img-top" src="team2019/members/5.jpg" alt="Card image cap">
 <div class="card-header">Gaurav Pande</div>
 <div class="card-body">
-<button class="btn btn-primary" style="font-size:16px; " id="hostel_button"><span class="fa fa-envelope"></span> gaurav24061999@gmail.com </button><br>
-                <button class="btn btn-success my-1" style="font-size:16px; " id="hostel_button"><span class="fa fa-phone"></span> +91 7219584694   </button><br>            </div>
+<button class="btn btn-primary" style="opacity:0.8; border-radius:10px" style="font-size:16px; " id="hostel_button"><span class="fa fa-envelope"></span><a href="mailto:gaurav24061999@gmail.com"> gaurav24061999@gmail.com </a></button><br>
+                <button class="btn btn-success my-1" style="opacity: 0.8; border-radius: 10px;" style="font-size:16px; " id="hostel_button"><span class="fa fa-phone"></span><a href="callto:+917219584694"> +91 7219584694</a>   </button><br>            </div>
 </div>
 
 
@@ -850,8 +862,8 @@
 <img class="card-img-top" src="team2019/members/18.jpg" alt="Generic placeholder image" >
     <div class="card-header">Yash Jain</div>
     <div class="card-body">
-    <button class="btn btn-primary" style="font-size:16px; " id="hostel_button"><span class="fa fa-envelope"></span> yash.jain.guwahati@gmail.com </button><br>
-                <button class="btn btn-success my-1" style="font-size:16px; " id="hostel_button"><span class="fa fa-phone"></span> +91 9706099045   </button><br>            </div>
+    <button class="btn btn-primary" style="opacity:0.8; border-radius:10px" style="font-size:16px; " id="hostel_button"><span class="fa fa-envelope"></span><a href="mailto:yash.jain.guwahati@gmail.com"> yash.jain.guwahati@gmail.com </a></button><br>
+                <button class="btn btn-success my-1" style="opacity: 0.8; border-radius: 10px;" style="font-size:16px; " id="hostel_button"><span class="fa fa-phone"></span><a href="callto:+919706099045"> +91 9706099045</a>   </button><br>            </div>
 </div>
         </div>
     </div>
@@ -872,8 +884,8 @@
 <img class="card-img-top" src="team2019/members/30.jpg" alt="Card image cap">
 <div class="card-header">Bhupender Dhaka</div>
 <div class="card-body">
-<button class="btn btn-primary" style="font-size:16px; " id="hostel_button"><span class="fa fa-envelope"></span> bhupenderdhaka226@gmail.com </button><br>
-                <button class="btn btn-success my-1" style="font-size:16px; " id="hostel_button"><span class="fa fa-phone"></span> +91 6377593404   </button><br>            </div>
+<button class="btn btn-primary" style="opacity:0.8; border-radius:10px" style="font-size:16px; " id="hostel_button"><span class="fa fa-envelope"></span><a href="mailto:bhupenderdhaka226@gmail.com"> bhupenderdhaka226@gmail.com </a></button><br>
+                <button class="btn btn-success my-1" style="opacity: 0.8; border-radius: 10px;" style="font-size:16px; " id="hostel_button"><span class="fa fa-phone"></span><a href="callto:+916377593404"> +91 6377593404</a>   </button><br>            </div>
 </div>
 
 
@@ -881,8 +893,8 @@
 <img class="card-img-top" src="team2019/members/1.jpg" alt="Generic placeholder image" >
     <div class="card-header">Sanidhya Jain</div>
     <div class="card-body">
-    <button class="btn btn-primary" style="font-size:16px; " id="hostel_button"><span class="fa fa-envelope"></span> sanidhyaleo10@gmail.com </button><br>
-                <button class="btn btn-success my-1" style="font-size:16px; " id="hostel_button"><span class="fa fa-phone"></span> +91 6264363313   </button><br>            </div>
+    <button class="btn btn-primary" style="opacity:0.8; border-radius:10px" style="font-size:16px; " id="hostel_button"><span class="fa fa-envelope"></span><a href="mailto:sanidhyaleo10@gmail.com"> sanidhyaleo10@gmail.com </a></button><br>
+                <button class="btn btn-success my-1" style="opacity: 0.8; border-radius: 10px;" style="font-size:16px; " id="hostel_button"><span class="fa fa-phone"></span><a href="callto:+916264363313"> +91 6264363313</a>   </button><br>            </div>
 </div>
         </div>
     </div>

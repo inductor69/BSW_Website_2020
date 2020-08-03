@@ -7,6 +7,10 @@
 
 <style type="text/css">
 
+#nav{
+	z-index: 3;
+}
+
 		@font-face {
 			font-family: 'neue_montrealitalic';
 			src: url('fonts/neuemontreal-italic-webfont.woff2') format('woff2'),
@@ -205,7 +209,7 @@
 <html>
 <body>
 
-		<div class="container">
+		<div class="container" id='nav'>
 
 		<nav class="navbar navbar-expand-lg mr-auto fixed-top nav-colored " id="myNav">
 
