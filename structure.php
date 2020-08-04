@@ -128,7 +128,7 @@ a{
     }
     @media (max-width:769px){
         #hostel_button{
-            max-width:150px;
+            max-width:300px;
         }
     }
     @media (min-width:769px){
