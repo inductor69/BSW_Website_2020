@@ -149,7 +149,7 @@ body{
         <div class="col-12 my-4 initiative2 mx-4">
         <h1><img src="images/bsw_circle.svg" style="border-radius:10px; display:inline; height:100px; width:100px; padding:10px;"><img src="images/yourDost.svg" style="border-radius:10px; display:inline; height:100px; width:100px; padding:10px;"><img src="images/iitd_logo.png" style="border-radius:10px; display:inline; height:100px; width:100px; padding:10px;"></h1><h1 style="font-size: 40px;">YourDost</h1>
         <hr>
-        <p style="font-size:1.2rem">Your journey through college must be riddled with so many questions right? Questions about academics, career, relationships and even yourself. If only it were possible to get a friend who could give you anonymous, unbiased, round the clock help. Well, look no further, because we've got just the thing for you.
+        <p style="font-size:1.2rem">Your journey through college must be riddled with so many questions right? Questions about academics, career, relationships and even yourself. If only it were possible to get a friend who could give you anonymous, unbiased, round the clock 24x7 help. Well, look no further, because we've got just the thing for you.
         <br>IIT Delhi is pleased to join hands with YourDOST, one of India's leading online and emotional wellness platforms, to ensure that your emotional well-being is always looked after.
         <br><strong>Important!</strong>- ​You must sign up using your official IIT Delhi email id (ending with "i​ itd.ac.in"​ ). This will white list your account and make sure that you receive our services for free.
         <br>Please write to ​campus@yourdost.com​ if you face any issues.
@@ -182,8 +182,12 @@ body{
         <div class="col-12my-4 initiative1 mx-2">
         <img src="images/scs.png" style="border-radius:10px; display:inline; ;" width="60%"><span><h1>Student Counselling Service</h1></span>
         <hr>
-        <p style="font-size:1.2rem">We know these are unusual times and you all have to cope with a lot of uncertainty and stress in your lives. Hope all of you are doing fine but if there’s anything troubling you, we request you get in touch with someone. <br>The <strong>Student Counselling Service</strong> is still active and can be availed by anyone who feels the need to do so. <br><br>SCS is currently providing their services through phone. You can take an appointment with the counsellor by mailing on <strong>iitdcounsellors@gmail.com</strong>. For students who feel the need to be in touch with someone immediately, here are the contact numbers of our counsellors, you can call them to discuss any of your concerns freely.
-<br>Krithika - +91 98713 84771
+        <p style="font-size:1.2rem">We know these are unusual times and you all have to cope with a lot of uncertainty and stress in your lives. Hope all of you are doing fine but if there’s anything troubling you, we request you get in touch with someone. <br>The <strong>Student Counselling Service</strong> is still active and can be availed by anyone who feels the need to do so. One can go to the room next to the UG Section, First floor, Main Building.
+<br><br>You can take an appointment with the counsellor by mailing on <strong>iitdcounsellors@gmail.com</strong>. For students who feel the need to be in touch with someone immediately, here are the contact numbers of our counsellors, you can call them to discuss any of your concerns freely.
+<br> Shachi : +91 9811290000<br>
+                          Aakriti : +91 9871511186<br>
+                          Krithika : +91 98713 84771
+
         <br>
         </p>
 		</div>

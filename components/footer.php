@@ -90,7 +90,7 @@
         <div class="col-12 col-md-6 col-lg-4 center-block">
 
             <h3><strong style="font-weight: bold; font-family: 'Montserrat', sans-serif ;">Feedback</strong></h3>
-                <p>We learn from you. Please give us your suggestions and feedback.<br /> Constructive criticism is well appreciated.<br /><span class="fa fa-pencil"></span>  <a href="http://bsw.iitd.ac.in/stuff/Constitution.pdf">Click here</a> for the feedback form.</p>
+                <p>We learn from you. Please give us your suggestions and feedback.<br /> Constructive criticism is well appreciated.<br /><span class="fa fa-pencil"></span>  <a href="https://docs.google.com/forms/d/e/1FAIpQLSfH9UQnHOd54usrBgNCKuuwZy1YnZ6lXjoTSYplPnXXmYXttw/viewform">Click here</a> for the feedback form.</p>
         </div>
 
         <div class="col-12 col-md-12 col-lg-4 center-block">

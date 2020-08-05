@@ -461,8 +461,8 @@
 		</div>
 
 		<div class="col-12 col-md-6 my-4 " style="font-size:20px;">
-		<h2>Chandni Chowk</h2>
-		The most iconic chowk in Delhi ,the Chandni chowk has lot to offer ,which our freshers enjoyed and had the amazing shopping experience!		</div>
+		<h2>Raj Ghat</h2>
+		Raj Ghat is a memorial dedicated to Mahatma Gandhi in Delhi, India. Originally it was the name of a historic ghat of Old Delhi. Close to it, and east of Daryaganj was Raj Ghat Gate of the walled city, opening at RajGhat to the west bank of the Yamuna River.</div>
 
 		<div class="col-12 col-md-6 d-none d-md-block" style="width: 98%;">
 			<img class="thumbnail align-middle" src="images/cc.jpg" alt="BSW Delhi Darshan" />

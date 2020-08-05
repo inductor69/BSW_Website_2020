@@ -713,11 +713,12 @@ a{
         <div class="card-body row">
 
 <div class="card  my-2 text-dark mx-auto col-12 col-md-6 hostel-inner-card" style="max-width:300px;" >
-<img class="card-img-top" src="team2019/members/.jpg" alt="Card image cap">
-<div class="card-header">Aashish Choudary</div>
+<img class="card-img-top" src="images/aa.jpg" alt="Card image cap">
+<div class="card-header">Aayush Agarwal</div>
 <div class="card-body">
-<button class="btn btn-primary" style="opacity:0.8; border-radius:10px" style="font-size:16px; " id="hostel_button"><span class="fa fa-envelope"></span><a href="mailto:yks11209111@gmail.com"> ...</button><br>
-                <button class="btn btn-success my-1" style="opacity: 0.8; border-radius: 10px;" style="font-size:16px; " id="hostel_button"><span class="fa fa-phone"></span>...  </button><br>            </div>
+<button class="btn btn-primary" style="opacity:0.8; border-radius:10px" style="font-size:16px; " id="hostel_button"><span class="fa fa-envelope"></span><a href="mailto:agarwalaayushindia@gmail.com">agarwalaayushindia@gmail.com
+</button><br>
+                <button class="btn btn-success my-1" style="opacity: 0.8; border-radius: 10px;" style="font-size:16px; " id="hostel_button"><span class="fa fa-phone"></span><a href="callto:+917667063595">+91 7667063595</a></button><br>            </div>
 </div>
 
 

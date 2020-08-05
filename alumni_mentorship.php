@@ -196,7 +196,7 @@
         <div class="container">
         <div class="row">
         <div class="col-1"><span style="padding:5px; padding-left:12px; padding-right:12px; background: mediumaquamarine; border-radius: 40px; width: 40px; margin: 10px; color: white;">3</span></div>
-        <div class="col-11"><p>A repository of IITD Alumni’s contact details is made available to the students who could not be matched.</p>
+        <div class="col-11"><p>A repository of IITD Alumni’s  testimonials are made available to the students who could not be matched.</p>
         </div>
         </div>
         </div>
