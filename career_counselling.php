@@ -96,8 +96,8 @@ body{
 }
 .events{
         background: #FFFFFF;
-        box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05);
-        border-radius: 20px;
+        box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.04), inset 0 0 9px 8px rgba(152,152,152,0.04);
+        border-radius: 30px;
         padding: 20px;
         font-weight: 500;
     }
@@ -131,94 +131,67 @@ body{
     <div class="container-fluid">
         <div class="row">
 
-            <div class="col-12 col-lg-5" id="page-header"style="text-align: center;">
+            <div class="col-12 col-lg-6" id="page-header"style="text-align: center;">
             <img src="images/career.svg" style="width: 100%;" style="border-radius:10px; display:inline-block;">
             </div>
 
-            <div class="col-12 col-lg-7 " style="text-align: center;" >
+            <div class="col-12 col-lg-6 " style="text-align: center;" >
             <h1 style="font-family: Montserrat !important;" id="mh_heading" >Career Counselling</h1>
-            <p style="font-weight: 400; font-size: 1.5rem; padding:20px">
-            BSW organizes various student-centric events, both formal and informal, that keep the students engaged round the year. Formal informative events like Forex ke Fundae, DepC ke fundae ensure that every student is well informed and prepared for them. Delhi Darshan, Annual youth festival, STIC Dinner are some of the events organised by the board where students engage in fun and friendships. We also organise several camps like the book camp, cycle camp etc. inside the campus to save the hassle and give accessibility to the student community.            </div>
-
+            <p style="font-weight: 400; font-size: 1.3rem; padding:20px">
+            <strong>Why the need for this initiative?</strong>
+            <br>
+            Students after coming to IIT generally don't have the sense of future opportunities they can explore until they reach the junior year. Some students who even manage to find their interests and the the domain of work they want to pursue, end up being confused and relentlessly asking their seniors for help which is seldom of any use.
+            <br><br>
+            <strong>Our vision to solve this : </strong>
+            <br>
+            With this initiative, we are working on building a repository of all the possible domains and opportunities every student in IIT can pursue in their life. We are preparing this platform by partnering with the alumni and students who have excelled and posses sufficient knowledge about their fields. Since all the information and resources will be available on a centralised platform, it will ensure that only quality and responsible information reaches the student community.
 		</div>	
 	</div>
+
+
+
 </div>
 
 <div class="container-fluid" >
 
-	<div class="row justify-content-center mx-2" style="text-align: center;">
+	<div class="row mx-2 my-4 justify-content-center" style="text-align: center;">
 
 
-      <div class="col-12 col-md-3 events my-4 " >
-      <a href="female_jee_counselling.php">
-      <h4>Female JEE Counselling</h4>
+      <div class="col-12 col-lg-5 events my-4 mx-4" >
+      <a href="https://docs.google.com/document/d/1DBRmAKIOMI3R7s7-svZEACdyaUZMpG7Y1IW1-N9TSwQ/edit#">
+      <h2>Trading</h2>
       </a>
-      A female counselling session to increase awareness among female IIT aspirants who had cleared JEE Advanced. <br>
-      <a href="female_jee_counselling.php">Learn More about this event</a>
-      <img src="images/op_fjc/3.jpg" style="width:80%; border-radius: 10px; margin: 20px;">
+      <iframe width="100%" height="300px" class="my-4" src="https://www.youtube.com/embed/wWlcTdLyXNw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 10px"></iframe>
+      Before the markets spring to life at 9:30 a.m. ET, most day traders are busy catching up with coffee and breakfast in hand on any events that happened overnight that could affect that day's trading session. This involves reading stories from various newspapers and financial websites, as well as listening to updates from financial news networks, such as CNBC and Bloomberg. <br><br>
+      <!-- The futures markets, as well as the broad market indexes, are noted as traders form opinions about the direction they expect the market to trend. Traders will also review economic calendars to find out which market-moving financial reports– such as the weekly petroleum status report – are due that day. It should be noted that many traders participate in round-the-clock markets, such as futures and forex, and these traders can expect increased volume before the rest of the markets open at 9:30 a.m.<br><br>
+      After reading about events and making note of what the analysts are saying, traders head to their workstations, turn on their computers and monitors, and open up their analysis and trading platforms. Many layers of technology are at work here, from the trader's computer, keyboard and mouse, to the internet, trading platform, broker and ultimately the exchanges themselves. As such, traders spend time making sure that everything on their end is functioning correctly before the trading session begins.<br><br>
+      If everything is working properly, traders start scanning the markets for potential trading opportunities. Some traders work just one or two markets (such as two stocks or two e-minis), and they will open up these charts and apply selected technical indicators to see what's going in those markets. Others use market-scanning software to find securities that meet their exact specifications. For example, a trader might scan for stocks that are trading above their 52-week highswith at least 4 million shares in volume and a minimum price of $10. Once the computer compiles a list of stocks that meet these criteria, the trader will put these tickers on his or her watch list. (For more, see: What the Market Open Tells You.) -->
+
+      <a href="https://docs.google.com/document/d/1DBRmAKIOMI3R7s7-svZEACdyaUZMpG7Y1IW1-N9TSwQ/edit#">Continue reading this article and access more resources on Trading as a career.</a>
  
       </div>
 
-      
-      <div class="col-12 col-md-3 events my-4 mx-4" >
-      <a href="sticdinner.php">
-      <h4>STIC Dinner</h4>
+
+      <div class="col-12 col-lg-5 events my-4 mx-4" >
+      <a href="https://docs.google.com/document/d/1ClX5hx2F07fCM_Pa_n-9OwZBlByeEeDdz7E6_ZUuPEQ/edit">
+      <h2>Entrepreneurship</h2>
       </a>
-      Student Teacher Interaction Dinner to encourage friendly interaction between professors and students and bridging the communication gap between them.<br>
-      <a href="sticdinner.php">Learn More about this event</a>
-      <img src="images/op_sticd/2.jpg" style="width:80%; border-radius: 10px; margin: 20px;">
+      <iframe width="100%" height="300px" class="my-4" src="https://www.youtube.com/embed/h-KHWUq3B7I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 10px"></iframe>
+        What they don't tell you about entrepreneurship | Mark Leruste | TEDxCardiff<br>
+        <iframe width="100%" height="300px" class="my-4" src="https://www.youtube.com/embed/f6nxcfbDfZo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 10px"></iframe>
+      <a href="https://docs.google.com/document/d/1ClX5hx2F07fCM_Pa_n-9OwZBlByeEeDdz7E6_ZUuPEQ/edit">Continue reading this article and access more resources on Entrepreneurship.</a>
+
+ 
       </div>
 
-      <div class="col-12 col-md-3 events my-4 " >
-      <a href="delhidarshan.php">
-      <h4>Delhi Darshan</h4>
-      </a>
-      A tour across Delhi for the freshers, relishing the beauty of the city with indelible bus-rides. Exciting conversations and long lasting memories.<br>
-      <a href="delhidarshan.php">Learn More about this event</a>
-      <img src="images/op_delhidarshan/4.jpg" style="width:80%; border-radius: 10px; margin: 20px;">
-      </div>
+      Note: Resources for other profiles like Consulting, Finance, IAS, Freelancing, Research, Programming, MBA and more will be uploaded here soon.
 
       
   </div>
 
-  <div class="row justify-content-center mx-2" style="text-align: center;">
-
-
-    <div class="col-12 col-md-3 events my-4 " >
-    <a href="informative_sessions.php">
-    <h4>Informative Sessions</h4>
-    </a>
-    Seniors from all branches share their experiences navigating through the vast pool of opportunities. An attempt to bridge the senior-junior gap, while encouraging student participation and learning.<br>
-    <a href="sticdinner.php">Learn More about this event</a>
-    <img src="images/op_info/2.jpg" style="width:80%; border-radius: 10px; margin: 20px;">
-    </div>
-
-
-    <div class="col-12 col-md-3 events my-4 mx-4" >
-    <a href="events.php">
-    <h4>REX Karamveer Chakra</h4>
-    </a>
-    </div>
-
-    <div class="col-12 col-md-3 events my-4 " >
-    <a href="events.php">
-    <h4>Camps</h4>
-    </a>
-    </div>
-
-
-</div>
 
 <div class="row justify-content-center mx-2" style="text-align: center;">
 
-
-
-
-<div class="col-12 col-md-3 events my-4 " >
-<a href="events.php">
-<h4>Edwise Education</h4>
-</a>
-</div>
 
 
 </div>

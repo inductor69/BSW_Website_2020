@@ -45,8 +45,8 @@ a{
 }
 
 .hostel-card-outer{
-    background: #FFFFFF !important;
-        box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.08), inset 0 0 9px 8px rgba(152,152,152,0.05) !important;
+    background: #FFFFFF66 !important;
+        box-shadow: 2px 2px 26px 10px rgba(0,0,0,0.02), inset 0 0 9px 8px rgba(152,152,152,0.02) !important;
         border: 0 !important;
         border-radius: 30px !important;
 }
@@ -314,9 +314,16 @@ a{
 
     </div>
 
-    <div class="row justify-content-center my-4">
 
-        <div class="col-12 col-md-6 col-lg-3 justify-content-center">
+    <div class="row">
+
+    <div class="container col-12 col-lg-5 hostel-card-outer my-4">
+
+    <div class="card-header"><h3>Secretaries</h3></div>
+
+    <div class="row justify-content-center  mx-2 col-12" style="padding: 20px;">
+
+        <div class="col-12 col-md-6  justify-content-center">
 
             <div class="card  my-2 text-dark mx-auto" style="max-width:300px;">
                 <img class="card-img-top" src="team2019/members/27.jpg" alt="Card image cap">
@@ -335,7 +342,7 @@ a{
 
         </div>
 
-        <div class="col-12 col-md-6 col-lg-3 justify-content-center">
+        <div class="col-12 col-md-6  justify-content-center">
 
             <div class="card  my-2 text-dark mx-auto" style="max-width:300px;">
                 <img class="card-img-top" src="team2019/members/26.jpg" alt="Card image cap">
@@ -353,98 +360,61 @@ a{
             </div>
 
         </div>
+</div>
+<div class="row justify-content-center mx-2 col-12" style="padding: 20px;">
+        <div class="col-12 col-md-6  justify-content-center">
 
-        <div class="col-12 col-md-6 col-lg-3 justify-content-center">
-
-    <div class="card  my-2 text-dark mx-auto" style="max-width:300px;">
-        <img class="card-img-top" src="team2019/members/35.jpg" alt="Card image cap">
-        <div class="card-header">Neharika Singhal
-        <br>
-        <em>Coordinator</em>
-        </div>
-        <div class="card-body">
-        <button class="btn mb-1" style="background-color: #1778F2; color: white; width:100%; opacity: 0.9; border-radius: 10px"><span class="fa fa-facebook"></span><a href="https://www.facebook.com/neharika.singhal.7" style="color: white;"> @neharika.singhal.7 </a></button><br>
-
-                                <button class="btn btn-primary" style="opacity:0.8; border-radius:10px"><span class="fa fa-envelope"></span><a href="mailto:neharika98singhal@gmail.com"> neharika98singhal@gmail.com</a></button><br>
-                    <button class="btn btn-success my-1" style="opacity: 0.8; border-radius: 10px;"><span class="fa fa-phone"></span><a href="callto:+919611519628"> +91 9611519628</a>  </button><br>
-                    <button class="btn btn-link disabled" style="color: black !important"><span class="fa fa-home"></span> Kailash</button>
-
-        </div>
+<div class="card  my-2 text-dark mx-auto" style="max-width:300px;">
+    <img class="card-img-top" src="team2019/members/23.jpg" alt="Card image cap">
+    <div class="card-header">Kartikayan Sharma
+    <br>
+    <em>Secretary</em>
     </div>
+    <div class="card-body">
+    <button class="btn mb-1" style="background-color: #1778F2; color: white; width:100%; opacity: 0.9; border-radius: 10px"><span class="fa fa-facebook"></span><a href="https://www.facebook.com/kartikayansharma.99" style="color: white;"><small> @kartikayansharma.99 </small></a></button><br>
+        <button class="btn btn-primary" style="opacity:0.8; border-radius:10px"><span class="fa fa-envelope"></span><a href="mailto:yks11209111@gmail.com"> kartikayansharma@gmail.com</a></button><br>
+        <button class="btn btn-success my-1" style="opacity: 0.8; border-radius: 10px;"><span class="fa fa-phone"></span><a href="callto:+919968431431"> +91 9968431431</a>  </button><br>
+        <button class="btn btn-link disabled" style="color: black !important"><span class="fa fa-home"></span> Karakoram</button>
+
+    </div>
+</div>
 
 </div>
 
-<div class="col-12 col-md-6 col-lg-3 justify-content-center">
+<div class="col-12 col-md-6  justify-content-center">
 
-    <div class="card  my-2 text-dark mx-auto" style="max-width:300px;">
-        <img class="card-img-top" src="team2019/members/29.jpg" alt="Card image cap">
-        <div class="card-header">Nishtha Gupta
-        <br>
-        <em>Coordinator</em>
-        </div>
-        <div class="card-body">
-        <button class="btn mb-1" style="background-color: #1778F2; color: white; width:100%; opacity: 0.9; border-radius: 10px"><span class="fa fa-facebook"></span><a href="https://www.facebook.com/nishtha.gupta.18" style="color: white;"> @nishtha.gupta.18 </a></button><br>
-                                <button class="btn btn-primary" style="opacity:0.8; border-radius:10px"><span class="fa fa-envelope"></span><a href="mailto:nishtha.gupta97@gmail.com"> nishtha.gupta97@gmail.com</a></button><br>
-                    <button class="btn btn-success my-1" style="opacity: 0.8; border-radius: 10px;"><span class="fa fa-phone"></span><a href="callto:+910995823007"> +91 0995823007</a>9  </button><br>
-                    <button class="btn btn-link disabled" style="color: black !important"><span class="fa fa-home"></span> Himadri</button>
-
-        </div>
+<div class="card  my-2 text-dark mx-auto" style="max-width:300px;">
+    <img class="card-img-top" src="team2019/members/34.jpg" alt="Card image cap">
+    <div class="card-header">Siddharth Singh
+    <br>
+    <em>Secretary</em>
     </div>
+    <div class="card-body">
+    <button class="btn mb-1" style="background-color: #1778F2; color: white; width:100%; opacity: 0.9; border-radius: 10px"><span class="fa fa-facebook"></span><a href="https://www.facebook.com/siddharth.singh.92372446" style="color: white;"> <small>@siddharth.singh.92372446</small> </a></button><br>
 
+                            <button class="btn btn-primary" style="opacity:0.8; border-radius:10px"><span class="fa fa-envelope"></span><a href="mailto:siddharth1606@gmail.com"> siddharth1606@gmail.com</a></button><br>
+        <button class="btn btn-success my-1" style="opacity: 0.8; border-radius: 10px;"><span class="fa fa-phone"></span><a href="callto:+919468841810"> +91 9468841810</a>  </button><br>
+        <button class="btn btn-link disabled" style="color: black !important"><span class="fa fa-home"></span> Zanskar</button>
+
+    </div>
 </div>
 
-        
-        
-
-    </div>
-
-
-    <div class="row justify-content-center my-4">
-
-    <div class="col-12 col-md-6 col-lg-3 justify-content-center">
-
-            <div class="card  my-2 text-dark mx-auto" style="max-width:300px;">
-                <img class="card-img-top" src="team2019/members/23.jpg" alt="Card image cap">
-                <div class="card-header">Kartikayan Sharma
-                <br>
-                <em>Secretary</em>
-                </div>
-                <div class="card-body">
-                <button class="btn mb-1" style="background-color: #1778F2; color: white; width:100%; opacity: 0.9; border-radius: 10px"><span class="fa fa-facebook"></span><a href="https://www.facebook.com/kartikayansharma.99" style="color: white;"> @kartikayansharma.99 </a></button><br>
-                    <button class="btn btn-primary" style="opacity:0.8; border-radius:10px"><span class="fa fa-envelope"></span><a href="mailto:yks11209111@gmail.com"> kartikayansharma@gmail.com</a></button><br>
-                    <button class="btn btn-success my-1" style="opacity: 0.8; border-radius: 10px;"><span class="fa fa-phone"></span><a href="callto:+919968431431"> +91 9968431431</a>  </button><br>
-                    <button class="btn btn-link disabled" style="color: black !important"><span class="fa fa-home"></span> Karakoram</button>
-
-                </div>
-            </div>
-
-        </div>
-
-        <div class="col-12 col-md-6 col-lg-3 justify-content-center">
-
-            <div class="card  my-2 text-dark mx-auto" style="max-width:300px;">
-                <img class="card-img-top" src="team2019/members/34.jpg" alt="Card image cap">
-                <div class="card-header">Siddharth Singh
-                <br>
-                <em>Secretary</em>
-                </div>
-                <div class="card-body">
-                <button class="btn mb-1" style="background-color: #1778F2; color: white; width:100%; opacity: 0.9; border-radius: 10px"><span class="fa fa-facebook"></span><a href="https://www.facebook.com/siddharth.singh.92372446" style="color: white;"> <small>@siddharth.singh.92372446</small> </a></button><br>
-
-                                        <button class="btn btn-primary" style="opacity:0.8; border-radius:10px"><span class="fa fa-envelope"></span><a href="mailto:siddharth1606@gmail.com"> siddharth1606@gmail.com</a></button><br>
-                    <button class="btn btn-success my-1" style="opacity: 0.8; border-radius: 10px;"><span class="fa fa-phone"></span><a href="callto:+919468841810"> +91 9468841810</a>  </button><br>
-                    <button class="btn btn-link disabled" style="color: black !important"><span class="fa fa-home"></span> Zanskar</button>
-
-                </div>
-            </div>
-
-        </div>
+</div>
+</div>
+</div>
 
 
 
-<div class="col-12 col-md-6 col-lg-3 justify-content-center">
 
-    <div class="card  my-2 text-dark mx-auto" style="max-width:300px;">
+<div class="container col-12 col-lg-5 hostel-card-outer my-4" style="padding: 10px">
+
+    <div class="card-header"><h3>Coordinators</h3></div>
+
+    <div class="row justify-content-center  mx-2 col-12" style="padding: 20px;">
+
+        <div class="col-12 col-md-6  justify-content-center">
+
+        <div class="card  my-2 text-dark mx-auto" style="max-width:300px;">
         <img class="card-img-top" src="team2019/members/25.jpg" alt="Card image cap">
         <div class="card-header">Bilv Patel
         <br>
@@ -458,25 +428,99 @@ a{
                     <button class="btn btn-link disabled" style="color: black !important"><span class="fa fa-home"></span> Nilgiri</button>
 
         </div>
-    </div>
+            </div>
 
-</div>
+        </div>
 
-<div class="col-12 col-md-6 col-lg-3 justify-content-center">
+        <div class="col-12 col-md-6  justify-content-center">
 
-    <div class="card  my-2 text-dark mx-auto" style="max-width:300px;">
+        <div class="card  my-2 text-dark mx-auto" style="max-width:300px;">
         <img class="card-img-top" src="team2019/members/28.jpg" alt="Card image cap">
         <div class="card-header">Muskan Choudhary
         <br>
         <em>Coordinator</em>
         </div>
         <div class="card-body">
+        <button class="btn mb-1" style="background-color: #1778F2; color: white; width:100%; opacity: 0.5; border-radius: 10px" disabled ><span class="fa fa-facebook"></span> Muskan Choudhary </button><br>
 
                     <button class="btn btn-primary" style="opacity:0.8; border-radius:10px"><span class="fa fa-envelope"></span><a href="mailto:muskan.choudhary06@gmail.com"> muskan.choudhary06@gmail.com </a></button><br>
                     <button class="btn btn-success my-1" style="opacity: 0.8; border-radius: 10px;"><span class="fa fa-phone"></span><a href="callto:+917999676445"> +91 7999676445</a>  </button><br>
                     <button class="btn btn-link disabled" style="color: black !important"><span class="fa fa-home"></span> Himadri </button>
 
         </div>
+            </div>
+
+        </div>
+</div>
+<div class="row justify-content-center mx-2 col-12" style="padding: 20px;">
+        <div class="col-12 col-md-6  justify-content-center">
+
+        <div class="card  my-2 text-dark mx-auto" style="max-width:300px;">
+        <img class="card-img-top" src="team2019/members/35.jpg" alt="Card image cap">
+        <div class="card-header">Neharika Singhal
+        <br>
+        <em>Coordinator</em>
+        </div>
+        <div class="card-body">
+        <button class="btn mb-1" style="background-color: #1778F2; color: white; width:100%; opacity: 0.9; border-radius: 10px"><span class="fa fa-facebook"></span><a href="https://www.facebook.com/neharika.singhal.7" style="color: white;"> @neharika.singhal.7 </a></button><br>
+
+                                <button class="btn btn-primary" style="opacity:0.8; border-radius:10px"><span class="fa fa-envelope"></span><a href="mailto:neharika98singhal@gmail.com"> neharika98singhal@gmail.com</a></button><br>
+                    <button class="btn btn-success my-1" style="opacity: 0.8; border-radius: 10px;"><span class="fa fa-phone"></span><a href="callto:+919611519628"> +91 9611519628</a>  </button><br>
+                    <button class="btn btn-link disabled" style="color: black !important"><span class="fa fa-home"></span> Kailash</button>
+
+        </div>
+</div>
+
+</div>
+
+<div class="col-12 col-md-6  justify-content-center">
+
+<div class="card  my-2 text-dark mx-auto" style="max-width:300px;">
+        <img class="card-img-top" src="team2019/members/29.jpg" alt="Card image cap">
+        <div class="card-header">Nishtha Gupta
+        <br>
+        <em>Coordinator</em>
+        </div>
+        <div class="card-body">
+        <button class="btn mb-1" style="background-color: #1778F2; color: white; width:100%; opacity: 0.9; border-radius: 10px"><span class="fa fa-facebook"></span><a href="https://www.facebook.com/nishtha.gupta.18" style="color: white;"> @nishtha.gupta.18 </a></button><br>
+                                <button class="btn btn-primary" style="opacity:0.8; border-radius:10px"><span class="fa fa-envelope"></span><a href="mailto:nishtha.gupta97@gmail.com"> nishtha.gupta97@gmail.com</a></button><br>
+                    <button class="btn btn-success my-1" style="opacity: 0.8; border-radius: 10px;"><span class="fa fa-phone"></span><a href="callto:+910995823007"> +91 0995823007</a>9  </button><br>
+                    <button class="btn btn-link disabled" style="color: black !important"><span class="fa fa-home"></span> Himadri</button>
+
+        </div>
+</div>
+
+</div>
+</div>
+
+
+
+
+</div>
+
+
+</div>
+
+        
+        
+
+    </div>
+
+
+
+
+
+
+<div class="col-12 col-md-6 col-lg-3 justify-content-center">
+
+
+    </div>
+
+</div>
+
+<div class="col-12 col-md-6 col-lg-3 justify-content-center">
+
+
     </div>
 
 </div>

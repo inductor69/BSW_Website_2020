@@ -193,18 +193,21 @@ body{
     <img src="images/op_info/2.jpg" style="width:80%; border-radius: 10px; margin: 20px;">
     </div>
 
-
     <div class="col-12 col-md-3 events my-4 mx-4" >
+    <a href="events.php">
+    <h4>Camps</h4>
+    </a>
+    BSW organizes multiple camps round the year to give accessibility to essential items at affordable prices for the students inside the campus. At the onset of the odd semester, a mattress and cycle camp is organised for all the students boarding the campus after summer vacations and the newly arrived freshers. Other camps like the book camp, blanket camp etc. are also organised from time to time according to their need.
+    <img src="images/camps.jpg" style="width:80%; border-radius: 10px; margin: 20px;">
+    </div>
+
+
+    <div class="col-12 col-md-3 events my-4" >
     <a href="events.php">
     <h4>REX Karamveer Chakra</h4>
     </a>
     </div>
 
-    <div class="col-12 col-md-3 events my-4 " >
-    <a href="events.php">
-    <h4>Camps</h4>
-    </a>
-    </div>
 
 
 </div>
