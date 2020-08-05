@@ -317,7 +317,7 @@ a{
 
     <div class="row">
 
-    <div class="container col-12 col-lg-5 hostel-card-outer my-4">
+    <div class="container col-12 col-lg-5 hostel-card-outer my-4" style="padding: 10px">
 
     <div class="card-header"><h3>Secretaries</h3></div>
 
