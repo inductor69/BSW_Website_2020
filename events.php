@@ -152,7 +152,7 @@ body{
       <div style="display: flex; flex-direction: column; text-align: center;" class="col-12 col-md-3 events my-4 " >
       <a href="female_jee_counselling.php">
       <div class="card-header" style="margin: 10px; border-radius: 10px; background-color: #000000dd; color: white !important;">
-      <h3 class="mt-2">Female JEE Counselling</h3>
+      <h4 class="mt-2">Female JEE Counselling</h4>
       </div>
       </a>
       A female counselling session to increase awareness among female IIT aspirants who had cleared JEE Advanced. <br>
@@ -166,7 +166,7 @@ body{
       <div style="display: flex; flex-direction: column; text-align: center;" class="col-12 col-md-3 events my-4 mx-4" >
       <a href="sticdinner.php">
       <div class="card-header" style="margin: 10px; border-radius: 10px; background-color: #000000dd; color: white !important;">
-      <h3 class="mt-2">STIC Dinner</h3>
+      <h4 class="mt-2">STIC Dinner</h4>
       </div>
       </a>
       Student Teacher Interaction Dinner to encourage friendly interaction between professors and students and bridging the communication gap between them.<br>
@@ -178,7 +178,7 @@ body{
       <div style="display: flex; flex-direction: column; text-align: center;" class="col-12 col-md-3 events my-4 " >
       <a href="delhidarshan.php">
       <div class="card-header" style="margin: 10px; border-radius: 10px; background-color: #000000dd; color: white !important;">
-      <h3 class="mt-2">Delhi Darshan</h3>
+      <h4 class="mt-2">Delhi Darshan</h4>
       </div>
       </a>
       A tour across Delhi for the freshers, relishing the beauty of the city with indelible bus-rides. Exciting conversations and long lasting memories.<br>
@@ -196,7 +196,7 @@ body{
     <div style="display: flex; flex-direction: column; text-align: center;" class="col-12 col-md-3 events my-4 " >
     <a href="informative_sessions.php">
     <div class="card-header" style="margin: 10px; border-radius: 10px; background-color: #000000dd; color: white !important;">
-      <h3 class="mt-2">Informative Sessions</h3>
+      <h4 class="mt-2">Informative Sessions</h4>
       </div>
     </a>
     Seniors from all branches share their experiences navigating through the vast pool of opportunities. An attempt to bridge the senior-junior gap, while encouraging student participation and learning.<br>
@@ -208,7 +208,7 @@ body{
     <div style="display: flex; flex-direction: column; text-align: center;" class="col-12 col-md-3 events my-4 mx-4" >
     <a href="events.php">
     <div class="card-header" style="margin: 10px; border-radius: 10px; background-color: #000000dd; color: white !important;">
-      <h3 class="mt-2">Camps</h3>
+      <h4 class="mt-2">Camps</h4>
       </div>
     </a>
     Multiple camps are organized year round to give access to affordable essentials for the students inside the campus. After the summer vacations, a mattress and cycle camp is organised for all the students boarding the campus and the newly arrived freshers. Camps for books, blankets etc. are also organised according to need.
@@ -220,7 +220,7 @@ body{
     <div style="display: flex; flex-direction: column; text-align: center;" class="col-12 col-md-3 events my-4 justify-content-center" style="display: flex; flex-direction: column; text-align: center;">
     <a href="events.php">
     <div class="card-header" style="margin: 10px; border-radius: 10px; background-color: #000000dd; color: white !important;">
-      <h3 class="mt-2">REX Karamveer Chakra</h3>
+      <h4 class="mt-2">REX Karamveer Chakra</h4>
       </div>
     </a>
     "The Campus Connect-REX Karmaveer Global Young Leaders Fellowship & Karmaveer Chakra Awards 2019"
