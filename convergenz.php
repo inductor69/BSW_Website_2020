@@ -274,7 +274,7 @@ We all  grooved and danced and had an evening that we will never forget.		</div>
 
 	<div class="row my-4" id="loc-1">
 		<div class="col-12 col-md-6" style="width: 98%;">
-			<img class="thumbnail align-middle" src="images/guftagoo.jpg" alt="BSW Guftagoo" />
+			<img class="thumbnail align-middle" src="images/op_speranza/4.JPG" alt="BSW Guftagoo" />
 		</div>
 		<div class="col-12 col-md-6 my-4 " style="font-size:20px;">
 		<h2>Guftagoo</h2>
