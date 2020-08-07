@@ -80,6 +80,7 @@ body{
 
             <div class="col-12 my-4 justify-content-center">
             <h1 class="about-us-title"><span class="fa fa-question-circle"></span> FAQs</h1>
+            <p class="about-us-text">Some of the most frequently asked questions by the student community answered by the BSW team. </p>
             </div>
 
         </div>

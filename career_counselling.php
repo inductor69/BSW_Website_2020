@@ -163,10 +163,8 @@ body{
       </a>
       <iframe width="100%" height="300px" class="my-4" src="https://www.youtube.com/embed/wWlcTdLyXNw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 10px"></iframe>
       Before the markets spring to life at 9:30 a.m. ET, most day traders are busy catching up with coffee and breakfast in hand on any events that happened overnight that could affect that day's trading session. This involves reading stories from various newspapers and financial websites, as well as listening to updates from financial news networks, such as CNBC and Bloomberg. <br><br>
-      <!-- The futures markets, as well as the broad market indexes, are noted as traders form opinions about the direction they expect the market to trend. Traders will also review economic calendars to find out which market-moving financial reports– such as the weekly petroleum status report – are due that day. It should be noted that many traders participate in round-the-clock markets, such as futures and forex, and these traders can expect increased volume before the rest of the markets open at 9:30 a.m.<br><br>
-      After reading about events and making note of what the analysts are saying, traders head to their workstations, turn on their computers and monitors, and open up their analysis and trading platforms. Many layers of technology are at work here, from the trader's computer, keyboard and mouse, to the internet, trading platform, broker and ultimately the exchanges themselves. As such, traders spend time making sure that everything on their end is functioning correctly before the trading session begins.<br><br>
-      If everything is working properly, traders start scanning the markets for potential trading opportunities. Some traders work just one or two markets (such as two stocks or two e-minis), and they will open up these charts and apply selected technical indicators to see what's going in those markets. Others use market-scanning software to find securities that meet their exact specifications. For example, a trader might scan for stocks that are trading above their 52-week highswith at least 4 million shares in volume and a minimum price of $10. Once the computer compiles a list of stocks that meet these criteria, the trader will put these tickers on his or her watch list. (For more, see: What the Market Open Tells You.) -->
-
+      The futures markets, as well as the broad market indexes, are noted as traders form opinions about the direction they expect the market to trend. Traders will also review economic calendars to find out which market-moving financial reports– such as the weekly petroleum status report – are due that day. It should be noted that many traders participate in round-the-clock markets, such as futures and forex, and these traders can expect increased volume before the rest of the markets open at 9:30 a.m.
+        <br><br>
       <a href="https://docs.google.com/document/d/1DBRmAKIOMI3R7s7-svZEACdyaUZMpG7Y1IW1-N9TSwQ/edit#">Continue reading this article and access more resources on Trading as a career.</a>
  
       </div>
@@ -180,6 +178,21 @@ body{
         What they don't tell you about entrepreneurship | Mark Leruste | TEDxCardiff<br>
         <iframe width="100%" height="300px" class="my-4" src="https://www.youtube.com/embed/f6nxcfbDfZo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 10px"></iframe>
       <a href="https://docs.google.com/document/d/1ClX5hx2F07fCM_Pa_n-9OwZBlByeEeDdz7E6_ZUuPEQ/edit">Continue reading this article and access more resources on Entrepreneurship.</a>
+
+ 
+      </div>
+
+      <div class="col-12 col-lg-10 events my-4 mx-4" >
+      <a href="https://docs.google.com/document/d/1jcSwhd3hPv091XDPsozaMQxFIZdgR3STlCZUBROmQLw/edit">
+      <h2>Internships & Placements</h2></a>
+      Confused about where to start the job/intern prep from? Worry not, BSW brings you the compiled information to kickstart your preparation.<br>
+We would like to thank Hemang Shekhar and Rahul Nimbal for their wonderful compilations.<br>
+Be safe and productive!
+<br><br>
+      <a style="font-size: 1.2rem" href="https://docs.google.com/document/d/1Jr8s9MINrwSjW0DFM9cfsRljTlo04NlG9KoxQlLhI3E/edit?fbclid=IwAR23hThw4qJSvolZbVqbEDSlz-zCAeuTVAnB0b04ZfzxmGf0WFTaDPL5-zA">Resources for the aspiring coders!</a>
+      <br><br>
+      <a style="font-size: 1.2rem" href="https://docs.google.com/document/d/1fdUTzg7auwv5u_md9yhL7st1zaF2Cm2LunwuLPvnYsQ/edit?fbclid=IwAR2gqxsRorD4jT1jaTUP6grtV9G2plulWSJPR5ske5lJy1Vls35WXCVhqGw">Resources for Consult preparation (for Internship & Placement interviews)</a>
+
 
  
       </div>

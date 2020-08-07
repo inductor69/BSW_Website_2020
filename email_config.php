@@ -74,14 +74,14 @@
 
         <div class="row justify-content-center">
 
-            <div class="col-12 col-lg-4 justify-content-center">
+            <div class="col-12  justify-content-center">
             <h1 class="about-us-title"><span class="fa fa-envelope-o"></span> Email Client Configuration</h1>
             </div>
 
-            <div class="col-12 col-lg-7 ml-auto">
+            <div class="col-12  ml-auto">
             <p class="about-us-text">
-            Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.<br />
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <br />
+            If you want to get rid of logging in again and again into your kerberos id and want to sync your kerberos id with your Android, iOS and iPadOS devices, then just follow the steps given below.<br>
+            Syncing your webmail with your phones will provide you a central interface for receiving, composing and sending emails.
             </p>
             </div>
 

@@ -159,7 +159,7 @@ margin-bottom: 4px
 
 	<div class="row my-4" id="loc-1">
 		<div class="col-12 col-md-6 align-middle" style="width: 98%;">
-			<img class="thumbnail align-middle" src="images/op_info/6.jpg" alt="BSW Delhi Darshan" />
+			<img class="thumbnail align-middle" src="images/op_info/6.jpg" alt="Minor Degree Ke Fundae" />
 		</div>
 		<div class="col-12 col-md-6 my-4 " style="font-size:20px;">
 		<h2>Minor Degree Ke Fundae</h2>
@@ -169,7 +169,7 @@ In addition to their major, students can also aim for a minor degree in an area 
 
 	<div class="row my-4">
 	<div class="col-12 col-md-6 d-sm-block d-md-none align-middle" style="width: 98%;">
-			<img class="thumbnail" src="images/op_info/5.jpg" alt="BSW Delhi Darshan" />
+			<img class="thumbnail" src="images/op_info/5.jpg" alt="Foreign Intern Ke Fundae" />
 		</div>
 
 		<div class="col-12 col-md-6 my-4 " style="font-size:20px;">
@@ -182,13 +182,13 @@ inform about the highs and lows of foreign internships
 		</div>
 
 		<div class="col-12 col-md-6 d-none d-md-block" style="width: 98%;">
-			<img class="thumbnail align-middle" src="images/op_info/5.jpg" alt="BSW Delhi Darshan" />
+			<img class="thumbnail align-middle" src="images/op_info/5.jpg" alt="Foreign Intern Ke Fundae" />
 		</div>
 	</div>
 
 	<div class="row my-4" id="loc-1">
 		<div class="col-12 col-md-6" style="width: 98%;">
-			<img class="thumbnail align-middle" src="images/op_info/8.jpg" alt="BSW Delhi Darshan" />
+			<img class="thumbnail align-middle" src="images/forex.png" alt="Forex Ke Fundae" />
 		</div>
 		<div class="col-12 col-md-6 my-4 " style="font-size:20px;">
 		<h2>Forex Ke Fundae</h2>

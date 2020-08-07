@@ -67,13 +67,13 @@
 
         <div class="row justify-content-center">
 
-            <div class="col-12 col-lg-6 justify-content-center">
+            <div class="col-12 justify-content-center">
             <h1 class="about-us-title"><span class="fa fa-bookmark"></span> BSW Diary</h1>
             </div>
 
-            <div class="col-12 col-lg-6 ml-auto">
+            <div class="col-12">
             <p class="about-us-text">
-            Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.<br />
+			BSW Diary acts as a guide to help the incoming Freshers to have the know-how about the campus and various student bodies here. It also provides you with all the essential information (in the form of website links, Wi-fi and proxy setup, etc...) you might need to get started at IIT Delhi. <br>Moreover, it enlists the basic facilities and rules of our campus and also has a map so that you don't get lost and helps you find your classrooms a little easier during the first few weeks. <br>Lastly, it has the contact details of all the BSW team members who would be more than happy to help you settle in your college life.
            </p>
            <a href="misc/bswDiary.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-primary mb-4" style={display:inline;}><span class="fa fa-download fa-lg"></span> Download Diary</a>
             </div>

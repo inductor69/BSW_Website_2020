@@ -197,7 +197,7 @@ body{
     <a href="events.php">
     <h4>Camps</h4>
     </a>
-    BSW organizes multiple camps round the year to give accessibility to essential items at affordable prices for the students inside the campus. At the onset of the odd semester, a mattress and cycle camp is organised for all the students boarding the campus after summer vacations and the newly arrived freshers. Other camps like the book camp, blanket camp etc. are also organised from time to time according to their need.
+    Multiple camps are organized year round to give access to affordable essentials for the students inside the campus. After the summer vacations, a mattress and cycle camp is organised for all the students boarding the campus and the newly arrived freshers. Camps for books, blankets etc. are also organised according to need.
     <img src="images/camps.jpeg" style="width:80%; border-radius: 10px; margin: 20px;">
     </div>
 
@@ -207,8 +207,8 @@ body{
     <h4>REX Karamveer Chakra</h4>
     </a>
     "The Campus Connect-REX Karmaveer Global Young Leaders Fellowship & Karmaveer Chakra Awards 2019"
-instituted by iCONGO in Partnership with the United Nations. (GYLF 2019).<br>
-An opportunity for IIT Delhi Students to get Recognised for your work, being a #ChampionOfChange and Impacting the society.
+are instituted by iCONGO in Partnership with the United Nations.It is an opportunity for IIT Delhi Students to get recognized for their work that impacts the society.
+<img src="images/rex.JPG" style="width:80%; border-radius: 10px; margin: 20px;">
 
     </div>
 
