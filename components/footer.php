@@ -69,7 +69,7 @@
 <html>
 <body>
 
-		<div class="container-fluid" id="footer" style="margin-top: 0px;">
+		<div class="container-fluid " id="footer" style="margin-top: 0px;">
 
         <div class="container" style>
 
@@ -93,7 +93,7 @@
                 <p>We learn from you. Please give us your suggestions and feedback.<br /> Constructive criticism is well appreciated.<br /><span class="fa fa-pencil"></span>  <a href="https://docs.google.com/forms/d/e/1FAIpQLSfH9UQnHOd54usrBgNCKuuwZy1YnZ6lXjoTSYplPnXXmYXttw/viewform">Click here</a> for the feedback form.</p>
         </div>
 
-        <div class="col-12 col-md-12 col-lg-4 center-block">
+        <div class="col-12 col-md-12 col-lg-4 center-block ">
                     <p>
 					<a href="https://www.facebook.com/boardforstudentwelfare"><span class="fa fa-facebook-square fa-lg"></span></a>
 

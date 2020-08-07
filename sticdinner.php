@@ -135,7 +135,7 @@ margin-bottom: 4px
 
 <div class="container">
 <div class="row">
-		<h1 class="my-4" style="font-size: 60px;">Few Glimpses of the event</h1>
+		<h1 class="my-4 mx-2" style="font-size: 60px;">Few Glimpses of the event</h1>
 	</div>
 	</div>
 

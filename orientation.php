@@ -151,7 +151,7 @@ margin-bottom: 4px
 
 
 <div class="container">
-<div class="col-12 my-4">
+<div class="col-12 my-4 mx-2">
 <h1>Few Glimpses of the Event</h1>
 </div>
 </div>

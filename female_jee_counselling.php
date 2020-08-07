@@ -86,7 +86,7 @@ overflow-y: scroll
 </div>
 
 <div class="container">
-<div class="col-12 my-4">
+<div class="col-12 my-4 mx-2">
 <h1>A Few Glimpses of the Event</h1>
 </div>
 </div>

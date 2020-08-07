@@ -376,7 +376,7 @@
     <div class="col-12 col-md-9  col-md-offset-2 main" >
 
             <ul class="breadcrumb">
-              <form style="display:inline; float:right; width:100%; max-width:330px; border-radius:10px !important;">
+              <form style="display:inline; float:right; width:100%; max-width:400px; border-radius:10px !important;">
                     <input type="text"  class="form-control"   placeholder="Search for any course or department here..." id="merainputdown">
                 </form> 
             </ul>

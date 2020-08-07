@@ -59,9 +59,9 @@ a{
         padding: 10px !important;
 }
 
-	body{
+	#structure{
         background-color: rgba(68,215,182,0.18) !important;
-        text-align: center !important;
+        
 	}
     .{
        
@@ -142,14 +142,15 @@ a{
 
 </head>
 
-
-<body >
-		
 <?php require 'components/header.php'; ?>
 <?php require 'components/back_to_top.php'; ?>
 
+<body id="structure">
+		
 
-<div id="about-us" style="background: rgba(68,215,182,0.1);">
+
+
+<div id="about-us" style="background: rgba(68,215,182,0.1); text-align: center;">
     
     <br />
 
@@ -173,9 +174,9 @@ a{
     
     <br />
 
-    <div class="container" >
+    <div class="container " >
 
-        <div class="row justify-content-center">
+        <div class="row justify-content-center" style="text-align: center;">
 
             <div class="col-12 justify-content-center" style="margin-bottom:40px;"">
             <h1 class="about-us-title" style="font-size:50px;">Supervision</h1>
@@ -187,11 +188,11 @@ a{
 
 </div>
 
-<div class="container-fluid mx-2 " id="softwares-list">
+<div class="container-fluid mx-2 " id="softwares-list" >
 
 
 
-    <div class="row justify-content-center">
+    <div class="row justify-content-center" style="text-align: center;">
 
         <div class="col-12 col-md-6 justify-content-center">
 
@@ -230,7 +231,7 @@ a{
     </div>
 
     <div id="student team"></div>
-<div class="my-4" style="background: rgba(68,215,182,0.1); padding-top: 20px;">
+<div class="my-4" style="background: rgba(68,215,182,0.1); padding-top: 20px; text-align: center" >
     
     <br />
 
@@ -248,7 +249,7 @@ a{
 
 </div>
 
-    <div class="row justify-content-center my-4" style="z-index: 1000;">
+    <div class="row justify-content-center my-4" style="z-index: 1000; text-align: center" >
 
         <div class="col-12 col-md-6 justify-content-center">
 
@@ -272,7 +273,7 @@ a{
     </div>
 
 
-    <div class="row justify-content-center my-4">
+    <div class="row justify-content-center my-4" style="text-align: center;">
 
         <div class="col-12 col-md-6 justify-content-center">
 
@@ -315,7 +316,7 @@ a{
     </div>
 
 
-    <div class="row">
+    <div class="row" style="text-align: center;">
 
     <div class="container col-12 col-lg-5 hostel-card-outer my-4" style="padding: 10px">
 
@@ -535,7 +536,7 @@ a{
     
     <br />
 
-    <div class="container" >
+    <div class="container" style="text-align: center;">
 
         <div class="row justify-content-center">
 
@@ -550,10 +551,10 @@ a{
 </div>
 
 
-<div class="container-fluid justify-content-center mx-auto" >
+<div class="container-fluid justify-content-center mx-auto" style="text-align: center;">
 
 
-<div class="row justify-content-center my-4">
+<div class="row justify-content-center my-4" style="text-align: center;">
 
     <div class="col-12 col-md-6  justify-content-center">
 
