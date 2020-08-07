@@ -109,3 +109,9 @@ dist
 studydatabase/
 
 /vendor/
+
+forms
+booklets
+
+/forms
+/booklets
