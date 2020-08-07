@@ -149,33 +149,42 @@ body{
 	<div class="row justify-content-center mx-2" style="text-align: center;">
 
 
-      <div class="col-12 col-md-3 events my-4 " >
+      <div style="display: flex; flex-direction: column; text-align: center;" class="col-12 col-md-3 events my-4 " >
       <a href="female_jee_counselling.php">
-      <h4>Female JEE Counselling</h4>
+      <div class="card-header" style="margin: 10px; border-radius: 10px; background-color: #000000dd; color: white !important;">
+      <h3 class="mt-2">Female JEE Counselling</h3>
+      </div>
       </a>
       A female counselling session to increase awareness among female IIT aspirants who had cleared JEE Advanced. <br>
       <a href="female_jee_counselling.php">Learn More about this event</a>
-      <img src="images/op_fjc/3.jpg" style="width:80%; border-radius: 10px; margin: 20px;">
+      <div class="my-2" height="30px"></div>
+      <img src="images/op_fjc/3.jpg" style="width:80%; border-radius: 10px; margin: 20px;  margin-top: auto; margin-left: auto; margin-right: auto; max-height: 200px; ">
  
       </div>
 
       
-      <div class="col-12 col-md-3 events my-4 mx-4" >
+      <div style="display: flex; flex-direction: column; text-align: center;" class="col-12 col-md-3 events my-4 mx-4" >
       <a href="sticdinner.php">
-      <h4>STIC Dinner</h4>
+      <div class="card-header" style="margin: 10px; border-radius: 10px; background-color: #000000dd; color: white !important;">
+      <h3 class="mt-2">STIC Dinner</h3>
+      </div>
       </a>
       Student Teacher Interaction Dinner to encourage friendly interaction between professors and students and bridging the communication gap between them.<br>
       <a href="sticdinner.php">Learn More about this event</a>
-      <img src="images/op_sticd/2.jpg" style="width:80%; border-radius: 10px; margin: 20px;">
+      <div class="my-2" height="30px"></div>
+      <img src="images/op_sticd/2.jpg" style="width:80%; border-radius: 10px; margin: 20px;  margin-top: auto; margin-left: auto; margin-right: auto; max-height: 200px; ">
       </div>
 
-      <div class="col-12 col-md-3 events my-4 " >
+      <div style="display: flex; flex-direction: column; text-align: center;" class="col-12 col-md-3 events my-4 " >
       <a href="delhidarshan.php">
-      <h4>Delhi Darshan</h4>
+      <div class="card-header" style="margin: 10px; border-radius: 10px; background-color: #000000dd; color: white !important;">
+      <h3 class="mt-2">Delhi Darshan</h3>
+      </div>
       </a>
       A tour across Delhi for the freshers, relishing the beauty of the city with indelible bus-rides. Exciting conversations and long lasting memories.<br>
       <a href="delhidarshan.php">Learn More about this event</a>
-      <img src="images/op_delhidarshan/4.jpg" style="width:80%; border-radius: 10px; margin: 20px;">
+      <div class="my-2" height="30px"></div>
+      <img src="images/op_delhidarshan/4.jpg" style="width:80%; border-radius: 10px; margin: 20px;  margin-top: auto; margin-left: auto; margin-right: auto; max-height: 200px; ">
       </div>
 
       
@@ -184,31 +193,40 @@ body{
   <div class="row justify-content-center mx-2" style="text-align: center;">
 
 
-    <div class="col-12 col-md-3 events my-4 " >
+    <div style="display: flex; flex-direction: column; text-align: center;" class="col-12 col-md-3 events my-4 " >
     <a href="informative_sessions.php">
-    <h4>Informative Sessions</h4>
+    <div class="card-header" style="margin: 10px; border-radius: 10px; background-color: #000000dd; color: white !important;">
+      <h3 class="mt-2">Informative Sessions</h3>
+      </div>
     </a>
     Seniors from all branches share their experiences navigating through the vast pool of opportunities. An attempt to bridge the senior-junior gap, while encouraging student participation and learning.<br>
     <a href="informative_sessions.php">Learn More about this event</a>
-    <img src="images/op_info/2.jpg" style="width:80%; border-radius: 10px; margin: 20px;">
+    <div class="my-2" height="30px"></div>
+    <img src="images/op_info/2.jpg" style="width:80%; border-radius: 10px; margin: 20px;  margin-top: auto; margin-left: auto; margin-right: auto; max-height: 200px; ">
     </div>
 
-    <div class="col-12 col-md-3 events my-4 mx-4" >
+    <div style="display: flex; flex-direction: column; text-align: center;" class="col-12 col-md-3 events my-4 mx-4" >
     <a href="events.php">
-    <h4>Camps</h4>
+    <div class="card-header" style="margin: 10px; border-radius: 10px; background-color: #000000dd; color: white !important;">
+      <h3 class="mt-2">Camps</h3>
+      </div>
     </a>
     Multiple camps are organized year round to give access to affordable essentials for the students inside the campus. After the summer vacations, a mattress and cycle camp is organised for all the students boarding the campus and the newly arrived freshers. Camps for books, blankets etc. are also organised according to need.
-    <img src="images/camps.jpeg" style="width:80%; border-radius: 10px; margin: 20px;">
+    <div class="my-2" height="30px"></div>
+    <img src="images/camps.jpeg" style="width:80%; border-radius: 10px; margin: 20px;  margin-top: auto; margin-left: auto; margin-right: auto; max-height: 200px; ">
     </div>
 
 
-    <div class="col-12 col-md-3 events my-4" >
+    <div style="display: flex; flex-direction: column; text-align: center;" class="col-12 col-md-3 events my-4 justify-content-center" style="display: flex; flex-direction: column; text-align: center;">
     <a href="events.php">
-    <h4>REX Karamveer Chakra</h4>
+    <div class="card-header" style="margin: 10px; border-radius: 10px; background-color: #000000dd; color: white !important;">
+      <h3 class="mt-2">REX Karamveer Chakra</h3>
+      </div>
     </a>
     "The Campus Connect-REX Karmaveer Global Young Leaders Fellowship & Karmaveer Chakra Awards 2019"
 are instituted by iCONGO in Partnership with the United Nations.It is an opportunity for IIT Delhi Students to get recognized for their work that impacts the society.
-<img src="images/rex.JPG" style="width:80%; border-radius: 10px; margin: 20px;">
+<div class="my-2" height="30px"></div>
+<img class="align-bottom" src="images/rex.JPG" style="width:80%; border-radius: 10px; margin: 20px; margin-top: auto; margin-left: auto; margin-right: auto; max-height: 200px; margin-left: auto; margin-right: auto;">
 
     </div>
 

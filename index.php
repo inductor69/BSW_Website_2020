@@ -475,12 +475,10 @@
 							<i class="pin"></i>
 							<blockquote class="note pinned-note1">
 							<h3>Caution Money</h3>
-							<p>Contribute to the BSW Fund before saying the last goodbye to help make a positive impact in someone’s lives.</a></p>
-							<br>
+							<p>Your Journey at IIT Delhi might have come to an end but you'll belong here forever. A small contribution make someone else's journey at IIT a little easier, donate your caution money to BSW Funds to have a positive impact on your Juniors to come. <a href="https://www.facebook.com/boardforstudentwelfare/posts/3013430058726445">Learn More</a></p>
 							<h3>Updated Academic Calendar</h3>
 							<h5>2020-21</h5>
-							<p>Updated Academic Calendar for the year 2020-21 can be downloaded from <a href="">here</a></p>
-							<br>
+							<p>Updated Academic Calendar for the year 2020-21 can be downloaded from <a href="https://home.iitd.ac.in/academic-calendar.php">here</a></p>
 							</blockquote>
 							</div>
 						</div>
