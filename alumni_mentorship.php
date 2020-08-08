@@ -89,12 +89,20 @@
     .footer-img{
         margin-top: -100px;
     }
+    #step12{
+        text-align: right;
+    }
     }
     @media (min-width: 769px){
     .footer-img{
         margin-top: -200px;
     }
+    #step12{
+        margin-top: 20px;
     }
+    }
+
+    
 
 
 	
@@ -161,7 +169,7 @@
 	<div class="container">
 
 	<div class="row">
-        <div class="col-12" style="text-align: center;">
+        <div class="col-12" >
 		<h1 class="my-4" style="font-family: Montserrat !important; ">How does this program work?</h1>
         <p style="font-size: 1.2rem">The ‘Student Alumni Mentorship Program’ aims at establishing one on one connecting platform between students and alumni of IIT Delhi. This would be achieved by :</p>
         </div>
@@ -169,20 +177,20 @@
 
     <div class="row justify-content-center">
 
-        <div class="col-5 steps" style="text-align: right;">
+        <div class="col-5 steps" id="step12" >
         <div class="container">
         <div class="row">
         <div class="col-2"><span style="padding:5px; padding-left:12px; padding-right:12px; background: tomato; border-radius: 40px; width: 40px; margin: 10px; color: white;">1</span></div>
-        <div class="col-10"> <p>Present IITD students and IITD alumni need to fill our Exhaustive Registration Form</p></div>
+        <div class="col-10 mt-2"> <p>Present IITD students and IITD alumni need to fill our Exhaustive Registration Form</p></div>
         </div>
         </div>
         </div>
 
-        <div class="col-5 steps ml-4" style="text-align: right;">
+        <div class="col-5 steps ml-4" id="step12" style="text-align: center;">
         <div class="container">
         <div class="row">
-        <div class="col-1"><span style="padding:5px; padding-left:12px; padding-right:12px; background: #ffae42; border-radius: 40px; width: 40px; margin: 10px; color: white;">2</span></div>
-        <div class="col-11"><p>Algorithm driven mapping connects the students and mentors based on their interests and goals.</p>
+        <div class="col-2"><span style="padding:5px; padding-left:12px; padding-right:12px; background: #ffae42; border-radius: 40px; width: 40px; margin: 10px; color: white;">2</span></div>
+        <div class="col-10 mt-2 "><p>Algorithm driven mapping connects the students and mentors based on their interests and goals.</p>
         </div>
         </div>
         </div>

@@ -100,6 +100,16 @@
         
         <ul class="list-unstyled">
 
+        <li class="media my-4">
+  <img class="mr-3 software-logo" src="images/grammarly.png" alt="Grammarly Logo" width="120" height="120" >
+    <div class="media-body">
+      <h5 class="mt-0 mb-1">Grammarly</h5>
+      Grammarly is an automated grammar tutor and revision support tool. A web-based solution, Grammarly works one-on-one with a researcher/student to develop essential writing skills,
+reinforce proper revision habits and prevent plagiarism. You can upload drafts of your writing assignments to Grammarly to receive immediate instructional feedback on over 250 points of grammar. An algorithmic and structured approach to text revision ensures that valuable learning moments are seized upon when you proofread your own work.
+Log in with your kerberos credentials to redeem the subscription provided by IIT Delhi.
+</div>
+  </li>
+
   <li class="media">
     <img class="mr-3 software-logo" src="images/matlab.svg" alt="MATLAB Logo" width="120" height="120" >
     <div class="media-body">
