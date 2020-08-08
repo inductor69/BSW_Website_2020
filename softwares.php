@@ -105,8 +105,11 @@
     <div class="media-body">
       <h5 class="mt-0 mb-1">Grammarly</h5>
       Grammarly is an automated grammar tutor and revision support tool. A web-based solution, Grammarly works one-on-one with a researcher/student to develop essential writing skills,
-reinforce proper revision habits and prevent plagiarism. You can upload drafts of your writing assignments to Grammarly to receive immediate instructional feedback on over 250 points of grammar. An algorithmic and structured approach to text revision ensures that valuable learning moments are seized upon when you proofread your own work.
-Log in with your kerberos credentials to redeem the subscription provided by IIT Delhi.
+reinforce proper revision habits and prevent plagiarism. You can upload drafts of your writing assignments to Grammarly to receive immediate instructional feedback on over 250 points of grammar. An algorithmic and structured approach to text revision ensures that valuable learning moments are seized upon when you proofread your own work.<br>
+      Step 1: go to www.grammarly.com/edu  (mandatory to sign up from this URL)<br>
+      Step 2: Click on Join Your Organization button, fill up the self-service form. You are requested to use your official email ID xx@iitd.ac.in without mentioning your Deptt/Centre name in the email ID and follow the steps given in the email.<br>
+      Step 3: After clicking signup, an activation email will be sent to the user's institutional email ID.<br>
+
 </div>
   </li>
 
