@@ -387,7 +387,7 @@
             </div>
 
 			<div class="carousel-item ">
-                <img class="d-block w-100 imagic" src="images/carousel1.JPG" alt="First slide" style="object-fit: cover;">
+                <img class="d-block w-100 imagic" src="images/carousel1.jpg" alt="First slide" style="object-fit: cover;">
                 <div class="carousel-caption " style="padding-bottom: 40px">   
                   <!-- <h1 class="main-text">Board of Student Welfare</h1> -->
                 </div>
@@ -571,7 +571,7 @@
 						</figcaption>
 					</figure>
 					<figure>
-						<a href="delhidarshan.php" class="photostack-img"><img class="gallery-img" src="images/op_delhidarshan/5.JPG" alt="Delhi Darshan" style="height:240px; width:240px; object-fit:cover;"/></a>
+						<a href="delhidarshan.php" class="photostack-img"><img class="gallery-img" src="images/op_delhidarshan/5.jpg" alt="Delhi Darshan" style="height:240px; width:240px; object-fit:cover;"/></a>
 						<figcaption>
 							<h2 class="photostack-title">Delhi Darshan</h2>
 						</figcaption>
@@ -595,7 +595,7 @@
 						</figcaption>
 					</figure>
 					<figure data-dummy>
-						<a href="delhidarshan.php" class="photostack-img"><img class="gallery-img" src="images/op_delhidarshan/1.JPG" alt="Delhi Darshan" style="height:240px; width:240px; object-fit:cover;"/></a>
+						<a href="delhidarshan.php" class="photostack-img"><img class="gallery-img" src="images/op_delhidarshan/1.jpg" alt="Delhi Darshan" style="height:240px; width:240px; object-fit:cover;"/></a>
 						<figcaption>
 							<h2 class="photostack-title">Delhi Darshan</h2>
 						</figcaption>
@@ -613,25 +613,25 @@
 						</figcaption>
 					</figure>
 					<figure data-dummy>
-						<a href="delhidarshan.php" class="photostack-img"><img class="gallery-img" src="images/op_delhidarshan/8.JPG" alt="Delhi Darshan" style="height:240px; width:240px; object-fit:cover;"/></a>
+						<a href="delhidarshan.php" class="photostack-img"><img class="gallery-img" src="images/op_delhidarshan/8.jpg" alt="Delhi Darshan" style="height:240px; width:240px; object-fit:cover;"/></a>
 						<figcaption>
 							<h2 class="photostack-title">Delhi Darshan</h2>
 						</figcaption>
 					</figure>
 					<figure >
-						<a href="orientation.php" class="photostack-img"><img class="gallery-img" src="images/op_orientation/1.jpg" alt="Orientation" style="height:240px; width:240px; object-fit:cover;"/></a>
+						<a href="orientation.php" class="photostack-img"><img class="gallery-img" src="images/op_orientation/1.JPG" alt="Orientation" style="height:240px; width:240px; object-fit:cover;"/></a>
 						<figcaption>
 							<h2 class="photostack-title">Orientation</h2>
 						</figcaption>
 					</figure>
 					<figure >
-						<a href="convergenz.php" class="photostack-img"><img class="gallery-img" src="images/enigma_poster.jpg" alt="Enigma: The Magic Show" style="height:240px; width:240px; object-fit:cover;"/></a>
+						<a href="convergenz.php" class="photostack-img"><img class="gallery-img" src="images/op_speranza/11.png" alt="Enigma: The Magic Show" style="height:240px; width:240px; object-fit:cover;"/></a>
 						<figcaption>
 							<h2 class="photostack-title">Enigma: The Magic Show</h2>
 						</figcaption>
 					</figure>
 					<figure data-dummy>
-						<a href="convergenz.php" class="photostack-img"><img class="gallery-img" src="images/enigma.PNG" alt="Enigma: The Magic Show" style="height:240px; width:240px; object-fit:cover;"/></a>
+						<a href="convergenz.php" class="photostack-img"><img class="gallery-img" src="images/enigma.png" alt="Enigma: The Magic Show" style="height:240px; width:240px; object-fit:cover;"/></a>
 						<figcaption>
 							<h2 class="photostack-title">Enigma: The Magic Show</h2>
 						</figcaption>
@@ -643,13 +643,13 @@
 						</figcaption>
 					</figure>
 					<figure data-dummy>
-						<a href="convergenz.php" class="photostack-img"><img class="gallery-img" src="images/bandnight_poster.JPG" alt="Band Night ft Zikrr" style="height:240px; width:240px; object-fit:cover;"/></a>
+						<a href="convergenz.php" class="photostack-img"><img class="gallery-img" src="images/bandnight_poster.jpg" alt="Band Night ft Zikrr" style="height:240px; width:240px; object-fit:cover;"/></a>
 						<figcaption>
 							<h2 class="photostack-title">Band Night ft. Zikrr</h2>
 						</figcaption>
 					</figure>
 					<figure data-dummy>
-						<a href="convergenz.php" class="photostack-img"><img class="gallery-img" src="images/comedynight_poster.JPG" alt="Comedy Night ft. Nishant Tanwar" style="height:240px; width:240px; object-fit:cover;"/></a>
+						<a href="convergenz.php" class="photostack-img"><img class="gallery-img" src="images/op_speranza/2.JPG" alt="Comedy Night ft. Nishant Tanwar" style="height:240px; width:240px; object-fit:cover;"/></a>
 						<figcaption>
 							<h2 class="photostack-title">Comedy Night ft. Nishant Tanwar</h2>
 						</figcaption>

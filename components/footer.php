@@ -69,6 +69,9 @@
 <html>
 <body>
 
+<iframe src="https://bsw-bot.herokuapp.com#botmanWidgetRoot" style="position: fixed; bottom: 20px; right: 20px; z-index: 300; border:none; width: 100%; height: 100%; "></iframe>
+
+
 		<div class="container-fluid " id="footer" style="margin-top: 0px;">
 
         <div class="container" style>
@@ -93,13 +96,13 @@
                 <p>We learn from you. Please give us your suggestions and feedback.<br /> Constructive criticism is well appreciated.<br /><span class="fa fa-pencil"></span>  <a href="https://docs.google.com/forms/d/e/1FAIpQLSfH9UQnHOd54usrBgNCKuuwZy1YnZ6lXjoTSYplPnXXmYXttw/viewform">Click here</a> for the feedback form.</p>
         </div>
 
-        <div class="col-12 col-md-12 col-lg-4 center-block ">
+        <div class="col-12 col-md-12 col-lg-4 center-block">
                     <p>
 					<a href="https://www.facebook.com/boardforstudentwelfare"><span class="fa fa-facebook-square fa-lg"></span></a>
 
 					<a href="https://www.instagram.com/bsw_iitd/"><span class="fa fa-instagram fa-lg mx-2">  </span></a>
 
-					<a  href="mailto:info.bsw.iitdelhi@gmail.com"><span class="fa fa-paper-plane fa-lg">  </span></a>
+					<a  href="mailto:info.bsw.iitdelhi@gmail.com"><span id="elm" class="fa fa-envelope fa-lg">  </span></a>
 
                     </p>
     
@@ -122,26 +125,46 @@
 		</div>
         </div>
 
-<script src="widget.js"></script>
+<!-- <script src="widget.js"></script> -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
 <script>
-        var botmanWidget = {
-            frameEndpoint: 'chat.html',
-            introMessage: `Hi! BSW is here to help you with your concerns. How may I help you? <br>
-                            Here are some commands I understand: <br><br>
-								<em>!q</em> to submit a query <br><br>
-								<em>Hi</em> or <em>Hello</em> to chat with me <br><br>
-                                <em>!joke</em> to have a laugh <br><br>
-                                <em>!qp [course]</em> to go to course question papers eg. !qp cml100 <br><br>
-                                <em>!em</em> for emergency contacts <br><br>
-                                <em>!em security</em> for security contacts <br><br>
-                                <em>!em hostels</em> for hostel contacts <br><br>
-                                <em>!rep [hostel_name]</em> for BSW Rep details
-                                `,
-            chatServer : 'botman.php', 
-			title: 'BSW Chatbot',
-            placeholderText: "Hit enter to send a message ...",
-            conversation_cache_time: 30,
-        }; 
+
+        // var botmanWidget = {
+        //     frameEndpoint: 'chat.html',
+        //     introMessage: `Hi! BSW is here to help you with your concerns. How may I help you? <br>
+        //                     Here are some commands I understand: <br><br>
+		// 						<em>!q</em> to submit a query <br><br>
+		// 						<em>Hi</em> or <em>Hello</em> to chat with me <br><br>
+        //                         <em>!joke</em> to have a laugh <br><br>
+        //                         <em>!qp [course]</em> to go to course question papers eg. !qp cml100 <br><br>
+        //                         <em>!em</em> for emergency contacts <br><br>
+        //                         <em>!em security</em> for security contacts <br><br>
+        //                         <em>!em hostels</em> for hostel contacts <br><br>
+        //                         <em>!rep [hostel_name]</em> for BSW Rep details
+        //                         `,
+        //     chatServer : 'botman.php', 
+		// 	title: 'BSW Chatbot',
+        //     placeholderText: "Hit enter to send a message ...",
+        //     conversation_cache_time: 30,
+        // }; 
+
+
+
+
+
+        $('#elm').hover(
+       function(){ 
+           $(this).addClass('fa-envelope-open');
+           $(this).removeClass('fa-envelope'); 
+        },
+       function(){ 
+        $(this).addClass('fa-envelope');
+           $(this).removeClass('fa-envelope-open') 
+        }
+        )
+        
 </script>
 </body>
 </html>

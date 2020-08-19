@@ -13,8 +13,8 @@
 
 		@font-face {
 			font-family: 'neue_montrealitalic';
-			src: url('fonts/neuemontreal-italic-webfont.woff2') format('woff2'),
-				url('fonts/neuemontreal-italic-webfont.woff') format('woff');
+			src: url('fonts-new/neuemontreal-italic-webfont.woff2') format('woff2'),
+				url('fonts-new/neuemontreal-italic-webfont.woff') format('woff');
 			font-weight: normal;
 			font-style: normal;
 
@@ -22,8 +22,8 @@
 
 		@font-face {
 			font-family: 'neue_montrealmedium';
-			src: url('fonts/neuemontreal-medium-webfont.woff2') format('woff2'),
-				url('fonts/neuemontreal-medium-webfont.woff') format('woff');
+			src: url('fonts-new/neuemontreal-medium-webfont.woff2') format('woff2'),
+				url('fonts-new/neuemontreal-medium-webfont.woff') format('woff');
 			font-weight: normal;
 			font-style: normal;
 
@@ -31,8 +31,8 @@
 
 		@font-face {
 			font-family: 'neue_montrealregular';
-			src: url('fonts/neuemontreal-regular-webfont.woff2') format('woff2'),
-				url('fonts/neuemontreal-regular-webfont.woff') format('woff');
+			src: url('fonts-new/neuemontreal-regular-webfont.woff2') format('woff2'),
+				url('fonts-new/neuemontreal-regular-webfont.woff') format('woff');
 			font-weight: normal;
 			font-style: normal;
 

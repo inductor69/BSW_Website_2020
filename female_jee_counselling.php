@@ -189,7 +189,7 @@ overflow-y: scroll
 	<?php
 		for($i=1; $i<7; $i=$i+1){
 			//echo '<a class="col-12 col-md-4 col-lg-3" href="images/op_delhidarshan/'.$i.'.JPG" >';
-			echo '<img class="thumbnaili" src="images/op_fjc/'.$i.'.JPG" alt="BSW Delhi Darshan" />';
+			echo '<img class="thumbnaili" src="images/op_fjc/'.$i.'.jpg" alt="BSW Female JEE Counselling" />';
 			//echo '</a>';
 		}
 		?>

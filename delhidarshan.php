@@ -394,7 +394,7 @@
 	<?php
 		for($i=1; $i<10; $i=$i+1){
 			//echo '<a class="col-12 col-md-4 col-lg-3" href="images/op_delhidarshan/'.$i.'.JPG" >';
-			echo '<img class="thumbnaili" src="images/op_delhidarshan/'.$i.'.JPG" alt="BSW Delhi Darshan" />';
+			echo '<img class="thumbnaili" src="images/op_delhidarshan/'.$i.'.jpg" alt="BSW Delhi Darshan" />';
 			//echo '</a>';
 		}
 		?>
@@ -423,7 +423,7 @@
 
 	<div class="row my-4" id="loc-1">
 		<div class="col-12 col-md-6 align-middle" style="width: 98%;">
-			<img class="thumbnail align-middle" src="images/op_delhidarshan/1.JPG" alt="BSW Delhi Darshan" />
+			<img class="thumbnail align-middle" src="images/op_delhidarshan/1.jpg" alt="BSW Delhi Darshan" />
 		</div>
 		<div class="col-12 col-md-6 my-4 " style="font-size:20px;">
 		<h2>Qutub Minar</h2>
@@ -471,7 +471,7 @@
 
 	<div class="row my-4" id="loc-1">
 		<div class="col-12 col-md-6" style="width: 98%;">
-			<img class="thumbnail align-middle" src="images/op_delhidarshan/3.JPG" alt="BSW Delhi Darshan" />
+			<img class="thumbnail align-middle" src="images/op_delhidarshan/3.jpg" alt="BSW Delhi Darshan" />
 		</div>
 		<div class="col-12 col-md-6 my-4 " style="font-size:20px;">
 		<h2>Lodhi Garden</h2>

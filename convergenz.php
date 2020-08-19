@@ -297,7 +297,7 @@ Auction simulation, which was managed digitally. The auction was hosted
 by one of our representatives. </div>
 
 		<div class="col-12 col-md-6 d-none d-md-block" style="width: 98%;">
-			<img class="thumbnail align-middle" src="images/iplauction.JPG" alt="IPL Auction" />
+			<img class="thumbnail align-middle" src="images/iplauction.jpg" alt="IPL Auction" />
 		</div>
 	</div>
 
@@ -322,7 +322,7 @@ by one of our representatives. </div>
 		This evening was dedicated to young couples who wanted to know each other better and spend some quality time together. Romantic Music as well as some short, quirky games ensured the crowd was always involved. The event was  followed by some rocking music wherein everyone- Stags as well as couples- were invited. This marked the end of a very successful Convergence-2019. </div>
 
 		<div class="col-12 col-md-6 d-none d-md-block" style="width: 98%;">
-			<img class="thumbnail align-middle" src="images/promnight.JPG" alt="Prom Night" />
+			<img class="thumbnail align-middle" src="images/promnight.jpg" alt="Prom Night" />
 		</div>
 	</div>
 
