@@ -9,7 +9,6 @@
 <title>Convergenz | BSW</title>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
-
 <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js" type="text/javascript"></script>
 <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
@@ -319,7 +318,7 @@ by one of our representatives. </div>
 
 		<div class="col-12 col-md-6 my-4 " style="font-size:20px;">
 		<h2>Prom Night</h2>
-		This evening was dedicated to the students who wanted to know each other better and spend some quality time together. Romantic Music as well as some short, quirky games ensured the crowd was always involved. The event was  followed by some rocking music wherein everyone- Stags as well as couples- were invited. This marked the end of a very successful Speranza Convergenz-2019. </div>
+		This evening was dedicated to the students who wanted to know each other better and spend some quality time together. Music as well as some short, quirky games ensured the crowd was always involved. The event was  followed by some rocking music wherein everyone was invited. This marked the end of a very successful Speranza Convergenz-2019. </div>
 
 		<div class="col-12 col-md-6 d-none d-md-block" style="width: 98%;">
 			<img class="thumbnail align-middle" src="images/promnight.jpg" alt="Prom Night" />
