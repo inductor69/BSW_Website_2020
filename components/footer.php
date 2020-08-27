@@ -64,12 +64,31 @@
         font-weight: 400 !important;
     }
 
+    @media (max-width: 769px){
+        .expandedChat{
+        max-width: 400px !important;
+        width: 100% !important;
+        height: 100% !important;
+    }
+    }
+
+    @media (min-width: 769px){
+        .expandedChat{
+        max-width: 400px !important;
+        width: 100% !important;
+        height: 100% !important;
+        max-height: 400px !important;
+    }
+    }
+
+
+
 </style>
 
 <html>
 <body>
 
-<iframe src="https://bsw-bot.herokuapp.com#botmanWidgetRoot" style="position: fixed; bottom: 20px; right: 20px; z-index: 300; border:none; width: 100%; height: 100%; "></iframe>
+<!-- <iframe class="expandedChat" src="https://bsw-bot.herokuapp.com#botmanWidgetRoot" id="myIframe" onload="this.style.visibility = 'visible';" onload="setIframeHeight(this.id)" style="visibility:hidden; z-index: 1; position: fixed; width: 60px; bottom: 0px; right: 20px; border:none; background: rgba(0,0,0,0.01); "></iframe> -->
 
 
 		<div class="container-fluid " id="footer" style="margin-top: 0px;">
@@ -125,30 +144,30 @@
 		</div>
         </div>
 
-<!-- <script src="widget.js"></script> -->
+<script src="widget.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 
 <script>
 
-        // var botmanWidget = {
-        //     frameEndpoint: 'chat.html',
-        //     introMessage: `Hi! BSW is here to help you with your concerns. How may I help you? <br>
-        //                     Here are some commands I understand: <br><br>
-		// 						<em>!q</em> to submit a query <br><br>
-		// 						<em>Hi</em> or <em>Hello</em> to chat with me <br><br>
-        //                         <em>!joke</em> to have a laugh <br><br>
-        //                         <em>!qp [course]</em> to go to course question papers eg. !qp cml100 <br><br>
-        //                         <em>!em</em> for emergency contacts <br><br>
-        //                         <em>!em security</em> for security contacts <br><br>
-        //                         <em>!em hostels</em> for hostel contacts <br><br>
-        //                         <em>!rep [hostel_name]</em> for BSW Rep details
-        //                         `,
-        //     chatServer : 'botman.php', 
-		// 	title: 'BSW Chatbot',
-        //     placeholderText: "Hit enter to send a message ...",
-        //     conversation_cache_time: 30,
-        // }; 
+        var botmanWidget = {
+            frameEndpoint: 'https://bsw-bot.herokuapp.com/chat.html',
+            introMessage: `Hi! BSW is here to help you with your concerns. How may I help you? <br>
+                            Here are some commands I understand: <br><br>
+								<em>!q</em> to submit a query <br><br>
+								<em>Hi</em> or <em>Hello</em> to chat with me <br><br>
+                                <em>!joke</em> to have a laugh <br><br>
+                                <em>!qp [course]</em> to go to course question papers eg. !qp cml100 <br><br>
+                                <em>!em</em> for emergency contacts <br><br>
+                                <em>!em security</em> for security contacts <br><br>
+                                <em>!em hostels</em> for hostel contacts <br><br>
+                                <em>!rep [hostel_name]</em> for BSW Rep details
+                                `,
+            chatServer : 'botman.php', 
+			title: 'BSW Chatbot',
+            placeholderText: "Hit enter to send a message ...",
+            conversation_cache_time: 30,
+        }; 
 
 
 
@@ -166,6 +185,33 @@
         )
         
 </script>
+<script>
+
+function getDocHeight(doc) {
+    doc = doc || document;
+    // stackoverflow.com/questions/1145850/
+    var body = doc.body, html = doc.documentElement;
+    var height = Math.max( body.scrollHeight, body.offsetHeight, 
+        html.clientHeight, html.scrollHeight, html.offsetHeight );
+    return height;
+}
+
+function setIframeHeight(id) {
+    var ifrm = document.getElementById(id);
+    var doc = ifrm.contentDocument? ifrm.contentDocument: 
+        ifrm.contentWindow.document;
+    ifrm.style.visibility = 'hidden';
+    ifrm.style.height = "10px"; // reset to minimal height ...
+    // IE opt. for bing/msn needs a bit added or scrollbar appears
+    ifrm.style.height = getDocHeight( doc ) + 4 + "px";
+    ifrm.style.visibility = 'visible';
+}
+
+$( "#myIframe" ).click(function() {
+  $( this ).toggleClass( "expandedChat");
+});
+
+    </script>
 </body>
 </html>
 

@@ -319,7 +319,7 @@ by one of our representatives. </div>
 
 		<div class="col-12 col-md-6 my-4 " style="font-size:20px;">
 		<h2>Prom Night</h2>
-		This evening was dedicated to young couples who wanted to know each other better and spend some quality time together. Romantic Music as well as some short, quirky games ensured the crowd was always involved. The event was  followed by some rocking music wherein everyone- Stags as well as couples- were invited. This marked the end of a very successful Convergence-2019. </div>
+		This evening was dedicated to the students who wanted to know each other better and spend some quality time together. Romantic Music as well as some short, quirky games ensured the crowd was always involved. The event was  followed by some rocking music wherein everyone- Stags as well as couples- were invited. This marked the end of a very successful Speranza Convergenz-2019. </div>
 
 		<div class="col-12 col-md-6 d-none d-md-block" style="width: 98%;">
 			<img class="thumbnail align-middle" src="images/promnight.jpg" alt="Prom Night" />
