@@ -112,7 +112,10 @@
         <div class="col-12 col-md-6 col-lg-4 center-block">
 
             <h3><strong style="font-weight: bold; font-family: 'Montserrat', sans-serif ;">Feedback</strong></h3>
-                <p>We learn from you. Please give us your suggestions and feedback.<br /> Constructive criticism is well appreciated.<br /><span class="fa fa-pencil"></span>  <a href="https://docs.google.com/forms/d/e/1FAIpQLSfH9UQnHOd54usrBgNCKuuwZy1YnZ6lXjoTSYplPnXXmYXttw/viewform">Click here</a> for the feedback form.</p>
+                <p>Please give us your suggestions and feedback.<br /> Constructive criticism is well appreciated.<br /><span class="fa fa-pencil"></span>  <a href="https://docs.google.com/forms/d/e/1FAIpQLSfH9UQnHOd54usrBgNCKuuwZy1YnZ6lXjoTSYplPnXXmYXttw/viewform">Click here</a> for the feedback form.</p>
+                <h3><strong style="font-weight: bold; font-family: 'Montserrat', sans-serif ;">BSW Constitution</strong></h3>
+                <p><span class="fa fa-external-link"></span>  <a href="http://bsw.iitd.ac.in/stuff/Constitution.pdf">Read </a>our constitution</p>
+
         </div>
 
         <div class="col-12 col-md-12 col-lg-4 center-block">
@@ -127,16 +130,14 @@
     
             <h3>&copy; BSW 2020</h3>
                 <p>All rights reserved.</p>
-                <h3><strong style="font-weight: bold; font-family: 'Montserrat', sans-serif ;">BSW Constitution</strong></h3>
 
-<p><span class="fa fa-external-link"></span>  <a href="http://bsw.iitd.ac.in/stuff/Constitution.pdf">Read </a>our constitution</p>
 
-                <!-- <p><strong style="font-weight: bold; font-family: 'Montserrat', sans-serif ;">Website Created and Maintained by:</strong><br />
-                <span class="fa fa-code"></span><a href="">  Japneet Singh</a></br>
+
+                <p><strong style="font-weight: bold; font-family: 'Montserrat', sans-serif ;">Website Created and Maintained by:</strong><br />
+                <span class="fa fa-code"></span><a href="https://www.linkedin.com/in/japneet-s-ab786b10a/">  Japneet Singh</a></br>
                 <span class="fa fa-code"></span><a href="">  Prabhpreet Singh</a></br>
                 <span class="fa fa-code"></span><a href="http://">  Ayush Shrivastava</a></br>
-                <span class="fa fa-code"></span><a href="">  Vishal Singh</a></br>
-                </p> -->
+                </p>
 
             
         </div>
