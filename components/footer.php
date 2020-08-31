@@ -135,7 +135,7 @@
 
                 <p><strong style="font-weight: bold; font-family: 'Montserrat', sans-serif ;">Website Created and Maintained by:</strong><br />
                 <span class="fa fa-code"></span><a href="https://www.linkedin.com/in/japneet-s-ab786b10a/">  Japneet Singh</a></br>
-                <span class="fa fa-code"></span><a href="">  Prabhpreet Singh</a></br>
+                <span class="fa fa-code"></span><a href="https://www.linkedin.com/in/prabhpreet-s-791241195/">  Prabhpreet Singh</a></br>
                 <span class="fa fa-code"></span><a href="http://">  Ayush Shrivastava</a></br>
                 </p>
 
