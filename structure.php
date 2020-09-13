@@ -197,15 +197,15 @@ a{
         <div class="col-12 col-md-6 justify-content-center">
 
                 <div class="card  my-2 text-dark mx-auto mx-md-4 ml-md-auto" style="max-width:300px;">
-                    <img class="card-img-top" src="team2019/members/president.jpg" alt="Card image cap">
-                    <div class="card-header">Prof. Angelie Multani
+                    <img class="card-img-top" src="team2019/members/reetika-khera.jpg" alt="Card image cap">
+                    <div class="card-header">Prof. Reetika Khera
                     <br>
                     <em>President</em>
                     </div>
                     <div class="card-body">
-                        <button class="btn btn-primary"  style="opacity:0.8; border-radius:10px"><span class="fa fa-envelope"></span><a href="mailto:angelie@hss.iitd.ac.in"> angelie@hss.iitd.ac.in</a></button><br>
-                        <button class="btn btn-success my-1" style="opacity: 0.8; border-radius: 10px;"><span class="fa fa-phone"></span><a href="callto:01126596524"> 011-26596524</a></button><br>
-                        <button class="btn btn-link disabled" style="color: black !important"><span class="fa fa-home"></span> HUSS Department, MS638</button>
+                        <button class="btn btn-primary"  style="opacity:0.8; border-radius:10px"><span class="fa fa-envelope"></span><a href="mailto:reetika@hss.iitd.ac.in"> reetika@hss.iitd.ac.in</a></button><br>
+                        <button class="btn btn-success my-1" style="opacity: 0.8; border-radius: 10px;"><span class="fa fa-phone"></span><a href="callto:01126597319"> 011-26597319</a></button><br>
+                        <button class="btn btn-link disabled" style="color: black !important"><span class="fa fa-home"></span> HUSS Department, MS644</button>
                     </div>
                 </div>
 

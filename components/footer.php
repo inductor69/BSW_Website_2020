@@ -120,6 +120,7 @@
 
         <div class="col-12 col-md-12 col-lg-4 center-block">
                     <p>
+                    <strong>Follow BSW : </strong>
 					<a href="https://www.facebook.com/boardforstudentwelfare"><span class="fa fa-facebook-square fa-lg"></span></a>
 
 					<a href="https://www.instagram.com/bsw_iitd/"><span class="fa fa-instagram fa-lg mx-2">  </span></a>
@@ -127,17 +128,19 @@
 					<a  href="mailto:info.bsw.iitdelhi@gmail.com"><span id="elm" class="fa fa-envelope fa-lg">  </span></a>
 
                     </p>
+
+                    <p style="z-index: 214748364799"><strong style="font-weight: bold; font-family: 'Montserrat', sans-serif ;">Website Created and Maintained by:</strong><br />
+                <span class="fa fa-code"></span><a href="https://www.linkedin.com/in/japneet-s-ab786b10a/">  Japneet Singh</a></br>
+                <span class="fa fa-code"></span><a href="https://www.linkedin.com/in/prabhpreet-s-791241195/">  Prabhpreet Singh</a></br>
+                <span class="fa fa-code"></span><a href="https://www.linkedin.com/in/ayush-srivastava-3616a9141">  Ayush Srivastava</a></br>
+                </p>
     
             <h3>&copy; BSW 2020</h3>
                 <p>All rights reserved.</p>
 
 
 
-                <p><strong style="font-weight: bold; font-family: 'Montserrat', sans-serif ;">Website Created and Maintained by:</strong><br />
-                <span class="fa fa-code"></span><a href="https://www.linkedin.com/in/japneet-s-ab786b10a/">  Japneet Singh</a></br>
-                <span class="fa fa-code"></span><a href="https://www.linkedin.com/in/prabhpreet-s-791241195/">  Prabhpreet Singh</a></br>
-                <span class="fa fa-code"></span><a href="http://">  Ayush Shrivastava</a></br>
-                </p>
+
 
             
         </div>
